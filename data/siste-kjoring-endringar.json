@@ -1,4 +1,2345 @@
 {
-  "generert": "2026-08-18T12:40:50.904Z",
-  "endringar": []
+  "generert": "2026-08-18T12:48:40.945Z",
+  "endringar": [
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "MAT08-01",
+      "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)",
+      "type": "laereplan_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "MAT05-04",
+      "tittel": "Læreplan i matematikk fellesfag 2P",
+      "type": "laereplan_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "MAT06-04",
+      "tittel": "Læreplan i matematikk fellesfag 2P-Y – Vg3 påbygging til generell studiekompetanse",
+      "type": "laereplan_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "MAT04-02",
+      "tittel": "Læreplan i matematikk for samfunnsfag (matematikk S)",
+      "type": "laereplan_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "MAT03-02",
+      "tittel": "Læreplan i matematikk for realfag (matematikk R)",
+      "type": "laereplan_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "MAT09-01",
+      "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)",
+      "type": "laereplan_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "MAT09-02",
+      "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)",
+      "type": "laereplan_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KV32",
+      "tittel": "Kompetansemål og vurdering matematikk 1P-Y for bygg- og anleggsteknikk",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KV34",
+      "tittel": "Kompetansemål og vurdering matematikk 1P-Y for håndverk, design og produktutvikling",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KV28",
+      "tittel": "Kompetansemål og vurdering matematikk 1P-Y for elektro og datateknologi",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KV30",
+      "tittel": "Kompetansemål og vurdering matematikk 1P-Y for frisør, blomster, interiør og eksponeringsdesign",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KV29",
+      "tittel": "Kompetansemål og vurdering matematikk 1P-Y for helse- og oppvekstfag",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KV33",
+      "tittel": "Kompetansemål og vurdering matematikk 1P-Y for informasjonsteknologi og medieproduksjon",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KV27",
+      "tittel": "Kompetansemål og vurdering matematikk 1P-Y for naturbruk",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KV26",
+      "tittel": "Kompetansemål og vurdering matematikk 1P-Y for restaurant- og matfag",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KV25",
+      "tittel": "Kompetansemål og vurdering matematikk 1P-Y for salg, service og reiseliv",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KV24",
+      "tittel": "Kompetansemål og vurdering matematikk 1P-Y for teknologi- og industrifag",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KV31",
+      "tittel": "Kompetansemål og vurdering matematikk 1P",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KV46",
+      "tittel": "Kompetansemål og vurdering matematikk 2P",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KV47",
+      "tittel": "Kompetansemål og vurdering matematikk 2P-Y",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KV295",
+      "tittel": "Kompetansemål og vurdering matematikk S1",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KV296",
+      "tittel": "Kompetansemål og vurdering matematikk S2",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KV293",
+      "tittel": "Kompetansemål og vurdering matematikk R1",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KV294",
+      "tittel": "Kompetansemål og vurdering matematikk R2",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KV43",
+      "tittel": "Kompetansemål og vurdering matematikk 1T-Y for bygg- og anleggsteknikk",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KV45",
+      "tittel": "Kompetansemål og vurdering matematikk 1T-Y for håndverk, design og produktutvikling",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KV39",
+      "tittel": "Kompetansemål og vurdering matematikk 1T-Y for elektro og datateknologi",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KV41",
+      "tittel": "Kompetansemål og vurdering matematikk 1T-Y for frisør, blomster, interiør og eksponeringsdesign",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KV40",
+      "tittel": "Kompetansemål og vurdering matematikk 1T-Y for helse- og oppvekstfag",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KV44",
+      "tittel": "Kompetansemål og vurdering matematikk 1T-Y for informasjonsteknologi og medieproduksjon",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KV38",
+      "tittel": "Kompetansemål og vurdering matematikk 1T-Y for naturbruk",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KV37",
+      "tittel": "Kompetansemål og vurdering matematikk 1T-Y for restaurant- og matfag",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KV36",
+      "tittel": "Kompetansemål og vurdering matematikk 1T-Y for salg, service og reiseliv",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KV35",
+      "tittel": "Kompetansemål og vurdering matematikk 1T-Y for teknologi- og industrifag",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KV42",
+      "tittel": "Kompetansemål og vurdering matematikk 1T",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KV979",
+      "tittel": "Kompetansemål og vurdering",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM12768",
+      "tittel": "utforske og beskrive egenskapene ved polynomfunksjoner, rasjonale funksjoner, eksponentialfunksjoner og potensfunksjoner",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM12767",
+      "tittel": "bruke trigonometri til å analysere og løse sammensatte teoretiske og praktiske problemer med lengder, vinkler og arealer",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM12766",
+      "tittel": "begrunne sinus-, cosinus- og arealsetningen",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM12765",
+      "tittel": "gjøre rede for definisjonene av sinus, cosinus og tangens og bruke trigonometri til å beregne lengder, vinkler og arealer i vilkårlige trekanter",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM12764",
+      "tittel": "lese og forstå matematiske bevis og utforske og utvikle bevis i relevante matematiske emner",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM12763",
+      "tittel": "forklare forskjellen mellom en identitet, en ligning, et algebraisk uttrykk og en funksjon",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM12762",
+      "tittel": "identifisere variable størrelser i ulike situasjoner, sette opp formler og utforske disse ved hjelp av digitale verktøy",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM12761",
+      "tittel": "forklare polynomdivisjon og bruke det til å omskrive algebraiske uttrykk, drøfte funksjoner og løse ligninger og ulikheter",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM12760",
+      "tittel": "lese, hente ut og vurdere matematikk i relevante tekster om ulike temaer og presentere relevante beregninger og analyser av resultatene",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM12759",
+      "tittel": "utforske sammenhenger mellom andregradsligninger og andregradsulikheter, andregradsfunksjoner og kvadratsetningene og bruke sammenhengene i problemløsing",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM12758",
+      "tittel": "bruke gjennomsnittlig og momentan vekstfart i konkrete eksempler og gjøre rede for den deriverte",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM12757",
+      "tittel": "modellere situasjoner knyttet til ulike temaer, drøfte, presentere og forklare resultatene og argumentere for om modellene er gyldige",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM12756",
+      "tittel": "formulere og løse problemer ved hjelp av algoritmisk tenkning, ulike problemløsingsstrategier, digitale verktøy og programmering",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM12755",
+      "tittel": "utforske strategier for å løse ligninger, ligningssystemer og ulikheter og argumentere for tenkemåtene sine",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM405",
+      "tittel": "utforske og bruke egenskapene ved geometriske figurer og regne ut lengder, vinkler, arealer, volumer, forhold og målestokk i problemløsing innenfor teknologi- og industrifag",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM406",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM407",
+      "tittel": "gjøre beregninger og vurderinger knyttet til måleusikkerhet og toleranse",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM381",
+      "tittel": "tolke og gjøre beregninger med statistisk datamateriale som er relevant innenfor salg, service og reiseliv",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM375",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM376",
+      "tittel": "lese, bruke og lage regneark i arbeidet med budsjett, anbud og kostnadsberegning knyttet til salg, service og reiseliv, og vurdere hvordan ulike faktorer påvirker resultatet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM380",
+      "tittel": "tolke og regne med nærings- og energiinnhold, og regne om mellom ulike sammensatte enheter knyttet til restaurant- og matfag",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM382",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM389",
+      "tittel": "lese, bruke og lage regneark i arbeidet med budsjett, anbud og kostnadsberegning knyttet til restaurant- og matfag, og vurdere hvordan ulike faktorer påvirker resultatet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM386",
+      "tittel": "utforske og bruke egenskapene ved geometriske figurer og regne ut lengder, vinkler, arealer, volumer, forhold og målestokk i problemløsing innenfor naturbruk",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM387",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM388",
+      "tittel": "lese, bruke og lage regneark i arbeidet med budsjett, anbud og kostnadsberegning knyttet til naturbruk, og vurdere hvordan ulike faktorer påvirker resultatet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM411",
+      "tittel": "utforske og bruke geometriske former og forhold og bruke det i design og produktutvikling",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM430",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM431",
+      "tittel": "lese, bruke og lage regneark i arbeidet med budsjett, anbud og kostnadsberegning knyttet til informasjonsteknologi og medieproduksjon, og vurdere hvordan ulike faktorer påvirker resultatet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM435",
+      "tittel": "gjøre beregninger knyttet til velferdsteknologi som har med økonomi å gjøre",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM436",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM437",
+      "tittel": "lese, bruke og lage regneark i arbeidet med budsjett, anbud og kostnadsberegning knyttet til helse- og oppvekstfag, og vurdere hvordan ulike faktorer påvirker resultatet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM441",
+      "tittel": "utforske og bruke egenskapene ved geometriske figurer og regne ut lengder, vinkler, arealer, volumer, forhold og målestokk i problemløsing innenfor frisør, blomster, interiør og eksponeringsdesign",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM442",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM443",
+      "tittel": "lese, bruke og lage regneark i arbeidet med budsjett, anbud og kostnadsberegning knyttet til frisør, blomster, interiør og eksponeringsdesign, og vurdere hvordan ulike faktorer påvirker resultatet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM427",
+      "tittel": "bruke trigonometri til å regne ut lengder, vinkler og arealer i trekanter i problemløsing innenfor elektro og datateknologi",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM418",
+      "tittel": "gjøre rede for definisjonene av sinus, cosinus og tangens, tolke definisjonene grafisk og knytte dem til eksempler fra elektro og datateknologi",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM415",
+      "tittel": "utforske og bruke egenskapene ved geometriske figurer, regne ut lengder, vinkler, arealer, volumer, forhold og målestokk i problemløsing innenfor håndverk, design og produktutvikling",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM416",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM417",
+      "tittel": "lese, bruke og lage regneark i arbeidet med budsjett, anbud og kostnadsberegning knyttet til håndverk, design og produktutvikling, og vurdere hvordan ulike faktorer påvirker resultatet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM421",
+      "tittel": "bruke trigonometri til å regne ut lengder, vinkler og arealer og bruke målestokk til å regne ut lengder og arealer i problemløsing innenfor bygg- og anleggsteknikk",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM422",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM392",
+      "tittel": "utforske sammenhenger mellom andregradsligninger og andregradsulikheter, andregradsfunksjoner og kvadratsetningene og bruke sammenhengene i problemløsing",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM377",
+      "tittel": "utforske sammenhenger mellom andregradsligninger og andregradsulikheter, andregradsfunksjoner og kvadratsetningene og bruke sammenhengene i problemløsing",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM383",
+      "tittel": "utforske sammenhenger mellom andregradsligninger og andregradsulikheter, andregradsfunksjoner og kvadratsetningene og bruke sammenhengene i problemløsing",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM408",
+      "tittel": "utforske sammenhenger mellom andregradsligninger og andregradsulikheter, andregradsfunksjoner og kvadratsetningene og bruke sammenhengene i problemløsing",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM432",
+      "tittel": "utforske sammenhenger mellom andregradsligninger og andregradsulikheter, andregradsfunksjoner og kvadratsetningene og bruke sammenhengene i problemløsing",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM438",
+      "tittel": "utforske sammenhenger mellom andregradsligninger og andregradsulikheter, andregradsfunksjoner og kvadratsetningene og bruke sammenhengene i problemløsing",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM444",
+      "tittel": "utforske sammenhenger mellom andregradsligninger og andregradsulikheter, andregradsfunksjoner og kvadratsetningene og bruke sammenhengene i problemløsing",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM412",
+      "tittel": "utforske sammenhenger mellom andregradsligninger og andregradsulikheter, andregradsfunksjoner og kvadratsetningene og bruke sammenhengene i problemløsing",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM419",
+      "tittel": "utforske sammenhenger mellom andregradsligninger og andregradsulikheter, andregradsfunksjoner og kvadratsetningene og bruke sammenhengene i problemløsing",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM391",
+      "tittel": "utforske strategier for å løse ligninger, ligningssystemer og ulikheter og argumentere for tenkemåtene sine",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM378",
+      "tittel": "utforske strategier for å løse ligninger, ligningssystemer og ulikheter og argumentere for tenkemåtene sine",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM384",
+      "tittel": "utforske strategier for å løse ligninger, ligningssystemer og ulikheter og argumentere for tenkemåtene sine",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM410",
+      "tittel": "utforske strategier for å løse ligninger, ligningssystemer og ulikheter og argumentere for tenkemåtene sine",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM433",
+      "tittel": "utforske strategier for å løse ligninger, ligningssystemer og ulikheter og argumentere for tenkemåtene sine",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM439",
+      "tittel": "utforske strategier for å løse ligninger, ligningssystemer og ulikheter og argumentere for tenkemåtene sine",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM429",
+      "tittel": "utforske strategier for å løse ligninger, ligningssystemer og ulikheter og argumentere for tenkemåtene sine",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM413",
+      "tittel": "utforske strategier for å løse ligninger, ligningssystemer og ulikheter og argumentere for tenkemåtene sine",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM446",
+      "tittel": "utforske og beskrive egenskapene ved polynomfunksjoner, rasjonale funksjoner, eksponentialfunksjoner og potensfunksjoner",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM426",
+      "tittel": "utforske strategier for å løse ligninger, ligningssystemer og ulikheter og argumentere for tenkemåtene sine",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM409",
+      "tittel": "bruke trigonometri til å analysere og løse sammensatte teoretiske og praktiske problemer med lengder, vinkler og arealer",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM393",
+      "tittel": "begrunne sinus-, cosinus- og arealsetningen",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM394",
+      "tittel": "gjøre rede for definisjonene av sinus, cosinus og tangens og bruke trigonometri til å beregne lengder, vinkler og arealer i vilkårlige trekanter",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM395",
+      "tittel": "lese og forstå matematiske bevis og utforske og utvikle bevis i relevante matematiske emner",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM396",
+      "tittel": "forklare forskjellen mellom en identitet, en ligning, et algebraisk uttrykk og en funksjon",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM397",
+      "tittel": "identifisere variable størrelser i ulike situasjoner, sette opp formler og utforske disse ved hjelp av digitale verktøy",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM398",
+      "tittel": "forklare polynomdivisjon og bruke det til å omskrive algebraiske uttrykk, drøfte funksjoner og løse ligninger og ulikheter",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM399",
+      "tittel": "lese, hente ut og vurdere matematikk i relevante tekster om ulike temaer og presentere relevante beregninger og analyser av resultatene",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM400",
+      "tittel": "utforske sammenhenger mellom andregradsligninger og andregradsulikheter, andregradsfunksjoner og kvadratsetningene og bruke sammenhengene i problemløsing",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM401",
+      "tittel": "bruke gjennomsnittlig og momentan vekstfart i konkrete eksempler og gjøre rede for den deriverte",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM402",
+      "tittel": "modellere situasjoner knyttet til ulike temaer, drøfte, presentere og forklare resultatene og argumentere for om modellene er gyldige",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM403",
+      "tittel": "formulere og løse problemer ved hjelp av algoritmisk tenkning, ulike problemløsingsstrategier, digitale verktøy og programmering",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM404",
+      "tittel": "utforske strategier for å løse ligninger, ligningssystemer og ulikheter og argumentere for tenkemåtene sine",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM423",
+      "tittel": "lese, bruke og lage regneark i arbeidet med budsjett, anbud og kostnadsberegning knyttet til bygg- og anleggsteknikk, og vurdere hvordan ulike faktorer påvirker resultatet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM424",
+      "tittel": "utforske sammenhenger mellom andregradsligninger og andregradsulikheter, andregradsfunksjoner og kvadratsetningene og bruke sammenhengene i problemløsing",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM425",
+      "tittel": "utforske strategier for å løse ligninger, ligningssystemer og ulikheter og argumentere for tenkemåtene sine",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM390",
+      "tittel": "identifisere variable størrelser i ulike situasjoner, sette opp formler og utforske disse ved hjelp av digitale verktøy",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM379",
+      "tittel": "identifisere variable størrelser i ulike situasjoner, sette opp formler og utforske disse ved hjelp av digitale verktøy",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM385",
+      "tittel": "identifisere variable størrelser i ulike situasjoner, sette opp formler og utforske disse ved hjelp av digitale verktøy",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM445",
+      "tittel": "identifisere variable størrelser i ulike situasjoner, sette opp formler og utforske disse ved hjelp av digitale verktøy",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM434",
+      "tittel": "identifisere variable størrelser i ulike situasjoner, sette opp formler og utforske disse ved hjelp av digitale verktøy",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM440",
+      "tittel": "identifisere variable størrelser i ulike situasjoner, sette opp formler og utforske disse ved hjelp av digitale verktøy",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM428",
+      "tittel": "identifisere variable størrelser i ulike situasjoner, sette opp formler og utforske disse ved hjelp av digitale verktøy",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM414",
+      "tittel": "identifisere variable størrelser i ulike situasjoner, sette opp formler og utforske disse ved hjelp av digitale verktøy",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM420",
+      "tittel": "identifisere variable størrelser i ulike situasjoner, sette opp formler og utforske disse ved hjelp av digitale verktøy",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM374",
+      "tittel": "identifisere variable størrelser i ulike situasjoner, sette opp formler og utforske disse ved hjelp av digitale verktøy",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3109",
+      "tittel": "modellere og analysere eksponentiell og logistisk vekst i reelle datasett",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3110",
+      "tittel": "forstå begrepene vekstfart, grenseverdi, derivasjon og kontinuitet, og bruke disse for å løse praktiske problemer",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3111",
+      "tittel": "analysere og tolke ulike funksjoner ved å bruke derivasjon",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3121",
+      "tittel": "gi eksempler på ulike situasjoner som kan modelleres ved å bruke ulike matematiske funksjoner, og modellere og analysere slike situasjoner ved å bruke reelle datasett",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3120",
+      "tittel": "analysere og tolke ulike funksjoner ved å bruke derivasjon og integrasjon, og anvende integrasjon til å beregne ulike mål av omdreiningslegemer",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3099",
+      "tittel": "analysere og forstå matematiske bevis, forklare de bærende ideene i et matematisk bevis og utvikle egne bevis",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3100",
+      "tittel": "gjøre rede for analysens fundamentalteorem og gjøre rede for konsekvenser av teoremet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3101",
+      "tittel": "utvikle algoritmer for å beregne integraler numerisk, og bruke programmering til å utføre algoritmene",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3102",
+      "tittel": "gjøre rede for integral som en grenseverdi av en følge av summer, og tolke betydningen av denne grenseverdien i ulike situasjoner",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3103",
+      "tittel": "anvende derivasjon og integrasjon til å analysere og tolke egne matematiske modeller av reelle datasett",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3112",
+      "tittel": "forstå begrepet vektor og regneregler for vektorer i planet, og bruke vektorer til å beregne ulike størrelser i planet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3113",
+      "tittel": "planlegge og gjennomføre et selvstendig arbeid med reelle datasett knyttet til naturvitenskapelige temaer og forhold, og analysere og presentere funn",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3104",
+      "tittel": "utforske egenskaper ved radianer og trigonometriske funksjoner og identiteter og anvende disse egenskapene til å løse praktiske problemer",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3105",
+      "tittel": "utforske rekursive sammenhenger ved å bruke programmering og presentere egne framgangsmåter",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3106",
+      "tittel": "utforske egenskaper ved ulike rekker og gjøre rede for praktiske anvendelser av egenskaper ved rekker",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3107",
+      "tittel": "anvende parameterframstillinger til kurver og bruke parameterframstillinger til å løse naturvitenskapelige problemer inkludert problemer knyttet til fart og akselerasjon",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3114",
+      "tittel": "anvende derivasjon til å analysere og tolke egne matematiske modeller av reelle datasett",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3115",
+      "tittel": "anvende parameterframstillinger til linjer og bruke parameterframstillinger til å løse naturvitenskapelige problemer",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3116",
+      "tittel": "utforske, analysere og derivere ulike funksjoner og deres omvendte funksjoner, og gjøre rede for egenskaper til og sammenhenger mellom slike funksjoner",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3117",
+      "tittel": "bruke ulike strategier for å utforske og bestemme grenseverdier til funksjoner, og utforske og argumentere for anvendelser av grenseverdier",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3118",
+      "tittel": "gjøre rede for og argumentere for om en funksjon er kontinuerlig eller diskontinuerlig i et punkt i et definisjonsområde, og gi eksempler på anvendelser av diskontinuerlige funksjoner",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3119",
+      "tittel": "bestemme den deriverte i et punkt geometrisk, algebraisk og ved numeriske metoder, og gi eksempler på funksjoner som ikke er deriverbare i gitte punkter",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3098",
+      "tittel": "utforske og forstå regneregler for potenser og logaritmer, og bruke ulike strategier for å løse eksponentialligninger og logaritmeligninger",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3108",
+      "tittel": "utforske og forstå regneregler for vektorer i rommet, og bruke vektorer til å beregne ulike størrelser i rommet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3132",
+      "tittel": "planlegge og gjennomføre et selvstendig arbeid med reelle datasett knyttet til samfunnsøkonomiske temaer og forhold, og analysere og presentere funn",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3133",
+      "tittel": "analysere et problem der sannsynlighet og kombinatorikk inngår, og bruke ulike strategier i problemløsingen",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3134",
+      "tittel": "utforske og gjøre rede for egenskapene ved potenser og logaritmer, og gi eksempler på reelle anvendelser av disse egenskapene",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3145",
+      "tittel": "forstå begrepene forventningsverdi, varians og standardavvik, og bruke disse størrelsene til å tolke stokastiske variabler",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3144",
+      "tittel": "gjennomføre hypotesetesting i reelle datasett og tolke resultatet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3123",
+      "tittel": "argumentere for sentralgrensesetningen og utforske og tolke praktiske situasjoner ved hjelp av normalfordelingen",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3124",
+      "tittel": "simulere utfall i, utforske og tolke ulike statistiske fordelinger, og gi eksempler på reelle anvendelser av disse fordelingene",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3125",
+      "tittel": "gjøre rede for analysens fundamentalteorem og gjøre rede for konsekvenser av teoremet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3126",
+      "tittel": "forstå definisjonen av det bestemte integralet og anvende integralet til å analysere funksjoner",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3128",
+      "tittel": "finne grensekostnader og grenseinntekter i økonomiske modeller, og gjøre rede for betydningen av disse størrelsene",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3127",
+      "tittel": "modellere og analysere eksponentiell og logistisk vekst i reelle datasett",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3135",
+      "tittel": "uttrykke egne resonnementer ved hjelp av matematiske begreper og symbolspråk",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3136",
+      "tittel": "utforske og tolke binomiske og hypergeometriske fordelinger, og gi eksempler på reelle anvendelser av disse fordelingene",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3137",
+      "tittel": "bruke digitale verktøy til å simulere og utforske utfall i stokastiske forsøk, og forstå begrepet stokastiske variabler",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3129",
+      "tittel": "analysere og tolke ulike funksjoner ved å bruke derivasjon og integrasjon",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3130",
+      "tittel": "utforske rekursive sammenhenger ved å bruke programmering og presentere egne framgangsmåter",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3131",
+      "tittel": "utforske egenskaper ved ulike rekker og gjøre rede for praktiske anvendelser av egenskaper ved rekker",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3138",
+      "tittel": "utforske og forstå kombinatoriske forsøk med ordnede og uordnede utvalg",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3139",
+      "tittel": "anvende derivasjon til å analysere og forstå optimaliseringsproblemer",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3140",
+      "tittel": "anvende derivasjon til å analysere og tolke egne matematiske modeller av reelle datasett",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3141",
+      "tittel": "forstå begrepene gjennomsnittlig og momentan vekstfart, grenseverdi og derivasjon, og bruke disse for å løse praktiske problemer",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3142",
+      "tittel": "gjøre rede for og argumentere for om en funksjon er kontinuerlig eller diskontinuerlig i et punkt i et definisjonsområde, og gi eksempler på anvendelser av funksjoner som ikke er kontinuerlige",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3143",
+      "tittel": "bruke ulike strategier for å utforske og bestemme grenseverdier til funksjoner, og utforske og argumentere for anvendelser av grenseverdier",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM3122",
+      "tittel": "utforske og forstå regneregler for potenser og logaritmer, og bruke ulike strategier for å løse eksponentialligninger og logaritmeligninger",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM453",
+      "tittel": "utforske og forklare hvordan formlikhet, målestokk og egenskaper ved geometriske figurer kan brukes i beregninger og i praktisk arbeid",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM454",
+      "tittel": "analysere og presentere funn i datasett fra lokalsamfunn og media",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM452",
+      "tittel": "bruke og vurdere valg av hensiktsmessige sentralmål og spredningsmål for statistisk datamateriale",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM451",
+      "tittel": "analysere og presentere funn i datasett fra lokalsamfunn og media",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM450",
+      "tittel": "vurdere valg knyttet til personlig økonomi og reflektere over konsekvenser av å ta opp lån og å bruke kredittkort",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM449",
+      "tittel": "utforske strategier for å løse ligninger, ligningssystemer og ulikheter og argumentere for tenkemåtene sine",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM448",
+      "tittel": "utforske og forklare sammenhenger mellom prisindeks, kroneverdi, reallønn, nominell lønn og brutto- og nettoinntekt",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM447",
+      "tittel": "forklare og bruke prosent, prosentpoeng og vekstfaktor til modellering av praktiske situasjoner med digitale verktøy",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM354",
+      "tittel": "bruke trigonometri til å regne ut lengder, vinkler og arealer i trekanter i problemløsing innenfor elektro og datateknologi",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM355",
+      "tittel": "bruke ulike strategier for å løse ligninger",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM345",
+      "tittel": "gjøre rede for definisjonene av sinus, cosinus og tangens, tolke definisjonene grafisk og knytte dem til eksempler fra elektro og datateknologi",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM342",
+      "tittel": "utforske og bruke egenskapene ved geometriske figurer, regne ut lengder, vinkler, arealer, volumer, forhold og målestokk i problemløsing innenfor håndverk, design og produktutvikling",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM343",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM344",
+      "tittel": "lese, bruke og lage regneark i arbeidet med budsjett, anbud og kostnadsberegning knyttet til håndverk, design og produktutvikling, og vurdere hvordan ulike faktorer påvirker resultatet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM334",
+      "tittel": "tolke og bruke sammensatte måleenheter i praktiske sammenhenger og velge egnet måleenhet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM304",
+      "tittel": "tolke og bruke sammensatte måleenheter i praktiske sammenhenger og velge egnet måleenhet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM317",
+      "tittel": "tolke og bruke sammensatte måleenheter i praktiske sammenhenger og velge egnet måleenhet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM316",
+      "tittel": "tolke og bruke sammensatte måleenheter i praktiske sammenhenger og velge egnet måleenhet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM358",
+      "tittel": "tolke og bruke sammensatte måleenheter i praktiske sammenhenger og velge egnet måleenhet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM364",
+      "tittel": "tolke og bruke sammensatte måleenheter i praktiske sammenhenger og velge egnet måleenhet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM370",
+      "tittel": "tolke og bruke sammensatte måleenheter i praktiske sammenhenger og velge egnet måleenhet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM339",
+      "tittel": "tolke og bruke sammensatte måleenheter i praktiske sammenhenger og velge egnet måleenhet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM346",
+      "tittel": "tolke og bruke sammensatte måleenheter i praktiske sammenhenger og velge egnet måleenhet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM340",
+      "tittel": "tolke og bruke formler som gjelder dagligliv og yrkesliv",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM318",
+      "tittel": "tolke og bruke formler som gjelder dagligliv og yrkesliv",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM320",
+      "tittel": "tolke og bruke formler som gjelder dagligliv og yrkesliv",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM305",
+      "tittel": "tolke og bruke formler som gjelder dagligliv og yrkesliv",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM373",
+      "tittel": "tolke og regne med rotuttrykk, potenser og tall på standardform",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM372",
+      "tittel": "bruke digitale verktøy i utforsking og problemløsing knyttet til egenskaper ved funksjoner, og diskutere løsningene",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM321",
+      "tittel": "planlegge, utføre og presentere selvstendig arbeid knyttet til modellering og funksjoner innenfor samfunnsfaglige temaer",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM322",
+      "tittel": "tolke og bruke funksjoner i matematisk modellering og problemløsing",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM367",
+      "tittel": "utforske og bruke egenskapene ved geometriske figurer og regne ut lengder, vinkler, arealer, volumer, forhold og målestokk i problemløsing innenfor frisør, blomster, interiør og eksponeringsdesign",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM368",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM323",
+      "tittel": "utforske, beskrive og bruke begrepene proporsjonalitet og omvendt proporsjonalitet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM331",
+      "tittel": "utforske og bruke egenskapene ved geometriske figurer og regne ut lengder, vinkler, arealer, volumer, forhold og målestokk i problemløsing innenfor teknologi- og industrifag",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM332",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM333",
+      "tittel": "gjøre beregninger og vurderinger knyttet til måleusikkerhet og toleranse",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM319",
+      "tittel": "tolke og gjøre beregninger med statistisk datamateriale som er relevant innenfor salg, service og reiseliv",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM309",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM303",
+      "tittel": "lese, bruke og lage regneark i arbeidet med budsjett, anbud og kostnadsberegning knyttet til salg, service og reiseliv, og vurdere hvordan ulike faktorer påvirker resultatet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM307",
+      "tittel": "tolke og regne med nærings- og energiinnhold, og regne om mellom ulike sammensatte enheter knyttet til restaurant- og matfag",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM308",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM310",
+      "tittel": "lese, bruke og lage regneark i arbeidet med budsjett, anbud og kostnadsberegning knyttet til restaurant- og matfag, og vurdere hvordan ulike faktorer påvirker resultatet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM313",
+      "tittel": "utforske og bruke egenskapene ved geometriske figurer og regne ut lengder, vinkler, arealer, volumer, forhold og målestokk i problemløsing innenfor naturbruk",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM314",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM315",
+      "tittel": "lese, bruke og lage regneark i arbeidet med budsjett, anbud og kostnadsberegning knyttet til naturbruk, og vurdere hvordan ulike faktorer påvirker resultatet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM337",
+      "tittel": "utforske og bruke geometriske former og forhold og bruke det i design og produktutvikling",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM338",
+      "tittel": "innhente data og behandle store datasett, gjøre beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM357",
+      "tittel": "lese, bruke og lage regneark i arbeidet med budsjett, anbud og kostnadsberegning knyttet til informasjonsteknologi og medieproduksjon, og vurdere hvordan ulike faktorer påvirker resultatet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM361",
+      "tittel": "gjøre beregninger knyttet til velferdsteknologi som har med økonomi å gjøre",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM362",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM363",
+      "tittel": "lese, bruke og lage regneark i arbeidet med budsjett, anbud og kostnadsberegning knyttet til helse- og oppvekstfag, og vurdere hvordan ulike faktorer påvirker resultatet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM369",
+      "tittel": "lese, bruke og lage regneark i arbeidet med budsjett, anbud og kostnadsberegning knyttet til frisør, blomster, interiør og eksponeringsdesign, og vurdere hvordan ulike faktorer påvirker resultatet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM311",
+      "tittel": "tolke og bruke formler som gjelder dagligliv og yrkesliv",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM359",
+      "tittel": "tolke og bruke formler som gjelder dagligliv og yrkesliv",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM365",
+      "tittel": "tolke og bruke formler som gjelder dagligliv og yrkesliv",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM371",
+      "tittel": "tolke og bruke formler som gjelder dagligliv og yrkesliv",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM353",
+      "tittel": "tolke og bruke formler som gjelder dagligliv og yrkesliv",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM348",
+      "tittel": "utforske og bruke egenskapene ved geometriske figurer, målestokk og trigonometri til å beregne lengder, vinkler og arealer i problemløsing innenfor bygg- og anleggsfag",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM349",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM350",
+      "tittel": "lese, bruke og lage regneark i arbeidet med budsjett, anbud og kostnadsberegning knyttet til bygg- og anleggsteknikk, og vurdere hvordan ulike faktorer påvirker resultatet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM351",
+      "tittel": "tolke og bruke sammensatte måleenheter i praktiske sammenhenger og velge egnet måleenhet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM352",
+      "tittel": "tolke og bruke formler som gjelder dagligliv og yrkesliv",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM302",
+      "tittel": "vurdere valg knyttet til personlig økonomi og reflektere over konsekvenser av å ta opp lån og å bruke kredittkort",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM324",
+      "tittel": "bruke prosent, prosentpoeng, promille og vekstfaktor i utregninger og presentere og begrunne løsninger",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM325",
+      "tittel": "lese, hente ut og vurdere matematikk i tekster om situasjoner fra lokalmiljøet, gjøre beregninger knyttet til dette og presentere og argumentere for resultatene",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM326",
+      "tittel": "tolke og bruke sammensatte måleenheter i praktiske sammenhenger og velge egnet måleenhet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM328",
+      "tittel": "utforske hvordan ulike premisser vil kunne påvirke hvordan matematiske problemer fra samfunnsliv og arbeidsliv løses",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM335",
+      "tittel": "tolke og bruke formler som gjelder samfunnsliv og arbeidsliv",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM329",
+      "tittel": "identifisere variable størrelser i ulike situasjoner og bruke dem til utforsking og generalisering",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM330",
+      "tittel": "modellere situasjoner knyttet til temaer fra samfunnsliv og arbeidsliv, presentere og argumentere for resultatene og for når modellene er gyldige",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM327",
+      "tittel": "vurdere valg knyttet til personlig økonomi og reflektere over konsekvenser av å ta opp lån og å bruke kredittkort",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM306",
+      "tittel": "vurdere valg knyttet til personlig økonomi og reflektere over konsekvenser av å ta opp lån og å bruke kredittkort",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM312",
+      "tittel": "vurdere valg knyttet til personlig økonomi og reflektere over konsekvenser av å ta opp lån og å bruke kredittkort",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM336",
+      "tittel": "vurdere valg knyttet til personlig økonomi og reflektere over konsekvenser av å ta opp lån og å bruke kredittkort",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM360",
+      "tittel": "vurdere valg knyttet til personlig økonomi og reflektere over konsekvenser av å ta opp lån og å bruke kredittkort",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM366",
+      "tittel": "vurdere valg knyttet til personlig økonomi og reflektere over konsekvenser av å ta opp lån og å bruke kredittkort",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM356",
+      "tittel": "vurdere valg knyttet til personlig økonomi og reflektere over konsekvenser av å ta opp lån og å bruke kredittkort",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM341",
+      "tittel": "vurdere valg knyttet til personlig økonomi og reflektere over konsekvenser av å ta opp lån og å bruke kredittkort",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM347",
+      "tittel": "vurdere valg knyttet til personlig økonomi og reflektere over konsekvenser av å ta opp lån og å bruke kredittkort",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM463",
+      "tittel": "utforske, beskrive og bruke begrepene proporsjonalitet og omvendt proporsjonalitet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM462",
+      "tittel": "planlegge, utføre og presentere selvstendig arbeid knyttet til modellering og funksjoner innenfor samfunnsfaglige temaer",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM461",
+      "tittel": "utforske hvordan ulike premisser vil kunne påvirke hvordan matematiske problemer fra samfunnsliv og arbeidsliv løses",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM460",
+      "tittel": "bruke digitale verktøy i utforsking og problemløsing knyttet til egenskaper ved funksjoner og diskutere løsningene",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM459",
+      "tittel": "identifisere variable størrelser i ulike situasjoner og bruke dem til utforsking og generalisering",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM458",
+      "tittel": "tolke og regne med rotuttrykk, potenser og tall på standardform",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM457",
+      "tittel": "forklare og bruke prosent, prosentpoeng og vekstfaktorer til modellering av praktiske situasjoner med digitale verktøy",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM456",
+      "tittel": "lese, hente ut og vurdere matematikk i tekster om samfunnsfaglige temaer og temaer fra lokalmiljøet, gjøre beregninger knyttet til dette og presentere og argumentere for resultatene",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-08-18T12:48:40.945Z",
+      "kode": "KM455",
+      "tittel": "bruke og vurdere valg av formålstjenlige sentralmål og spredningsmål for statistisk datamateriale",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode oppdaga i Grep",
+      "nyKode": null
+    }
+  ]
 }

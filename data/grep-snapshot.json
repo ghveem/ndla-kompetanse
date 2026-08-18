@@ -1,5 +1,5 @@
 {
-  "generert": "2026-08-18T12:40:50.904Z",
+  "generert": "2026-08-18T12:48:40.945Z",
   "grepVersjon": "v201906",
   "kilde": "https://data.udir.no/kl06/v201906/",
   "ndlaFilter": {
@@ -13758,6 +13758,42 @@
     },
     {
       "type": "laereplan_lk20",
+      "kode": "MAT08-01",
+      "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)",
+      "status": "publisert",
+      "gyldigFra": "2020-08-01T00:00:00",
+      "gyldigTil": null,
+      "erstatter": [
+        "MAT1-04"
+      ],
+      "erstattesAv": []
+    },
+    {
+      "type": "laereplan_lk20",
+      "kode": "MAT05-04",
+      "tittel": "Læreplan i matematikk fellesfag 2P",
+      "status": "publisert",
+      "gyldigFra": "2021-08-01T00:00:00",
+      "gyldigTil": null,
+      "erstatter": [
+        "MAT5-03"
+      ],
+      "erstattesAv": []
+    },
+    {
+      "type": "laereplan_lk20",
+      "kode": "MAT06-04",
+      "tittel": "Læreplan i matematikk fellesfag 2P-Y – Vg3 påbygging til generell studiekompetanse",
+      "status": "publisert",
+      "gyldigFra": "2022-08-01T00:00:00",
+      "gyldigTil": null,
+      "erstatter": [
+        "MAT6-03"
+      ],
+      "erstattesAv": []
+    },
+    {
+      "type": "laereplan_lk20",
       "kode": "REL01-02",
       "tittel": "Læreplan i religion og etikk – fellesfag i studieforberedende utdanningsprogram",
       "status": "publisert",
@@ -14190,6 +14226,30 @@
     },
     {
       "type": "laereplan_lk20",
+      "kode": "MAT04-02",
+      "tittel": "Læreplan i matematikk for samfunnsfag (matematikk S)",
+      "status": "publisert",
+      "gyldigFra": "2021-08-01T00:00:00",
+      "gyldigTil": null,
+      "erstatter": [
+        "MAT4-01"
+      ],
+      "erstattesAv": []
+    },
+    {
+      "type": "laereplan_lk20",
+      "kode": "MAT03-02",
+      "tittel": "Læreplan i matematikk for realfag (matematikk R)",
+      "status": "publisert",
+      "gyldigFra": "2021-08-01T00:00:00",
+      "gyldigTil": null,
+      "erstatter": [
+        "MAT3-01"
+      ],
+      "erstattesAv": []
+    },
+    {
+      "type": "laereplan_lk20",
       "kode": "MOK02-02",
       "tittel": "Læreplan i medieuttrykk",
       "status": "publisert",
@@ -14383,6 +14443,32 @@
       "gyldigTil": null,
       "erstatter": [
         "POS1-02"
+      ],
+      "erstattesAv": []
+    },
+    {
+      "type": "laereplan_lk20",
+      "kode": "MAT09-01",
+      "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)",
+      "status": "publisert",
+      "gyldigFra": "2020-08-01T00:00:00",
+      "gyldigTil": "2026-07-31T00:00:00",
+      "erstatter": [
+        "MAT1-04"
+      ],
+      "erstattesAv": [
+        "MAT09-02"
+      ]
+    },
+    {
+      "type": "laereplan_lk20",
+      "kode": "MAT09-02",
+      "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)",
+      "status": "publisert",
+      "gyldigFra": "2026-08-01T00:00:00",
+      "gyldigTil": null,
+      "erstatter": [
+        "MAT09-01"
       ],
       "erstattesAv": []
     },
@@ -14912,6 +14998,188 @@
       "tilhoererLaereplan": {
         "kode": "TIP01-03",
         "tittel": "Læreplan i vg1 teknologi- og industrifag"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV32",
+      "tittel": "Kompetansemål og vurdering matematikk 1P-Y for bygg- og anleggsteknikk",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV34",
+      "tittel": "Kompetansemål og vurdering matematikk 1P-Y for håndverk, design og produktutvikling",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV28",
+      "tittel": "Kompetansemål og vurdering matematikk 1P-Y for elektro og datateknologi",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV30",
+      "tittel": "Kompetansemål og vurdering matematikk 1P-Y for frisør, blomster, interiør og eksponeringsdesign",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV29",
+      "tittel": "Kompetansemål og vurdering matematikk 1P-Y for helse- og oppvekstfag",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV33",
+      "tittel": "Kompetansemål og vurdering matematikk 1P-Y for informasjonsteknologi og medieproduksjon",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV27",
+      "tittel": "Kompetansemål og vurdering matematikk 1P-Y for naturbruk",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV26",
+      "tittel": "Kompetansemål og vurdering matematikk 1P-Y for restaurant- og matfag",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV25",
+      "tittel": "Kompetansemål og vurdering matematikk 1P-Y for salg, service og reiseliv",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV24",
+      "tittel": "Kompetansemål og vurdering matematikk 1P-Y for teknologi- og industrifag",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV31",
+      "tittel": "Kompetansemål og vurdering matematikk 1P",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV46",
+      "tittel": "Kompetansemål og vurdering matematikk 2P",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT05-04",
+        "tittel": "Læreplan i matematikk fellesfag 2P"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV47",
+      "tittel": "Kompetansemål og vurdering matematikk 2P-Y",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT06-04",
+        "tittel": "Læreplan i matematikk fellesfag 2P-Y – Vg3 påbygging til generell studiekompetanse"
       }
     },
     {
@@ -16316,6 +16584,62 @@
     },
     {
       "type": "kompetansemaalsett_lk20",
+      "kode": "KV295",
+      "tittel": "Kompetansemål og vurdering matematikk S1",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT04-02",
+        "tittel": "Læreplan i matematikk for samfunnsfag (matematikk S)"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV296",
+      "tittel": "Kompetansemål og vurdering matematikk S2",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT04-02",
+        "tittel": "Læreplan i matematikk for samfunnsfag (matematikk S)"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV293",
+      "tittel": "Kompetansemål og vurdering matematikk R1",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT03-02",
+        "tittel": "Læreplan i matematikk for realfag (matematikk R)"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV294",
+      "tittel": "Kompetansemål og vurdering matematikk R2",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT03-02",
+        "tittel": "Læreplan i matematikk for realfag (matematikk R)"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
       "kode": "KV256",
       "tittel": "Kompetansemål og vurdering medieuttrykk 1",
       "status": "publisert",
@@ -16914,6 +17238,174 @@
       "tilhoererLaereplan": {
         "kode": "POS03-01",
         "tittel": "Læreplan i samfunnsgeografi"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV43",
+      "tittel": "Kompetansemål og vurdering matematikk 1T-Y for bygg- og anleggsteknikk",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV45",
+      "tittel": "Kompetansemål og vurdering matematikk 1T-Y for håndverk, design og produktutvikling",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV39",
+      "tittel": "Kompetansemål og vurdering matematikk 1T-Y for elektro og datateknologi",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV41",
+      "tittel": "Kompetansemål og vurdering matematikk 1T-Y for frisør, blomster, interiør og eksponeringsdesign",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV40",
+      "tittel": "Kompetansemål og vurdering matematikk 1T-Y for helse- og oppvekstfag",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV44",
+      "tittel": "Kompetansemål og vurdering matematikk 1T-Y for informasjonsteknologi og medieproduksjon",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV38",
+      "tittel": "Kompetansemål og vurdering matematikk 1T-Y for naturbruk",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV37",
+      "tittel": "Kompetansemål og vurdering matematikk 1T-Y for restaurant- og matfag",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV36",
+      "tittel": "Kompetansemål og vurdering matematikk 1T-Y for salg, service og reiseliv",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV35",
+      "tittel": "Kompetansemål og vurdering matematikk 1T-Y for teknologi- og industrifag",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV42",
+      "tittel": "Kompetansemål og vurdering matematikk 1T",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV979",
+      "tittel": "Kompetansemål og vurdering",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-02",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
       }
     },
     {
@@ -19574,6 +20066,1224 @@
       "tilhoererLaereplan": {
         "kode": "NOR03-05",
         "tittel": "Læreplan i norsk for elever med samisk som førstespråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12768",
+      "tittel": "utforske og beskrive egenskapene ved polynomfunksjoner, rasjonale funksjoner, eksponentialfunksjoner og potensfunksjoner",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-02",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12767",
+      "tittel": "bruke trigonometri til å analysere og løse sammensatte teoretiske og praktiske problemer med lengder, vinkler og arealer",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-02",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12766",
+      "tittel": "begrunne sinus-, cosinus- og arealsetningen",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-02",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12765",
+      "tittel": "gjøre rede for definisjonene av sinus, cosinus og tangens og bruke trigonometri til å beregne lengder, vinkler og arealer i vilkårlige trekanter",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-02",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12764",
+      "tittel": "lese og forstå matematiske bevis og utforske og utvikle bevis i relevante matematiske emner",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-02",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12763",
+      "tittel": "forklare forskjellen mellom en identitet, en ligning, et algebraisk uttrykk og en funksjon",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-02",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12762",
+      "tittel": "identifisere variable størrelser i ulike situasjoner, sette opp formler og utforske disse ved hjelp av digitale verktøy",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-02",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12761",
+      "tittel": "forklare polynomdivisjon og bruke det til å omskrive algebraiske uttrykk, drøfte funksjoner og løse ligninger og ulikheter",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-02",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12760",
+      "tittel": "lese, hente ut og vurdere matematikk i relevante tekster om ulike temaer og presentere relevante beregninger og analyser av resultatene",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-02",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12759",
+      "tittel": "utforske sammenhenger mellom andregradsligninger og andregradsulikheter, andregradsfunksjoner og kvadratsetningene og bruke sammenhengene i problemløsing",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-02",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12758",
+      "tittel": "bruke gjennomsnittlig og momentan vekstfart i konkrete eksempler og gjøre rede for den deriverte",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-02",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12757",
+      "tittel": "modellere situasjoner knyttet til ulike temaer, drøfte, presentere og forklare resultatene og argumentere for om modellene er gyldige",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-02",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12756",
+      "tittel": "formulere og løse problemer ved hjelp av algoritmisk tenkning, ulike problemløsingsstrategier, digitale verktøy og programmering",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-02",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12755",
+      "tittel": "utforske strategier for å løse ligninger, ligningssystemer og ulikheter og argumentere for tenkemåtene sine",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-02",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM405",
+      "tittel": "utforske og bruke egenskapene ved geometriske figurer og regne ut lengder, vinkler, arealer, volumer, forhold og målestokk i problemløsing innenfor teknologi- og industrifag",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM406",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM407",
+      "tittel": "gjøre beregninger og vurderinger knyttet til måleusikkerhet og toleranse",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM381",
+      "tittel": "tolke og gjøre beregninger med statistisk datamateriale som er relevant innenfor salg, service og reiseliv",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM375",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM376",
+      "tittel": "lese, bruke og lage regneark i arbeidet med budsjett, anbud og kostnadsberegning knyttet til salg, service og reiseliv, og vurdere hvordan ulike faktorer påvirker resultatet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM380",
+      "tittel": "tolke og regne med nærings- og energiinnhold, og regne om mellom ulike sammensatte enheter knyttet til restaurant- og matfag",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM382",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM389",
+      "tittel": "lese, bruke og lage regneark i arbeidet med budsjett, anbud og kostnadsberegning knyttet til restaurant- og matfag, og vurdere hvordan ulike faktorer påvirker resultatet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM386",
+      "tittel": "utforske og bruke egenskapene ved geometriske figurer og regne ut lengder, vinkler, arealer, volumer, forhold og målestokk i problemløsing innenfor naturbruk",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM387",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM388",
+      "tittel": "lese, bruke og lage regneark i arbeidet med budsjett, anbud og kostnadsberegning knyttet til naturbruk, og vurdere hvordan ulike faktorer påvirker resultatet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM411",
+      "tittel": "utforske og bruke geometriske former og forhold og bruke det i design og produktutvikling",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM430",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM431",
+      "tittel": "lese, bruke og lage regneark i arbeidet med budsjett, anbud og kostnadsberegning knyttet til informasjonsteknologi og medieproduksjon, og vurdere hvordan ulike faktorer påvirker resultatet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM435",
+      "tittel": "gjøre beregninger knyttet til velferdsteknologi som har med økonomi å gjøre",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM436",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM437",
+      "tittel": "lese, bruke og lage regneark i arbeidet med budsjett, anbud og kostnadsberegning knyttet til helse- og oppvekstfag, og vurdere hvordan ulike faktorer påvirker resultatet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM441",
+      "tittel": "utforske og bruke egenskapene ved geometriske figurer og regne ut lengder, vinkler, arealer, volumer, forhold og målestokk i problemløsing innenfor frisør, blomster, interiør og eksponeringsdesign",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM442",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM443",
+      "tittel": "lese, bruke og lage regneark i arbeidet med budsjett, anbud og kostnadsberegning knyttet til frisør, blomster, interiør og eksponeringsdesign, og vurdere hvordan ulike faktorer påvirker resultatet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM427",
+      "tittel": "bruke trigonometri til å regne ut lengder, vinkler og arealer i trekanter i problemløsing innenfor elektro og datateknologi",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM418",
+      "tittel": "gjøre rede for definisjonene av sinus, cosinus og tangens, tolke definisjonene grafisk og knytte dem til eksempler fra elektro og datateknologi",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM415",
+      "tittel": "utforske og bruke egenskapene ved geometriske figurer, regne ut lengder, vinkler, arealer, volumer, forhold og målestokk i problemløsing innenfor håndverk, design og produktutvikling",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM416",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM417",
+      "tittel": "lese, bruke og lage regneark i arbeidet med budsjett, anbud og kostnadsberegning knyttet til håndverk, design og produktutvikling, og vurdere hvordan ulike faktorer påvirker resultatet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM421",
+      "tittel": "bruke trigonometri til å regne ut lengder, vinkler og arealer og bruke målestokk til å regne ut lengder og arealer i problemløsing innenfor bygg- og anleggsteknikk",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM422",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM392",
+      "tittel": "utforske sammenhenger mellom andregradsligninger og andregradsulikheter, andregradsfunksjoner og kvadratsetningene og bruke sammenhengene i problemløsing",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM377",
+      "tittel": "utforske sammenhenger mellom andregradsligninger og andregradsulikheter, andregradsfunksjoner og kvadratsetningene og bruke sammenhengene i problemløsing",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM383",
+      "tittel": "utforske sammenhenger mellom andregradsligninger og andregradsulikheter, andregradsfunksjoner og kvadratsetningene og bruke sammenhengene i problemløsing",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM408",
+      "tittel": "utforske sammenhenger mellom andregradsligninger og andregradsulikheter, andregradsfunksjoner og kvadratsetningene og bruke sammenhengene i problemløsing",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM432",
+      "tittel": "utforske sammenhenger mellom andregradsligninger og andregradsulikheter, andregradsfunksjoner og kvadratsetningene og bruke sammenhengene i problemløsing",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM438",
+      "tittel": "utforske sammenhenger mellom andregradsligninger og andregradsulikheter, andregradsfunksjoner og kvadratsetningene og bruke sammenhengene i problemløsing",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM444",
+      "tittel": "utforske sammenhenger mellom andregradsligninger og andregradsulikheter, andregradsfunksjoner og kvadratsetningene og bruke sammenhengene i problemløsing",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM412",
+      "tittel": "utforske sammenhenger mellom andregradsligninger og andregradsulikheter, andregradsfunksjoner og kvadratsetningene og bruke sammenhengene i problemløsing",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM419",
+      "tittel": "utforske sammenhenger mellom andregradsligninger og andregradsulikheter, andregradsfunksjoner og kvadratsetningene og bruke sammenhengene i problemløsing",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM391",
+      "tittel": "utforske strategier for å løse ligninger, ligningssystemer og ulikheter og argumentere for tenkemåtene sine",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM378",
+      "tittel": "utforske strategier for å løse ligninger, ligningssystemer og ulikheter og argumentere for tenkemåtene sine",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM384",
+      "tittel": "utforske strategier for å løse ligninger, ligningssystemer og ulikheter og argumentere for tenkemåtene sine",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM410",
+      "tittel": "utforske strategier for å løse ligninger, ligningssystemer og ulikheter og argumentere for tenkemåtene sine",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM433",
+      "tittel": "utforske strategier for å løse ligninger, ligningssystemer og ulikheter og argumentere for tenkemåtene sine",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM439",
+      "tittel": "utforske strategier for å løse ligninger, ligningssystemer og ulikheter og argumentere for tenkemåtene sine",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM429",
+      "tittel": "utforske strategier for å løse ligninger, ligningssystemer og ulikheter og argumentere for tenkemåtene sine",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM413",
+      "tittel": "utforske strategier for å løse ligninger, ligningssystemer og ulikheter og argumentere for tenkemåtene sine",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM446",
+      "tittel": "utforske og beskrive egenskapene ved polynomfunksjoner, rasjonale funksjoner, eksponentialfunksjoner og potensfunksjoner",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM426",
+      "tittel": "utforske strategier for å løse ligninger, ligningssystemer og ulikheter og argumentere for tenkemåtene sine",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM409",
+      "tittel": "bruke trigonometri til å analysere og løse sammensatte teoretiske og praktiske problemer med lengder, vinkler og arealer",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM393",
+      "tittel": "begrunne sinus-, cosinus- og arealsetningen",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM394",
+      "tittel": "gjøre rede for definisjonene av sinus, cosinus og tangens og bruke trigonometri til å beregne lengder, vinkler og arealer i vilkårlige trekanter",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM395",
+      "tittel": "lese og forstå matematiske bevis og utforske og utvikle bevis i relevante matematiske emner",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM396",
+      "tittel": "forklare forskjellen mellom en identitet, en ligning, et algebraisk uttrykk og en funksjon",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM397",
+      "tittel": "identifisere variable størrelser i ulike situasjoner, sette opp formler og utforske disse ved hjelp av digitale verktøy",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM398",
+      "tittel": "forklare polynomdivisjon og bruke det til å omskrive algebraiske uttrykk, drøfte funksjoner og løse ligninger og ulikheter",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM399",
+      "tittel": "lese, hente ut og vurdere matematikk i relevante tekster om ulike temaer og presentere relevante beregninger og analyser av resultatene",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM400",
+      "tittel": "utforske sammenhenger mellom andregradsligninger og andregradsulikheter, andregradsfunksjoner og kvadratsetningene og bruke sammenhengene i problemløsing",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM401",
+      "tittel": "bruke gjennomsnittlig og momentan vekstfart i konkrete eksempler og gjøre rede for den deriverte",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM402",
+      "tittel": "modellere situasjoner knyttet til ulike temaer, drøfte, presentere og forklare resultatene og argumentere for om modellene er gyldige",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM403",
+      "tittel": "formulere og løse problemer ved hjelp av algoritmisk tenkning, ulike problemløsingsstrategier, digitale verktøy og programmering",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM404",
+      "tittel": "utforske strategier for å løse ligninger, ligningssystemer og ulikheter og argumentere for tenkemåtene sine",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM423",
+      "tittel": "lese, bruke og lage regneark i arbeidet med budsjett, anbud og kostnadsberegning knyttet til bygg- og anleggsteknikk, og vurdere hvordan ulike faktorer påvirker resultatet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM424",
+      "tittel": "utforske sammenhenger mellom andregradsligninger og andregradsulikheter, andregradsfunksjoner og kvadratsetningene og bruke sammenhengene i problemløsing",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM425",
+      "tittel": "utforske strategier for å løse ligninger, ligningssystemer og ulikheter og argumentere for tenkemåtene sine",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM390",
+      "tittel": "identifisere variable størrelser i ulike situasjoner, sette opp formler og utforske disse ved hjelp av digitale verktøy",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM379",
+      "tittel": "identifisere variable størrelser i ulike situasjoner, sette opp formler og utforske disse ved hjelp av digitale verktøy",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM385",
+      "tittel": "identifisere variable størrelser i ulike situasjoner, sette opp formler og utforske disse ved hjelp av digitale verktøy",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM445",
+      "tittel": "identifisere variable størrelser i ulike situasjoner, sette opp formler og utforske disse ved hjelp av digitale verktøy",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM434",
+      "tittel": "identifisere variable størrelser i ulike situasjoner, sette opp formler og utforske disse ved hjelp av digitale verktøy",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM440",
+      "tittel": "identifisere variable størrelser i ulike situasjoner, sette opp formler og utforske disse ved hjelp av digitale verktøy",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM428",
+      "tittel": "identifisere variable størrelser i ulike situasjoner, sette opp formler og utforske disse ved hjelp av digitale verktøy",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM414",
+      "tittel": "identifisere variable størrelser i ulike situasjoner, sette opp formler og utforske disse ved hjelp av digitale verktøy",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM420",
+      "tittel": "identifisere variable størrelser i ulike situasjoner, sette opp formler og utforske disse ved hjelp av digitale verktøy",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM374",
+      "tittel": "identifisere variable størrelser i ulike situasjoner, sette opp formler og utforske disse ved hjelp av digitale verktøy",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT09-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
       }
     },
     {
@@ -27246,6 +28956,678 @@
       "tilhoererLaereplan": {
         "kode": "MOK02-02",
         "tittel": "Læreplan i medieuttrykk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3109",
+      "tittel": "modellere og analysere eksponentiell og logistisk vekst i reelle datasett",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT03-02",
+        "tittel": "Læreplan i matematikk for realfag (matematikk R)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3110",
+      "tittel": "forstå begrepene vekstfart, grenseverdi, derivasjon og kontinuitet, og bruke disse for å løse praktiske problemer",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT03-02",
+        "tittel": "Læreplan i matematikk for realfag (matematikk R)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3111",
+      "tittel": "analysere og tolke ulike funksjoner ved å bruke derivasjon",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT03-02",
+        "tittel": "Læreplan i matematikk for realfag (matematikk R)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3121",
+      "tittel": "gi eksempler på ulike situasjoner som kan modelleres ved å bruke ulike matematiske funksjoner, og modellere og analysere slike situasjoner ved å bruke reelle datasett",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT03-02",
+        "tittel": "Læreplan i matematikk for realfag (matematikk R)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3120",
+      "tittel": "analysere og tolke ulike funksjoner ved å bruke derivasjon og integrasjon, og anvende integrasjon til å beregne ulike mål av omdreiningslegemer",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT03-02",
+        "tittel": "Læreplan i matematikk for realfag (matematikk R)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3099",
+      "tittel": "analysere og forstå matematiske bevis, forklare de bærende ideene i et matematisk bevis og utvikle egne bevis",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT03-02",
+        "tittel": "Læreplan i matematikk for realfag (matematikk R)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3100",
+      "tittel": "gjøre rede for analysens fundamentalteorem og gjøre rede for konsekvenser av teoremet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT03-02",
+        "tittel": "Læreplan i matematikk for realfag (matematikk R)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3101",
+      "tittel": "utvikle algoritmer for å beregne integraler numerisk, og bruke programmering til å utføre algoritmene",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT03-02",
+        "tittel": "Læreplan i matematikk for realfag (matematikk R)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3102",
+      "tittel": "gjøre rede for integral som en grenseverdi av en følge av summer, og tolke betydningen av denne grenseverdien i ulike situasjoner",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT03-02",
+        "tittel": "Læreplan i matematikk for realfag (matematikk R)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3103",
+      "tittel": "anvende derivasjon og integrasjon til å analysere og tolke egne matematiske modeller av reelle datasett",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT03-02",
+        "tittel": "Læreplan i matematikk for realfag (matematikk R)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3112",
+      "tittel": "forstå begrepet vektor og regneregler for vektorer i planet, og bruke vektorer til å beregne ulike størrelser i planet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT03-02",
+        "tittel": "Læreplan i matematikk for realfag (matematikk R)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3113",
+      "tittel": "planlegge og gjennomføre et selvstendig arbeid med reelle datasett knyttet til naturvitenskapelige temaer og forhold, og analysere og presentere funn",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT03-02",
+        "tittel": "Læreplan i matematikk for realfag (matematikk R)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3104",
+      "tittel": "utforske egenskaper ved radianer og trigonometriske funksjoner og identiteter og anvende disse egenskapene til å løse praktiske problemer",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT03-02",
+        "tittel": "Læreplan i matematikk for realfag (matematikk R)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3105",
+      "tittel": "utforske rekursive sammenhenger ved å bruke programmering og presentere egne framgangsmåter",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT03-02",
+        "tittel": "Læreplan i matematikk for realfag (matematikk R)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3106",
+      "tittel": "utforske egenskaper ved ulike rekker og gjøre rede for praktiske anvendelser av egenskaper ved rekker",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT03-02",
+        "tittel": "Læreplan i matematikk for realfag (matematikk R)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3107",
+      "tittel": "anvende parameterframstillinger til kurver og bruke parameterframstillinger til å løse naturvitenskapelige problemer inkludert problemer knyttet til fart og akselerasjon",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT03-02",
+        "tittel": "Læreplan i matematikk for realfag (matematikk R)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3114",
+      "tittel": "anvende derivasjon til å analysere og tolke egne matematiske modeller av reelle datasett",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT03-02",
+        "tittel": "Læreplan i matematikk for realfag (matematikk R)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3115",
+      "tittel": "anvende parameterframstillinger til linjer og bruke parameterframstillinger til å løse naturvitenskapelige problemer",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT03-02",
+        "tittel": "Læreplan i matematikk for realfag (matematikk R)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3116",
+      "tittel": "utforske, analysere og derivere ulike funksjoner og deres omvendte funksjoner, og gjøre rede for egenskaper til og sammenhenger mellom slike funksjoner",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT03-02",
+        "tittel": "Læreplan i matematikk for realfag (matematikk R)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3117",
+      "tittel": "bruke ulike strategier for å utforske og bestemme grenseverdier til funksjoner, og utforske og argumentere for anvendelser av grenseverdier",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT03-02",
+        "tittel": "Læreplan i matematikk for realfag (matematikk R)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3118",
+      "tittel": "gjøre rede for og argumentere for om en funksjon er kontinuerlig eller diskontinuerlig i et punkt i et definisjonsområde, og gi eksempler på anvendelser av diskontinuerlige funksjoner",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT03-02",
+        "tittel": "Læreplan i matematikk for realfag (matematikk R)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3119",
+      "tittel": "bestemme den deriverte i et punkt geometrisk, algebraisk og ved numeriske metoder, og gi eksempler på funksjoner som ikke er deriverbare i gitte punkter",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT03-02",
+        "tittel": "Læreplan i matematikk for realfag (matematikk R)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3098",
+      "tittel": "utforske og forstå regneregler for potenser og logaritmer, og bruke ulike strategier for å løse eksponentialligninger og logaritmeligninger",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT03-02",
+        "tittel": "Læreplan i matematikk for realfag (matematikk R)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3108",
+      "tittel": "utforske og forstå regneregler for vektorer i rommet, og bruke vektorer til å beregne ulike størrelser i rommet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT03-02",
+        "tittel": "Læreplan i matematikk for realfag (matematikk R)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3132",
+      "tittel": "planlegge og gjennomføre et selvstendig arbeid med reelle datasett knyttet til samfunnsøkonomiske temaer og forhold, og analysere og presentere funn",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT04-02",
+        "tittel": "Læreplan i matematikk for samfunnsfag (matematikk S)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3133",
+      "tittel": "analysere et problem der sannsynlighet og kombinatorikk inngår, og bruke ulike strategier i problemløsingen",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT04-02",
+        "tittel": "Læreplan i matematikk for samfunnsfag (matematikk S)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3134",
+      "tittel": "utforske og gjøre rede for egenskapene ved potenser og logaritmer, og gi eksempler på reelle anvendelser av disse egenskapene",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT04-02",
+        "tittel": "Læreplan i matematikk for samfunnsfag (matematikk S)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3145",
+      "tittel": "forstå begrepene forventningsverdi, varians og standardavvik, og bruke disse størrelsene til å tolke stokastiske variabler",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT04-02",
+        "tittel": "Læreplan i matematikk for samfunnsfag (matematikk S)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3144",
+      "tittel": "gjennomføre hypotesetesting i reelle datasett og tolke resultatet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT04-02",
+        "tittel": "Læreplan i matematikk for samfunnsfag (matematikk S)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3123",
+      "tittel": "argumentere for sentralgrensesetningen og utforske og tolke praktiske situasjoner ved hjelp av normalfordelingen",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT04-02",
+        "tittel": "Læreplan i matematikk for samfunnsfag (matematikk S)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3124",
+      "tittel": "simulere utfall i, utforske og tolke ulike statistiske fordelinger, og gi eksempler på reelle anvendelser av disse fordelingene",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT04-02",
+        "tittel": "Læreplan i matematikk for samfunnsfag (matematikk S)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3125",
+      "tittel": "gjøre rede for analysens fundamentalteorem og gjøre rede for konsekvenser av teoremet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT04-02",
+        "tittel": "Læreplan i matematikk for samfunnsfag (matematikk S)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3126",
+      "tittel": "forstå definisjonen av det bestemte integralet og anvende integralet til å analysere funksjoner",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT04-02",
+        "tittel": "Læreplan i matematikk for samfunnsfag (matematikk S)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3128",
+      "tittel": "finne grensekostnader og grenseinntekter i økonomiske modeller, og gjøre rede for betydningen av disse størrelsene",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT04-02",
+        "tittel": "Læreplan i matematikk for samfunnsfag (matematikk S)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3127",
+      "tittel": "modellere og analysere eksponentiell og logistisk vekst i reelle datasett",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT04-02",
+        "tittel": "Læreplan i matematikk for samfunnsfag (matematikk S)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3135",
+      "tittel": "uttrykke egne resonnementer ved hjelp av matematiske begreper og symbolspråk",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT04-02",
+        "tittel": "Læreplan i matematikk for samfunnsfag (matematikk S)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3136",
+      "tittel": "utforske og tolke binomiske og hypergeometriske fordelinger, og gi eksempler på reelle anvendelser av disse fordelingene",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT04-02",
+        "tittel": "Læreplan i matematikk for samfunnsfag (matematikk S)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3137",
+      "tittel": "bruke digitale verktøy til å simulere og utforske utfall i stokastiske forsøk, og forstå begrepet stokastiske variabler",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT04-02",
+        "tittel": "Læreplan i matematikk for samfunnsfag (matematikk S)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3129",
+      "tittel": "analysere og tolke ulike funksjoner ved å bruke derivasjon og integrasjon",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT04-02",
+        "tittel": "Læreplan i matematikk for samfunnsfag (matematikk S)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3130",
+      "tittel": "utforske rekursive sammenhenger ved å bruke programmering og presentere egne framgangsmåter",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT04-02",
+        "tittel": "Læreplan i matematikk for samfunnsfag (matematikk S)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3131",
+      "tittel": "utforske egenskaper ved ulike rekker og gjøre rede for praktiske anvendelser av egenskaper ved rekker",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT04-02",
+        "tittel": "Læreplan i matematikk for samfunnsfag (matematikk S)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3138",
+      "tittel": "utforske og forstå kombinatoriske forsøk med ordnede og uordnede utvalg",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT04-02",
+        "tittel": "Læreplan i matematikk for samfunnsfag (matematikk S)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3139",
+      "tittel": "anvende derivasjon til å analysere og forstå optimaliseringsproblemer",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT04-02",
+        "tittel": "Læreplan i matematikk for samfunnsfag (matematikk S)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3140",
+      "tittel": "anvende derivasjon til å analysere og tolke egne matematiske modeller av reelle datasett",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT04-02",
+        "tittel": "Læreplan i matematikk for samfunnsfag (matematikk S)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3141",
+      "tittel": "forstå begrepene gjennomsnittlig og momentan vekstfart, grenseverdi og derivasjon, og bruke disse for å løse praktiske problemer",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT04-02",
+        "tittel": "Læreplan i matematikk for samfunnsfag (matematikk S)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3142",
+      "tittel": "gjøre rede for og argumentere for om en funksjon er kontinuerlig eller diskontinuerlig i et punkt i et definisjonsområde, og gi eksempler på anvendelser av funksjoner som ikke er kontinuerlige",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT04-02",
+        "tittel": "Læreplan i matematikk for samfunnsfag (matematikk S)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3143",
+      "tittel": "bruke ulike strategier for å utforske og bestemme grenseverdier til funksjoner, og utforske og argumentere for anvendelser av grenseverdier",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT04-02",
+        "tittel": "Læreplan i matematikk for samfunnsfag (matematikk S)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3122",
+      "tittel": "utforske og forstå regneregler for potenser og logaritmer, og bruke ulike strategier for å løse eksponentialligninger og logaritmeligninger",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT04-02",
+        "tittel": "Læreplan i matematikk for samfunnsfag (matematikk S)"
       }
     },
     {
@@ -77048,6 +79430,384 @@
     },
     {
       "type": "kompetansemaal_lk20",
+      "kode": "KM453",
+      "tittel": "utforske og forklare hvordan formlikhet, målestokk og egenskaper ved geometriske figurer kan brukes i beregninger og i praktisk arbeid",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT05-04",
+        "tittel": "Læreplan i matematikk fellesfag 2P"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM454",
+      "tittel": "analysere og presentere funn i datasett fra lokalsamfunn og media",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT06-04",
+        "tittel": "Læreplan i matematikk fellesfag 2P-Y – Vg3 påbygging til generell studiekompetanse"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM452",
+      "tittel": "bruke og vurdere valg av hensiktsmessige sentralmål og spredningsmål for statistisk datamateriale",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT05-04",
+        "tittel": "Læreplan i matematikk fellesfag 2P"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM451",
+      "tittel": "analysere og presentere funn i datasett fra lokalsamfunn og media",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT05-04",
+        "tittel": "Læreplan i matematikk fellesfag 2P"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM450",
+      "tittel": "vurdere valg knyttet til personlig økonomi og reflektere over konsekvenser av å ta opp lån og å bruke kredittkort",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT05-04",
+        "tittel": "Læreplan i matematikk fellesfag 2P"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM449",
+      "tittel": "utforske strategier for å løse ligninger, ligningssystemer og ulikheter og argumentere for tenkemåtene sine",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT05-04",
+        "tittel": "Læreplan i matematikk fellesfag 2P"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM448",
+      "tittel": "utforske og forklare sammenhenger mellom prisindeks, kroneverdi, reallønn, nominell lønn og brutto- og nettoinntekt",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT05-04",
+        "tittel": "Læreplan i matematikk fellesfag 2P"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM447",
+      "tittel": "forklare og bruke prosent, prosentpoeng og vekstfaktor til modellering av praktiske situasjoner med digitale verktøy",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT05-04",
+        "tittel": "Læreplan i matematikk fellesfag 2P"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM354",
+      "tittel": "bruke trigonometri til å regne ut lengder, vinkler og arealer i trekanter i problemløsing innenfor elektro og datateknologi",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM355",
+      "tittel": "bruke ulike strategier for å løse ligninger",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM345",
+      "tittel": "gjøre rede for definisjonene av sinus, cosinus og tangens, tolke definisjonene grafisk og knytte dem til eksempler fra elektro og datateknologi",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM342",
+      "tittel": "utforske og bruke egenskapene ved geometriske figurer, regne ut lengder, vinkler, arealer, volumer, forhold og målestokk i problemløsing innenfor håndverk, design og produktutvikling",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM343",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM344",
+      "tittel": "lese, bruke og lage regneark i arbeidet med budsjett, anbud og kostnadsberegning knyttet til håndverk, design og produktutvikling, og vurdere hvordan ulike faktorer påvirker resultatet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM334",
+      "tittel": "tolke og bruke sammensatte måleenheter i praktiske sammenhenger og velge egnet måleenhet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM304",
+      "tittel": "tolke og bruke sammensatte måleenheter i praktiske sammenhenger og velge egnet måleenhet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM317",
+      "tittel": "tolke og bruke sammensatte måleenheter i praktiske sammenhenger og velge egnet måleenhet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM316",
+      "tittel": "tolke og bruke sammensatte måleenheter i praktiske sammenhenger og velge egnet måleenhet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM358",
+      "tittel": "tolke og bruke sammensatte måleenheter i praktiske sammenhenger og velge egnet måleenhet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM364",
+      "tittel": "tolke og bruke sammensatte måleenheter i praktiske sammenhenger og velge egnet måleenhet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM370",
+      "tittel": "tolke og bruke sammensatte måleenheter i praktiske sammenhenger og velge egnet måleenhet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM339",
+      "tittel": "tolke og bruke sammensatte måleenheter i praktiske sammenhenger og velge egnet måleenhet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM346",
+      "tittel": "tolke og bruke sammensatte måleenheter i praktiske sammenhenger og velge egnet måleenhet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM340",
+      "tittel": "tolke og bruke formler som gjelder dagligliv og yrkesliv",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM318",
+      "tittel": "tolke og bruke formler som gjelder dagligliv og yrkesliv",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM320",
+      "tittel": "tolke og bruke formler som gjelder dagligliv og yrkesliv",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM305",
+      "tittel": "tolke og bruke formler som gjelder dagligliv og yrkesliv",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
       "kode": "KM864",
       "tittel": "gjøre rede for viktige endringer i hvordan mennesker har skaffet seg mat og brukt naturressurser, og vurdere betydningen av dette for mennesker og et bærekraftig samfunn",
       "status": "publisert",
@@ -77338,6 +80098,748 @@
       "tilhoererLaereplan": {
         "kode": "GEO02-02",
         "tittel": "Læreplan i geografi fellesfag, samisk plan"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM373",
+      "tittel": "tolke og regne med rotuttrykk, potenser og tall på standardform",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM372",
+      "tittel": "bruke digitale verktøy i utforsking og problemløsing knyttet til egenskaper ved funksjoner, og diskutere løsningene",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM321",
+      "tittel": "planlegge, utføre og presentere selvstendig arbeid knyttet til modellering og funksjoner innenfor samfunnsfaglige temaer",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM322",
+      "tittel": "tolke og bruke funksjoner i matematisk modellering og problemløsing",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM367",
+      "tittel": "utforske og bruke egenskapene ved geometriske figurer og regne ut lengder, vinkler, arealer, volumer, forhold og målestokk i problemløsing innenfor frisør, blomster, interiør og eksponeringsdesign",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM368",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM323",
+      "tittel": "utforske, beskrive og bruke begrepene proporsjonalitet og omvendt proporsjonalitet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM331",
+      "tittel": "utforske og bruke egenskapene ved geometriske figurer og regne ut lengder, vinkler, arealer, volumer, forhold og målestokk i problemløsing innenfor teknologi- og industrifag",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM332",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM333",
+      "tittel": "gjøre beregninger og vurderinger knyttet til måleusikkerhet og toleranse",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM319",
+      "tittel": "tolke og gjøre beregninger med statistisk datamateriale som er relevant innenfor salg, service og reiseliv",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM309",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM303",
+      "tittel": "lese, bruke og lage regneark i arbeidet med budsjett, anbud og kostnadsberegning knyttet til salg, service og reiseliv, og vurdere hvordan ulike faktorer påvirker resultatet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM307",
+      "tittel": "tolke og regne med nærings- og energiinnhold, og regne om mellom ulike sammensatte enheter knyttet til restaurant- og matfag",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM308",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM310",
+      "tittel": "lese, bruke og lage regneark i arbeidet med budsjett, anbud og kostnadsberegning knyttet til restaurant- og matfag, og vurdere hvordan ulike faktorer påvirker resultatet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM313",
+      "tittel": "utforske og bruke egenskapene ved geometriske figurer og regne ut lengder, vinkler, arealer, volumer, forhold og målestokk i problemløsing innenfor naturbruk",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM314",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM315",
+      "tittel": "lese, bruke og lage regneark i arbeidet med budsjett, anbud og kostnadsberegning knyttet til naturbruk, og vurdere hvordan ulike faktorer påvirker resultatet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM337",
+      "tittel": "utforske og bruke geometriske former og forhold og bruke det i design og produktutvikling",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM338",
+      "tittel": "innhente data og behandle store datasett, gjøre beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM357",
+      "tittel": "lese, bruke og lage regneark i arbeidet med budsjett, anbud og kostnadsberegning knyttet til informasjonsteknologi og medieproduksjon, og vurdere hvordan ulike faktorer påvirker resultatet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM361",
+      "tittel": "gjøre beregninger knyttet til velferdsteknologi som har med økonomi å gjøre",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM362",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM363",
+      "tittel": "lese, bruke og lage regneark i arbeidet med budsjett, anbud og kostnadsberegning knyttet til helse- og oppvekstfag, og vurdere hvordan ulike faktorer påvirker resultatet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM369",
+      "tittel": "lese, bruke og lage regneark i arbeidet med budsjett, anbud og kostnadsberegning knyttet til frisør, blomster, interiør og eksponeringsdesign, og vurdere hvordan ulike faktorer påvirker resultatet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM311",
+      "tittel": "tolke og bruke formler som gjelder dagligliv og yrkesliv",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM359",
+      "tittel": "tolke og bruke formler som gjelder dagligliv og yrkesliv",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM365",
+      "tittel": "tolke og bruke formler som gjelder dagligliv og yrkesliv",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM371",
+      "tittel": "tolke og bruke formler som gjelder dagligliv og yrkesliv",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM353",
+      "tittel": "tolke og bruke formler som gjelder dagligliv og yrkesliv",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM348",
+      "tittel": "utforske og bruke egenskapene ved geometriske figurer, målestokk og trigonometri til å beregne lengder, vinkler og arealer i problemløsing innenfor bygg- og anleggsfag",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM349",
+      "tittel": "innhente data fra praksisfeltet, gjøre overslag og beregninger og lage hensiktsmessige framstillinger av resultatene og presentere disse",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM350",
+      "tittel": "lese, bruke og lage regneark i arbeidet med budsjett, anbud og kostnadsberegning knyttet til bygg- og anleggsteknikk, og vurdere hvordan ulike faktorer påvirker resultatet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM351",
+      "tittel": "tolke og bruke sammensatte måleenheter i praktiske sammenhenger og velge egnet måleenhet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM352",
+      "tittel": "tolke og bruke formler som gjelder dagligliv og yrkesliv",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM302",
+      "tittel": "vurdere valg knyttet til personlig økonomi og reflektere over konsekvenser av å ta opp lån og å bruke kredittkort",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM324",
+      "tittel": "bruke prosent, prosentpoeng, promille og vekstfaktor i utregninger og presentere og begrunne løsninger",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM325",
+      "tittel": "lese, hente ut og vurdere matematikk i tekster om situasjoner fra lokalmiljøet, gjøre beregninger knyttet til dette og presentere og argumentere for resultatene",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM326",
+      "tittel": "tolke og bruke sammensatte måleenheter i praktiske sammenhenger og velge egnet måleenhet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM328",
+      "tittel": "utforske hvordan ulike premisser vil kunne påvirke hvordan matematiske problemer fra samfunnsliv og arbeidsliv løses",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM335",
+      "tittel": "tolke og bruke formler som gjelder samfunnsliv og arbeidsliv",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM329",
+      "tittel": "identifisere variable størrelser i ulike situasjoner og bruke dem til utforsking og generalisering",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM330",
+      "tittel": "modellere situasjoner knyttet til temaer fra samfunnsliv og arbeidsliv, presentere og argumentere for resultatene og for når modellene er gyldige",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM327",
+      "tittel": "vurdere valg knyttet til personlig økonomi og reflektere over konsekvenser av å ta opp lån og å bruke kredittkort",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM306",
+      "tittel": "vurdere valg knyttet til personlig økonomi og reflektere over konsekvenser av å ta opp lån og å bruke kredittkort",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM312",
+      "tittel": "vurdere valg knyttet til personlig økonomi og reflektere over konsekvenser av å ta opp lån og å bruke kredittkort",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM336",
+      "tittel": "vurdere valg knyttet til personlig økonomi og reflektere over konsekvenser av å ta opp lån og å bruke kredittkort",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM360",
+      "tittel": "vurdere valg knyttet til personlig økonomi og reflektere over konsekvenser av å ta opp lån og å bruke kredittkort",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM366",
+      "tittel": "vurdere valg knyttet til personlig økonomi og reflektere over konsekvenser av å ta opp lån og å bruke kredittkort",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM356",
+      "tittel": "vurdere valg knyttet til personlig økonomi og reflektere over konsekvenser av å ta opp lån og å bruke kredittkort",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM341",
+      "tittel": "vurdere valg knyttet til personlig økonomi og reflektere over konsekvenser av å ta opp lån og å bruke kredittkort",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM347",
+      "tittel": "vurdere valg knyttet til personlig økonomi og reflektere over konsekvenser av å ta opp lån og å bruke kredittkort",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT08-01",
+        "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
       }
     },
     {
@@ -77828,6 +81330,132 @@
       "tilhoererLaereplan": {
         "kode": "SAK01-01",
         "tittel": "Læreplan i samfunnskunnskap fellesfag vg1/vg2"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM463",
+      "tittel": "utforske, beskrive og bruke begrepene proporsjonalitet og omvendt proporsjonalitet",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT06-04",
+        "tittel": "Læreplan i matematikk fellesfag 2P-Y – Vg3 påbygging til generell studiekompetanse"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM462",
+      "tittel": "planlegge, utføre og presentere selvstendig arbeid knyttet til modellering og funksjoner innenfor samfunnsfaglige temaer",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT06-04",
+        "tittel": "Læreplan i matematikk fellesfag 2P-Y – Vg3 påbygging til generell studiekompetanse"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM461",
+      "tittel": "utforske hvordan ulike premisser vil kunne påvirke hvordan matematiske problemer fra samfunnsliv og arbeidsliv løses",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT06-04",
+        "tittel": "Læreplan i matematikk fellesfag 2P-Y – Vg3 påbygging til generell studiekompetanse"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM460",
+      "tittel": "bruke digitale verktøy i utforsking og problemløsing knyttet til egenskaper ved funksjoner og diskutere løsningene",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT06-04",
+        "tittel": "Læreplan i matematikk fellesfag 2P-Y – Vg3 påbygging til generell studiekompetanse"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM459",
+      "tittel": "identifisere variable størrelser i ulike situasjoner og bruke dem til utforsking og generalisering",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT06-04",
+        "tittel": "Læreplan i matematikk fellesfag 2P-Y – Vg3 påbygging til generell studiekompetanse"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM458",
+      "tittel": "tolke og regne med rotuttrykk, potenser og tall på standardform",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT06-04",
+        "tittel": "Læreplan i matematikk fellesfag 2P-Y – Vg3 påbygging til generell studiekompetanse"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM457",
+      "tittel": "forklare og bruke prosent, prosentpoeng og vekstfaktorer til modellering av praktiske situasjoner med digitale verktøy",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT06-04",
+        "tittel": "Læreplan i matematikk fellesfag 2P-Y – Vg3 påbygging til generell studiekompetanse"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM456",
+      "tittel": "lese, hente ut og vurdere matematikk i tekster om samfunnsfaglige temaer og temaer fra lokalmiljøet, gjøre beregninger knyttet til dette og presentere og argumentere for resultatene",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT06-04",
+        "tittel": "Læreplan i matematikk fellesfag 2P-Y – Vg3 påbygging til generell studiekompetanse"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM455",
+      "tittel": "bruke og vurdere valg av formålstjenlige sentralmål og spredningsmål for statistisk datamateriale",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "MAT06-04",
+        "tittel": "Læreplan i matematikk fellesfag 2P-Y – Vg3 påbygging til generell studiekompetanse"
       }
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generert": "2026-08-18T12:40:50.904Z",
+  "generert": "2026-08-18T12:48:40.945Z",
   "oppslag": {
     "APO3001": {
       "erstattaAv": "APO3005",
@@ -2328,6 +2328,13 @@
       "kjede": [
         "INF01-02",
         "INF01-03"
+      ]
+    },
+    "MAT09-01": {
+      "erstattaAv": "MAT09-02",
+      "kjede": [
+        "MAT09-01",
+        "MAT09-02"
       ]
     },
     "ENG01-05": {
