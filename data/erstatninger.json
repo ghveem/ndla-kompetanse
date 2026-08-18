@@ -1,5 +1,5 @@
 {
-  "generert": "2026-08-18T12:48:40.945Z",
+  "generert": "2026-08-18T13:01:51.195Z",
   "oppslag": {
     "APO3001": {
       "erstattaAv": "APO3005",
@@ -2307,6 +2307,27 @@
       "kjede": [
         "MOK01-02",
         "MOK01-03"
+      ]
+    },
+    "AMM03-03": {
+      "erstattaAv": "AMM03-04",
+      "kjede": [
+        "AMM03-03",
+        "AMM03-04"
+      ]
+    },
+    "AVI03-02": {
+      "erstattaAv": "AVI03-03",
+      "kjede": [
+        "AVI03-02",
+        "AVI03-03"
+      ]
+    },
+    "FLY03-02": {
+      "erstattaAv": "FLY03-03",
+      "kjede": [
+        "FLY03-02",
+        "FLY03-03"
       ]
     },
     "VOV03-01": {
