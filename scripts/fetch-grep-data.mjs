@@ -91,26 +91,44 @@ function extractCodes(arr) {
 function extractTittel(source) {
   const rå = source?.tittel;
   if (typeof rå === "string") return rå;
-  if (Array.isArray(rå)) {
+  // To ulike former finst i Grep: eit flatt array (listeoppslag), eller eit
+  // objekt { tekst: [...], forskrift: bool } (detaljoppslag via url-data).
+  let arr = null;
+  if (Array.isArray(rå)) arr = rå;
+  else if (rå && Array.isArray(rå.tekst)) arr = rå.tekst;
+  if (arr) {
     const prioritet = ["nob", "default", "nno", "eng"];
     for (const spraak of prioritet) {
-      const treff = rå.find((v) => v.spraak === spraak);
+      const treff = arr.find((v) => v.spraak === spraak);
       if (treff?.verdi) return treff.verdi;
     }
-    return rå[0]?.verdi ?? null;
+    return arr[0]?.verdi ?? null;
+  }
+  return null;
+}
+
+/** Hentar gyldig-fra/gyldig-til frå anten "gyldighet"-objekt eller flate felt, med fallback mellom detalj og listeelement. */
+function extractGyldigDato(nokkel, ...kjelder) {
+  for (const kjelde of kjelder) {
+    if (!kjelde) continue;
+    if (kjelde.gyldighet && kjelde.gyldighet[nokkel] !== undefined) return kjelde.gyldighet[nokkel];
+    if (kjelde[nokkel] !== undefined) return kjelde[nokkel];
   }
   return null;
 }
 
 function normalizeElement(type, listItem, detail) {
   const source = detail || listItem;
+  // Detaljoppslaget manglar heilt "gyldighet" for kompetansemål, og
+  // tittel-strukturen skil seg frå listeoppslaget for kompetansemål(sett) —
+  // difor sjekkar vi begge kjeldene, med detalj først.
   return {
     type,
     kode: source.kode,
-    tittel: extractTittel(source),
+    tittel: extractTittel(detail) ?? extractTittel(listItem),
     status: source.status ? source.status.split("/").pop().replace("status_", "") : null,
-    gyldigFra: source.gyldighet?.["gyldig-fra"] ?? source["gyldig-fra"] ?? null,
-    gyldigTil: source.gyldighet?.["gyldig-til"] ?? source["gyldig-til"] ?? null,
+    gyldigFra: extractGyldigDato("gyldig-fra", detail, listItem),
+    gyldigTil: extractGyldigDato("gyldig-til", detail, listItem),
     erstatter: extractCodes(source["erstatter"]),
     erstattesAv: extractCodes(source["erstattes-av"]),
   };
