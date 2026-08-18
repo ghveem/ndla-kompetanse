@@ -38,8 +38,7 @@ jobs:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           NETTSIDE_URL: "https://ghveem.github.io/ndla-kompetanse/"
 
-      - name: Commit endra data (berre ved schedule/dispatch)
-        if: github.event_name != 'push'
+      - name: Commit endra data
         run: |
           git config user.name "grep-oversikt-bot"
           git config user.email "actions@users.noreply.github.com"
