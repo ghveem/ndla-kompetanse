@@ -1,0 +1,13 @@
+{
+  "generert": "2026-08-17T23:00:00Z",
+  "oppslag": {
+    "KM9002-3": {
+      "erstattaAv": "KM9002-3B",
+      "kjede": ["KM9002-3", "KM9002-3B"]
+    },
+    "NOR1-05": {
+      "erstattaAv": "NOR01-06",
+      "kjede": ["NOR1-05", "NOR01-06"]
+    }
+  }
+}

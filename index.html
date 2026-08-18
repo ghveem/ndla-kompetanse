@@ -139,6 +139,63 @@
     font-family: var(--sans);
   }
 
+  .oppslag-boks {
+    background: var(--kunnskap);
+    color: var(--hvit);
+    border-radius: var(--radius);
+    padding: 16px 18px;
+    margin-bottom: 20px;
+  }
+  .oppslag-boks label {
+    display: block;
+    font-size: 13.5px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .oppslag-rad { display: flex; gap: 8px; }
+  .oppslag-rad input[type="text"] {
+    flex: 1;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: var(--mono);
+  }
+  .oppslag-rad button {
+    appearance: none;
+    border: none;
+    background: var(--kvalitet);
+    color: var(--kunnskap-700);
+    font-weight: 700;
+    padding: 0 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .oppslag-rad button:hover { filter: brightness(1.05); }
+  #oppslag-svar { margin-top: 12px; font-size: 14px; }
+  #oppslag-svar .svar-funnet {
+    background: rgba(255,255,255,0.1);
+    border-radius: 8px;
+    padding: 10px 12px;
+  }
+  #oppslag-svar .kjede-visning {
+    font-family: var(--mono);
+    font-size: 14.5px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  #oppslag-svar .kjede-visning .pil { color: var(--kvalitet); }
+  #oppslag-svar .kjede-visning code {
+    background: rgba(255,255,255,0.15);
+    padding: 2px 8px;
+    border-radius: 5px;
+  }
+  #oppslag-svar .kjede-visning code.siste { background: var(--kvalitet); color: var(--kunnskap-700); font-weight: 700; }
+  #oppslag-svar .svar-ikkje-funnet { color: var(--leken); font-size: 13.5px; }
+
   .filter-row {
     display: flex;
     gap: 8px;
@@ -216,6 +273,60 @@
     color: var(--inspirerende-700);
   }
   .erstatning a { color: inherit; text-decoration: underline; }
+
+  .kodekort details { margin-top: 6px; }
+  .kodekort summary {
+    cursor: pointer;
+    font-size: 12.5px;
+    color: var(--kunnskap);
+    font-weight: 600;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    user-select: none;
+  }
+  .kodekort summary::-webkit-details-marker { display: none; }
+  .kodekort summary::before {
+    content: "▸";
+    font-size: 10px;
+    transition: transform 0.15s ease;
+  }
+  .kodekort details[open] summary::before { transform: rotate(90deg); }
+  .kodekort summary .ndla-lenke {
+    margin-left: 10px;
+    font-weight: 600;
+    color: var(--kvalitet-700);
+    text-decoration: none;
+  }
+  .kodekort summary .ndla-lenke:hover { text-decoration: underline; }
+
+  .historikk-panel {
+    margin-top: 8px;
+    padding: 10px 12px;
+    background: var(--svart-50);
+    border: 1px solid var(--svart-100);
+    border-radius: 8px;
+  }
+  .historikk-panel .kjede {
+    font-size: 12.5px;
+    margin-bottom: 8px;
+    color: var(--svart-700);
+  }
+  .historikk-panel .kjede code {
+    font-family: var(--mono);
+    background: var(--svart-100);
+    padding: 1px 5px;
+    border-radius: 4px;
+  }
+  .historikk-rad {
+    font-size: 12.5px;
+    padding: 5px 0;
+    border-top: 1px solid var(--svart-100);
+  }
+  .historikk-rad:first-of-type { border-top: none; }
+  .historikk-rad .dato { font-family: var(--mono); color: var(--svart-700); margin-right: 6px; }
+  .historikk-tom { font-size: 12.5px; color: var(--svart-700); padding: 4px 0; }
 
   /* Endringslogg */
   .logg { border-left: 2px solid var(--svart-100); margin-left: 8px; padding-left: 20px; }
@@ -340,6 +451,15 @@
 
   <!-- SØK -->
   <section class="panel active" id="panel-sok">
+    <div class="oppslag-boks">
+      <label for="oppslag-input">Har du ein gammal kode? Slå opp kva han er erstatta av</label>
+      <div class="oppslag-rad">
+        <input type="text" id="oppslag-input" placeholder="T.d. KM12074" autocomplete="off" />
+        <button id="oppslag-knapp" type="button">Slå opp</button>
+      </div>
+      <div id="oppslag-svar"></div>
+    </div>
+
     <input type="search" id="sok-input" placeholder="Søk på kode eller tittel, t.d. «KM9002» eller «norsk»…" />
     <div class="filter-row" id="type-filter"></div>
     <div class="kort-liste" id="kort-liste"></div>
@@ -423,6 +543,12 @@
       { artikkelId: "5311", tittel: "Lesestrategiar for skjønnlitteratur", url: "https://ndla.no/article/5311", kmKoder: ["KM6141-1"] }
     ]
   };
+  const FALLBACK_ERSTATNINGER = {
+    oppslag: {
+      "KM9002-3": { erstattaAv: "KM9002-3B", kjede: ["KM9002-3", "KM9002-3B"] },
+      "NOR1-05": { erstattaAv: "NOR01-06", kjede: ["NOR1-05", "NOR01-06"] }
+    }
+  };
 
   const TYPE_LABEL = {
     fagkode: "Fagkode",
@@ -432,7 +558,11 @@
     kompetansemaal_lk20: "Kompetansemål"
   };
 
-  let snapshot = null, changelog = null, artiklar = null;
+  // NB: verifiser at dette er riktig spørjeparameter for søk på ndla.no
+  // før de tar denne i reelt bruk (sjå README, "Om NDLA-søkelenka").
+  const NDLA_SEARCH_URL = "https://ndla.no/search?query=";
+
+  let snapshot = null, changelog = null, artiklar = null, erstatninger = null;
   let activeType = null;
 
   async function hent(url, fallback) {
@@ -497,11 +627,42 @@
     });
   }
 
+  /** Alle endringslogg-hendingar som gjeld denne koden (anten som subjekt, eller som mål for ei erstatning). */
+  function getHistoryForCode(kode) {
+    return (changelog.endringar || []).filter(
+      (h) => h.kode === kode || h.nyKode === kode
+    );
+  }
+
+  function historikkPanelHtml(e) {
+    const historikk = getHistoryForCode(e.kode);
+    const kjedeDelar = [];
+    if ((e.erstatter || []).length) {
+      kjedeDelar.push(`Erstattar ${e.erstatter.map((k) => `<code>${esc(k)}</code>`).join(", ")}`);
+    }
+    if ((e.erstattesAv || []).length) {
+      kjedeDelar.push(`Erstatta av ${e.erstattesAv.map((k) => `<code>${esc(k)}</code>`).join(", ")}`);
+    }
+    const kjede = kjedeDelar.length
+      ? `<div class="kjede">${kjedeDelar.join(" · ")}</div>`
+      : "";
+    const rader = historikk.length
+      ? historikk.map((h) => `
+          <div class="historikk-rad">
+            <span class="dato">${new Date(h.dato).toLocaleDateString("nb-NO", { year: "numeric", month: "short", day: "numeric" })}</span>
+            <strong>${esc(h.hendelse)}</strong> — ${esc(h.detalj)}
+          </div>
+        `).join("")
+      : `<div class="historikk-tom">Ingen registrerte endringar for denne koden enno.</div>`;
+    return `<div class="historikk-panel">${kjede}${rader}</div>`;
+  }
+
   function kodekortHtml(e) {
     const badgeCls = statusBadgeClass(e.status);
     const erstattesAv = (e.erstattesAv || []).length
       ? `<div class="erstatning">→ Erstatta av ${e.erstattesAv.map((k) => `<a href="#" data-jump="${esc(k)}">${esc(k)}</a>`).join(", ")}</div>`
       : "";
+    const ndlaLenke = `${NDLA_SEARCH_URL}${encodeURIComponent(e.kode)}`;
     return `
       <div class="kodekort status-${badgeCls}" data-kode="${esc(e.kode)}">
         <div class="kode">${esc(e.kode)}</div>
@@ -513,6 +674,10 @@
             <span>Gyldig frå ${esc(e.gyldigFra || "—")}${e.gyldigTil ? " til " + esc(e.gyldigTil) : ""}</span>
           </div>
           ${erstattesAv}
+          <details>
+            <summary>Historikk<a class="ndla-lenke" href="${esc(ndlaLenke)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Søk på ndla.no ↗</a></summary>
+            ${historikkPanelHtml(e)}
+          </details>
         </div>
       </div>
     `;
@@ -586,6 +751,41 @@
     `).join("");
   }
 
+  function renderOppslag() {
+    const raw = document.getElementById("oppslag-input").value.trim();
+    const svarEl = document.getElementById("oppslag-svar");
+    if (!raw) { svarEl.innerHTML = ""; return; }
+    const kode = raw.toUpperCase();
+
+    const treff = erstatninger.oppslag?.[kode] || erstatninger.oppslag?.[raw];
+    if (treff) {
+      const sisteStatus = snapshot.elementer.find((e) => e.kode === treff.erstattaAv);
+      svarEl.innerHTML = `
+        <div class="svar-funnet">
+          <div class="kjede-visning">
+            ${treff.kjede.map((k, i) => {
+              const erSiste = i === treff.kjede.length - 1;
+              const pil = i > 0 ? '<span class="pil">→</span>' : "";
+              return `${pil}<code class="${erSiste ? "siste" : ""}">${esc(k)}</code>`;
+            }).join("")}
+          </div>
+          <div style="margin-top:6px; font-size:12.5px; opacity:0.85;">
+            ${sisteStatus ? `Gjeldande status: ${esc(sisteStatus.status || "ukjend")}` : "Bruk denne koden vidare."}
+          </div>
+        </div>
+      `;
+      return;
+    }
+
+    const gjeldande = snapshot.elementer.find((e) => e.kode === kode);
+    if (gjeldande) {
+      svarEl.innerHTML = `<div class="svar-funnet">«${esc(kode)}» er ein gjeldande kode (status: ${esc(gjeldande.status || "ukjend")}) — ingen erstatning registrert.</div>`;
+      return;
+    }
+
+    svarEl.innerHTML = `<div class="svar-ikkje-funnet">Fann ingen informasjon om «${esc(kode)}» i Grep-uttrekket. Sjekk at koden er stava rett, eller søk nedanfor.</div>`;
+  }
+
   function bytTab(navn) {
     document.querySelectorAll("nav.tabs button").forEach((b) => b.classList.toggle("active", b.dataset.tab === navn));
     document.querySelectorAll("section.panel").forEach((p) => p.classList.toggle("active", p.id === "panel-" + navn));
@@ -597,6 +797,11 @@
 
   document.getElementById("sok-input").addEventListener("input", renderKortListe);
 
+  document.getElementById("oppslag-knapp").addEventListener("click", renderOppslag);
+  document.getElementById("oppslag-input").addEventListener("keydown", (ev) => {
+    if (ev.key === "Enter") renderOppslag();
+  });
+
   document.getElementById("kort-liste").addEventListener("click", (ev) => {
     const link = ev.target.closest("[data-jump]");
     if (!link) return;
@@ -607,10 +812,11 @@
   });
 
   async function init() {
-    [snapshot, changelog, artiklar] = await Promise.all([
+    [snapshot, changelog, artiklar, erstatninger] = await Promise.all([
       hent("data/grep-snapshot.json", FALLBACK_SNAPSHOT),
       hent("data/changelog.json", FALLBACK_CHANGELOG),
-      hent("data/artikkel-merking.json", FALLBACK_ARTIKLAR)
+      hent("data/artikkel-merking.json", FALLBACK_ARTIKLAR),
+      hent("data/erstatninger.json", FALLBACK_ERSTATNINGER)
     ]);
     renderStats();
     renderTypeFilter();
