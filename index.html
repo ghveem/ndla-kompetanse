@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Kodeoversikt — kompetansemål &amp; læreplanar</title>
+<style>
+  :root {
+    --kunnskap: #2A1C5E;
+    --kunnskap-700: #40116F;
+    --kunnskap-100: #F2EBFC;
+    --kvalitet: #40BDEB;
+    --kvalitet-700: #197AB2;
+    --kvalitet-100: #D1ECFA;
+    --inspirerende: #F67992;
+    --inspirerende-700: #D53457;
+    --inspirerende-100: #FDEDEF;
+    --leken: #FFE767;
+    --leken-ux: #86480D;
+    --leken-100: #FFF9DB;
+    --svart: #18181B;
+    --svart-700: #61616B;
+    --svart-300: #C9C9CF;
+    --svart-100: #F2F2F3;
+    --svart-50: #FAFAFA;
+    --hvit: #FFFFFF;
+    --radius: 10px;
+    --mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    --sans: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: var(--sans);
+    color: var(--svart);
+    background: var(--svart-50);
+    line-height: 1.5;
+  }
+  a { color: var(--kunnskap); }
+
+  header.topbar {
+    background: var(--kunnskap);
+    color: var(--hvit);
+    padding: 22px 28px 20px;
+  }
+  header.topbar .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 12px;
+    color: var(--kvalitet);
+    font-weight: 700;
+    margin: 0 0 6px;
+  }
+  header.topbar h1 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+  header.topbar p.sub {
+    margin: 6px 0 0;
+    color: var(--svart-300);
+    font-size: 14px;
+    max-width: 640px;
+  }
+
+  nav.tabs {
+    display: flex;
+    gap: 4px;
+    padding: 0 24px;
+    background: var(--kunnskap-700);
+    overflow-x: auto;
+  }
+  nav.tabs button {
+    appearance: none;
+    background: transparent;
+    border: none;
+    color: var(--svart-300);
+    padding: 12px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    white-space: nowrap;
+  }
+  nav.tabs button.active {
+    color: var(--hvit);
+    border-bottom-color: var(--kvalitet);
+  }
+  nav.tabs button:focus-visible,
+  button:focus-visible,
+  input:focus-visible {
+    outline: 2px solid var(--kvalitet);
+    outline-offset: 2px;
+  }
+
+  main {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 24px 20px 60px;
+  }
+
+  section.panel { display: none; }
+  section.panel.active { display: block; }
+
+  .stat-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 10px;
+    margin-bottom: 22px;
+  }
+  .stat-card {
+    background: var(--hvit);
+    border: 1px solid var(--svart-100);
+    border-radius: var(--radius);
+    padding: 14px 16px;
+  }
+  .stat-card .n {
+    font-size: 26px;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+  }
+  .stat-card .label {
+    margin-top: 6px;
+    font-size: 12px;
+    color: var(--svart-700);
+  }
+  .stat-card.warn .n { color: var(--inspirerende-700); }
+
+  input[type="search"] {
+    width: 100%;
+    padding: 11px 14px;
+    border: 1px solid var(--svart-300);
+    border-radius: var(--radius);
+    font-size: 15px;
+    margin-bottom: 16px;
+    font-family: var(--sans);
+  }
+
+  .filter-row {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+  .chip {
+    border: 1px solid var(--svart-300);
+    background: var(--hvit);
+    border-radius: 999px;
+    padding: 6px 12px;
+    font-size: 12.5px;
+    cursor: pointer;
+    color: var(--svart-700);
+  }
+  .chip.active {
+    background: var(--kunnskap-100);
+    border-color: var(--kunnskap);
+    color: var(--kunnskap);
+    font-weight: 600;
+  }
+
+  .kort-liste { display: flex; flex-direction: column; gap: 8px; }
+
+  .kodekort {
+    display: flex;
+    gap: 12px;
+    background: var(--hvit);
+    border: 1px solid var(--svart-100);
+    border-left: 4px solid var(--svart-300);
+    border-radius: var(--radius);
+    padding: 12px 14px;
+  }
+  .kodekort.status-publisert { border-left-color: var(--kvalitet); }
+  .kodekort.status-utgatt,
+  .kodekort.status-erstattet { border-left-color: var(--inspirerende); }
+
+  .kodekort .kode {
+    font-family: var(--mono);
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--kunnskap);
+    white-space: nowrap;
+  }
+  .kodekort .body { flex: 1; min-width: 0; }
+  .kodekort .tittel {
+    font-size: 14.5px;
+    font-weight: 600;
+    margin: 2px 0 4px;
+  }
+  .kodekort .meta {
+    font-size: 12.5px;
+    color: var(--svart-700);
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 999px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  .badge.publisert { background: var(--kvalitet-100); color: var(--kvalitet-700); }
+  .badge.utgatt, .badge.erstattet { background: var(--inspirerende-100); color: var(--inspirerende-700); }
+  .badge.type { background: var(--svart-100); color: var(--svart-700); text-transform: none; letter-spacing: 0; }
+
+  .erstatning {
+    font-size: 12.5px;
+    margin-top: 4px;
+    color: var(--inspirerende-700);
+  }
+  .erstatning a { color: inherit; text-decoration: underline; }
+
+  /* Endringslogg */
+  .logg { border-left: 2px solid var(--svart-100); margin-left: 8px; padding-left: 20px; }
+  .logg-post { position: relative; padding-bottom: 20px; }
+  .logg-post:last-child { padding-bottom: 0; }
+  .logg-post::before {
+    content: "";
+    position: absolute;
+    left: -25px;
+    top: 4px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--svart-300);
+  }
+  .logg-post.ny::before { background: var(--leken); }
+  .logg-post.erstattet::before,
+  .logg-post.utgatt::before { background: var(--inspirerende); }
+  .logg-post .dato {
+    font-family: var(--mono);
+    font-size: 11.5px;
+    color: var(--svart-700);
+  }
+  .logg-post .kode {
+    font-family: var(--mono);
+    font-weight: 700;
+    color: var(--kunnskap);
+  }
+  .logg-post .detalj { font-size: 13.5px; margin-top: 2px; }
+
+  /* Artikkel-sjekk */
+  .varsel-boks {
+    background: var(--inspirerende-100);
+    border: 1px solid var(--inspirerende);
+    border-radius: var(--radius);
+    padding: 14px 16px;
+    margin-bottom: 18px;
+  }
+  .varsel-boks h3 {
+    margin: 0 0 8px;
+    font-size: 14px;
+    color: var(--inspirerende-700);
+  }
+  .varsel-boks .rad {
+    font-size: 13.5px;
+    padding: 6px 0;
+    border-top: 1px solid rgba(213,52,87,0.2);
+  }
+  .varsel-boks .rad:first-of-type { border-top: none; }
+  .ok-boks {
+    background: var(--kvalitet-100);
+    border: 1px solid var(--kvalitet);
+    border-radius: var(--radius);
+    padding: 14px 16px;
+    margin-bottom: 18px;
+    font-size: 13.5px;
+    color: var(--kvalitet-700);
+  }
+
+  table.artikkeltabell { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  table.artikkeltabell th {
+    text-align: left;
+    font-size: 11.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--svart-700);
+    border-bottom: 1px solid var(--svart-300);
+    padding: 8px 6px;
+  }
+  table.artikkeltabell td {
+    padding: 9px 6px;
+    border-bottom: 1px solid var(--svart-100);
+    vertical-align: top;
+  }
+  table.artikkeltabell code {
+    font-family: var(--mono);
+    font-size: 12px;
+    background: var(--svart-100);
+    padding: 1px 5px;
+    border-radius: 4px;
+    margin: 0 3px 3px 0;
+    display: inline-block;
+  }
+  table.artikkeltabell code.varsel {
+    background: var(--inspirerende-100);
+    color: var(--inspirerende-700);
+  }
+
+  .tom { color: var(--svart-700); font-size: 13.5px; padding: 20px 0; text-align: center; }
+
+  footer {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 10px 20px 40px;
+    font-size: 12px;
+    color: var(--svart-700);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; animation: none !important; }
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <p class="eyebrow">Produktteam NDLA.no</p>
+  <h1>Kodeoversikt — kompetansemål, KM-kodar og læreplanar</h1>
+  <p class="sub">Sporar status og endringar i Udir sitt Grep-register, og syner kva NDLA-artiklar som er merka med kodar som er utgåtte eller erstatta.</p>
+</header>
+
+<nav class="tabs">
+  <button data-tab="sok" class="active">Søk &amp; status</button>
+  <button data-tab="endringar">Endringar</button>
+  <button data-tab="artikkel">Artikkel-sjekk</button>
+  <button data-tab="om">Om løysinga</button>
+</nav>
+
+<main>
+
+  <div class="stat-row" id="stat-row"></div>
+
+  <!-- SØK -->
+  <section class="panel active" id="panel-sok">
+    <input type="search" id="sok-input" placeholder="Søk på kode eller tittel, t.d. «KM9002» eller «norsk»…" />
+    <div class="filter-row" id="type-filter"></div>
+    <div class="kort-liste" id="kort-liste"></div>
+  </section>
+
+  <!-- ENDRINGAR -->
+  <section class="panel" id="panel-endringar">
+    <p class="sub" style="color:var(--svart-700); font-size:13.5px; margin-top:0;">
+      Automatisk generert kvar natt ved å samanlikne nytt Grep-uttrekk mot førre. Nyaste øvst.
+    </p>
+    <div class="logg" id="endrings-logg"></div>
+  </section>
+
+  <!-- ARTIKKEL-SJEKK -->
+  <section class="panel" id="panel-artikkel">
+    <div id="artikkel-varsel"></div>
+    <table class="artikkeltabell">
+      <thead>
+        <tr><th>Artikkel</th><th>KM-kodar i bruk</th></tr>
+      </thead>
+      <tbody id="artikkel-tabell"></tbody>
+    </table>
+  </section>
+
+  <!-- OM -->
+  <section class="panel" id="panel-om">
+    <h2 style="font-size:16px;">Korleis dette fungerer</h2>
+    <p style="font-size:14px; max-width:640px;">
+      Ein planlagt jobb i GitHub Actions hentar data frå Udir sitt Grep REST-API kvar natt,
+      normaliserer det og samanliknar med førre uttrekk. Endringar (nye kodar, kodar som vert
+      sett til utgått, og kodar som vert erstatta av andre) hamnar i endringsloggen. Data vert
+      lagra som JSON-filer i repoet, så heile historikken er sporbar via Git.
+    </p>
+    <p style="font-size:14px; max-width:640px;">
+      «Artikkel-sjekk» samanliknar KM-kodane redaktørane har brukt til å merke NDLA-artiklar
+      (frå eit eige eksport-steg, sjå README) mot statusen i Grep, og flaggar artiklar som må
+      ryddast opp i.
+    </p>
+    <p style="font-size:12.5px; color:var(--svart-700);">
+      Kjelde: <a href="https://data.udir.no/kl06/v201906/" target="_blank" rel="noopener">data.udir.no/kl06/v201906</a> ·
+      <a href="https://github.com/Utdanningsdirektoratet/KL06-LK20-public/wiki" target="_blank" rel="noopener">Grep-dokumentasjon</a>
+    </p>
+  </section>
+
+</main>
+
+<footer>Kodeoversikt · MVP · data oppdatert automatisk frå Grep</footer>
+
+<script>
+(function () {
+  "use strict";
+
+  // ---- Fallback-data (same shape as /data/*.json) i tilfelle fetch feilar ----
+  const FALLBACK_SNAPSHOT = {
+    generert: "2026-08-17T23:00:00Z",
+    elementer: [
+      { type: "laereplan_lk20", kode: "NOR01-06", tittel: "Læreplan i norsk", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: ["NOR1-05"], erstattesAv: [] },
+      { type: "laereplan", kode: "NOR1-05", tittel: "Læreplan i norsk (LK06)", status: "utgatt", gyldigFra: "2006-08-01", gyldigTil: "2020-07-31", erstatter: [], erstattesAv: ["NOR01-06"] },
+      { type: "kompetansemaalsett_lk20", kode: "KM6141", tittel: "Kompetansemål etter Vg1 studieforberedende, norsk", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: [], erstattesAv: [] },
+      { type: "kompetansemaal_lk20", kode: "KM6141-1", tittel: "utforske og reflektere over korleis tekstar framstiller...", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: [], erstattesAv: [] },
+      { type: "kompetansemaal_lk20", kode: "KM6141-2", tittel: "lese, tolke og reflektere over norske og internasjonale tekstar...", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: [], erstattesAv: [] },
+      { type: "kompetansemaalsett_lk20", kode: "KM9002", tittel: "Kompetansemål etter Vg2, matematikk 1T", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: [], erstattesAv: [] },
+      { type: "kompetansemaal_lk20", kode: "KM9002-3", tittel: "gjere greie for eigenskapane til, og samanhengen mellom, ulike typar tal...", status: "erstattet", gyldigFra: "2020-08-01", gyldigTil: "2025-07-31", erstatter: [], erstattesAv: ["KM9002-3B"] },
+      { type: "kompetansemaal_lk20", kode: "KM9002-3B", tittel: "gjere greie for eigenskapane til talsystem og talmengder...", status: "publisert", gyldigFra: "2025-08-01", gyldigTil: null, erstatter: ["KM9002-3"], erstattesAv: [] },
+      { type: "fagkode", kode: "NOR01", tittel: "Norsk", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: [], erstattesAv: [] },
+      { type: "fagkode", kode: "MAT01", tittel: "Matematikk", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: [], erstattesAv: [] }
+    ]
+  };
+  const FALLBACK_CHANGELOG = {
+    endringar: [
+      { dato: "2026-08-17T23:00:00Z", kode: "KM9002-3", tittel: "gjere greie for eigenskapane til, og samanhengen mellom, ulike typar tal...", type: "kompetansemaal_lk20", hendelse: "erstattet", detalj: "Erstatta av KM9002-3B frå 2025-08-01", nyKode: "KM9002-3B" },
+      { dato: "2026-08-10T23:00:00Z", kode: "KM9002-3B", tittel: "gjere greie for eigenskapane til talsystem og talmengder...", type: "kompetansemaal_lk20", hendelse: "ny", detalj: "Ny kode publisert i Grep", nyKode: null },
+      { dato: "2026-07-02T09:00:00Z", kode: "NOR1-05", tittel: "Læreplan i norsk (LK06)", type: "laereplan", hendelse: "utgatt", detalj: "Sett til utgått, erstatta av NOR01-06", nyKode: "NOR01-06" }
+    ]
+  };
+  const FALLBACK_ARTIKLAR = {
+    merking: [
+      { artikkelId: "8214", tittel: "Tal og talsystem", url: "https://ndla.no/article/8214", kmKoder: ["KM9002-3"] },
+      { artikkelId: "8215", tittel: "Rekning med heile tal", url: "https://ndla.no/article/8215", kmKoder: ["KM9002-3B"] },
+      { artikkelId: "5310", tittel: "Forteljarperspektiv i norske tekstar", url: "https://ndla.no/article/5310", kmKoder: ["KM6141-1", "KM6141-2"] },
+      { artikkelId: "5311", tittel: "Lesestrategiar for skjønnlitteratur", url: "https://ndla.no/article/5311", kmKoder: ["KM6141-1"] }
+    ]
+  };
+
+  const TYPE_LABEL = {
+    fagkode: "Fagkode",
+    laereplan: "Læreplan (LK06)",
+    laereplan_lk20: "Læreplan (LK20)",
+    kompetansemaalsett_lk20: "Kompetansemålsett",
+    kompetansemaal_lk20: "Kompetansemål"
+  };
+
+  let snapshot = null, changelog = null, artiklar = null;
+  let activeType = null;
+
+  async function hent(url, fallback) {
+    try {
+      const res = await fetch(url, { cache: "no-store" });
+      if (!res.ok) throw new Error(res.status);
+      return await res.json();
+    } catch (e) {
+      return fallback;
+    }
+  }
+
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({
+      "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+    }[c]));
+  }
+
+  function statusBadgeClass(status) {
+    if (status === "publisert") return "publisert";
+    if (status === "utgatt") return "utgatt";
+    return "erstattet";
+  }
+
+  function renderStats() {
+    const el = snapshot.elementer;
+    const utgatt = el.filter((e) => e.status !== "publisert").length;
+    const sisteEndringar = (changelog.endringar || []).filter((h) => {
+      const dager = (Date.now() - new Date(h.dato).getTime()) / 86400000;
+      return dager <= 30;
+    }).length;
+    const merkaMedProblem = (artiklar.merking || []).filter((a) =>
+      a.kmKoder.some((k) => {
+        const treff = el.find((e) => e.kode === k);
+        return treff && treff.status !== "publisert";
+      })
+    ).length;
+
+    document.getElementById("stat-row").innerHTML = `
+      <div class="stat-card"><div class="n">${el.length}</div><div class="label">Kodar i Grep-uttrekket</div></div>
+      <div class="stat-card ${utgatt ? "warn" : ""}"><div class="n">${utgatt}</div><div class="label">Utgåtte / erstatta</div></div>
+      <div class="stat-card"><div class="n">${sisteEndringar}</div><div class="label">Endringar siste 30 dagar</div></div>
+      <div class="stat-card ${merkaMedProblem ? "warn" : ""}"><div class="n">${merkaMedProblem}</div><div class="label">Artiklar som treng oppdatering</div></div>
+    `;
+  }
+
+  function renderTypeFilter() {
+    const typar = [...new Set(snapshot.elementer.map((e) => e.type))];
+    const wrap = document.getElementById("type-filter");
+    wrap.innerHTML = "";
+    const alleChip = document.createElement("button");
+    alleChip.className = "chip" + (activeType === null ? " active" : "");
+    alleChip.textContent = "Alle typar";
+    alleChip.onclick = () => { activeType = null; renderTypeFilter(); renderKortListe(); };
+    wrap.appendChild(alleChip);
+    typar.forEach((t) => {
+      const chip = document.createElement("button");
+      chip.className = "chip" + (activeType === t ? " active" : "");
+      chip.textContent = TYPE_LABEL[t] || t;
+      chip.onclick = () => { activeType = t; renderTypeFilter(); renderKortListe(); };
+      wrap.appendChild(chip);
+    });
+  }
+
+  function kodekortHtml(e) {
+    const badgeCls = statusBadgeClass(e.status);
+    const erstattesAv = (e.erstattesAv || []).length
+      ? `<div class="erstatning">→ Erstatta av ${e.erstattesAv.map((k) => `<a href="#" data-jump="${esc(k)}">${esc(k)}</a>`).join(", ")}</div>`
+      : "";
+    return `
+      <div class="kodekort status-${badgeCls}" data-kode="${esc(e.kode)}">
+        <div class="kode">${esc(e.kode)}</div>
+        <div class="body">
+          <div class="tittel">${esc(e.tittel || "(utan tittel)")}</div>
+          <div class="meta">
+            <span class="badge ${badgeCls}">${esc(e.status || "ukjend")}</span>
+            <span class="badge type">${esc(TYPE_LABEL[e.type] || e.type)}</span>
+            <span>Gyldig frå ${esc(e.gyldigFra || "—")}${e.gyldigTil ? " til " + esc(e.gyldigTil) : ""}</span>
+          </div>
+          ${erstattesAv}
+        </div>
+      </div>
+    `;
+  }
+
+  function renderKortListe() {
+    const q = document.getElementById("sok-input").value.trim().toLowerCase();
+    let liste = snapshot.elementer;
+    if (activeType) liste = liste.filter((e) => e.type === activeType);
+    if (q) {
+      liste = liste.filter((e) =>
+        e.kode.toLowerCase().includes(q) || (e.tittel || "").toLowerCase().includes(q)
+      );
+    }
+    const wrap = document.getElementById("kort-liste");
+    if (!liste.length) {
+      wrap.innerHTML = `<div class="tom">Ingen kodar matcha søket.</div>`;
+      return;
+    }
+    wrap.innerHTML = liste.map(kodekortHtml).join("");
+  }
+
+  function renderEndringslogg() {
+    const el = document.getElementById("endrings-logg");
+    const rader = changelog.endringar || [];
+    if (!rader.length) {
+      el.innerHTML = `<div class="tom">Ingen endringar registrert enno.</div>`;
+      return;
+    }
+    el.innerHTML = rader.map((h) => `
+      <div class="logg-post ${esc(h.hendelse)}">
+        <div class="dato">${new Date(h.dato).toLocaleDateString("nb-NO", { year: "numeric", month: "short", day: "numeric" })}</div>
+        <div><span class="kode">${esc(h.kode)}</span> — ${esc(h.tittel || "")}</div>
+        <div class="detalj">${esc(h.detalj)}</div>
+      </div>
+    `).join("");
+  }
+
+  function renderArtikkelSjekk() {
+    const statusFor = (kode) => {
+      const t = snapshot.elementer.find((e) => e.kode === kode);
+      return t ? t.status : "ukjend";
+    };
+    const problemartiklar = (artiklar.merking || []).filter((a) =>
+      a.kmKoder.some((k) => statusFor(k) !== "publisert")
+    );
+
+    const varselEl = document.getElementById("artikkel-varsel");
+    if (problemartiklar.length) {
+      varselEl.innerHTML = `
+        <div class="varsel-boks">
+          <h3>${problemartiklar.length} artikkel(ar) er merka med utgåtte eller erstatta kodar</h3>
+          ${problemartiklar.map((a) => `
+            <div class="rad">
+              <a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.tittel)}</a>
+              — ${a.kmKoder.filter((k) => statusFor(k) !== "publisert").map(esc).join(", ")}
+            </div>
+          `).join("")}
+        </div>
+      `;
+    } else {
+      varselEl.innerHTML = `<div class="ok-boks">Alle merka artiklar brukar gjeldande kodar. Ingen opprydding nødvendig akkurat no.</div>`;
+    }
+
+    const tbody = document.getElementById("artikkel-tabell");
+    tbody.innerHTML = (artiklar.merking || []).map((a) => `
+      <tr>
+        <td><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.tittel)}</a><br><span style="color:var(--svart-700); font-size:11.5px;">ID ${esc(a.artikkelId)}</span></td>
+        <td>${a.kmKoder.map((k) => `<code class="${statusFor(k) !== "publisert" ? "varsel" : ""}">${esc(k)}</code>`).join("")}</td>
+      </tr>
+    `).join("");
+  }
+
+  function bytTab(navn) {
+    document.querySelectorAll("nav.tabs button").forEach((b) => b.classList.toggle("active", b.dataset.tab === navn));
+    document.querySelectorAll("section.panel").forEach((p) => p.classList.toggle("active", p.id === "panel-" + navn));
+  }
+
+  document.querySelectorAll("nav.tabs button").forEach((b) => {
+    b.addEventListener("click", () => bytTab(b.dataset.tab));
+  });
+
+  document.getElementById("sok-input").addEventListener("input", renderKortListe);
+
+  document.getElementById("kort-liste").addEventListener("click", (ev) => {
+    const link = ev.target.closest("[data-jump]");
+    if (!link) return;
+    ev.preventDefault();
+    document.getElementById("sok-input").value = link.dataset.jump;
+    renderKortListe();
+    document.querySelector(`.kodekort[data-kode="${CSS.escape(link.dataset.jump)}"]`)?.scrollIntoView({ behavior: "smooth", block: "center" });
+  });
+
+  async function init() {
+    [snapshot, changelog, artiklar] = await Promise.all([
+      hent("data/grep-snapshot.json", FALLBACK_SNAPSHOT),
+      hent("data/changelog.json", FALLBACK_CHANGELOG),
+      hent("data/artikkel-merking.json", FALLBACK_ARTIKLAR)
+    ]);
+    renderStats();
+    renderTypeFilter();
+    renderKortListe();
+    renderEndringslogg();
+    renderArtikkelSjekk();
+  }
+
+  init();
+})();
+</script>
+
+</body>
+</html>

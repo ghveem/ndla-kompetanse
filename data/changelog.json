@@ -1,0 +1,33 @@
+{
+  "generert": "2026-08-17T23:00:00Z",
+  "forrigeKjoring": "2026-08-10T23:00:00Z",
+  "endringar": [
+    {
+      "dato": "2026-08-17T23:00:00Z",
+      "kode": "KM9002-3",
+      "tittel": "gjere greie for eigenskapane til, og samanhengen mellom, ulike typar tal...",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "erstattet",
+      "detalj": "Erstatta av KM9002-3B frå 2025-08-01",
+      "nyKode": "KM9002-3B"
+    },
+    {
+      "dato": "2026-08-10T23:00:00Z",
+      "kode": "KM9002-3B",
+      "tittel": "gjere greie for eigenskapane til talsystem og talmengder, og grunngi val av metode...",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "ny",
+      "detalj": "Ny kode publisert i Grep",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-07-02T09:00:00Z",
+      "kode": "NOR1-05",
+      "tittel": "Læreplan i norsk (LK06)",
+      "type": "laereplan",
+      "hendelse": "utgatt",
+      "detalj": "Sett til utgått, erstatta av NOR01-06",
+      "nyKode": "NOR01-06"
+    }
+  ]
+}

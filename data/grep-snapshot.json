@@ -1,0 +1,115 @@
+{
+  "generert": "2026-08-17T23:00:00Z",
+  "grepVersjon": "v201906",
+  "kilde": "https://data.udir.no/kl06/v201906/",
+  "elementer": [
+    {
+      "type": "laereplan_lk20",
+      "kode": "NOR01-06",
+      "tittel": "Læreplan i norsk",
+      "fagkode": "NOR01",
+      "status": "publisert",
+      "gyldigFra": "2020-08-01",
+      "gyldigTil": null,
+      "erstatter": ["NOR1-05"],
+      "erstattesAv": []
+    },
+    {
+      "type": "laereplan",
+      "kode": "NOR1-05",
+      "tittel": "Læreplan i norsk (LK06)",
+      "fagkode": "NOR1",
+      "status": "utgatt",
+      "gyldigFra": "2006-08-01",
+      "gyldigTil": "2020-07-31",
+      "erstatter": [],
+      "erstattesAv": ["NOR01-06"]
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KM6141",
+      "tittel": "Kompetansemål etter Vg1 studieforberedende, norsk",
+      "laereplanKode": "NOR01-06",
+      "status": "publisert",
+      "gyldigFra": "2020-08-01",
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": []
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM6141-1",
+      "tittel": "utforske og reflektere over hvordan tekster framstiller...",
+      "kompetansemaalsettKode": "KM6141",
+      "status": "publisert",
+      "gyldigFra": "2020-08-01",
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": []
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM6141-2",
+      "tittel": "lese, tolke og reflektere over norske og internasjonale tekster...",
+      "kompetansemaalsettKode": "KM6141",
+      "status": "publisert",
+      "gyldigFra": "2020-08-01",
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": []
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KM9002",
+      "tittel": "Kompetansemål etter Vg2, matematikk 1T",
+      "laereplanKode": "MAT01-04",
+      "status": "publisert",
+      "gyldigFra": "2020-08-01",
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": []
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM9002-3",
+      "tittel": "gjere greie for eigenskapane til, og samanhengen mellom, ulike typar tal...",
+      "kompetansemaalsettKode": "KM9002",
+      "status": "erstattet",
+      "gyldigFra": "2020-08-01",
+      "gyldigTil": "2025-07-31",
+      "erstatter": [],
+      "erstattesAv": ["KM9002-3B"]
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM9002-3B",
+      "tittel": "gjere greie for eigenskapane til talsystem og talmengder, og grunngi val av metode...",
+      "kompetansemaalsettKode": "KM9002",
+      "status": "publisert",
+      "gyldigFra": "2025-08-01",
+      "gyldigTil": null,
+      "erstatter": ["KM9002-3"],
+      "erstattesAv": []
+    },
+    {
+      "type": "fagkode",
+      "kode": "NOR01",
+      "tittel": "Norsk",
+      "status": "publisert",
+      "gyldigFra": "2020-08-01",
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": []
+    },
+    {
+      "type": "fagkode",
+      "kode": "MAT01",
+      "tittel": "Matematikk",
+      "status": "publisert",
+      "gyldigFra": "2020-08-01",
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": []
+    }
+  ]
+}

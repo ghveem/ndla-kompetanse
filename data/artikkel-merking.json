@@ -1,0 +1,29 @@
+{
+  "generert": "2026-08-17T23:00:00Z",
+  "merking": [
+    {
+      "artikkelId": "8214",
+      "tittel": "Tal og talsystem",
+      "url": "https://ndla.no/article/8214",
+      "kmKoder": ["KM9002-3"]
+    },
+    {
+      "artikkelId": "8215",
+      "tittel": "Rekning med heile tal",
+      "url": "https://ndla.no/article/8215",
+      "kmKoder": ["KM9002-3B"]
+    },
+    {
+      "artikkelId": "5310",
+      "tittel": "Forteljarperspektiv i norske tekstar",
+      "url": "https://ndla.no/article/5310",
+      "kmKoder": ["KM6141-1", "KM6141-2"]
+    },
+    {
+      "artikkelId": "5311",
+      "tittel": "Lesestrategiar for skjønnlitteratur",
+      "url": "https://ndla.no/article/5311",
+      "kmKoder": ["KM6141-1"]
+    }
+  ]
+}

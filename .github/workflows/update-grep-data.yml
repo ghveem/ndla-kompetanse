@@ -1,0 +1,54 @@
+name: Oppdater Grep-data
+
+on:
+  schedule:
+    # Kvar natt kl. 04:15 UTC (ca. etter Udir sin nattlege oppdatering)
+    - cron: "15 4 * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  hent-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sjekk ut repo
+        uses: actions/checkout@v4
+
+      - name: Set opp Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Hent og diff Grep-data
+        run: node scripts/fetch-grep-data.mjs
+
+      - name: Commit endra data (berre ved schedule/dispatch)
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "grep-oversikt-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/grep-snapshot.json data/changelog.json
+          git diff --cached --quiet && echo "Ingen endringar i data." || git commit -m "Oppdater Grep-data [automatisk]"
+          git push
+
+      - name: Set opp Pages
+        uses: actions/configure-pages@v5
+
+      - name: Last opp artefakt for Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy til GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
