@@ -274,6 +274,21 @@
   }
   .erstatning a { color: inherit; text-decoration: underline; }
 
+  .fagtilknyting {
+    font-size: 12.5px;
+    margin-top: 4px;
+    color: var(--svart-700);
+  }
+  .fagtilknyting .badge-fag {
+    display: inline-block;
+    background: var(--kunnskap-100);
+    color: var(--kunnskap);
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 11.5px;
+  }
+
   .kodekort details { margin-top: 6px; }
   .kodekort summary {
     cursor: pointer;
@@ -518,12 +533,12 @@
     elementer: [
       { type: "laereplan_lk20", kode: "NOR01-06", tittel: "Læreplan i norsk", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: ["NOR1-05"], erstattesAv: [] },
       { type: "laereplan", kode: "NOR1-05", tittel: "Læreplan i norsk (LK06)", status: "utgatt", gyldigFra: "2006-08-01", gyldigTil: "2020-07-31", erstatter: [], erstattesAv: ["NOR01-06"] },
-      { type: "kompetansemaalsett_lk20", kode: "KM6141", tittel: "Kompetansemål etter Vg1 studieforberedende, norsk", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: [], erstattesAv: [] },
-      { type: "kompetansemaal_lk20", kode: "KM6141-1", tittel: "utforske og reflektere over korleis tekstar framstiller...", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: [], erstattesAv: [] },
-      { type: "kompetansemaal_lk20", kode: "KM6141-2", tittel: "lese, tolke og reflektere over norske og internasjonale tekstar...", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: [], erstattesAv: [] },
-      { type: "kompetansemaalsett_lk20", kode: "KM9002", tittel: "Kompetansemål etter Vg2, matematikk 1T", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: [], erstattesAv: [] },
-      { type: "kompetansemaal_lk20", kode: "KM9002-3", tittel: "gjere greie for eigenskapane til, og samanhengen mellom, ulike typar tal...", status: "erstattet", gyldigFra: "2020-08-01", gyldigTil: "2025-07-31", erstatter: [], erstattesAv: ["KM9002-3B"] },
-      { type: "kompetansemaal_lk20", kode: "KM9002-3B", tittel: "gjere greie for eigenskapane til talsystem og talmengder...", status: "publisert", gyldigFra: "2025-08-01", gyldigTil: null, erstatter: ["KM9002-3"], erstattesAv: [] },
+      { type: "kompetansemaalsett_lk20", kode: "KM6141", tittel: "Kompetansemål etter Vg1 studieforberedende, norsk", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: [], erstattesAv: [], tilhoererLaereplan: { kode: "NOR01-06", tittel: "Læreplan i norsk" } },
+      { type: "kompetansemaal_lk20", kode: "KM6141-1", tittel: "utforske og reflektere over korleis tekstar framstiller...", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: [], erstattesAv: [], tilhoererLaereplan: { kode: "NOR01-06", tittel: "Læreplan i norsk" } },
+      { type: "kompetansemaal_lk20", kode: "KM6141-2", tittel: "lese, tolke og reflektere over norske og internasjonale tekstar...", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: [], erstattesAv: [], tilhoererLaereplan: { kode: "NOR01-06", tittel: "Læreplan i norsk" } },
+      { type: "kompetansemaalsett_lk20", kode: "KM9002", tittel: "Kompetansemål etter Vg2, matematikk 1T", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: [], erstattesAv: [], tilhoererLaereplan: { kode: "MAT01-04", tittel: "Læreplan i matematikk 1T" } },
+      { type: "kompetansemaal_lk20", kode: "KM9002-3", tittel: "gjere greie for eigenskapane til, og samanhengen mellom, ulike typar tal...", status: "erstattet", gyldigFra: "2020-08-01", gyldigTil: "2025-07-31", erstatter: [], erstattesAv: ["KM9002-3B"], tilhoererLaereplan: { kode: "MAT01-04", tittel: "Læreplan i matematikk 1T" } },
+      { type: "kompetansemaal_lk20", kode: "KM9002-3B", tittel: "gjere greie for eigenskapane til talsystem og talmengder...", status: "publisert", gyldigFra: "2025-08-01", gyldigTil: null, erstatter: ["KM9002-3"], erstattesAv: [], tilhoererLaereplan: { kode: "MAT01-04", tittel: "Læreplan i matematikk 1T" } },
       { type: "fagkode", kode: "NOR01", tittel: "Norsk", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: [], erstattesAv: [] },
       { type: "fagkode", kode: "MAT01", tittel: "Matematikk", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: [], erstattesAv: [] }
     ]
@@ -585,6 +600,13 @@
     if (status === "publisert") return "publisert";
     if (status === "utgatt") return "utgatt";
     return "erstattet";
+  }
+
+  /** Kortformnamn på faget, avleia frå læreplan-tittelen ("Læreplan i norsk" -> "Norsk"). */
+  function fagNamnFraLaereplanTittel(tittel) {
+    if (!tittel) return null;
+    const utanPrefix = tittel.replace(/^Læreplan\s+(i|for)\s+/i, "");
+    return utanPrefix.charAt(0).toUpperCase() + utanPrefix.slice(1);
   }
 
   function renderStats() {
@@ -662,6 +684,9 @@
     const erstattesAv = (e.erstattesAv || []).length
       ? `<div class="erstatning">→ Erstatta av ${e.erstattesAv.map((k) => `<a href="#" data-jump="${esc(k)}">${esc(k)}</a>`).join(", ")}</div>`
       : "";
+    const fagtilknyting = e.tilhoererLaereplan
+      ? `<div class="fagtilknyting">Fag: <span class="badge-fag">${esc(fagNamnFraLaereplanTittel(e.tilhoererLaereplan.tittel) || e.tilhoererLaereplan.kode)}</span> <a href="#" data-jump="${esc(e.tilhoererLaereplan.kode)}" style="color:var(--svart-700); text-decoration:underline;">${esc(e.tilhoererLaereplan.kode)}</a></div>`
+      : "";
     const ndlaLenke = `${NDLA_SEARCH_URL}${encodeURIComponent(e.kode)}`;
     return `
       <div class="kodekort status-${badgeCls}" data-kode="${esc(e.kode)}">
@@ -673,6 +698,7 @@
             <span class="badge type">${esc(TYPE_LABEL[e.type] || e.type)}</span>
             <span>Gyldig frå ${esc(e.gyldigFra || "—")}${e.gyldigTil ? " til " + esc(e.gyldigTil) : ""}</span>
           </div>
+          ${fagtilknyting}
           ${erstattesAv}
           <details>
             <summary>Historikk<a class="ndla-lenke" href="${esc(ndlaLenke)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Søk på ndla.no ↗</a></summary>
@@ -689,7 +715,10 @@
     if (activeType) liste = liste.filter((e) => e.type === activeType);
     if (q) {
       liste = liste.filter((e) =>
-        e.kode.toLowerCase().includes(q) || (e.tittel || "").toLowerCase().includes(q)
+        e.kode.toLowerCase().includes(q) ||
+        (e.tittel || "").toLowerCase().includes(q) ||
+        (e.tilhoererLaereplan?.tittel || "").toLowerCase().includes(q) ||
+        (e.tilhoererLaereplan?.kode || "").toLowerCase().includes(q)
       );
     }
     const wrap = document.getElementById("kort-liste");

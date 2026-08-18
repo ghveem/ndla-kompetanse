@@ -371,7 +371,7 @@ async function main() {
   const kompetansemaalsettMatcha = kompetansemaalsettRaa.filter(
     (k) => k.tilhoerer_laereplan && allowedLaereplanKoder.has(k.tilhoerer_laereplan.kode)
   );
-  const kompetansemaalsettElementer = await hentDetaljar(
+  const kompetansemaalsettElementerRaa = await hentDetaljar(
     "kompetansemaalsett_lk20",
     kompetansemaalsettMatcha
   );
@@ -380,7 +380,30 @@ async function main() {
   const kompetansemaalMatcha = kompetansemaalRaa.filter(
     (k) => k.tilhoerer_laereplan && allowedLaereplanKoder.has(k.tilhoerer_laereplan.kode)
   );
-  const kompetansemaalElementer = await hentDetaljar("kompetansemaal_lk20", kompetansemaalMatcha);
+  const kompetansemaalElementerRaa = await hentDetaljar("kompetansemaal_lk20", kompetansemaalMatcha);
+
+  // Legg til fagtilknyting (kva læreplan/fag kvart kompetansemålsett/-mål
+  // høyrer til), henta frå "tilhoerer_laereplan" i rå-lista og kopla mot
+  // læreplan-titlane vi alt har henta. Nyttig for søk og visning i appen.
+  const laereplanTittelMap = new Map(
+    [...laereplanElementerLk06, ...laereplanElementerLk20].map((l) => [l.kode, l.tittel])
+  );
+  function leggTilFagtilknyting(elementer, kjeldeliste) {
+    return elementer.map((e, i) => {
+      const laereplanKode = kjeldeliste[i]?.tilhoerer_laereplan?.kode ?? null;
+      return {
+        ...e,
+        tilhoererLaereplan: laereplanKode
+          ? { kode: laereplanKode, tittel: laereplanTittelMap.get(laereplanKode) ?? null }
+          : null,
+      };
+    });
+  }
+  const kompetansemaalsettElementer = leggTilFagtilknyting(
+    kompetansemaalsettElementerRaa,
+    kompetansemaalsettMatcha
+  );
+  const kompetansemaalElementer = leggTilFagtilknyting(kompetansemaalElementerRaa, kompetansemaalMatcha);
 
   console.log(
     `NDLA-filter: ${kompetansemaalsettElementer.length} kompetansemålsett, ${kompetansemaalElementer.length} kompetansemål matcha.`
