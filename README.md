@@ -9,12 +9,13 @@ sitt Grep-register — og varslar når kodar vert utgåtte eller erstatta.
 ```
 .github/workflows/update-grep-data.yml   ← kjører nattleg, hentar data + varslar Slack + deployar
 scripts/fetch-grep-data.mjs              ← hentar frå Grep REST-API, diff mot forrige uttrekk
+scripts/fetch-artikkel-merking.mjs       ← søker NDLA-artiklar merka med utgåtte kompetansemål
 scripts/send-slack-varsel.mjs            ← postar Slack-melding om nye erstatningar (valfritt)
 data/grep-snapshot.json                  ← siste uttrekk (kodar, status, gyldighet, erstatning)
 data/changelog.json                      ← historikk over endringar (nye/utgåtte/erstatta kodar)
 data/erstatninger.json                   ← varig oppslagsverk: gammal kode → (endeleg) ny kode
 data/siste-kjoring-endringar.json        ← berre denne kjøringas nye hendingar (til Slack-steget)
-data/artikkel-merking.json               ← kva NDLA-artiklar som er merka med kva KM-kodar
+data/artikkel-merking.json               ← NDLA-artiklar merka med utgåtte/erstatta KM-kodar (ekte data)
 index.html                               ← sjølve appen (oppslag, søk, endringslogg, artikkel-sjekk)
 ```
 
@@ -44,24 +45,38 @@ skriptet sporar.
    (manuelle rettingar viss matchinga bommar) — sjå eige avsnitt om
    NDLA-filteret under.
 
-## Artikkel-sjekk (fase 2 i praksis)
+## Artikkel-sjekk
 
-`data/artikkel-merking.json` er i MVP-en fylt med døme-data. I ei ordentleg
-løysing bør denne genererast automatisk, t.d. via eit eige steg som spør
-`api.ndla.no` etter artiklar og deira `grepCodes`/kompetansemål-metadata, og
-skriv dei ut i same format:
+`data/artikkel-merking.json` vert generert automatisk av `scripts/fetch-artikkel-merking.mjs`,
+som søker mot NDLA sitt eige [search-api](https://api.ndla.no/search-api/api-docs).
 
-```json
-{
-  "merking": [
-    { "artikkelId": "8214", "tittel": "…", "url": "https://ndla.no/article/8214", "kmKoder": ["KM9002-3"] }
-  ]
-}
-```
+**Nøkkelfunn frå API-utforskinga (2026-08-18):**
+- Parameteren heiter `grep-codes` (kebab-case) i sjølve REST-kallet — IKKJE
+  `grepCodes` (camelCase), sjølv om ndla.no sin eigen søke-URL bruker
+  camelCase (`ndla.no/search?grepCodes=...`). Nettsida oversett truleg dette
+  til kebab-case bak kulissane før ho kallar search-api.
+- Filtreringa fungerer korrekt (verifisert manuelt med fleire kodar), men
+  feltet `grepCodes` i sjølve svaret er alltid tomt — det er ikkje eit
+  problem, sidan vi alt veit kva kode vi søkte på.
+- `context.url` i kvart treff er den rette relative artikkel-adressa, prefiks
+  med `https://ndla.no` for full lenke.
+- Det finst også eit `/search-api/v1/search/grep/replacements`-endepunkt,
+  men det returnerte berre identitetsmapping (ingen reell erstatning) for
+  fagkode-nivå-kodar i testinga vår — vi bruker difor vårt eige
+  `data/erstatninger.json` i staden.
 
-Så snart den fila vert oppdatert automatisk (eige steg i same eller eige
-workflow), vil "Artikkel-sjekk"-fana i appen automatisk flagge artiklar som
-er merka med utgåtte/erstatta kodar — utan andre endringar i appen.
+**Slik fungerer skriptet:**
+1. Filtrerer `data/grep-snapshot.json` til berre kompetansemål med status
+   ulik `publisert` (dei einaste kodane det er nyttig å varsle redaktørar om)
+2. For kvar av desse, søker `grep-codes=<kode>` mot search-api
+3. Slår saman treff per artikkel (ein artikkel kan vere merka med fleire
+   utgåtte kodar) og skriv til `data/artikkel-merking.json`
+
+Med ca. 2000 utgåtte kompetansemål i det NDLA-filtrerte datasettet tek dette
+under eitt minutt (moderat samtidigheit, 8 parallelle kall).
+
+"Artikkel-sjekk"-fana i appen flaggar automatisk desse artiklane utan andre
+endringar i appen.
 
 ## NDLA-filter (avgrensar datasettet til berre NDLA sine fag)
 
@@ -148,7 +163,9 @@ som normalt.
 
 ## Vidare arbeid
 
-- [ ] Automatisk uttrekk av artikkel→KM-kode-merking frå api.ndla.no
+- [x] Automatisk uttrekk av artikkel→KM-kode-merking frå api.ndla.no
+      (`scripts/fetch-artikkel-merking.mjs`, via search-api sin `grep-codes`-
+      parameter — sjå avsnittet om Artikkel-sjekk for detaljar)
 - [x] Slack-varsel når nye erstatningar/utgåtte kodar dukkar opp
 - [x] Varig oppslagsverk gammal→ny kode (`data/erstatninger.json`)
 - [x] Historikkvisning per kode (klikk "Historikk" på eit kodekort i appen)
