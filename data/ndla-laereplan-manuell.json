@@ -1,5 +1,14 @@
 {
   "_kommentar": "Legg til/fjern læreplan-kodar her viss den automatiske fagnavn-matchinga bommar. leggTilLaereplaner tvingar ein kode inn sjølv om han ikkje matcha, fjernLaereplaner fjernar ein kode sjølv om han matcha.",
-  "leggTilLaereplaner": [],
+  "_matematikk": "Grep sine titlar set 'fellesfag'/'for'/'–' mellom fagnamn og nivå (t.d. 'matematikk fellesfag 2P'), så enkel substring-matching bommar. Verifisert manuelt 2026-08-18 mot data.udir.no/kl06/v201906/laereplaner-lk20.",
+  "leggTilLaereplaner": [
+    "MAT08-01",
+    "MAT09-01",
+    "MAT09-02",
+    "MAT05-04",
+    "MAT06-04",
+    "MAT03-02",
+    "MAT04-02"
+  ],
   "fjernLaereplaner": []
 }
