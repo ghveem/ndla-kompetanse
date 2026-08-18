@@ -51,6 +51,8 @@ const FULL_DETAIL_TYPES = new Set(
 const CONCURRENCY = Number(process.env.GREP_CONCURRENCY || 5);
 const SNAPSHOT_PATH = new URL("../data/grep-snapshot.json", import.meta.url);
 const CHANGELOG_PATH = new URL("../data/changelog.json", import.meta.url);
+const ERSTATNINGER_PATH = new URL("../data/erstatninger.json", import.meta.url);
+const SISTE_KJORING_PATH = new URL("../data/siste-kjoring-endringar.json", import.meta.url);
 const MAX_CHANGELOG_ENTRIES = 500;
 
 async function fetchJson(url) {
@@ -199,6 +201,53 @@ function diffSnapshots(gammalt, nytt, tidspunkt) {
   return hendingar;
 }
 
+/**
+ * Byggjer eit varig oppslagsverk: gammal kode -> (endeleg) ny kode, med heile
+ * kjeda viss ein kode er erstatta fleire gonger etter kvarandre.
+ *
+ * Kjelder, i prioritert rekkefølgje:
+ *  1. "erstattes-av" direkte frå det ferske Grep-snapshotet (mest presist)
+ *  2. Historiske "erstattet"-hendingar i endringslogga (held oppslaget i live
+ *     sjølv om den gamle koden seinare forsvinn heilt frå Grep-listene)
+ */
+function byggErstatningsOppslag(snapshot, endringslogg) {
+  const direkte = new Map();
+
+  // Historikk (eldst vinn ikkje – vi vil ha siste kjende steg, og
+  // endringslogg-array er alt nyaste-først).
+  for (const h of [...(endringslogg.endringar || [])].reverse()) {
+    if (h.hendelse === "erstattet" && h.nyKode) {
+      direkte.set(h.kode, h.nyKode);
+    }
+  }
+
+  // Ferskt snapshot overstyrer historikk (mest oppdaterte sanninga).
+  for (const e of snapshot.elementer) {
+    if ((e.erstattesAv || []).length > 0) {
+      direkte.set(e.kode, e.erstattesAv[0]);
+    }
+  }
+
+  const oppslag = {};
+  for (const gammalKode of direkte.keys()) {
+    const kjede = [gammalKode];
+    const besokt = new Set([gammalKode]);
+    let noverande = gammalKode;
+    while (direkte.has(noverande)) {
+      const neste = direkte.get(noverande);
+      if (besokt.has(neste)) break; // vern mot sirkulær referanse
+      kjede.push(neste);
+      besokt.add(neste);
+      noverande = neste;
+    }
+    oppslag[gammalKode] = {
+      erstattaAv: kjede[kjede.length - 1],
+      kjede,
+    };
+  }
+  return oppslag;
+}
+
 async function main() {
   const tidspunkt = new Date().toISOString();
   const gammaltSnapshot = await lastGammaltSnapshot();
@@ -227,8 +276,24 @@ async function main() {
   await writeFile(SNAPSHOT_PATH, JSON.stringify(nyttSnapshot, null, 2) + "\n", "utf-8");
   await writeFile(CHANGELOG_PATH, JSON.stringify(endringslogg, null, 2) + "\n", "utf-8");
 
+  const oppslag = byggErstatningsOppslag(nyttSnapshot, endringslogg);
+  await writeFile(
+    ERSTATNINGER_PATH,
+    JSON.stringify({ generert: tidspunkt, oppslag }, null, 2) + "\n",
+    "utf-8"
+  );
+
+  // Berre denne kjøringas nye hendingar – brukt av send-slack-varsel.mjs
+  // slik at vi ikkje varslar om ting vi alt har varsla om.
+  await writeFile(
+    SISTE_KJORING_PATH,
+    JSON.stringify({ generert: tidspunkt, endringar: nyeHendingar }, null, 2) + "\n",
+    "utf-8"
+  );
+
   console.log(`\nFerdig. ${elementer.length} element henta.`);
   console.log(`${nyeHendingar.length} nye endringar registrert.`);
+  console.log(`${Object.keys(oppslag).length} kodar i erstatnings-oppslaget.`);
   if (nyeHendingar.length > 0) {
     for (const h of nyeHendingar) {
       console.log(`  [${h.hendelse}] ${h.kode} – ${h.detalj}`);

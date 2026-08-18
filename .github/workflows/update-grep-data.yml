@@ -32,12 +32,18 @@ jobs:
       - name: Hent og diff Grep-data
         run: node scripts/fetch-grep-data.mjs
 
+      - name: Send Slack-varsel om nye erstatningar
+        run: node scripts/send-slack-varsel.mjs
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          NETTSIDE_URL: "https://ghveem.github.io/ndla-kompetanse/"
+
       - name: Commit endra data (berre ved schedule/dispatch)
         if: github.event_name != 'push'
         run: |
           git config user.name "grep-oversikt-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/grep-snapshot.json data/changelog.json
+          git add data/grep-snapshot.json data/changelog.json data/erstatninger.json data/siste-kjoring-endringar.json
           git diff --cached --quiet && echo "Ingen endringar i data." || git commit -m "Oppdater Grep-data [automatisk]"
           git push
 
