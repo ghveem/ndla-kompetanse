@@ -328,7 +328,7 @@ async function main() {
     hentRåListe("laereplaner-lk20"),
   ]);
 
-  // Steg 2: match mot NDLA sine fagnavn
+  // Steg 2: match mot NDLA sine fagnavn (på tittel-nivå)
   const fagkoderMatcha = fagkoderRaa.filter((f) => {
     const tittel = extractTittel(f);
     return tittel && ndlaFagnavn.some((n) => erSammeFag(normaliserFagnavn(tittel), n));
@@ -345,12 +345,50 @@ async function main() {
     ...laereplanerMatcha.map((l) => l.kode),
     ...manuell.leggTilLaereplaner,
   ]);
+
+  // Steg 2b: djupare matching via kompetansemålsett sitt "kortform"-felt.
+  // Mange NDLA-fag (særleg yrkesfag-modular, t.d. "Energi- og styresystemer")
+  // er eitt kompetansemålsett inni ei DELT paraply-læreplan (t.d. "Læreplan i
+  // Vg1 elektro og datateknologi"), ikkje ein eigen læreplan med eige namn —
+  // då hjelper ikkje tittel-matching mot sjølve læreplanen. "Kortform" er
+  // derimot ofte akkurat det korte fagnamnet NDLA bruker.
+  //
+  // Vi hentar full detalj for HEILE kompetansemålsett-datasettet her (det er
+  // det einaste tidspunktet vi treng full detalj for alt), og gjenbruker so
+  // desse detaljane direkte til sjølve snapshotet lenger ned — ingen dobbel
+  // henting.
+  const kompetansemaalsettRaa = await hentRåListe("kompetansemaalsett-lk20");
+  console.log(
+    `Hentar kortform for ${kompetansemaalsettRaa.length} kompetansemålsett (heile datasettet, for djupare NDLA-matching)...`
+  );
+  const alleKmsMedDetalj = await mapWithConcurrency(kompetansemaalsettRaa, CONCURRENCY, async (item) => {
+    try {
+      const detail = await fetchJson(item["url-data"]);
+      return { listItem: item, detail };
+    } catch (err) {
+      console.warn(`  Klarte ikkje hente detalj for ${item.kode}: ${err.message}`);
+      return { listItem: item, detail: null };
+    }
+  });
+
+  const kortformMatchaLaereplanKoder = new Set();
+  for (const { listItem, detail } of alleKmsMedDetalj) {
+    const kortform = extractTittel({ tittel: detail?.kortform });
+    const laereplanKode = listItem?.tilhoerer_laereplan?.kode;
+    if (!kortform || !laereplanKode) continue;
+    const normalisert = normaliserFagnavn(kortform);
+    if (ndlaFagnavn.some((n) => erSammeFag(normalisert, n))) {
+      kortformMatchaLaereplanKoder.add(laereplanKode);
+    }
+  }
+  const nyeFraKortform = [...kortformMatchaLaereplanKoder].filter((k) => !allowedLaereplanKoder.has(k));
+  for (const kode of kortformMatchaLaereplanKoder) allowedLaereplanKoder.add(kode);
   for (const kode of manuell.fjernLaereplaner) allowedLaereplanKoder.delete(kode);
 
   const laereplanerFiltrert = alleLaereplanar.filter((l) => allowedLaereplanKoder.has(l.kode));
 
   console.log(
-    `NDLA-filter: ${fagkoderMatcha.length} fagkodar, ${laereplanerFiltrert.length} læreplanar matcha mot ${ndlaFagnavn.length} fagnavn.`
+    `NDLA-filter: ${fagkoderMatcha.length} fagkodar, ${laereplanerFiltrert.length} læreplanar matcha mot ${ndlaFagnavn.length} fagnavn (${nyeFraKortform.length} ekstra via kortform-matching).`
   );
 
   // Steg 3: hent full detalj (status/gyldighet/erstatning) for det filtrerte settet
@@ -365,17 +403,18 @@ async function main() {
     laereplanerFiltrert.filter((l) => !laereplanKodeSetLk06.has(l.kode))
   );
 
-  // Steg 4: kompetansemålsett og kompetansemål — filtrer på tilhoerer_laereplan
-  // (feltet finst alt i listeoppslaget, ingen ekstra kall nødvendig for filtreringa)
-  const kompetansemaalsettRaa = await hentRåListe("kompetansemaalsett-lk20");
-  const kompetansemaalsettMatcha = kompetansemaalsettRaa.filter(
-    (k) => k.tilhoerer_laereplan && allowedLaereplanKoder.has(k.tilhoerer_laereplan.kode)
+  // Steg 4: kompetansemålsett — filtrer det vi ALT har henta detalj for (steg 2b)
+  // på den endelege allowedLaereplanKoder-lista, ingen ny henting nødvendig.
+  const kompetansemaalsettFiltrertPar = alleKmsMedDetalj.filter(
+    ({ listItem }) => listItem.tilhoerer_laereplan && allowedLaereplanKoder.has(listItem.tilhoerer_laereplan.kode)
   );
-  const kompetansemaalsettElementerRaa = await hentDetaljar(
-    "kompetansemaalsett_lk20",
-    kompetansemaalsettMatcha
+  const kompetansemaalsettElementerRaa = kompetansemaalsettFiltrertPar.map(({ listItem, detail }) =>
+    normalizeElement("kompetansemaalsett_lk20", listItem, detail)
   );
+  const kompetansemaalsettMatcha = kompetansemaalsettFiltrertPar.map(({ listItem }) => listItem);
 
+  // Kompetansemål — framleis liste-først-filtrer-så-hent-detalj, sidan det
+  // ufiltrerte settet her er altfor stort til å hente full detalj for alt.
   const kompetansemaalRaa = await hentRåListe("kompetansemaal-lk20");
   const kompetansemaalMatcha = kompetansemaalRaa.filter(
     (k) => k.tilhoerer_laereplan && allowedLaereplanKoder.has(k.tilhoerer_laereplan.kode)

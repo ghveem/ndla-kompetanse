@@ -63,6 +63,48 @@ Så snart den fila vert oppdatert automatisk (eige steg i same eller eige
 workflow), vil "Artikkel-sjekk"-fana i appen automatisk flagge artiklar som
 er merka med utgåtte/erstatta kodar — utan andre endringar i appen.
 
+## NDLA-filter (avgrensar datasettet til berre NDLA sine fag)
+
+Grep har over 24 000 kodar totalt (alle fag, alle trinn, alle yrkesfag i heile
+landet). Skriptet avgrensar datasettet til berre dei faga NDLA faktisk
+dekker, via `data/ndla-fagnavn.json` — ei liste med NDLA sine fagnamn henta
+frå [ndla.no/subjects](https://ndla.no/subjects).
+
+**Slik fungerer filteret:**
+1. Grep sine fagkode- og læreplan-titlar vert normaliserte (fjernar
+   parentetiske halar som `(SF vg1)`, programkode-halar som `- BA`, o.l.) og
+   samanlikna mot dei normaliserte NDLA-fagnamna.
+2. **Djupare matching via kompetansemålsett sitt `kortform`-felt.** Mange
+   NDLA-fag (særleg yrkesfag-modular, t.d. "Energi- og styresystemer") er
+   eitt kompetansemålsett inni ei DELT paraply-læreplan (t.d. "Læreplan i
+   Vg1 elektro og datateknologi"), ikkje ein eigen læreplan med eige namn —
+   då hjelper ikkje tittel-matching mot sjølve læreplanen. Skriptet hentar
+   difor full detalj for **heile** kompetansemålsett-datasettet (kortform er
+   berre tilgjengeleg i detaljoppslaget, ikkje listeoppslaget) og matchar
+   kortform mot NDLA-fagnamna. Finn kortform-matchinga ein treff, vert heile
+   paraply-læreplanen (og alle kompetansemålsett/-mål under han) teken med —
+   dette kan i nokre tilfelle dra med seg naboemne under same paraply som
+   ikkje er eit eige NDLA-fag, ein akseptert avveging for enkelheit.
+3. Kompetansemålsett og kompetansemål vert filtrert via feltet
+   `tilhoerer_laereplan`, som alt finst i Grep sitt listeoppslag.
+4. Berre det filtrerte settet vert henta i full detalj for fagkodar/
+   læreplanar/kompetansemål (status/gyldighet/erstatning) — kompetansemålsett
+   er alt henta i steg 2.
+
+**Viss matchinga bommar** (t.d. eit NDLA-fag ikkje finn sin læreplan, eller
+eit irrelevant fag lek gjennom), bruk `data/ndla-laereplan-manuell.json`:
+
+```json
+{
+  "leggTilLaereplaner": ["NOR01-06"],
+  "fjernLaereplaner": ["SNE03-02"]
+}
+```
+
+**Oppdater fagnamn-lista** ved å besøke ndla.no/subjects og oppdatere
+`data/ndla-fagnavn.json` viss NDLA legg til eller fjernar fag — dette skjer
+sjeldan, så det treng ikkje automatiserast.
+
 ## Oppslagsverk: gammal kode → ny kode
 
 `data/erstatninger.json` er eit flatt, varig oppslagsverk som blir bygd på nytt
@@ -111,9 +153,11 @@ som normalt.
 - [x] Varig oppslagsverk gammal→ny kode (`data/erstatninger.json`)
 - [x] Historikkvisning per kode (klikk "Historikk" på eit kodekort i appen)
 - [x] Direkte søkelenke til ndla.no for ein gitt KM-kode ("Søk på ndla.no ↗" —
-      **verifiser at `NDLA_SEARCH_URL` i `index.html` faktisk er rett
-      spørjeparameter før de stolar fullt på han**, sjå merknad i koden)
+      **verifisert 2026-08-18**: `?query=<kode>` gir reelle tref, t.d. 193
+      treff for NOR01-06)
 - [x] Avgrens datasettet til berre NDLA sine fag (NDLA-filter via
       `data/ndla-fagnavn.json`), i staden for heile Grep sine ~24 000 kodar
-- [ ] Finpuss `data/ndla-laereplan-manuell.json` etter første ekte køyring
-      (sjekk om nokon fag mangla eller lak gjennom filteret)
+- [x] Djupare NDLA-matching via kompetansemålsett sitt `kortform`-felt (fangar
+      opp yrkesfag-modular som ligg inni delte paraply-læreplanar)
+- [ ] Finpuss `data/ndla-laereplan-manuell.json` vidare etter kvart som ein
+      oppdagar fag som framleis manglar eller fag som lek gjennom

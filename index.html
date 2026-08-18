@@ -573,8 +573,7 @@
     kompetansemaal_lk20: "Kompetansemål"
   };
 
-  // NB: verifiser at dette er riktig spørjeparameter for søk på ndla.no
-  // før de tar denne i reelt bruk (sjå README, "Om NDLA-søkelenka").
+  // Verifisert 2026-08-18 mot ndla.no/search: ?query=<kode> gir treff.
   const NDLA_SEARCH_URL = "https://ndla.no/search?query=";
 
   let snapshot = null, changelog = null, artiklar = null, erstatninger = null;
