@@ -1,0 +1,5 @@
+{
+  "_kommentar": "Legg til/fjern læreplan-kodar her viss den automatiske fagnavn-matchinga bommar. leggTilLaereplaner tvingar ein kode inn sjølv om han ikkje matcha, fjernLaereplaner fjernar ein kode sjølv om han matcha.",
+  "leggTilLaereplaner": [],
+  "fjernLaereplaner": []
+}

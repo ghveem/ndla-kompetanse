@@ -39,11 +39,10 @@ skriptet sporar.
    ```
    Det krev Node 18+ (bruker innebygd `fetch`). Skriv over
    `data/grep-snapshot.json` og `data/changelog.json`.
-3. **Juster kva typar som vert henta** i toppen av
-   `scripts/fetch-grep-data.mjs` (`TYPES`) og kor mange som får full
-   detalj-henting (`FULL_DETAIL_TYPES` / miljøvariabelen
-   `GREP_FULL_DETAIL_TYPES`). Kompetansemål er svært mange — start smalt
-   (t.d. berre for dei faga de faktisk dekker) og utvid etter kvart.
+3. **Juster kva fag som vert henta** ved å redigere `data/ndla-fagnavn.json`
+   (kva NDLA-fag skriptet skal matche mot) og `data/ndla-laereplan-manuell.json`
+   (manuelle rettingar viss matchinga bommar) — sjå eige avsnitt om
+   NDLA-filteret under.
 
 ## Artikkel-sjekk (fase 2 i praksis)
 
@@ -114,5 +113,7 @@ som normalt.
 - [x] Direkte søkelenke til ndla.no for ein gitt KM-kode ("Søk på ndla.no ↗" —
       **verifiser at `NDLA_SEARCH_URL` i `index.html` faktisk er rett
       spørjeparameter før de stolar fullt på han**, sjå merknad i koden)
-- [ ] Utvide `FULL_DETAIL_TYPES` til å dekke fleire/alle typar etter kvart
-      som ein har sett rate-grenser og køyretid an
+- [x] Avgrens datasettet til berre NDLA sine fag (NDLA-filter via
+      `data/ndla-fagnavn.json`), i staden for heile Grep sine ~24 000 kodar
+- [ ] Finpuss `data/ndla-laereplan-manuell.json` etter første ekte køyring
+      (sjekk om nokon fag mangla eller lak gjennom filteret)
