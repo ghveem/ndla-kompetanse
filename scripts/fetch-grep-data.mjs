@@ -81,12 +81,32 @@ function extractCodes(arr) {
   return arr.map((el) => el.kode).filter(Boolean);
 }
 
+/**
+ * Grep returnerer "tittel" som anten ein enkel tekststreng (i listeoppslag),
+ * eller som eit array med språkvariantar i detaljoppslag, t.d.:
+ *   [{ "spraak": "nob", "verdi": "..." }, { "spraak": "nno", "verdi": "..." }, ...]
+ * Denne hentar ut norsk bokmål, med fornuftige fallbackar.
+ */
+function extractTittel(source) {
+  const rå = source?.tittel;
+  if (typeof rå === "string") return rå;
+  if (Array.isArray(rå)) {
+    const prioritet = ["nob", "default", "nno", "eng"];
+    for (const spraak of prioritet) {
+      const treff = rå.find((v) => v.spraak === spraak);
+      if (treff?.verdi) return treff.verdi;
+    }
+    return rå[0]?.verdi ?? null;
+  }
+  return null;
+}
+
 function normalizeElement(type, listItem, detail) {
   const source = detail || listItem;
   return {
     type,
     kode: source.kode,
-    tittel: source.tittel || source["tittel"] || null,
+    tittel: extractTittel(source),
     status: source.status ? source.status.split("/").pop().replace("status_", "") : null,
     gyldigFra: source.gyldighet?.["gyldig-fra"] ?? null,
     gyldigTil: source.gyldighet?.["gyldig-til"] ?? null,
