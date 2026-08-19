@@ -1,6 +1,8 @@
 {
   "_kommentar": "Legg til/fjern læreplan-kodar her viss den automatiske fagnavn-matchinga bommar. leggTilLaereplaner tvingar ein kode inn sjølv om han ikkje matcha, fjernLaereplaner fjernar ein kode sjølv om han matcha.",
   "_matematikk": "Grep sine titlar set 'fellesfag'/'for'/'–' mellom fagnamn og nivå (t.d. 'matematikk fellesfag 2P'), så enkel substring-matching bommar. Verifisert manuelt 2026-08-18 mot data.udir.no/kl06/v201906/laereplaner-lk20.",
+  "_fremmedspraak": "Kinesisk og Spansk (og andre mindre framandspråk) deler generiske 'Læreplan i fremmedspråk'/'Læreplan i fremmedspråk programfag'-kodar i Grep — det finst ingen eigen læreplan per språk. FSP=fellesfag, PSP=programfag, -02/-03/-04 er ulike versjonar/nivå. Verifisert 2026-08-19.",
+  "_norskKortBotid": "'Læreplan i norsk for språklige minoriteter med kort botid i Norge' matcha ikkje 'Norsk kort botid' pga. ord mellom fagnamn og kvalifikator, same årsak som matematikk. Verifisert 2026-08-19.",
   "leggTilLaereplaner": [
     "MAT08-01",
     "MAT09-01",
@@ -8,7 +10,15 @@
     "MAT05-04",
     "MAT06-04",
     "MAT03-02",
-    "MAT04-02"
+    "MAT04-02",
+    "FSP01-02",
+    "FSP01-03",
+    "FSP01-04",
+    "PSP01-02",
+    "PSP01-03",
+    "PSP01-04",
+    "NOR09-04",
+    "NOR09-05"
   ],
   "fjernLaereplaner": []
 }

@@ -504,14 +504,17 @@
     <h2 style="font-size:16px;">Korleis dette fungerer</h2>
     <p style="font-size:14px; max-width:640px;">
       Ein planlagt jobb i GitHub Actions hentar data frå Udir sitt Grep REST-API kvar natt,
-      normaliserer det og samanliknar med førre uttrekk. Endringar (nye kodar, kodar som vert
-      sett til utgått, og kodar som vert erstatta av andre) hamnar i endringsloggen. Data vert
-      lagra som JSON-filer i repoet, så heile historikken er sporbar via Git.
+      avgrensar det til berre dei faga NDLA dekker, normaliserer det og samanliknar med
+      førre uttrekk. Endringar (nye kodar, kodar som vert sett til utgått, og kodar som
+      vert erstatta av andre) hamnar i endringsloggen. Data vert lagra som JSON-filer i
+      repoet, så heile historikken er sporbar via Git.
     </p>
     <p style="font-size:14px; max-width:640px;">
-      «Artikkel-sjekk» samanliknar KM-kodane redaktørane har brukt til å merke NDLA-artiklar
-      (frå eit eige eksport-steg, sjå README) mot statusen i Grep, og flaggar artiklar som må
-      ryddast opp i.
+      «Artikkel-sjekk» søker automatisk opp NDLA-artiklar merka med utgåtte eller erstatta
+      kompetansemål-kodar, via NDLA sitt eige
+      <a href="https://api.ndla.no/search-api/api-docs" target="_blank" rel="noopener">search-api</a>
+      (parameteren <code>grep-codes</code>). Ingen manuell eksport er nødvendig — dette
+      køyrer som ein del av den same nattlege jobben.
     </p>
     <p style="font-size:12.5px; color:var(--svart-700);">
       Kjelde: <a href="https://data.udir.no/kl06/v201906/" target="_blank" rel="noopener">data.udir.no/kl06/v201906</a> ·

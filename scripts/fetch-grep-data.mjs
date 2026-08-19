@@ -172,6 +172,17 @@ function erSammeFag(a, b) {
   return a.length > 3 && b.length > 3 && (a.includes(b) || b.includes(a));
 }
 
+/**
+ * NDLA dekker berre vidaregåande opplæring (Vg1–Vg3), ikkje grunnskulen.
+ * Grep sine fagkodar for grunnskulen ser typisk ut som "Norsk, 3. årstrinn",
+ * medan vgo-kodar bruker "VgX" eller ingen trinnreferanse i det heile.
+ * Verifisert 2026-08-19: ingen ekte vgo-kodar treff dette mønsteret (0 av
+ * 282 grunnskule-treff inneheldt også "VgX").
+ */
+function erGrunnskuleTittel(tittel) {
+  return /\b\d{1,2}\.\s*årstrinn\b/i.test(tittel || "");
+}
+
 async function lastNdlaFagnavn() {
   const data = JSON.parse(await readFile(NDLA_FAGNAVN_PATH, "utf-8"));
   return (data.fagnavn || []).map(normaliserFagnavn).filter(Boolean);
@@ -328,10 +339,12 @@ async function main() {
     hentRåListe("laereplaner-lk20"),
   ]);
 
-  // Steg 2: match mot NDLA sine fagnavn (på tittel-nivå)
+  // Steg 2: match mot NDLA sine fagnavn (på tittel-nivå), og ekskluder
+  // grunnskulekodar sjølv om dei tekstleg matchar eit fagnamn (t.d. "Norsk").
   const fagkoderMatcha = fagkoderRaa.filter((f) => {
     const tittel = extractTittel(f);
-    return tittel && ndlaFagnavn.some((n) => erSammeFag(normaliserFagnavn(tittel), n));
+    if (!tittel || erGrunnskuleTittel(tittel)) return false;
+    return ndlaFagnavn.some((n) => erSammeFag(normaliserFagnavn(tittel), n));
   });
 
   const laereplanKodeSetLk06 = new Set(laereplanerRaa.map((l) => l.kode));

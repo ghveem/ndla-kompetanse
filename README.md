@@ -88,7 +88,9 @@ frå [ndla.no/subjects](https://ndla.no/subjects).
 **Slik fungerer filteret:**
 1. Grep sine fagkode- og læreplan-titlar vert normaliserte (fjernar
    parentetiske halar som `(SF vg1)`, programkode-halar som `- BA`, o.l.) og
-   samanlikna mot dei normaliserte NDLA-fagnamna.
+   samanlikna mot dei normaliserte NDLA-fagnamna. Fagkodar som ser ut som
+   grunnskulekodar (t.d. "Norsk, 3. årstrinn") vert ekskludert sjølv om dei
+   tekstleg matchar eit fagnamn, sidan NDLA berre dekker Vg1–Vg3.
 2. **Djupare matching via kompetansemålsett sitt `kortform`-felt.** Mange
    NDLA-fag (særleg yrkesfag-modular, t.d. "Energi- og styresystemer") er
    eitt kompetansemålsett inni ei DELT paraply-læreplan (t.d. "Læreplan i
@@ -105,6 +107,17 @@ frå [ndla.no/subjects](https://ndla.no/subjects).
 4. Berre det filtrerte settet vert henta i full detalj for fagkodar/
    læreplanar/kompetansemål (status/gyldighet/erstatning) — kompetansemålsett
    er alt henta i steg 2.
+
+**Kjende avgrensingar (2026-08-19):**
+- "Tverrfaglige temaer" er truleg ein eigen Grep-type, ikkje ein læreplan —
+  fanga ikkje opp av dette filteret, og ikkje bygd støtte for enno.
+- Substring-matching bommar når Grep sin offisielle tittel set ord mellom
+  fagnamnet og nivået (t.d. "matematikk **fellesfag** 2P", "norsk **for
+  språklege minoritetar med** kort botid"). Retta manuelt etter kvart via
+  `ndla-laereplan-manuell.json` når dei vert oppdaga.
+- Kinesisk/Spansk og andre mindre framandspråk deler generiske
+  "Læreplan i fremmedspråk"-kodar i Grep (ingen eigen kode per språk) —
+  lagt til manuelt.
 
 **Viss matchinga bommar** (t.d. eit NDLA-fag ikkje finn sin læreplan, eller
 eit irrelevant fag lek gjennom), bruk `data/ndla-laereplan-manuell.json`:
@@ -176,5 +189,8 @@ som normalt.
       `data/ndla-fagnavn.json`), i staden for heile Grep sine ~24 000 kodar
 - [x] Djupare NDLA-matching via kompetansemålsett sitt `kortform`-felt (fangar
       opp yrkesfag-modular som ligg inni delte paraply-læreplanar)
-- [ ] Finpuss `data/ndla-laereplan-manuell.json` vidare etter kvart som ein
-      oppdagar fag som framleis manglar eller fag som lek gjennom
+- [x] Ekskluder grunnskulekodar ("N. årstrinn") frå fagkode-matchinga
+- [x] Finpuss `data/ndla-laereplan-manuell.json`: lagt til fremmedspråk-kodar
+      (Kinesisk/Spansk) og "Norsk kort botid" (2026-08-19)
+- [ ] "Tverrfaglige temaer" — truleg ein eigen Grep-type, ikkje bygd støtte
+      for enno (kjend avgrensing, sjå NDLA-filter-avsnittet)
