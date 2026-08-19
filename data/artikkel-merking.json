@@ -1,5 +1,5 @@
 {
-  "generert": "2026-08-18T13:51:14.932Z",
+  "generert": "2026-08-19T04:53:50.620Z",
   "kjelde": "NDLA search-api (grep-codes), filtrert på utgåtte/erstatta kompetansemål",
   "merking": [
     {
@@ -18,12 +18,12 @@
       "tittel": "Annerledes?",
       "url": "https://ndla.no/r/norsk-sf-vg1/annerledes/b7df161fac",
       "kmKoder": [
-        "KM12090",
+        "KM12095",
         "KM12091",
+        "KM12090",
         "KM12073",
         "KM12072",
-        "KM12070",
-        "KM12095"
+        "KM12070"
       ]
     },
     {
@@ -39,8 +39,8 @@
       "tittel": "Draugens kamp med daudingene i Lurøy",
       "url": "https://ndla.no/r/norsk-sf-vg2/draugens-kamp-med-daudingene-i-luroy/8a5cdda706",
       "kmKoder": [
-        "KM12079",
-        "KM12111"
+        "KM12111",
+        "KM12079"
       ]
     },
     {
@@ -48,12 +48,12 @@
       "tittel": "Eksempler på eksamensoppgaver for bygg- og anleggsteknikk",
       "url": "https://ndla.no/r/naturfag-ba/eksempler-pa-eksamensoppgaver-for-bygg--og-anleggsteknikk/58233bcfe4",
       "kmKoder": [
+        "KM701",
+        "KM703",
+        "KM704",
         "KM707",
         "KM706",
-        "KM705",
-        "KM704",
-        "KM703",
-        "KM701"
+        "KM705"
       ]
     },
     {
@@ -61,10 +61,10 @@
       "tittel": "Film: 2040",
       "url": "https://ndla.no/r/engelsk-sf/film-2040/94510bc452",
       "kmKoder": [
-        "KM11835",
         "KM11834",
         "KM11817",
-        "KM11816"
+        "KM11816",
+        "KM11835"
       ]
     },
     {
@@ -90,8 +90,8 @@
       "tittel": "Hvordan kan vi styre språket?",
       "url": "https://ndla.no/r/norsk-sf-vg2/hvordan-kan-vi-styre-spraket/2e0b87b284",
       "kmKoder": [
-        "KM12085",
-        "KM12114"
+        "KM12114",
+        "KM12085"
       ]
     },
     {
@@ -99,8 +99,8 @@
       "tittel": "Menneskets største oppfinnelse",
       "url": "https://ndla.no/r/norsk-sf-vg1/menneskets-storste-oppfinnelse/a22708cc6f",
       "kmKoder": [
-        "KM12076",
-        "KM12098"
+        "KM12098",
+        "KM12076"
       ]
     },
     {
@@ -108,10 +108,10 @@
       "tittel": "Norwegian Immigration to the US",
       "url": "https://ndla.no/r/engelsk-sf/norwegian-immigration-to-the-us/8bb7d4f460",
       "kmKoder": [
-        "KM11835",
+        "KM11804",
         "KM11821",
         "KM11817",
-        "KM11804"
+        "KM11835"
       ]
     },
     {
@@ -130,13 +130,13 @@
       "tittel": "Tasks: 2040",
       "url": "https://ndla.no/r/engelsk-sf/tasks-2040/de8b901fc0",
       "kmKoder": [
-        "KM11835",
+        "KM11812",
         "KM11834",
         "KM11831",
         "KM11830",
         "KM11817",
         "KM11816",
-        "KM11812"
+        "KM11835"
       ]
     },
     {
@@ -144,10 +144,10 @@
       "tittel": "The North - South Divide",
       "url": "https://ndla.no/r/engelsk-sf/the-north---south-divide/7c1951b073",
       "kmKoder": [
-        "KM11835",
+        "KM11808",
         "KM11826",
         "KM11817",
-        "KM11808"
+        "KM11835"
       ]
     },
     {
@@ -155,9 +155,9 @@
       "tittel": "Utoverførere og strekkere i hofteleddet",
       "url": "https://ndla.no/r/kroppsoving-vg1/utoverforere-og-strekkere-i-hofteleddet/9856489570",
       "kmKoder": [
+        "KM2056",
         "KM2054",
-        "KM2049",
-        "KM2056"
+        "KM2049"
       ]
     },
     {
@@ -165,12 +165,12 @@
       "tittel": "Valgfrihet – til hvilken pris?",
       "url": "https://ndla.no/r/norsk-pb/valgfrihet---til-hvilken-pris/ad4ce5e958",
       "kmKoder": [
-        "KM12085",
-        "KM12084",
-        "KM12080",
         "KM12116",
         "KM12114",
-        "KM12112"
+        "KM12112",
+        "KM12085",
+        "KM12084",
+        "KM12080"
       ]
     },
     {
@@ -178,8 +178,8 @@
       "tittel": "Øvingsoppgaver – proteinsyntesen",
       "url": "https://ndla.no/r/naturfag-pb/ovingsoppgaver---proteinsyntesen/06a2195cac",
       "kmKoder": [
-        "KM735",
-        "KM819"
+        "KM819",
+        "KM735"
       ]
     },
     {
