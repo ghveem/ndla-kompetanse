@@ -817,7 +817,18 @@
   function bytTab(navn) {
     document.querySelectorAll("nav.tabs button").forEach((b) => b.classList.toggle("active", b.dataset.tab === navn));
     document.querySelectorAll("section.panel").forEach((p) => p.classList.toggle("active", p.id === "panel-" + navn));
+    if (location.hash !== "#" + navn) {
+      history.replaceState(null, "", "#" + navn);
+    }
   }
+
+  const GYLDIGE_FANER = ["sok", "endringar", "artikkel", "om"];
+  function faneFraHash() {
+    const h = location.hash.replace("#", "");
+    return GYLDIGE_FANER.includes(h) ? h : "sok";
+  }
+
+  window.addEventListener("hashchange", () => bytTab(faneFraHash()));
 
   document.querySelectorAll("nav.tabs button").forEach((b) => {
     b.addEventListener("click", () => bytTab(b.dataset.tab));
@@ -840,6 +851,8 @@
   });
 
   async function init() {
+    bytTab(faneFraHash());
+
     [snapshot, changelog, artiklar, erstatninger] = await Promise.all([
       hent("data/grep-snapshot.json", FALLBACK_SNAPSHOT),
       hent("data/changelog.json", FALLBACK_CHANGELOG),
