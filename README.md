@@ -109,8 +109,6 @@ frå [ndla.no/subjects](https://ndla.no/subjects).
    er alt henta i steg 2.
 
 **Kjende avgrensingar (2026-08-19):**
-- "Tverrfaglige temaer" er truleg ein eigen Grep-type, ikkje ein læreplan —
-  fanga ikkje opp av dette filteret, og ikkje bygd støtte for enno.
 - Substring-matching bommar når Grep sin offisielle tittel set ord mellom
   fagnamnet og nivået (t.d. "matematikk **fellesfag** 2P", "norsk **for
   språklege minoritetar med** kort botid"). Retta manuelt etter kvart via
@@ -118,6 +116,17 @@ frå [ndla.no/subjects](https://ndla.no/subjects).
 - Kinesisk/Spansk og andre mindre framandspråk deler generiske
   "Læreplan i fremmedspråk"-kodar i Grep (ingen eigen kode per språk) —
   lagt til manuelt.
+
+### Tverrfaglege tema (TT1/TT2/TT3)
+
+"Tverrfaglige temaer" er **ikkje** eit fag/ein læreplan å matche — det er tre
+faste, tverrgåande tema (TT1 Folkehelse og livsmestring, TT2 Demokrati og
+medborgarskap, TT3 Bærekraftig utvikling) som Udir tagger enkeltkompetansemål
+med, via feltet `tilknyttede-tverrfaglige-temaer` i detaljoppslaget. Sidan
+skriptet alt hentar full detalj for kvart NDLA-relevante kompetansemål, vert
+dette feltet lest ut gratis (ingen ekstra API-kall) og lagt på kvart
+kompetansemål som `tverrfagligeTemaer: [{kode, tittel}]`. Vises som mårke på
+kodekortet i appen, og er søkbart (t.d. søk «bærekraftig»).
 
 **Viss matchinga bommar** (t.d. eit NDLA-fag ikkje finn sin læreplan, eller
 eit irrelevant fag lek gjennom), bruk `data/ndla-laereplan-manuell.json`:
@@ -192,5 +201,6 @@ som normalt.
 - [x] Ekskluder grunnskulekodar ("N. årstrinn") frå fagkode-matchinga
 - [x] Finpuss `data/ndla-laereplan-manuell.json`: lagt til fremmedspråk-kodar
       (Kinesisk/Spansk) og "Norsk kort botid" (2026-08-19)
-- [ ] "Tverrfaglige temaer" — truleg ein eigen Grep-type, ikkje bygd støtte
-      for enno (kjend avgrensing, sjå NDLA-filter-avsnittet)
+- [x] Tverrfaglege tema (TT1/TT2/TT3) — vist seg å vere eit tag-felt på
+      kompetansemål, ikkje ein eigen læreplan; lagt til som `tverrfagligeTemaer`
+      og synt som mårke i appen (2026-08-19)

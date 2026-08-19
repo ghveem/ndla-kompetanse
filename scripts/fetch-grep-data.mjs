@@ -131,7 +131,27 @@ function normalizeElement(type, listItem, detail) {
     gyldigTil: extractGyldigDato("gyldig-til", detail, listItem),
     erstatter: extractCodes(source["erstatter"]),
     erstattesAv: extractCodes(source["erstattes-av"]),
+    tverrfagligeTemaer: type === "kompetansemaal_lk20" ? extractTverrfagligeTemaer(detail) : undefined,
   };
+}
+
+/**
+ * Kompetansemål kan vere tagga med eitt eller fleire av dei tre faste
+ * tverrfaglege temaa (TT1 Folkehelse og livsmestring, TT2 Demokrati og
+ * medborgarskap, TT3 Bærekraftig utvikling). Dette er IKKJE ein eigen
+ * fag-læreplan å matche NDLA-fagnamn mot — det er eit tverrgåande tag-felt
+ * på sjølve kompetansemålet, alt tilgjengeleg i detaljoppslaget vi hentar.
+ * Verifisert 2026-08-19.
+ */
+function extractTverrfagligeTemaer(detail) {
+  const arr = detail?.["tilknyttede-tverrfaglige-temaer"];
+  if (!Array.isArray(arr)) return [];
+  return arr
+    .map((t) => ({
+      kode: t.referanse?.kode,
+      tittel: extractTittel({ tittel: t.referanse?.tittel }),
+    }))
+    .filter((t) => t.kode);
 }
 
 /** Henta detaljar (status/gyldighet/erstatning) for ei liste med Grep-listeelement. */

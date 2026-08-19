@@ -289,6 +289,22 @@
     font-size: 11.5px;
   }
 
+  .tverrfaglege-temaer {
+    margin-top: 4px;
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+  }
+  .badge-tema {
+    display: inline-block;
+    background: var(--leken-100);
+    color: var(--leken-ux);
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 11.5px;
+  }
+
   .kodekort details { margin-top: 6px; }
   .kodekort summary {
     cursor: pointer;
@@ -689,6 +705,9 @@
     const fagtilknyting = e.tilhoererLaereplan
       ? `<div class="fagtilknyting">Fag: <span class="badge-fag">${esc(fagNamnFraLaereplanTittel(e.tilhoererLaereplan.tittel) || e.tilhoererLaereplan.kode)}</span> <a href="#" data-jump="${esc(e.tilhoererLaereplan.kode)}" style="color:var(--svart-700); text-decoration:underline;">${esc(e.tilhoererLaereplan.kode)}</a></div>`
       : "";
+    const tverrfagleg = (e.tverrfagligeTemaer || []).length
+      ? `<div class="tverrfaglege-temaer">${e.tverrfagligeTemaer.map((t) => `<span class="badge-tema">${esc(t.kode)} · ${esc(t.tittel)}</span>`).join("")}</div>`
+      : "";
     const ndlaLenke = `${NDLA_SEARCH_URL}${encodeURIComponent(e.kode)}`;
     return `
       <div class="kodekort status-${badgeCls}" data-kode="${esc(e.kode)}">
@@ -701,6 +720,7 @@
             <span>Gyldig frå ${esc(e.gyldigFra || "—")}${e.gyldigTil ? " til " + esc(e.gyldigTil) : ""}</span>
           </div>
           ${fagtilknyting}
+          ${tverrfagleg}
           ${erstattesAv}
           <details>
             <summary>Historikk<a class="ndla-lenke" href="${esc(ndlaLenke)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Søk på ndla.no ↗</a></summary>
@@ -720,7 +740,8 @@
         e.kode.toLowerCase().includes(q) ||
         (e.tittel || "").toLowerCase().includes(q) ||
         (e.tilhoererLaereplan?.tittel || "").toLowerCase().includes(q) ||
-        (e.tilhoererLaereplan?.kode || "").toLowerCase().includes(q)
+        (e.tilhoererLaereplan?.kode || "").toLowerCase().includes(q) ||
+        (e.tverrfagligeTemaer || []).some((t) => t.tittel.toLowerCase().includes(q) || t.kode.toLowerCase() === q)
       );
     }
     const wrap = document.getElementById("kort-liste");
