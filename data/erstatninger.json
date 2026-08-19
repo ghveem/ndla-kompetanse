@@ -1,5 +1,5 @@
 {
-  "generert": "2026-08-19T07:38:11.093Z",
+  "generert": "2026-08-19T07:52:45.786Z",
   "oppslag": {
     "APO3001": {
       "erstattaAv": "APO3005",
@@ -41,34 +41,6 @@
       "kjede": [
         "BUA2002",
         "BUA2006"
-      ]
-    },
-    "ENG0012": {
-      "erstattaAv": "ENG0030",
-      "kjede": [
-        "ENG0012",
-        "ENG0030"
-      ]
-    },
-    "ENG0013": {
-      "erstattaAv": "ENG0031",
-      "kjede": [
-        "ENG0013",
-        "ENG0031"
-      ]
-    },
-    "ENG0025": {
-      "erstattaAv": "ENG0032",
-      "kjede": [
-        "ENG0025",
-        "ENG0032"
-      ]
-    },
-    "ENG0026": {
-      "erstattaAv": "ENG0032",
-      "kjede": [
-        "ENG0026",
-        "ENG0032"
       ]
     },
     "ENG1001": {
@@ -118,13 +90,6 @@
       "kjede": [
         "ENG1103",
         "ENG1010"
-      ]
-    },
-    "ENGK013": {
-      "erstattaAv": "ENG0030",
-      "kjede": [
-        "ENGK013",
-        "ENG0030"
       ]
     },
     "FOT2001": {
@@ -351,76 +316,6 @@
         "KDA2008"
       ]
     },
-    "KRO0001": {
-      "erstattaAv": "KRO0011",
-      "kjede": [
-        "KRO0001",
-        "KRO0011"
-      ]
-    },
-    "KRO0002": {
-      "erstattaAv": "KRO0012",
-      "kjede": [
-        "KRO0002",
-        "KRO0012"
-      ]
-    },
-    "KRO0003": {
-      "erstattaAv": "KRO0013",
-      "kjede": [
-        "KRO0003",
-        "KRO0013"
-      ]
-    },
-    "KRO0004": {
-      "erstattaAv": "KRO0014",
-      "kjede": [
-        "KRO0004",
-        "KRO0014"
-      ]
-    },
-    "KRO0005": {
-      "erstattaAv": "KRO0015",
-      "kjede": [
-        "KRO0005",
-        "KRO0015"
-      ]
-    },
-    "KRO0006": {
-      "erstattaAv": "KRO0016",
-      "kjede": [
-        "KRO0006",
-        "KRO0016"
-      ]
-    },
-    "KRO0007": {
-      "erstattaAv": "KRO0017",
-      "kjede": [
-        "KRO0007",
-        "KRO0017"
-      ]
-    },
-    "KRO0008": {
-      "erstattaAv": "KRO0018",
-      "kjede": [
-        "KRO0008",
-        "KRO0018"
-      ]
-    },
-    "KRO0009": {
-      "erstattaAv": "KRO0019",
-      "kjede": [
-        "KRO0009",
-        "KRO0019"
-      ]
-    },
-    "KRO0010": {
-      "erstattaAv": "KRO0020",
-      "kjede": [
-        "KRO0010",
-        "KRO0020"
-      ]
-    },
     "KRO1001": {
       "erstattaAv": "KRO1017",
       "kjede": [
@@ -606,20 +501,6 @@
         "MOK3011"
       ]
     },
-    "NAT0010": {
-      "erstattaAv": "NAT0021",
-      "kjede": [
-        "NAT0010",
-        "NAT0021"
-      ]
-    },
-    "NAT0020": {
-      "erstattaAv": "NAT0022",
-      "kjede": [
-        "NAT0020",
-        "NAT0022"
-      ]
-    },
     "NAT1001": {
       "erstattaAv": "NAT1008",
       "kjede": [
@@ -660,149 +541,6 @@
       "kjede": [
         "NAT1006",
         "NAT1030"
-      ]
-    },
-    "NOR0001": {
-      "erstattaAv": "NOR0201",
-      "kjede": [
-        "NOR0001",
-        "NOR0201"
-      ]
-    },
-    "NOR0003": {
-      "erstattaAv": "NOR0203",
-      "kjede": [
-        "NOR0003",
-        "NOR0203"
-      ]
-    },
-    "NOR0002": {
-      "erstattaAv": "NOR0202",
-      "kjede": [
-        "NOR0002",
-        "NOR0202"
-      ]
-    },
-    "NOR0004": {
-      "erstattaAv": "NOR0204",
-      "kjede": [
-        "NOR0004",
-        "NOR0204"
-      ]
-    },
-    "NOR0005": {
-      "erstattaAv": "NOR0205",
-      "kjede": [
-        "NOR0005",
-        "NOR0205"
-      ]
-    },
-    "NOR0006": {
-      "erstattaAv": "NOR0206",
-      "kjede": [
-        "NOR0006",
-        "NOR0206"
-      ]
-    },
-    "NOR0007": {
-      "erstattaAv": "NOR0207",
-      "kjede": [
-        "NOR0007",
-        "NOR0207"
-      ]
-    },
-    "NOR0008": {
-      "erstattaAv": "NOR0208",
-      "kjede": [
-        "NOR0008",
-        "NOR0208"
-      ]
-    },
-    "NOR0009": {
-      "erstattaAv": "NOR0209",
-      "kjede": [
-        "NOR0009",
-        "NOR0209"
-      ]
-    },
-    "NOR0010": {
-      "erstattaAv": "NOR0210",
-      "kjede": [
-        "NOR0010",
-        "NOR0210"
-      ]
-    },
-    "NOR0011": {
-      "erstattaAv": "NOR0211",
-      "kjede": [
-        "NOR0011",
-        "NOR0211"
-      ]
-    },
-    "NOR0012": {
-      "erstattaAv": "NOR0212",
-      "kjede": [
-        "NOR0012",
-        "NOR0212"
-      ]
-    },
-    "NOR0013": {
-      "erstattaAv": "NOR0213",
-      "kjede": [
-        "NOR0013",
-        "NOR0213"
-      ]
-    },
-    "NOR0014": {
-      "erstattaAv": "NOR0218",
-      "kjede": [
-        "NOR0014",
-        "NOR0214",
-        "NOR0218"
-      ]
-    },
-    "NOR0015": {
-      "erstattaAv": "NOR0219",
-      "kjede": [
-        "NOR0015",
-        "NOR0215",
-        "NOR0219"
-      ]
-    },
-    "NOR0016": {
-      "erstattaAv": "NOR0220",
-      "kjede": [
-        "NOR0016",
-        "NOR0216",
-        "NOR0220"
-      ]
-    },
-    "NOR0017": {
-      "erstattaAv": "NOR0217",
-      "kjede": [
-        "NOR0017",
-        "NOR0217"
-      ]
-    },
-    "NOR0214": {
-      "erstattaAv": "NOR0218",
-      "kjede": [
-        "NOR0214",
-        "NOR0218"
-      ]
-    },
-    "NOR0215": {
-      "erstattaAv": "NOR0219",
-      "kjede": [
-        "NOR0215",
-        "NOR0219"
-      ]
-    },
-    "NOR0216": {
-      "erstattaAv": "NOR0220",
-      "kjede": [
-        "NOR0216",
-        "NOR0220"
       ]
     },
     "NOR1001": {
@@ -2365,6 +2103,22 @@
         "AMM03-04"
       ]
     },
+    "FSP01-02": {
+      "erstattaAv": "FSP01-04",
+      "kjede": [
+        "FSP01-02",
+        "FSP01-03",
+        "FSP01-04"
+      ]
+    },
+    "PSP01-02": {
+      "erstattaAv": "PSP01-04",
+      "kjede": [
+        "PSP01-02",
+        "PSP01-03",
+        "PSP01-04"
+      ]
+    },
     "AVI03-02": {
       "erstattaAv": "AVI03-03",
       "kjede": [
@@ -2377,6 +2131,20 @@
       "kjede": [
         "FLY03-02",
         "FLY03-03"
+      ]
+    },
+    "FSP01-03": {
+      "erstattaAv": "FSP01-04",
+      "kjede": [
+        "FSP01-03",
+        "FSP01-04"
+      ]
+    },
+    "PSP01-03": {
+      "erstattaAv": "PSP01-04",
+      "kjede": [
+        "PSP01-03",
+        "PSP01-04"
       ]
     },
     "VOV03-01": {

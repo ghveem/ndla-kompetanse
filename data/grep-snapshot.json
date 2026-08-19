@@ -1,5 +1,5 @@
 {
-  "generert": "2026-08-19T07:38:11.093Z",
+  "generert": "2026-08-19T07:52:45.786Z",
   "grepVersjon": "v201906",
   "kilde": "https://data.udir.no/kl06/v201906/",
   "ndlaFilter": {
@@ -848,342 +848,6 @@
     },
     {
       "type": "fagkode",
-      "kode": "ENG0001",
-      "tittel": "Engelsk 1. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENG0002",
-      "tittel": "Engelsk 2. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENG0003",
-      "tittel": "Engelsk 3. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENG0004",
-      "tittel": "Engelsk 4. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENG0005",
-      "tittel": "Engelsk 5. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENG0006",
-      "tittel": "Engelsk 6. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENG0007",
-      "tittel": "Engelsk 7. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENG0009",
-      "tittel": "Engelsk 8. årstrinn, muntlig",
-      "status": "utgaatt",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": "2020-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENG0008",
-      "tittel": "Engelsk 8. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENG0010",
-      "tittel": "Engelsk 9. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENG0011",
-      "tittel": "Engelsk 9. årstrinn, muntlig",
-      "status": "utgaatt",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": "2020-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENG0012",
-      "tittel": "Engelsk 10. årstrinn, skriftlig",
-      "status": "utgaatt",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": "2021-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "ENG0030"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENG0013",
-      "tittel": "Engelsk 10. årstrinn, muntlig",
-      "status": "utgaatt",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": "2021-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "ENG0031"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENG0014",
-      "tittel": "Engelsk for elever med tegnspråk 1. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENG0015",
-      "tittel": "Engelsk for elever med tegnspråk 2. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENG0016",
-      "tittel": "Engelsk for elever med tegnspråk 3. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENG0017",
-      "tittel": "Engelsk for elever med tegnspråk 4. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENG0018",
-      "tittel": "Engelsk forelever med tegnspråk 5. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENG0019",
-      "tittel": "Engelsk for elever med tegnspråk 6. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENG0020",
-      "tittel": "Engelsk for elever med tegnspråk 7. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENG0021",
-      "tittel": "Engelsk for elever med tegnspråk 8. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENG0022",
-      "tittel": "Engelsk for elever med tegnspråk 8. årstrinn, muntlig",
-      "status": "utgaatt",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": "2020-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENG0023",
-      "tittel": "Engelsk for elever med tegnspråk 9. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENG0024",
-      "tittel": "Engelsk for elever med tegnspråk 9. årstrinn, muntlig",
-      "status": "utgaatt",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": "2020-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENG0025",
-      "tittel": "Engelsk for hørselshemmede 10. årstrinn, skriftlig",
-      "status": "utgaatt",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": "2021-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "ENG0032"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENG0026",
-      "tittel": "Engelsk for hørselshemmede 10. årstrinn, muntlig",
-      "status": "utgaatt",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": "2021-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "ENG0032"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENG0027",
-      "tittel": "Fordypning i engelsk 8. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENG0028",
-      "tittel": "Fordypning i engelsk 9. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENG0029",
-      "tittel": "Fordypning i engelsk 10. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENG0030",
-      "tittel": "Engelsk 10. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2021-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [
-        "ENG0012",
-        "ENGK013"
-      ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENG0031",
-      "tittel": "Engelsk 10. årstrinn, muntlig",
-      "status": "publisert",
-      "gyldigFra": "2021-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [
-        "ENG0013"
-      ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENG0032",
-      "tittel": "Engelsk for elever med tegnspråk, 10. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2021-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [
-        "ENG0025",
-        "ENG0026"
-      ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
       "kode": "ENG1001",
       "tittel": "Engelsk, vg1 yrkesfaglige utdanningprogram",
       "status": "utgaatt",
@@ -1401,138 +1065,6 @@
     },
     {
       "type": "fagkode",
-      "kode": "ENGK001",
-      "tittel": "Engelsk 1. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENGK002",
-      "tittel": "Engelsk 2. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENGK003",
-      "tittel": "Engelsk 3. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENGK004",
-      "tittel": "Engelsk 4. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENGK005",
-      "tittel": "Engelsk 5. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENGK006",
-      "tittel": "Engelsk 6. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENGK007",
-      "tittel": "Engelsk 7. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENGK008",
-      "tittel": "Engelsk skriftlig 8. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENGK009",
-      "tittel": "Engelsk muntlig 8. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENGK010",
-      "tittel": "Engelsk skriftlig 9. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENGK011",
-      "tittel": "Engelsk muntlig 9. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENGK012",
-      "tittel": "Engelsk skriftlig 10. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENGK013",
-      "tittel": "Engelsk muntlig 10. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": [
-        "ENG0030"
-      ]
-    },
-    {
-      "type": "fagkode",
       "kode": "ENGM001",
       "tittel": "Engelsk 1 årstrinn",
       "status": "publisert",
@@ -1543,148 +1075,8 @@
     },
     {
       "type": "fagkode",
-      "kode": "ENGM002",
-      "tittel": "Engelsk 2.årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENGM003",
-      "tittel": "Engelsk 3.årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENGM004",
-      "tittel": "Engelsk 4. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENGM005",
-      "tittel": "Engelsk 5.årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENGM006",
-      "tittel": "Engelsk 6.årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENGM007",
-      "tittel": "Engelsk 7.årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENGM008",
-      "tittel": "Engelsk skriftlig 8.årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENGM009",
-      "tittel": "Engelsk muntlig 8.årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENGM010",
-      "tittel": "Engelsk skriftlig 9.årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
       "kode": "ENGM011",
       "tittel": "Engelsk muntlig 9.årsstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENGM012",
-      "tittel": "Engelsk 10. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENGM013",
-      "tittel": "Engelsk muntlig 10. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENGM608",
-      "tittel": "Fordypning i engelsk 8. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENGM609",
-      "tittel": "Fordypning i engelsk 9. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "ENGM610",
-      "tittel": "Fordypning i engelsk 10. årstrinn",
       "status": "publisert",
       "gyldigFra": null,
       "gyldigTil": null,
@@ -2267,76 +1659,6 @@
     },
     {
       "type": "fagkode",
-      "kode": "GEOM001",
-      "tittel": "Geografi, 1. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "GEOM002",
-      "tittel": "Geografi, 2. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "GEOM003",
-      "tittel": "Geografi, 3. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "GEOM004",
-      "tittel": "Geografi, 4. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "GEOM005",
-      "tittel": "Geografi, 5. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "GEOM006",
-      "tittel": "Geografi, 6. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "GEOM007",
-      "tittel": "Geografi, 7. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
       "kode": "GEOMO01",
       "tittel": "Geografi Montessori",
       "status": "publisert",
@@ -2823,76 +2145,6 @@
       "tittel": "Historie bilingval, muntlig",
       "status": "publisert",
       "gyldigFra": "2010-01-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "HSAM001",
-      "tittel": "Historie og samfunn, 1. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "HSAM002",
-      "tittel": "Historie og samfunn, 2. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "HSAM003",
-      "tittel": "Historie og samfunn, 3. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "HSAM004",
-      "tittel": "Historie og samfunn, 4. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "HSAM005",
-      "tittel": "Historie og samfunn, 5. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "HSAM006",
-      "tittel": "Historie og samfunn, 6. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "HSAM007",
-      "tittel": "Historie og samfunn, 7. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": []
@@ -3543,246 +2795,6 @@
     },
     {
       "type": "fagkode",
-      "kode": "KRO0001",
-      "tittel": "Kroppsøving 1. årstrinn",
-      "status": "utgaatt",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": "2012-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "KRO0011"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "KRO0002",
-      "tittel": "Kroppsøving 2. årstrinn",
-      "status": "utgaatt",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": "2012-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "KRO0012"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "KRO0003",
-      "tittel": "Kroppsøving 3. årstrinn",
-      "status": "utgaatt",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": "2012-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "KRO0013"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "KRO0004",
-      "tittel": "Kroppsøving 4. årstrinn",
-      "status": "utgaatt",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": "2012-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "KRO0014"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "KRO0005",
-      "tittel": "Kroppsøving 5. årstrinn",
-      "status": "utgaatt",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": "2012-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "KRO0015"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "KRO0006",
-      "tittel": "Kroppsøving 6. årstrinn",
-      "status": "utgaatt",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": "2012-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "KRO0016"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "KRO0007",
-      "tittel": "Kroppsøving 7. årstrinn",
-      "status": "utgaatt",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": "2012-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "KRO0017"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "KRO0008",
-      "tittel": "Kroppsøving 8. årstrinn",
-      "status": "utgaatt",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": "2012-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "KRO0018"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "KRO0009",
-      "tittel": "Kroppsøving 9. årstrinn",
-      "status": "utgaatt",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": "2012-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "KRO0019"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "KRO0010",
-      "tittel": "Kroppsøving 10. årstrinn",
-      "status": "utgaatt",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": "2012-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "KRO0020"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "KRO0011",
-      "tittel": "Kroppsøving 1. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2012-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [
-        "KRO0001"
-      ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KRO0012",
-      "tittel": "Kroppsøving 2. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2012-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [
-        "KRO0002"
-      ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KRO0013",
-      "tittel": "Kroppsøving 3. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2012-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [
-        "KRO0003"
-      ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KRO0014",
-      "tittel": "Kroppsøving 4. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2012-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [
-        "KRO0004"
-      ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KRO0015",
-      "tittel": "Kroppsøving 5. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2012-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [
-        "KRO0005"
-      ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KRO0016",
-      "tittel": "Kroppsøving 6. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2012-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [
-        "KRO0006"
-      ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KRO0017",
-      "tittel": "Kroppsøving 7. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2012-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [
-        "KRO0007"
-      ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KRO0018",
-      "tittel": "Kroppsøving 8. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2012-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [
-        "KRO0008"
-      ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KRO0019",
-      "tittel": "Kroppsøving 9. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2012-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [
-        "KRO0009"
-      ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KRO0020",
-      "tittel": "Kroppsøving 10. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2012-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [
-        "KRO0010"
-      ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
       "kode": "KRO1001",
       "tittel": "Kroppsøving, vg1",
       "status": "utgaatt",
@@ -3913,306 +2925,6 @@
       "erstatter": [
         "KRO1006"
       ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KROK001",
-      "tittel": "Kroppsøving, 1. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2020-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KROK002",
-      "tittel": "Kroppsøving, 2. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2020-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KROK003",
-      "tittel": "Kroppsøving, 3. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2020-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KROK004",
-      "tittel": "Kroppsøving, 4. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2020-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KROK005",
-      "tittel": "Kroppsøving, 5. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2020-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KROK006",
-      "tittel": "Kroppsøving, 6. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2020-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KROK007",
-      "tittel": "Kroppsøving, 7. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2020-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KROK008",
-      "tittel": "Kroppsøving, 8. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2020-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KROK009",
-      "tittel": "Kroppsøving, 9. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2020-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KROK010",
-      "tittel": "Kroppsøving, 10. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2021-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KROK011",
-      "tittel": "Kroppsøving, 1. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2020-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KROK012",
-      "tittel": "Kroppsøving, 2. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2020-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KROK013",
-      "tittel": "Kroppsøving, 3. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2020-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KROK014",
-      "tittel": "Kroppsøving, 4. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2020-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KROK015",
-      "tittel": "Kroppsøving, 5. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2020-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KROK016",
-      "tittel": "Kroppsøving, 6. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2020-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KROK017",
-      "tittel": "Kroppsøving, 7. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2020-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KROK018",
-      "tittel": "Kroppsøving, 8. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2020-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KROK019",
-      "tittel": "Kroppsøving, 9. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2020-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KROK020",
-      "tittel": "Kroppsøving, 10. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2021-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KROM001",
-      "tittel": "Kroppsøving, 1. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KROM002",
-      "tittel": "Kroppsøving, 2. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KROM003",
-      "tittel": "Kroppsøving, 3. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KROM004",
-      "tittel": "Kroppsøving, 4. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KROM005",
-      "tittel": "Kroppsøving, 5. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KROM006",
-      "tittel": "Kroppsøving, 6. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KROM007",
-      "tittel": "Kroppsøving, 7. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KROM008",
-      "tittel": "Kroppsøving, 8. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KROM009",
-      "tittel": "Kroppsøving, 9. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "KROM010",
-      "tittel": "Kroppsøving, 10. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
       "erstattesAv": []
     },
     {
@@ -5579,234 +4291,6 @@
     },
     {
       "type": "fagkode",
-      "kode": "NAT0001",
-      "tittel": "Naturfag 1. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NAT0002",
-      "tittel": "Naturfag 2. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NAT0003",
-      "tittel": "Naturfag 3. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NAT0004",
-      "tittel": "Naturfag 4. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NAT0005",
-      "tittel": "Naturfag 5. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NAT0006",
-      "tittel": "Naturfag 6. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NAT0007",
-      "tittel": "Naturfag 7. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NAT0008",
-      "tittel": "Naturfag 8. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NAT0009",
-      "tittel": "Naturfag 9. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NAT0010",
-      "tittel": "Naturfag 10. årstrinn",
-      "status": "utgaatt",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": "2021-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "NAT0021"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "NAT0011",
-      "tittel": "Naturfag, samisk plan, 1. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NAT0012",
-      "tittel": "Naturfag, samisk plan, 2. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NAT0013",
-      "tittel": "Naturfag, samisk plan, 3. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NAT0014",
-      "tittel": "Naturfag, samisk plan, 4. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NAT0015",
-      "tittel": "Naturfag, samisk plan, 5. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NAT0016",
-      "tittel": "Naturfag, samisk plan, 6. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NAT0017",
-      "tittel": "Naturfag, samisk plan, 7. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NAT0018",
-      "tittel": "Naturfag, samisk plan, 8. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NAT0019",
-      "tittel": "Naturfag, samisk plan, 9. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NAT0020",
-      "tittel": "Naturfag, samisk plan, 10. årstrinn",
-      "status": "utgaatt",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": "2021-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "NAT0022"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "NAT0021",
-      "tittel": "Naturfag 10. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2021-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [
-        "NAT0010"
-      ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NAT0022",
-      "tittel": "Naturfag, samisk plan, 10. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2021-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [
-        "NAT0020"
-      ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
       "kode": "NAT1001",
       "tittel": "Naturfag, vg1 yrkesfaglig utdanningsprogram",
       "status": "utgaatt",
@@ -6185,136 +4669,6 @@
     },
     {
       "type": "fagkode",
-      "kode": "NATK001",
-      "tittel": "Naturfag 1. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2020-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NATK002",
-      "tittel": "Naturfag 2. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2020-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NATK003",
-      "tittel": "Naturfag 3. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2020-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NATK004",
-      "tittel": "Naturfag 4. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2020-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NATK005",
-      "tittel": "Naturfag 5. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2020-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NATK006",
-      "tittel": "Naturfag 6. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2020-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NATK007",
-      "tittel": "Naturfag 7. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2020-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NATK008",
-      "tittel": "Naturfag 8. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2020-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NATK009",
-      "tittel": "Naturfag 9. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2020-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NATK010",
-      "tittel": "Naturfag 10. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2021-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NATM008",
-      "tittel": "Naturfag, 8. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NATM009",
-      "tittel": "Naturfag, 9. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NATM010",
-      "tittel": "Naturfag, 10. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
       "kode": "NATMO01",
       "tittel": "Naturfag vg1 Montessori",
       "status": "publisert",
@@ -6495,210 +4849,6 @@
     },
     {
       "type": "fagkode",
-      "kode": "NOR0001",
-      "tittel": "Norsk 1. årstrinn",
-      "status": "utgaatt",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": "2008-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "NOR0201"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0003",
-      "tittel": "Norsk 3. årstrinn",
-      "status": "utgaatt",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": "2008-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "NOR0203"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0002",
-      "tittel": "Norsk 2. årstrinn",
-      "status": "utgaatt",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": "2008-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "NOR0202"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0004",
-      "tittel": "Norsk 4. årstrinn",
-      "status": "utgaatt",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": "2008-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "NOR0204"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0005",
-      "tittel": "Norsk 5. årstrinn",
-      "status": "utgaatt",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": "2008-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "NOR0205"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0006",
-      "tittel": "Norsk 6. årstrinn",
-      "status": "utgaatt",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": "2008-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "NOR0206"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0007",
-      "tittel": "Norsk 7. årstrinn",
-      "status": "utgaatt",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": "2008-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "NOR0207"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0008",
-      "tittel": "Norsk hovedmål 8. årstrinn, skriftlig",
-      "status": "utgaatt",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": "2008-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "NOR0208"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0009",
-      "tittel": "Norsk sidemål 8. årstrinn, skriftlig",
-      "status": "utgaatt",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": "2008-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "NOR0209"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0010",
-      "tittel": "Norsk 8. årstrinn, muntlig",
-      "status": "utgaatt",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": "2008-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "NOR0210"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0011",
-      "tittel": "Norsk hovedmål 9. årstrinn, skriftlig",
-      "status": "utgaatt",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": "2008-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "NOR0211"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0012",
-      "tittel": "Norsk sidemål 9. årstrinn, skriftlig",
-      "status": "utgaatt",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": "2008-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "NOR0212"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0013",
-      "tittel": "Norsk 9. årstrinn, muntlig",
-      "status": "utgaatt",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": "2008-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "NOR0213"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0014",
-      "tittel": "Norsk hovedmål 10. årstrinn, skriftlig",
-      "status": "utgaatt",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": "2008-12-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "NOR0214"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0015",
-      "tittel": "Norsk sidemål 10. årstrinn, skriftlig",
-      "status": "utgaatt",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": "2008-12-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "NOR0215"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0016",
-      "tittel": "Norsk 10. årstrinn, muntlig",
-      "status": "utgaatt",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": "2008-12-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "NOR0216"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0017",
-      "tittel": "Norsk 10. årstrinn, skriftlig",
-      "status": "utgaatt",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": "2008-12-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": [
-        "NOR0217"
-      ]
-    },
-    {
-      "type": "fagkode",
       "kode": "NOR0030",
       "tittel": "Norsk for elever med samisk som førstespråk",
       "status": "publisert",
@@ -6763,902 +4913,6 @@
       "tittel": "Norsk for elever med samisk som førstespråk",
       "status": "publisert",
       "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0037",
-      "tittel": "Norsk for elever med samisk som førstespråk 8. årstrinn, skriftlig",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0038",
-      "tittel": "Norsk for elever med samisk som førstespråk 8. årstrinn, muntlig",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0039",
-      "tittel": "Norsk for elever med samisk som førstespråk 9. årstrinn, skriftlig",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0040",
-      "tittel": "Norsk for elever med samisk som førstespråk 9. årstrinn, muntlig",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0041",
-      "tittel": "Norsk for elever med samisk som førstespråk 10. årstrinn, skriftlig",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0042",
-      "tittel": "Norsk for elever med samisk som førstespråk 10. årstrinn, muntlig",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0043",
-      "tittel": "Norsk for elever med tegnspråk 1. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0044",
-      "tittel": "Norsk for elever med tegnspråk 2. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0045",
-      "tittel": "Norsk for elever med tegnspråk 3. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0046",
-      "tittel": "Norsk for elever med tegnspråk 4. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0047",
-      "tittel": "Norsk for elever med tegnspråk 5. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0048",
-      "tittel": "Norsk for elever med tegnspråk 6. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0049",
-      "tittel": "Norsk for elever med tegnspråk 7. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0050",
-      "tittel": "Norsk for elever med tegnspråk 8. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0051",
-      "tittel": "Norsk for elever med tegnspråk 9. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0052",
-      "tittel": "Norsk for elever med tegnspråk 10. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0053",
-      "tittel": "Norsk tegnspråk 1. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0054",
-      "tittel": "Norsk tegnspråk 2. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0055",
-      "tittel": "Norsk tegnspråk 3. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0056",
-      "tittel": "Norsk tegnspråk 4. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0057",
-      "tittel": "Norsk tegnspråk 5. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0058",
-      "tittel": "Norsk tegnspråk 6. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0059",
-      "tittel": "Norsk tegnspråk 7. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0060",
-      "tittel": "Norsk tegnspråk, 8. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0061",
-      "tittel": "Norsk tegnspråk 8. årstrinn, muntlig",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0062",
-      "tittel": "Norsk tegnspråk 9. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0063",
-      "tittel": "Norsk tegnspråk 9. årstrinn, muntlig",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0064",
-      "tittel": "Norsk tegnspråk 10. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0065",
-      "tittel": "Norsk tegnspråk 10. årstrinn, muntlig",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0066",
-      "tittel": "Fordypning i norsk, 8. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0067",
-      "tittel": "Fordypning i norsk, 9. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2006-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0068",
-      "tittel": "Fordypning i norsk, 10. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0069",
-      "tittel": "Fordypning i norsk tegnspråk, 8. årstrinn",
-      "status": "utgaatt",
-      "gyldigFra": "2021-08-01T00:00:00",
-      "gyldigTil": "2025-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0070",
-      "tittel": "Fordypning i norsk tegnspråk, 9. årstrinn",
-      "status": "utgaatt",
-      "gyldigFra": "2021-08-01T00:00:00",
-      "gyldigTil": "2025-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0071",
-      "tittel": "Fordypning i norsk tegnspråk, 10. årstrinn",
-      "status": "utgaatt",
-      "gyldigFra": "2021-08-01T00:00:00",
-      "gyldigTil": "2025-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0201",
-      "tittel": "Norsk 1. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2008-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [
-        "NOR0001"
-      ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0202",
-      "tittel": "Norsk 2. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2008-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [
-        "NOR0002"
-      ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0203",
-      "tittel": "Norsk 3. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2008-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [
-        "NOR0003"
-      ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0204",
-      "tittel": "Norsk 4. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2008-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [
-        "NOR0004"
-      ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0205",
-      "tittel": "Norsk 5. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2008-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [
-        "NOR0005"
-      ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0206",
-      "tittel": "Norsk 6. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2008-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [
-        "NOR0006"
-      ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0207",
-      "tittel": "Norsk 7. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2008-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [
-        "NOR0007"
-      ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0208",
-      "tittel": "Norsk 8. årstrinn, skriftlig",
-      "status": "publisert",
-      "gyldigFra": "2008-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [
-        "NOR0008"
-      ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0209",
-      "tittel": "Norsk sidemål 8. årstrinn, skriftlig",
-      "status": "utgaatt",
-      "gyldigFra": "2008-08-01T00:00:00",
-      "gyldigTil": "2020-07-31T00:00:00",
-      "erstatter": [
-        "NOR0009"
-      ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0210",
-      "tittel": "Norsk 8. årstrinn, muntlig",
-      "status": "publisert",
-      "gyldigFra": "2008-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [
-        "NOR0010"
-      ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0211",
-      "tittel": "Norsk 9. årstrinn, skriftlig",
-      "status": "publisert",
-      "gyldigFra": "2008-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [
-        "NOR0011"
-      ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0212",
-      "tittel": "Norsk sidemål 9. årstrinn, skriftlig",
-      "status": "utgaatt",
-      "gyldigFra": "2008-08-01T00:00:00",
-      "gyldigTil": "2020-07-31T00:00:00",
-      "erstatter": [
-        "NOR0012"
-      ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0213",
-      "tittel": "Norsk 9. årstrinn, muntlig",
-      "status": "publisert",
-      "gyldigFra": "2008-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [
-        "NOR0013"
-      ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0214",
-      "tittel": "Norsk hovedmål 10. årstrinn, skriftlig",
-      "status": "utgaatt",
-      "gyldigFra": "2008-08-01T00:00:00",
-      "gyldigTil": "2021-07-31T00:00:00",
-      "erstatter": [
-        "NOR0014"
-      ],
-      "erstattesAv": [
-        "NOR0218"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0215",
-      "tittel": "Norsk sidemål 10. årstrinn, skriftlig",
-      "status": "utgaatt",
-      "gyldigFra": "2008-08-01T00:00:00",
-      "gyldigTil": "2021-07-31T00:00:00",
-      "erstatter": [
-        "NOR0015"
-      ],
-      "erstattesAv": [
-        "NOR0219"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0216",
-      "tittel": "Norsk 10. årstrinn, muntlig",
-      "status": "utgaatt",
-      "gyldigFra": "2008-08-01T00:00:00",
-      "gyldigTil": "2021-07-31T00:00:00",
-      "erstatter": [
-        "NOR0016"
-      ],
-      "erstattesAv": [
-        "NOR0220"
-      ]
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0217",
-      "tittel": "Norsk 10. årstrinn, skriftlig",
-      "status": "utgaatt",
-      "gyldigFra": "2008-08-01T00:00:00",
-      "gyldigTil": "2009-12-31T00:00:00",
-      "erstatter": [
-        "NOR0017"
-      ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0218",
-      "tittel": "Norsk hovedmål 10. årstrinn, skriftlig",
-      "status": "publisert",
-      "gyldigFra": "2021-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [
-        "NOR0214"
-      ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0219",
-      "tittel": "Norsk sidemål 10. årstrinn, skriftlig",
-      "status": "publisert",
-      "gyldigFra": "2021-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [
-        "NOR0215"
-      ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0220",
-      "tittel": "Norsk 10. årstrinn, muntlig",
-      "status": "publisert",
-      "gyldigFra": "2021-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [
-        "NOR0216"
-      ],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0701",
-      "tittel": "Grunnleggende norsk for språklige minoriteter, nivå 1, 8. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0702",
-      "tittel": "Grunnleggende norsk for språklige minoriteter, nivå 1, 9. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0703",
-      "tittel": "Grunnleggende norsk for språklige minoriteter, nivå 1, 10. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0704",
-      "tittel": "Grunnleggende norsk for språklige minoriteter, nivå 2, 8. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0705",
-      "tittel": "Grunnleggende norsk for språklige minoriteter, nivå 2, 9. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0706",
-      "tittel": "Grunnleggende norsk for språklige minoriteter, nivå 2, 10. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0707",
-      "tittel": "Grunnleggende norsk for språklige minoriteter, nivå 3, 8. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0708",
-      "tittel": "Grunnleggende norsk for språklige minoriteter, nivå 3, 9. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0709",
-      "tittel": "Grunnleggende norsk for språklige minoriteter, nivå 3, 10. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0711",
-      "tittel": "Grunnleggende norsk for språklige minoriteter, nivå 1, 1. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0712",
-      "tittel": "Grunnleggende norsk for språklige minoriteter, nivå 1, 2. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0713",
-      "tittel": "Grunnleggende norsk for språklige minoriteter, nivå 1, 3. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0714",
-      "tittel": "Grunnleggende norsk for språklige minoriteter, nivå 1, 4. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0715",
-      "tittel": "Grunnleggende norsk for språklige minoriteter, nivå 1, 5. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0716",
-      "tittel": "Grunnleggende norsk for språklige minoriteter, nivå 1, 6. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0717",
-      "tittel": "Grunnleggende norsk for språklige minoriteter, nivå 1, 7. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0721",
-      "tittel": "Grunnleggende norsk for språklige minoriteter, nivå 2, 1. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0722",
-      "tittel": "Grunnleggende norsk for språklige minoriteter, nivå 2, 2. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0723",
-      "tittel": "Grunnleggende norsk for språklige minoriteter, nivå 2, 3. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0724",
-      "tittel": "Grunnleggende norsk for språklige minoriteter, nivå 2, 4. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0725",
-      "tittel": "Grunnleggende norsk for språklige minoriteter, nivå 2, 5. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0726",
-      "tittel": "Grunnleggende norsk for språklige minoriteter, nivå 2, 6. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0727",
-      "tittel": "Grunnleggende norsk for språklige minoriteter, nivå 2, 7. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0731",
-      "tittel": "Grunnleggende norsk for språklige minoriteter, nivå 3, 1. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0732",
-      "tittel": "Grunnleggende norsk for språklige minoriteter, nivå 3, 2. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0733",
-      "tittel": "Grunnleggende norsk for språklige minoriteter, nivå 3, 3. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0734",
-      "tittel": "Grunnleggende norsk for språklige minoriteter, nivå 3, 4. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0735",
-      "tittel": "Grunnleggende norsk for språklige minoriteter, nivå 3, 5. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0736",
-      "tittel": "Grunnleggende norsk for språklige minoriteter, nivå 3, 6. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NOR0737",
-      "tittel": "Grunnleggende norsk for språklige minoriteter, nivå 3, 7. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2007-08-01T00:00:00",
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": []
@@ -9554,196 +6808,6 @@
       "status": "publisert",
       "gyldigFra": "2008-08-01T00:00:00",
       "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NORM001",
-      "tittel": "Norsk, 1. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NORM002",
-      "tittel": "Norsk, 2. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NORM003",
-      "tittel": "Norsk, 3. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NORM004",
-      "tittel": "Norsk, 4. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NORM005",
-      "tittel": "Norsk, 5. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NORM006",
-      "tittel": "Norsk, 6. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NORM007",
-      "tittel": "Norsk, 7. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NORM008",
-      "tittel": "Norsk hovedmål, 8. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NORM009",
-      "tittel": "Norsk sidemål, 8. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NORM010",
-      "tittel": "Norsk muntlig, 8. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NORM011",
-      "tittel": "Norsk hovedmål, 9. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NORM012",
-      "tittel": "Norsk sidemål, 9. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NORM013",
-      "tittel": "Norsk muntlig, 9. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NORM014",
-      "tittel": "Norsk hovedmål, 10. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NORM015",
-      "tittel": "Norsk sidemål, 10. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NORM016",
-      "tittel": "Norsk muntlig, 10. årstrinn",
-      "status": "publisert",
-      "gyldigFra": null,
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NORM608",
-      "tittel": "Fordypning i norsk, 8. årstrinn",
-      "status": "utgaatt",
-      "gyldigFra": null,
-      "gyldigTil": "2020-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NORM609",
-      "tittel": "Fordypning i norsk, 9. årstrinn",
-      "status": "utgaatt",
-      "gyldigFra": null,
-      "gyldigTil": "2020-07-31T00:00:00",
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "NORM610",
-      "tittel": "Fordypning i norsk, 10. årstrinn",
-      "status": "utgaatt",
-      "gyldigFra": null,
-      "gyldigTil": "2021-07-31T00:00:00",
       "erstatter": [],
       "erstattesAv": []
     },
@@ -12397,36 +9461,6 @@
       "tittel": "Produktutvikling",
       "status": "publisert",
       "gyldigFra": "2021-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "UUIP008",
-      "tittel": "Utvikling av unge idrettsutøvere, 8. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2017-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "UUIP009",
-      "tittel": "Utvikling av unge idrettsutøvere, 9. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2017-08-01T00:00:00",
-      "gyldigTil": null,
-      "erstatter": [],
-      "erstattesAv": []
-    },
-    {
-      "type": "fagkode",
-      "kode": "UUIP010",
-      "tittel": "Utvikling av unge idrettsutøvere, 10. årstrinn",
-      "status": "publisert",
-      "gyldigFra": "2017-08-01T00:00:00",
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": []
@@ -15106,6 +12140,34 @@
     },
     {
       "type": "laereplan_lk20",
+      "kode": "FSP01-02",
+      "tittel": "Læreplan i fremmedspråk",
+      "status": "utgaatt",
+      "gyldigFra": "2020-08-01T00:00:00",
+      "gyldigTil": "2022-12-31T00:00:00",
+      "erstatter": [
+        "FSP1-01"
+      ],
+      "erstattesAv": [
+        "FSP01-03"
+      ]
+    },
+    {
+      "type": "laereplan_lk20",
+      "kode": "PSP01-02",
+      "tittel": "Læreplan i fremmedspråk programfag",
+      "status": "utgaatt",
+      "gyldigFra": "2021-08-01T00:00:00",
+      "gyldigTil": "2022-12-31T00:00:00",
+      "erstatter": [
+        "PSP1-01"
+      ],
+      "erstattesAv": [
+        "PSP01-03"
+      ]
+    },
+    {
+      "type": "laereplan_lk20",
       "kode": "MAT04-02",
       "tittel": "Læreplan i matematikk for samfunnsfag (matematikk S)",
       "status": "publisert",
@@ -15303,6 +12365,58 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": []
+    },
+    {
+      "type": "laereplan_lk20",
+      "kode": "FSP01-04",
+      "tittel": "Læreplan i fremmedspråk",
+      "status": "publisert",
+      "gyldigFra": "2025-08-01T00:00:00",
+      "gyldigTil": null,
+      "erstatter": [
+        "FSP01-03"
+      ],
+      "erstattesAv": []
+    },
+    {
+      "type": "laereplan_lk20",
+      "kode": "PSP01-04",
+      "tittel": "Læreplan i fremmedspråk programfag",
+      "status": "publisert",
+      "gyldigFra": "2025-08-01T00:00:00",
+      "gyldigTil": null,
+      "erstatter": [
+        "PSP01-03"
+      ],
+      "erstattesAv": []
+    },
+    {
+      "type": "laereplan_lk20",
+      "kode": "FSP01-03",
+      "tittel": "Læreplan i fremmedspråk",
+      "status": "utgaatt",
+      "gyldigFra": "2023-01-01T00:00:00",
+      "gyldigTil": "2025-07-31T00:00:00",
+      "erstatter": [
+        "FSP01-02"
+      ],
+      "erstattesAv": [
+        "FSP01-04"
+      ]
+    },
+    {
+      "type": "laereplan_lk20",
+      "kode": "PSP01-03",
+      "tittel": "Læreplan i fremmedspråk programfag",
+      "status": "utgaatt",
+      "gyldigFra": "2023-01-01T00:00:00",
+      "gyldigTil": "2025-07-31T00:00:00",
+      "erstatter": [
+        "PSP01-02"
+      ],
+      "erstattesAv": [
+        "PSP01-04"
+      ]
     },
     {
       "type": "laereplan_lk20",
@@ -18798,6 +15912,76 @@
     },
     {
       "type": "kompetansemaalsett_lk20",
+      "kode": "KV160",
+      "tittel": "Kompetansemål og vurdering nivå I",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-02",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV161",
+      "tittel": "Kompetansemål og vurdering nivå II",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-02",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV297",
+      "tittel": "Kompetansemål og vurdering nivå I",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-02",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV298",
+      "tittel": "Kompetansemål og vurdering nivå II",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-02",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV299",
+      "tittel": "Kompetansemål og vurdering nivå III",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-02",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
       "kode": "KV295",
       "tittel": "Kompetansemål og vurdering matematikk S1",
       "status": "publisert",
@@ -19582,6 +16766,20 @@
     },
     {
       "type": "kompetansemaalsett_lk20",
+      "kode": "KV965",
+      "tittel": "Kompetansemål og vurdering nivå I",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-04",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
       "kode": "KV472",
       "tittel": "Kompetansemål og vurdering  informasjonsteknologi 2",
       "status": "utgaatt",
@@ -19610,6 +16808,20 @@
     },
     {
       "type": "kompetansemaalsett_lk20",
+      "kode": "KV966",
+      "tittel": "Kompetansemål og vurdering nivå II",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-04",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
       "kode": "KV960",
       "tittel": "Kompetansemål og vurdering vedlikeholdsteknikk",
       "status": "publisert",
@@ -19620,6 +16832,20 @@
       "tilhoererLaereplan": {
         "kode": "AVI03-03",
         "tittel": "Læreplan i vg3 avionikerfag – opplæring i skole"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV967",
+      "tittel": "Kompetansemål og vurdering nivå I",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-04",
+        "tittel": "Læreplan i fremmedspråk programfag"
       }
     },
     {
@@ -19638,6 +16864,20 @@
     },
     {
       "type": "kompetansemaalsett_lk20",
+      "kode": "KV968",
+      "tittel": "Kompetansemål og vurdering nivå II",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-04",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
       "kode": "KV866",
       "tittel": "Kompetansemål og vurdering mattrygghet",
       "status": "publisert",
@@ -19648,6 +16888,20 @@
       "tilhoererLaereplan": {
         "kode": "EKF05-01",
         "tittel": "Læreplan i ernæringskokkfaget – modulstrukturert opplæring for voksne"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV969",
+      "tittel": "Kompetansemål og vurdering nivå III",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-04",
+        "tittel": "Læreplan i fremmedspråk programfag"
       }
     },
     {
@@ -19708,6 +16962,20 @@
     },
     {
       "type": "kompetansemaalsett_lk20",
+      "kode": "KV776",
+      "tittel": "Kompetansemål og vurdering nivå I",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-03",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
       "kode": "KV855",
       "tittel": "Kompetansemål og vurdering fangst og redskap",
       "status": "publisert",
@@ -19718,6 +16986,20 @@
       "tilhoererLaereplan": {
         "kode": "FFA05-01",
         "tittel": "Læreplan i fiske og fangst – modulstrukturert opplæring for voksne"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV777",
+      "tittel": "Kompetansemål og vurdering nivå II",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-03",
+        "tittel": "Læreplan i fremmedspråk"
       }
     },
     {
@@ -19736,6 +17018,20 @@
     },
     {
       "type": "kompetansemaalsett_lk20",
+      "kode": "KV778",
+      "tittel": "Kompetansemål og vurdering nivå I",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-03",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
       "kode": "KV857",
       "tittel": "Kompetansemål og vurdering organisering, arbeidsforhold og forvaltning",
       "status": "publisert",
@@ -19746,6 +17042,34 @@
       "tilhoererLaereplan": {
         "kode": "FFA05-01",
         "tittel": "Læreplan i fiske og fangst – modulstrukturert opplæring for voksne"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV779",
+      "tittel": "Kompetansemål og vurdering nivå II",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-03",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaalsett_lk20",
+      "kode": "KV780",
+      "tittel": "Kompetansemål og vurdering nivå III",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-03",
+        "tittel": "Læreplan i fremmedspråk programfag"
       }
     },
     {
@@ -87790,6 +85114,650 @@
     },
     {
       "type": "kompetansemaal_lk20",
+      "kode": "KM10427",
+      "tittel": "gjøre rede for opplevelser og erfaringer i møte med personer og kunstneriske og kulturelle uttrykk i områder der språket snakkes",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-03",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10426",
+      "tittel": "utforske og drøfte kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gjøre rede for virkemidler og noen stilarter og trender",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-03",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10425",
+      "tittel": "utforske og reflektere over et utvalg historiske, sosiale, miljømessige og politiske forhold i områder der språket snakkes",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-03",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10424",
+      "tittel": "bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-03",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10423",
+      "tittel": "bruke hensiktsmessige språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-03",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10422",
+      "tittel": "skrive klare og detaljerte tekster om faglig relevante emner og aktuelle saker og drøfte ulike holdninger, med og uten hjelpemidler",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-03",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10421",
+      "tittel": "lese og forstå et bredt utvalg tekster, også autentiske, om ulike emner og identifisere budskap, holdninger og språklige virkemidler",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-03",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10420",
+      "tittel": "muntlig gjøre rede for faglig relevante emner og begrunne egne synspunkter og refleksjoner, også spontant",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-03",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10419",
+      "tittel": "samtale om og diskutere kjente og faglig relevante emner og aktuelle saker",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-03",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10418",
+      "tittel": "lytte til og forstå språklig mer kompleks tale om faglig relevante emner og aktuelle saker",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-03",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10417",
+      "tittel": "utforske og presentere kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gjøre rede for egne opplevelser",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-03",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10416",
+      "tittel": "utforske og gjøre rede for mangfold, samfunnsforhold og historiske hendelser i områder der språket snakkes, og se sammenhenger med egen bakgrunn",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-03",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10400",
+      "tittel": "lytte til og forstå enkel og tydelig tale om personlige og dagligdagse emner",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-03",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10401",
+      "tittel": "delta i enkle samtaler i dagligdagse situasjoner om aktiviteter og kjente emner",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-03",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10399",
+      "tittel": "bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-03",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10398",
+      "tittel": "utforske og presentere kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gjøre rede for egne opplevelser",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-03",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10397",
+      "tittel": "utforske og gjøre rede for mangfold, samfunnsforhold og historiske hendelser i områder der språket snakkes, og se sammenhenger med egen bakgrunn",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-03",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10396",
+      "tittel": "bruke grunnleggende språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-03",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10395",
+      "tittel": "skrive ulike teksttyper om personlige og faglig relevante emner, og uttrykke og begrunne egne meninger, med og uten hjelpemidler",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-03",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10394",
+      "tittel": "lese og forstå ulike typer tekster, også autentiske, om personlige og faglig relevante emner og aktuelle saker",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-03",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10393",
+      "tittel": "muntlig forklare faglig relevante emner, skildre opplevelser, hendelser og planer, og begrunne meninger, også spontant",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-03",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10392",
+      "tittel": "samtale i en rekke dagligdagse situasjoner om kjente og faglig relevante emner",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-03",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10391",
+      "tittel": "lytte til og forstå tydelig tale om personlige og faglig relevante emner og aktuelle saker",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-03",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10390",
+      "tittel": "utforske og beskrive kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gi uttrykk for egne opplevelser",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-03",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10389",
+      "tittel": "utforske og beskrive levemåter, tradisjoner og geografi i områder der språket snakkes, og se sammenhenger med egen bakgrunn",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-03",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10388",
+      "tittel": "bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-03",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10387",
+      "tittel": "bruke enkle språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-03",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10386",
+      "tittel": "skrive enkle tekster om dagligliv og opplevelser som forteller, beskriver og informerer, med og uten hjelpemidler",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-03",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10385",
+      "tittel": "lese og forstå tilpassede og enklere autentiske tekster om personlige og dagligdagse emner",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-03",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10384",
+      "tittel": "muntlig fortelle om dagligliv og opplevelser og uttrykke meninger, også spontant",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-03",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10383",
+      "tittel": "delta i enkle samtaler i dagligdagse situasjoner om aktiviteter og kjente emner",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-03",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10382",
+      "tittel": "lytte til og forstå enkel og tydelig tale om personlige og dagligdagse emner",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-03",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12624",
+      "tittel": "utforske og gjøre rede for mangfold, samfunnsforhold og historiske hendelser i områder der språket snakkes, og se sammenhenger med egen bakgrunn",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-04",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12625",
+      "tittel": "utforske og presentere kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gjøre rede for egne opplevelser",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-04",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12623",
+      "tittel": "bruke grunnleggende språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-04",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12622",
+      "tittel": "skrive ulike teksttyper om personlige og faglig relevante emner, og uttrykke og begrunne egne meninger, med og uten hjelpemidler",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-04",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12621",
+      "tittel": "lese og forstå ulike typer tekster, også autentiske, om personlige og faglig relevante emner og aktuelle saker",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-04",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12620",
+      "tittel": "muntlig forklare faglig relevante emner, skildre opplevelser, hendelser og planer, og begrunne meninger, også spontant",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-04",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12619",
+      "tittel": "samtale i en rekke dagligdagse situasjoner om kjente og faglig relevante emner",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-04",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12618",
+      "tittel": "lytte til og forstå tydelig tale om personlige og faglig relevante emner og aktuelle saker",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-04",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12617",
+      "tittel": "utforske og beskrive kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gi uttrykk for egne opplevelser",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-04",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12616",
+      "tittel": "utforske og beskrive levemåter, tradisjoner og geografi i områder der språket snakkes, og se sammenhenger med egen bakgrunn",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-04",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12615",
+      "tittel": "bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-04",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12614",
+      "tittel": "bruke enkle språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-04",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12613",
+      "tittel": "skrive enkle tekster om dagligliv og opplevelser som forteller, beskriver og informerer, med og uten hjelpemidler",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-04",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12612",
+      "tittel": "lese og forstå tilpassede og enklere autentiske tekster om personlige og dagligdagse emner",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-04",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
       "kode": "KM11441",
       "tittel": "gi eksempler på og reflektere over hvordan rus, legemidler, miljøgifter og kosthold påvirker kroppen",
       "status": "publisert",
@@ -87912,6 +85880,20 @@
       "tilhoererLaereplan": {
         "kode": "NAT03-01",
         "tittel": "Læreplan i naturfag – forberedende opplæring for voksne"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12654",
+      "tittel": "gjøre rede for opplevelser og erfaringer i møte med personer og kunstneriske og kulturelle uttrykk i områder der språket snakkes",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-04",
+        "tittel": "Læreplan i fremmedspråk programfag"
       }
     },
     {
@@ -88308,6 +86290,48 @@
     },
     {
       "type": "kompetansemaal_lk20",
+      "kode": "KM12611",
+      "tittel": "muntlig fortelle om dagligliv og opplevelser og uttrykke meninger, også spontant",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-04",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12610",
+      "tittel": "delta i enkle samtaler i dagligdagse situasjoner om aktiviteter og kjente emner",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-04",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12609",
+      "tittel": "lytte til og forstå enkel og tydelig tale om personlige og dagligdagse emner",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-04",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
       "kode": "KM11233",
       "tittel": "bruke ord- og setningsstrukturer muntlig og skriftlig",
       "status": "publisert",
@@ -88350,6 +86374,20 @@
     },
     {
       "type": "kompetansemaal_lk20",
+      "kode": "KM12636",
+      "tittel": "lytte til og forstå tydelig tale om personlige og faglig relevante emner og aktuelle saker",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-04",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
       "kode": "KM11200",
       "tittel": "beskrive og reflektere over rollen engelsk har i utdanning, arbeidsliv og samfunn i Norge og i andre land",
       "status": "publisert",
@@ -88364,6 +86402,20 @@
     },
     {
       "type": "kompetansemaal_lk20",
+      "kode": "KM12638",
+      "tittel": "muntlig forklare faglig relevante emner, skildre opplevelser, hendelser og planer, og begrunne meninger, også spontant",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-04",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
       "kode": "KM11199",
       "tittel": "mediere informasjon om ulike temaer ved å trekke veksler på eget språklig og kulturelt repertoar, fortrinnsvis gjennom oversettelse, forklaring eller formidling",
       "status": "publisert",
@@ -88374,6 +86426,20 @@
       "tilhoererLaereplan": {
         "kode": "ENG05-01",
         "tittel": "Læreplan i engelsk – forberedende opplæring for voksne "
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12637",
+      "tittel": "samtale i en rekke dagligdagse situasjoner om kjente og faglig relevante emner",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-04",
+        "tittel": "Læreplan i fremmedspråk programfag"
       }
     },
     {
@@ -88406,6 +86472,20 @@
     },
     {
       "type": "kompetansemaal_lk20",
+      "kode": "KM12635",
+      "tittel": "utforske og beskrive kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gi uttrykk for egne opplevelser",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-04",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
       "kode": "KM11196",
       "tittel": "uttrykke og begrunne egne meninger om personlige og samfunnsaktuelle temaer",
       "status": "publisert",
@@ -88420,6 +86500,20 @@
     },
     {
       "type": "kompetansemaal_lk20",
+      "kode": "KM12634",
+      "tittel": "utforske og beskrive levemåter, tradisjoner og geografi i områder der språket snakkes, og se sammenhenger med egen bakgrunn",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-04",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
       "kode": "KM11231",
       "tittel": "finne og bruke digitale ressurser og verktøy i samhandling, språklæring og tekstskaping",
       "status": "publisert",
@@ -88430,6 +86524,20 @@
       "tilhoererLaereplan": {
         "kode": "ENG05-01",
         "tittel": "Læreplan i engelsk – forberedende opplæring for voksne "
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12633",
+      "tittel": "bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-04",
+        "tittel": "Læreplan i fremmedspråk programfag"
       }
     },
     {
@@ -89232,6 +87340,20 @@
     },
     {
       "type": "kompetansemaal_lk20",
+      "kode": "KM12649",
+      "tittel": "skrive klare og detaljerte tekster om faglig relevante emner og aktuelle saker og drøfte ulike holdninger, med og uten hjelpemidler",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-04",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
       "kode": "KM11019",
       "tittel": "lese og samtale om autentiske tekster fra arbeids- og hverdagslivet",
       "status": "publisert",
@@ -89708,6 +87830,104 @@
     },
     {
       "type": "kompetansemaal_lk20",
+      "kode": "KM12643",
+      "tittel": "utforske og gjøre rede for mangfold, samfunnsforhold og historiske hendelser i områder der språket snakkes, og se sammenhenger med egen bakgrunn",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-04",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12644",
+      "tittel": "utforske og presentere kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gjøre rede for egne opplevelser",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-04",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12642",
+      "tittel": "bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-04",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12641",
+      "tittel": "bruke grunnleggende språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-04",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12640",
+      "tittel": "skrive ulike teksttyper om personlige og faglig relevante emner, og uttrykke og begrunne egne meninger, med og uten hjelpemidler",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-04",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12639",
+      "tittel": "lese og forstå ulike typer tekster, også autentiske, om personlige og faglig relevante emner og aktuelle saker",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-04",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12630",
+      "tittel": "lese og forstå tilpassede og enklere autentiske tekster om personlige og dagligdagse emner",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-04",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
       "kode": "KM11573",
       "tittel": "reflektere over hva samfunnsansvar innebærer, og utforske og sammenligne virksomheters samfunnsansvar lokalt og globalt",
       "status": "publisert",
@@ -90156,6 +88376,34 @@
     },
     {
       "type": "kompetansemaal_lk20",
+      "kode": "KM10415",
+      "tittel": "bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-03",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10414",
+      "tittel": "bruke grunnleggende språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-03",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
       "kode": "KM10997",
       "tittel": "samtale om hvordan holdninger og verdier kommer til uttrykk i ulike tekster fra ulike tider og ulike kulturer",
       "status": "publisert",
@@ -90166,6 +88414,34 @@
       "tilhoererLaereplan": {
         "kode": "NOR11-01",
         "tittel": "Læreplan i norsk for språklige minoriteter – forberedende opplæring for voksne"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10413",
+      "tittel": "skrive ulike teksttyper om personlige og faglig relevante emner, og uttrykke og begrunne egne meninger, med og uten hjelpemidler",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-03",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10412",
+      "tittel": "lese og forstå ulike typer tekster, også autentiske, om personlige og faglig relevante emner og aktuelle saker",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-03",
+        "tittel": "Læreplan i fremmedspråk programfag"
       }
     },
     {
@@ -90184,6 +88460,20 @@
     },
     {
       "type": "kompetansemaal_lk20",
+      "kode": "KM10411",
+      "tittel": "muntlig forklare faglig relevante emner, skildre opplevelser, hendelser og planer, og begrunne meninger, også spontant",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-03",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
       "kode": "KM10995",
       "tittel": "reflektere kritisk over teksters formål, innhold, påvirkningskraft og troverdighet",
       "status": "publisert",
@@ -90194,6 +88484,20 @@
       "tilhoererLaereplan": {
         "kode": "NOR11-01",
         "tittel": "Læreplan i norsk for språklige minoriteter – forberedende opplæring for voksne"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10410",
+      "tittel": "samtale i en rekke dagligdagse situasjoner om kjente og faglig relevante emner",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-03",
+        "tittel": "Læreplan i fremmedspråk programfag"
       }
     },
     {
@@ -90212,6 +88516,20 @@
     },
     {
       "type": "kompetansemaal_lk20",
+      "kode": "KM10409",
+      "tittel": "lytte til og forstå tydelig tale om personlige og faglig relevante emner og aktuelle saker",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-03",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
       "kode": "KM10993",
       "tittel": "sammenstille informasjon fra ulike tekster, markere sitater og vise til kilder på en etterprøvbar måte",
       "status": "publisert",
@@ -90222,6 +88540,20 @@
       "tilhoererLaereplan": {
         "kode": "NOR11-01",
         "tittel": "Læreplan i norsk for språklige minoriteter – forberedende opplæring for voksne"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10408",
+      "tittel": "utforske og beskrive kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gi uttrykk for egne opplevelser",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-03",
+        "tittel": "Læreplan i fremmedspråk programfag"
       }
     },
     {
@@ -90240,6 +88572,20 @@
     },
     {
       "type": "kompetansemaal_lk20",
+      "kode": "KM10407",
+      "tittel": "utforske og beskrive levemåter, tradisjoner og geografi i områder der språket snakkes, og se sammenhenger med egen bakgrunn",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-03",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
       "kode": "KM10991",
       "tittel": "bruke grunnleggende regler for rettskriving, tegnsetting og grammatiske strukturer og uttrykke seg skriftlig med variasjon i ordforråd og strukturer",
       "status": "publisert",
@@ -90250,6 +88596,20 @@
       "tilhoererLaereplan": {
         "kode": "NOR11-01",
         "tittel": "Læreplan i norsk for språklige minoriteter – forberedende opplæring for voksne"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10406",
+      "tittel": "bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-03",
+        "tittel": "Læreplan i fremmedspråk programfag"
       }
     },
     {
@@ -90268,6 +88628,20 @@
     },
     {
       "type": "kompetansemaal_lk20",
+      "kode": "KM10405",
+      "tittel": "bruke enkle språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-03",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
       "kode": "KM10989",
       "tittel": "forstå, formidle og samtale om norskfaglige og tverrfaglige temaer med relevant fagspråk",
       "status": "publisert",
@@ -90282,6 +88656,20 @@
     },
     {
       "type": "kompetansemaal_lk20",
+      "kode": "KM10404",
+      "tittel": "skrive enkle tekster om dagligliv og opplevelser som forteller, beskriver og informerer, med og uten hjelpemidler",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-03",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
       "kode": "KM10988",
       "tittel": "trekke ut relevant informasjon fra, oppsummere hovedinnholdet i og reflektere over ulike tekster muntlig og skriftlig",
       "status": "publisert",
@@ -90292,6 +88680,20 @@
       "tilhoererLaereplan": {
         "kode": "NOR11-01",
         "tittel": "Læreplan i norsk for språklige minoriteter – forberedende opplæring for voksne"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10403",
+      "tittel": "lese og forstå tilpassede og enklere autentiske tekster om personlige og dagligdagse emner",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-03",
+        "tittel": "Læreplan i fremmedspråk programfag"
       }
     },
     {
@@ -90320,6 +88722,20 @@
       "tilhoererLaereplan": {
         "kode": "NOR11-01",
         "tittel": "Læreplan i norsk for språklige minoriteter – forberedende opplæring for voksne"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM10402",
+      "tittel": "muntlig fortelle om dagligliv og opplevelser og uttrykke meninger, også spontant",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-03",
+        "tittel": "Læreplan i fremmedspråk programfag"
       }
     },
     {
@@ -90534,6 +88950,62 @@
     },
     {
       "type": "kompetansemaal_lk20",
+      "kode": "KM12648",
+      "tittel": "lese og forstå et bredt utvalg tekster, også autentiske, om ulike emner og identifisere budskap, holdninger og språklige virkemidler",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-04",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12647",
+      "tittel": "muntlig gjøre rede for faglig relevante emner og begrunne egne synspunkter og refleksjoner, også spontant",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-04",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12646",
+      "tittel": "samtale om og diskutere kjente og faglig relevante emner og aktuelle saker",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-04",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12645",
+      "tittel": "lytte til og forstå språklig mer kompleks tale om faglig relevante emner og aktuelle saker",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-04",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
       "kode": "KM4128",
       "tittel": "drøfte hvilke krav og forventninger som stilles til et likeverdig og inkluderende yrkesfellesskap, og beskrive hvilke plikter og rettigheter arbeidsgiveren og arbeidstakeren har i arbeidslivet",
       "status": "publisert",
@@ -90712,6 +89184,20 @@
       "tilhoererLaereplan": {
         "kode": "NOR11-01",
         "tittel": "Læreplan i norsk for språklige minoriteter – forberedende opplæring for voksne"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12650",
+      "tittel": "bruke hensiktsmessige språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-04",
+        "tittel": "Læreplan i fremmedspråk programfag"
       }
     },
     {
@@ -91318,6 +89804,20 @@
     },
     {
       "type": "kompetansemaal_lk20",
+      "kode": "KM12631",
+      "tittel": "skrive enkle tekster om dagligliv og opplevelser som forteller, beskriver og informerer, med og uten hjelpemidler",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-04",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
       "kode": "KM11609",
       "tittel": "vurdere bærekraftige valg for virksomheter med tanke på sosiale, økonomiske og miljømessige forhold",
       "status": "publisert",
@@ -91580,6 +90080,48 @@
       "tilhoererLaereplan": {
         "kode": "NOR10-01",
         "tittel": "Læreplan i norsk – forberedende opplæring for voksne "
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12653",
+      "tittel": "utforske og drøfte kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gjøre rede for virkemidler og noen stilarter og trender",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-04",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12652",
+      "tittel": "utforske og reflektere over et utvalg historiske, sosiale, miljømessige og politiske forhold i områder der språket snakkes",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-04",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12651",
+      "tittel": "bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-04",
+        "tittel": "Læreplan i fremmedspråk programfag"
       }
     },
     {
@@ -92308,6 +90850,76 @@
       "tilhoererLaereplan": {
         "kode": "BLD02-03",
         "tittel": "Læreplan i vg2 blomsterdekoratør"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12632",
+      "tittel": "bruke enkle språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-04",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12629",
+      "tittel": "muntlig fortelle om dagligliv og opplevelser og uttrykke meninger, også spontant",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-04",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12628",
+      "tittel": "delta i enkle samtaler i dagligdagse situasjoner om aktiviteter og kjente emner",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-04",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12627",
+      "tittel": "lytte til og forstå enkel og tydelig tale om personlige og dagligdagse emner",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-04",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM12626",
+      "tittel": "bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen",
+      "status": "publisert",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-04",
+        "tittel": "Læreplan i fremmedspråk"
       }
     },
     {
@@ -94454,6 +93066,20 @@
     },
     {
       "type": "kompetansemaal_lk20",
+      "kode": "KM3167",
+      "tittel": "bruke enkle språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-02",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
       "kode": "KM12426",
       "tittel": "utføre grunnleggende førstehjelp",
       "status": "publisert",
@@ -94562,6 +93188,286 @@
       "tilhoererLaereplan": {
         "kode": "VOV03-02",
         "tittel": "Læreplan i vg3 veidrifts- og veivedlikeholdsfaget"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3168",
+      "tittel": "skrive enkle tekster om dagligliv og opplevelser som forteller, beskriver og informerer, med og uten hjelpemidler",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-02",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3169",
+      "tittel": "lese og forstå tilpassede og enklere autentiske tekster om personlige og dagligdagse emner",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-02",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3170",
+      "tittel": "muntlig fortelle om dagligliv og opplevelser og uttrykke meninger, også spontant",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-02",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3171",
+      "tittel": "delta i enkle samtaler i dagligdagse situasjoner om aktiviteter og kjente emner",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-02",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3146",
+      "tittel": "lytte til og forstå enkel og tydelig tale om personlige og dagligdagse emner",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-02",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM1846",
+      "tittel": "bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-02",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM1845",
+      "tittel": "utforske og presentere kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gjøre rede for egne opplevelser",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-02",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM1830",
+      "tittel": "utforske og gjøre rede for mangfold, samfunnsforhold og historiske hendelser i områder der språket snakkes, og se sammenhenger med egen bakgrunn",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-02",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM1831",
+      "tittel": "bruke grunnleggende språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-02",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM1832",
+      "tittel": "skrive ulike teksttyper om personlige og faglig relevante emner, og uttrykke og begrunne egne meninger, med og uten hjelpemidler",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-02",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM1833",
+      "tittel": "lese og forstå ulike typer tekster, også autentiske, om personlige og faglig relevante emner og aktuelle saker",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-02",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM1834",
+      "tittel": "muntlig forklare faglig relevante emner, skildre opplevelser, hendelser og planer, og begrunne meninger, også spontant",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-02",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM1835",
+      "tittel": "samtale i en rekke dagligdagse situasjoner om kjente og faglig relevante emner",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-02",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM1836",
+      "tittel": "lytte til og forstå tydelig tale om personlige og faglig relevante emner og aktuelle saker",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-02",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM1837",
+      "tittel": "utforske og beskrive kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gi uttrykk for egne opplevelser",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-02",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM1838",
+      "tittel": "utforske og beskrive levemåter, tradisjoner og geografi i områder der språket snakkes, og se sammenhenger med egen bakgrunn",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-02",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM1839",
+      "tittel": "bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-02",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM1840",
+      "tittel": "bruke enkle språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-02",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM1841",
+      "tittel": "skrive enkle tekster om dagligliv og opplevelser som forteller, beskriver og informerer, med og uten hjelpemidler",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-02",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM1829",
+      "tittel": "lytte til og forstå enkel og tydelig tale om personlige og dagligdagse emner",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-02",
+        "tittel": "Læreplan i fremmedspråk"
       }
     },
     {
@@ -94730,6 +93636,216 @@
       "tilhoererLaereplan": {
         "kode": "AVI03-02",
         "tittel": "Læreplan i vg3 avionikerfag – opplæring i skole"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3173",
+      "tittel": "gjøre rede for opplevelser og erfaringer i møte med personer og kunstneriske og kulturelle uttrykk i områder der språket snakkes",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-02",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3172",
+      "tittel": "utforske og drøfte kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gjøre rede for virkemidler og noen stilarter og trender",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-02",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3147",
+      "tittel": "utforske og reflektere over et utvalg historiske, sosiale, miljømessige og politiske forhold i områder der språket snakkes",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-02",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3148",
+      "tittel": "bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-02",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3149",
+      "tittel": "bruke hensiktsmessige språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-02",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3150",
+      "tittel": "skrive klare og detaljerte tekster om faglig relevante emner og aktuelle saker og drøfte ulike holdninger, med og uten hjelpemidler",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-02",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3151",
+      "tittel": "lese og forstå et bredt utvalg tekster, også autentiske, om ulike emner og identifisere budskap, holdninger og språklige virkemidler",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-02",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3152",
+      "tittel": "muntlig gjøre rede for faglig relevante emner og begrunne egne synspunkter og refleksjoner, også spontant",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-02",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3153",
+      "tittel": "samtale om og diskutere kjente og faglig relevante emner og aktuelle saker",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-02",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3154",
+      "tittel": "lytte til og forstå språklig mer kompleks tale om faglig relevante emner og aktuelle saker",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-02",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3155",
+      "tittel": "utforske og presentere kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gjøre rede for egne opplevelser",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-02",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3156",
+      "tittel": "utforske og gjøre rede for mangfold, samfunnsforhold og historiske hendelser i områder der språket snakkes, og se sammenhenger med egen bakgrunn",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-02",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3157",
+      "tittel": "bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-02",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3158",
+      "tittel": "bruke grunnleggende språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-02",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3159",
+      "tittel": "skrive ulike teksttyper om personlige og faglig relevante emner, og uttrykke og begrunne egne meninger, med og uten hjelpemidler",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-02",
+        "tittel": "Læreplan i fremmedspråk programfag"
       }
     },
     {
@@ -95056,6 +94172,62 @@
     },
     {
       "type": "kompetansemaal_lk20",
+      "kode": "KM3160",
+      "tittel": "lese og forstå ulike typer tekster, også autentiske, om personlige og faglig relevante emner og aktuelle saker",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-02",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3161",
+      "tittel": "muntlig forklare faglig relevante emner, skildre opplevelser, hendelser og planer, og begrunne meninger, også spontant",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-02",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3162",
+      "tittel": "samtale i en rekke dagligdagse situasjoner om kjente og faglig relevante emner",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-02",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3163",
+      "tittel": "lytte til og forstå tydelig tale om personlige og faglig relevante emner og aktuelle saker",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-02",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
       "kode": "KM12432",
       "tittel": "Produsere og vedlikeholde ulike typer veimerking og vurdere faktorer som kan redusere kvaliteten på materialet",
       "status": "publisert",
@@ -95080,6 +94252,48 @@
       "tilhoererLaereplan": {
         "kode": "VOV03-02",
         "tittel": "Læreplan i vg3 veidrifts- og veivedlikeholdsfaget"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3164",
+      "tittel": "utforske og beskrive kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gi uttrykk for egne opplevelser",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-02",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3165",
+      "tittel": "utforske og beskrive levemåter, tradisjoner og geografi i områder der språket snakkes, og se sammenhenger med egen bakgrunn",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-02",
+        "tittel": "Læreplan i fremmedspråk programfag"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM3166",
+      "tittel": "bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "PSP01-02",
+        "tittel": "Læreplan i fremmedspråk programfag"
       }
     },
     {
@@ -95808,6 +95022,48 @@
       "tilhoererLaereplan": {
         "kode": "MOK01-03",
         "tittel": "Læreplan i mediesamfunnet"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM1842",
+      "tittel": "lese og forstå tilpassede og enklere autentiske tekster om personlige og dagligdagse emner",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-02",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM1843",
+      "tittel": "muntlig fortelle om dagligliv og opplevelser og uttrykke meninger, også spontant",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-02",
+        "tittel": "Læreplan i fremmedspråk"
+      }
+    },
+    {
+      "type": "kompetansemaal_lk20",
+      "kode": "KM1844",
+      "tittel": "delta i enkle samtaler i dagligdagse situasjoner om aktiviteter og kjente emner",
+      "status": "utgaatt",
+      "gyldigFra": null,
+      "gyldigTil": null,
+      "erstatter": [],
+      "erstattesAv": [],
+      "tilhoererLaereplan": {
+        "kode": "FSP01-02",
+        "tittel": "Læreplan i fremmedspråk"
       }
     },
     {
