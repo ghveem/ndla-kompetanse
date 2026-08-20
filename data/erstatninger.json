@@ -1,5 +1,5 @@
 {
-  "generert": "2026-08-19T08:16:59.449Z",
+  "generert": "2026-08-20T04:50:19.134Z",
   "oppslag": {
     "APO3001": {
       "erstattaAv": "APO3005",
@@ -606,254 +606,11 @@
         "NOR1260"
       ]
     },
-    "NOR1020": {
-      "erstattaAv": "NOR1274",
-      "kjede": [
-        "NOR1020",
-        "NOR1274"
-      ]
-    },
-    "NOR1021": {
-      "erstattaAv": "NOR1276",
-      "kjede": [
-        "NOR1021",
-        "NOR1276"
-      ]
-    },
-    "NOR1022": {
-      "erstattaAv": "NOR1277",
-      "kjede": [
-        "NOR1022",
-        "NOR1277"
-      ]
-    },
-    "NOR1023": {
-      "erstattaAv": "NOR1278",
-      "kjede": [
-        "NOR1023",
-        "NOR1278"
-      ]
-    },
-    "NOR1024": {
-      "erstattaAv": "NOR1279",
-      "kjede": [
-        "NOR1024",
-        "NOR1279"
-      ]
-    },
-    "NOR1025": {
-      "erstattaAv": "NOR1280",
-      "kjede": [
-        "NOR1025",
-        "NOR1280"
-      ]
-    },
-    "NOR1026": {
-      "erstattaAv": "NOR1281",
-      "kjede": [
-        "NOR1026",
-        "NOR1281"
-      ]
-    },
-    "NOR1027": {
-      "erstattaAv": "NOR1065",
-      "kjede": [
-        "NOR1027",
-        "NOR1065"
-      ]
-    },
-    "NOR1028": {
-      "erstattaAv": "NOR1066",
-      "kjede": [
-        "NOR1028",
-        "NOR1066"
-      ]
-    },
-    "NOR1029": {
-      "erstattaAv": "NOR1068",
-      "kjede": [
-        "NOR1029",
-        "NOR1068"
-      ]
-    },
-    "NOR1030": {
-      "erstattaAv": "NOR1069",
-      "kjede": [
-        "NOR1030",
-        "NOR1069"
-      ]
-    },
-    "NOR1031": {
-      "erstattaAv": "NOR1070",
-      "kjede": [
-        "NOR1031",
-        "NOR1070"
-      ]
-    },
-    "NOR1032": {
-      "erstattaAv": "NOR1071",
-      "kjede": [
-        "NOR1032",
-        "NOR1071"
-      ]
-    },
-    "NOR1033": {
-      "erstattaAv": "NOR1072",
-      "kjede": [
-        "NOR1033",
-        "NOR1072"
-      ]
-    },
-    "NOR1034": {
-      "erstattaAv": "NOR1073",
-      "kjede": [
-        "NOR1034",
-        "NOR1073"
-      ]
-    },
-    "NOR1036": {
-      "erstattaAv": "NOR1076",
-      "kjede": [
-        "NOR1036",
-        "NOR1076"
-      ]
-    },
-    "NOR1037": {
-      "erstattaAv": "NOR1077",
-      "kjede": [
-        "NOR1037",
-        "NOR1077"
-      ]
-    },
-    "NOR1038": {
-      "erstattaAv": "NOR1078",
-      "kjede": [
-        "NOR1038",
-        "NOR1078"
-      ]
-    },
-    "NOR1039": {
-      "erstattaAv": "NOR1079",
-      "kjede": [
-        "NOR1039",
-        "NOR1079"
-      ]
-    },
     "NOR1063": {
       "erstattaAv": "NOR1049",
       "kjede": [
         "NOR1063",
         "NOR1049"
-      ]
-    },
-    "NOR1101": {
-      "erstattaAv": "NOR1205",
-      "kjede": [
-        "NOR1101",
-        "NOR1205"
-      ]
-    },
-    "NOR1102": {
-      "erstattaAv": "NOR1263",
-      "kjede": [
-        "NOR1102",
-        "NOR1207",
-        "NOR1219",
-        "NOR1263"
-      ]
-    },
-    "NOR1120": {
-      "erstattaAv": "NOR1275",
-      "kjede": [
-        "NOR1120",
-        "NOR1121",
-        "NOR1275"
-      ]
-    },
-    "NOR1121": {
-      "erstattaAv": "NOR1275",
-      "kjede": [
-        "NOR1121",
-        "NOR1275"
-      ]
-    },
-    "NOR1128": {
-      "erstattaAv": "NOR1067",
-      "kjede": [
-        "NOR1128",
-        "NOR1129",
-        "NOR1067"
-      ]
-    },
-    "NOR1129": {
-      "erstattaAv": "NOR1067",
-      "kjede": [
-        "NOR1129",
-        "NOR1067"
-      ]
-    },
-    "NOR1201": {
-      "erstattaAv": "NOR1260",
-      "kjede": [
-        "NOR1201",
-        "NOR1260"
-      ]
-    },
-    "NOR1202": {
-      "erstattaAv": "NOR1260",
-      "kjede": [
-        "NOR1202",
-        "NOR1260"
-      ]
-    },
-    "NOR1203": {
-      "erstattaAv": "NOR1261",
-      "kjede": [
-        "NOR1203",
-        "NOR1261"
-      ]
-    },
-    "NOR1206": {
-      "erstattaAv": "NOR1262",
-      "kjede": [
-        "NOR1206",
-        "NOR1262"
-      ]
-    },
-    "NOR1207": {
-      "erstattaAv": "NOR1263",
-      "kjede": [
-        "NOR1207",
-        "NOR1219",
-        "NOR1263"
-      ]
-    },
-    "NOR1208": {
-      "erstattaAv": "NOR1264",
-      "kjede": [
-        "NOR1208",
-        "NOR1264"
-      ]
-    },
-    "NOR1209": {
-      "erstattaAv": "NOR1264",
-      "kjede": [
-        "NOR1209",
-        "NOR1264"
-      ]
-    },
-    "NOR1210": {
-      "erstattaAv": "NOR1265",
-      "kjede": [
-        "NOR1210",
-        "NOR1265"
-      ]
-    },
-    "NOR1211": {
-      "erstattaAv": "NOR1267",
-      "kjede": [
-        "NOR1211",
-        "NOR1267"
       ]
     },
     "NOR1212": {
@@ -968,11 +725,11 @@
         "NOR1080"
       ]
     },
-    "NOR1401": {
-      "erstattaAv": "NOR1412",
+    "NOR1403": {
+      "erstattaAv": "NOR1414",
       "kjede": [
-        "NOR1401",
-        "NOR1412"
+        "NOR1403",
+        "NOR1414"
       ]
     },
     "NOR1402": {
@@ -980,13 +737,6 @@
       "kjede": [
         "NOR1402",
         "NOR1413"
-      ]
-    },
-    "NOR1403": {
-      "erstattaAv": "NOR1414",
-      "kjede": [
-        "NOR1403",
-        "NOR1414"
       ]
     },
     "NOR1404": {
@@ -1036,6 +786,256 @@
       "kjede": [
         "NOR1411",
         "NOR1423"
+      ]
+    },
+    "NOR1020": {
+      "erstattaAv": "NOR1274",
+      "kjede": [
+        "NOR1020",
+        "NOR1274"
+      ]
+    },
+    "NOR1021": {
+      "erstattaAv": "NOR1276",
+      "kjede": [
+        "NOR1021",
+        "NOR1276"
+      ]
+    },
+    "NOR1022": {
+      "erstattaAv": "NOR1277",
+      "kjede": [
+        "NOR1022",
+        "NOR1277"
+      ]
+    },
+    "NOR1023": {
+      "erstattaAv": "NOR1278",
+      "kjede": [
+        "NOR1023",
+        "NOR1278"
+      ]
+    },
+    "NOR1024": {
+      "erstattaAv": "NOR1279",
+      "kjede": [
+        "NOR1024",
+        "NOR1279"
+      ]
+    },
+    "NOR1201": {
+      "erstattaAv": "NOR1260",
+      "kjede": [
+        "NOR1201",
+        "NOR1260"
+      ]
+    },
+    "NOR1202": {
+      "erstattaAv": "NOR1260",
+      "kjede": [
+        "NOR1202",
+        "NOR1260"
+      ]
+    },
+    "NOR1203": {
+      "erstattaAv": "NOR1261",
+      "kjede": [
+        "NOR1203",
+        "NOR1261"
+      ]
+    },
+    "NOR1206": {
+      "erstattaAv": "NOR1262",
+      "kjede": [
+        "NOR1206",
+        "NOR1262"
+      ]
+    },
+    "NOR1207": {
+      "erstattaAv": "NOR1263",
+      "kjede": [
+        "NOR1207",
+        "NOR1219",
+        "NOR1263"
+      ]
+    },
+    "NOR1208": {
+      "erstattaAv": "NOR1264",
+      "kjede": [
+        "NOR1208",
+        "NOR1264"
+      ]
+    },
+    "NOR1209": {
+      "erstattaAv": "NOR1264",
+      "kjede": [
+        "NOR1209",
+        "NOR1264"
+      ]
+    },
+    "NOR1210": {
+      "erstattaAv": "NOR1265",
+      "kjede": [
+        "NOR1210",
+        "NOR1265"
+      ]
+    },
+    "NOR1211": {
+      "erstattaAv": "NOR1267",
+      "kjede": [
+        "NOR1211",
+        "NOR1267"
+      ]
+    },
+    "NOR1401": {
+      "erstattaAv": "NOR1412",
+      "kjede": [
+        "NOR1401",
+        "NOR1412"
+      ]
+    },
+    "NOR1036": {
+      "erstattaAv": "NOR1076",
+      "kjede": [
+        "NOR1036",
+        "NOR1076"
+      ]
+    },
+    "NOR1037": {
+      "erstattaAv": "NOR1077",
+      "kjede": [
+        "NOR1037",
+        "NOR1077"
+      ]
+    },
+    "NOR1038": {
+      "erstattaAv": "NOR1078",
+      "kjede": [
+        "NOR1038",
+        "NOR1078"
+      ]
+    },
+    "NOR1039": {
+      "erstattaAv": "NOR1079",
+      "kjede": [
+        "NOR1039",
+        "NOR1079"
+      ]
+    },
+    "NOR1101": {
+      "erstattaAv": "NOR1205",
+      "kjede": [
+        "NOR1101",
+        "NOR1205"
+      ]
+    },
+    "NOR1102": {
+      "erstattaAv": "NOR1263",
+      "kjede": [
+        "NOR1102",
+        "NOR1207",
+        "NOR1219",
+        "NOR1263"
+      ]
+    },
+    "NOR1120": {
+      "erstattaAv": "NOR1275",
+      "kjede": [
+        "NOR1120",
+        "NOR1121",
+        "NOR1275"
+      ]
+    },
+    "NOR1121": {
+      "erstattaAv": "NOR1275",
+      "kjede": [
+        "NOR1121",
+        "NOR1275"
+      ]
+    },
+    "NOR1128": {
+      "erstattaAv": "NOR1067",
+      "kjede": [
+        "NOR1128",
+        "NOR1129",
+        "NOR1067"
+      ]
+    },
+    "NOR1129": {
+      "erstattaAv": "NOR1067",
+      "kjede": [
+        "NOR1129",
+        "NOR1067"
+      ]
+    },
+    "NOR1025": {
+      "erstattaAv": "NOR1280",
+      "kjede": [
+        "NOR1025",
+        "NOR1280"
+      ]
+    },
+    "NOR1026": {
+      "erstattaAv": "NOR1281",
+      "kjede": [
+        "NOR1026",
+        "NOR1281"
+      ]
+    },
+    "NOR1027": {
+      "erstattaAv": "NOR1065",
+      "kjede": [
+        "NOR1027",
+        "NOR1065"
+      ]
+    },
+    "NOR1028": {
+      "erstattaAv": "NOR1066",
+      "kjede": [
+        "NOR1028",
+        "NOR1066"
+      ]
+    },
+    "NOR1029": {
+      "erstattaAv": "NOR1068",
+      "kjede": [
+        "NOR1029",
+        "NOR1068"
+      ]
+    },
+    "NOR1030": {
+      "erstattaAv": "NOR1069",
+      "kjede": [
+        "NOR1030",
+        "NOR1069"
+      ]
+    },
+    "NOR1031": {
+      "erstattaAv": "NOR1070",
+      "kjede": [
+        "NOR1031",
+        "NOR1070"
+      ]
+    },
+    "NOR1032": {
+      "erstattaAv": "NOR1071",
+      "kjede": [
+        "NOR1032",
+        "NOR1071"
+      ]
+    },
+    "NOR1033": {
+      "erstattaAv": "NOR1072",
+      "kjede": [
+        "NOR1033",
+        "NOR1072"
+      ]
+    },
+    "NOR1034": {
+      "erstattaAv": "NOR1073",
+      "kjede": [
+        "NOR1034",
+        "NOR1073"
       ]
     },
     "PIN2004": {
@@ -1192,6 +1192,13 @@
         "ROM3012"
       ]
     },
+    "SAM3032": {
+      "erstattaAv": "SAM3067",
+      "kjede": [
+        "SAM3032",
+        "SAM3067"
+      ]
+    },
     "SAM3001": {
       "erstattaAv": "SAM3042",
       "kjede": [
@@ -1211,6 +1218,48 @@
       "kjede": [
         "SAM3003",
         "SAM3044"
+      ]
+    },
+    "SAM3029": {
+      "erstattaAv": "SAM3064",
+      "kjede": [
+        "SAM3029",
+        "SAM3064"
+      ]
+    },
+    "SAM3030": {
+      "erstattaAv": "SAM3065",
+      "kjede": [
+        "SAM3030",
+        "SAM3065"
+      ]
+    },
+    "SAM3031": {
+      "erstattaAv": "SAM3066",
+      "kjede": [
+        "SAM3031",
+        "SAM3066"
+      ]
+    },
+    "SAM3018": {
+      "erstattaAv": "SAM3053",
+      "kjede": [
+        "SAM3018",
+        "SAM3053"
+      ]
+    },
+    "SAM3019": {
+      "erstattaAv": "SAM3054",
+      "kjede": [
+        "SAM3019",
+        "SAM3054"
+      ]
+    },
+    "SAM3028": {
+      "erstattaAv": "SAM3063",
+      "kjede": [
+        "SAM3028",
+        "SAM3063"
       ]
     },
     "SAM3005": {
@@ -1253,55 +1302,6 @@
       "kjede": [
         "SAM3010",
         "SAM3050"
-      ]
-    },
-    "SAM3018": {
-      "erstattaAv": "SAM3053",
-      "kjede": [
-        "SAM3018",
-        "SAM3053"
-      ]
-    },
-    "SAM3019": {
-      "erstattaAv": "SAM3054",
-      "kjede": [
-        "SAM3019",
-        "SAM3054"
-      ]
-    },
-    "SAM3028": {
-      "erstattaAv": "SAM3063",
-      "kjede": [
-        "SAM3028",
-        "SAM3063"
-      ]
-    },
-    "SAM3029": {
-      "erstattaAv": "SAM3064",
-      "kjede": [
-        "SAM3029",
-        "SAM3064"
-      ]
-    },
-    "SAM3030": {
-      "erstattaAv": "SAM3065",
-      "kjede": [
-        "SAM3030",
-        "SAM3065"
-      ]
-    },
-    "SAM3031": {
-      "erstattaAv": "SAM3066",
-      "kjede": [
-        "SAM3031",
-        "SAM3066"
-      ]
-    },
-    "SAM3032": {
-      "erstattaAv": "SAM3067",
-      "kjede": [
-        "SAM3032",
-        "SAM3067"
       ]
     },
     "SPR3008": {
@@ -1513,19 +1513,27 @@
         "HIF01-04"
       ]
     },
-    "HIS1-02": {
-      "erstattaAv": "HIS01-03",
-      "kjede": [
-        "HIS1-02",
-        "HIS01-03"
-      ]
-    },
     "HIF1-02": {
       "erstattaAv": "HIF01-04",
       "kjede": [
         "HIF1-02",
         "HIF01-03",
         "HIF01-04"
+      ]
+    },
+    "HIS1-01": {
+      "erstattaAv": "HIS01-03",
+      "kjede": [
+        "HIS1-01",
+        "HIS1-02",
+        "HIS01-03"
+      ]
+    },
+    "HIS1-02": {
+      "erstattaAv": "HIS01-03",
+      "kjede": [
+        "HIS1-02",
+        "HIS01-03"
       ]
     },
     "HIS2-01": {
@@ -1541,14 +1549,6 @@
       "kjede": [
         "HIS2-02",
         "HIS02-03"
-      ]
-    },
-    "HIS1-01": {
-      "erstattaAv": "HIS01-03",
-      "kjede": [
-        "HIS1-01",
-        "HIS1-02",
-        "HIS01-03"
       ]
     },
     "IDR8-01": {
@@ -1802,6 +1802,17 @@
         "NOR04-06"
       ]
     },
+    "NOR5-02": {
+      "erstattaAv": "NOR05-07",
+      "kjede": [
+        "NOR5-02",
+        "NOR5-03",
+        "NOR5-04",
+        "NOR05-05",
+        "NOR05-06",
+        "NOR05-07"
+      ]
+    },
     "NOR5-01": {
       "erstattaAv": "NOR05-07",
       "kjede": [
@@ -1814,11 +1825,9 @@
         "NOR05-07"
       ]
     },
-    "NOR5-02": {
+    "NOR5-04": {
       "erstattaAv": "NOR05-07",
       "kjede": [
-        "NOR5-02",
-        "NOR5-03",
         "NOR5-04",
         "NOR05-05",
         "NOR05-06",
@@ -1829,15 +1838,6 @@
       "erstattaAv": "NOR05-07",
       "kjede": [
         "NOR5-03",
-        "NOR5-04",
-        "NOR05-05",
-        "NOR05-06",
-        "NOR05-07"
-      ]
-    },
-    "NOR5-04": {
-      "erstattaAv": "NOR05-07",
-      "kjede": [
         "NOR5-04",
         "NOR05-05",
         "NOR05-06",
@@ -1950,55 +1950,6 @@
       "kjede": [
         "TPR1-01",
         "TPR01-02"
-      ]
-    },
-    "ENG01-05": {
-      "erstattaAv": "ENG01-06",
-      "kjede": [
-        "ENG01-05",
-        "ENG01-06"
-      ]
-    },
-    "NAT01-04": {
-      "erstattaAv": "NAT01-05",
-      "kjede": [
-        "NAT01-04",
-        "NAT01-05"
-      ]
-    },
-    "NAT02-04": {
-      "erstattaAv": "NAT02-05",
-      "kjede": [
-        "NAT02-04",
-        "NAT02-05"
-      ]
-    },
-    "NOR01-07": {
-      "erstattaAv": "NOR01-08",
-      "kjede": [
-        "NOR01-07",
-        "NOR01-08"
-      ]
-    },
-    "NOR04-05": {
-      "erstattaAv": "NOR04-06",
-      "kjede": [
-        "NOR04-05",
-        "NOR04-06"
-      ]
-    },
-    "NOR05-06": {
-      "erstattaAv": "NOR05-07",
-      "kjede": [
-        "NOR05-06",
-        "NOR05-07"
-      ]
-    },
-    "NOR07-02": {
-      "erstattaAv": "NOR07-03",
-      "kjede": [
-        "NOR07-02",
-        "NOR07-03"
       ]
     },
     "NOR01-06": {
@@ -2175,11 +2126,60 @@
         "MAT09-02"
       ]
     },
+    "ENG01-05": {
+      "erstattaAv": "ENG01-06",
+      "kjede": [
+        "ENG01-05",
+        "ENG01-06"
+      ]
+    },
     "KRO01-05": {
       "erstattaAv": "KRO01-06",
       "kjede": [
         "KRO01-05",
         "KRO01-06"
+      ]
+    },
+    "NAT01-04": {
+      "erstattaAv": "NAT01-05",
+      "kjede": [
+        "NAT01-04",
+        "NAT01-05"
+      ]
+    },
+    "NAT02-04": {
+      "erstattaAv": "NAT02-05",
+      "kjede": [
+        "NAT02-04",
+        "NAT02-05"
+      ]
+    },
+    "NOR01-07": {
+      "erstattaAv": "NOR01-08",
+      "kjede": [
+        "NOR01-07",
+        "NOR01-08"
+      ]
+    },
+    "NOR04-05": {
+      "erstattaAv": "NOR04-06",
+      "kjede": [
+        "NOR04-05",
+        "NOR04-06"
+      ]
+    },
+    "NOR05-06": {
+      "erstattaAv": "NOR05-07",
+      "kjede": [
+        "NOR05-06",
+        "NOR05-07"
+      ]
+    },
+    "NOR07-02": {
+      "erstattaAv": "NOR07-03",
+      "kjede": [
+        "NOR07-02",
+        "NOR07-03"
       ]
     },
     "NOR03-05": {
