@@ -1,5 +1,5 @@
 {
-  "generert": "2026-08-21T04:55:04.686Z",
+  "generert": "2026-08-22T04:50:44.607Z",
   "kjelde": "NDLA search-api (grep-codes), filtrert på utgåtte/erstatta kompetansemål",
   "merking": [
     {
@@ -7,10 +7,10 @@
       "tittel": "Allegori",
       "url": "https://ndla.no/r/norsk-sf-vg1/allegori/73ac2b9dc1",
       "kmKoder": [
-        "KM12073",
-        "KM12067",
         "KM12091",
-        "KM12088"
+        "KM12088",
+        "KM12073",
+        "KM12067"
       ]
     },
     {
@@ -18,12 +18,12 @@
       "tittel": "Annerledes?",
       "url": "https://ndla.no/r/norsk-sf-vg1/annerledes/b7df161fac",
       "kmKoder": [
-        "KM12073",
-        "KM12072",
-        "KM12070",
+        "KM12095",
         "KM12091",
         "KM12090",
-        "KM12095"
+        "KM12073",
+        "KM12072",
+        "KM12070"
       ]
     },
     {
@@ -39,8 +39,8 @@
       "tittel": "Draugens kamp med daudingene i Lurøy",
       "url": "https://ndla.no/r/norsk-sf-vg2/draugens-kamp-med-daudingene-i-luroy/8a5cdda706",
       "kmKoder": [
-        "KM12079",
-        "KM12111"
+        "KM12111",
+        "KM12079"
       ]
     },
     {
@@ -72,8 +72,8 @@
       "tittel": "Finn og lag rim",
       "url": "https://ndla.no/r/norsk-sf-vg1/finn-og-lag-rim/57d3f70028",
       "kmKoder": [
-        "KM12073",
-        "KM12091"
+        "KM12091",
+        "KM12073"
       ]
     },
     {
@@ -81,8 +81,8 @@
       "tittel": "Hold fast! (utdrag)",
       "url": "https://ndla.no/r/norsk-sf-vg1/hold-fast-utdrag/96acbcb9b5",
       "kmKoder": [
-        "KM12073",
-        "KM12091"
+        "KM12091",
+        "KM12073"
       ]
     },
     {
@@ -90,8 +90,8 @@
       "tittel": "Hvordan kan vi styre språket?",
       "url": "https://ndla.no/r/norsk-sf-vg2/hvordan-kan-vi-styre-spraket/2e0b87b284",
       "kmKoder": [
-        "KM12085",
-        "KM12114"
+        "KM12114",
+        "KM12085"
       ]
     },
     {
@@ -99,8 +99,8 @@
       "tittel": "Menneskets største oppfinnelse",
       "url": "https://ndla.no/r/norsk-sf-vg1/menneskets-storste-oppfinnelse/a22708cc6f",
       "kmKoder": [
-        "KM12076",
-        "KM12098"
+        "KM12098",
+        "KM12076"
       ]
     },
     {
@@ -108,10 +108,10 @@
       "tittel": "Norwegian Immigration to the US",
       "url": "https://ndla.no/r/engelsk-sf/norwegian-immigration-to-the-us/8bb7d4f460",
       "kmKoder": [
-        "KM11804",
         "KM11835",
         "KM11821",
-        "KM11817"
+        "KM11817",
+        "KM11804"
       ]
     },
     {
@@ -119,10 +119,10 @@
       "tittel": "Sigbjørn Obstfelder – en modernistisk lyriker",
       "url": "https://ndla.no/r/norsk-sf-vg3/sigbjorn-obstfelder---en-modernistisk-lyriker/7050c46152",
       "kmKoder": [
-        "KM12100",
-        "KM12099",
         "KM12119",
-        "KM12118"
+        "KM12118",
+        "KM12100",
+        "KM12099"
       ]
     },
     {
@@ -144,10 +144,10 @@
       "tittel": "The North - South Divide",
       "url": "https://ndla.no/r/engelsk-sf/the-north---south-divide/7c1951b073",
       "kmKoder": [
-        "KM11808",
         "KM11835",
         "KM11826",
-        "KM11817"
+        "KM11817",
+        "KM11808"
       ]
     },
     {
@@ -165,12 +165,12 @@
       "tittel": "Valgfrihet – til hvilken pris?",
       "url": "https://ndla.no/r/norsk-pb/valgfrihet---til-hvilken-pris/ad4ce5e958",
       "kmKoder": [
-        "KM12080",
-        "KM12084",
-        "KM12085",
         "KM12116",
         "KM12114",
-        "KM12112"
+        "KM12112",
+        "KM12085",
+        "KM12084",
+        "KM12080"
       ]
     },
     {
@@ -178,8 +178,8 @@
       "tittel": "Øvingsoppgaver – proteinsyntesen",
       "url": "https://ndla.no/r/naturfag-pb/ovingsoppgaver---proteinsyntesen/06a2195cac",
       "kmKoder": [
-        "KM735",
-        "KM819"
+        "KM819",
+        "KM735"
       ]
     },
     {
