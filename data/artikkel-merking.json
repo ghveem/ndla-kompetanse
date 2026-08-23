@@ -1,5 +1,5 @@
 {
-  "generert": "2026-08-22T04:50:44.607Z",
+  "generert": "2026-08-23T04:54:18.174Z",
   "kjelde": "NDLA search-api (grep-codes), filtrert på utgåtte/erstatta kompetansemål",
   "merking": [
     {
@@ -7,10 +7,10 @@
       "tittel": "Allegori",
       "url": "https://ndla.no/r/norsk-sf-vg1/allegori/73ac2b9dc1",
       "kmKoder": [
-        "KM12091",
-        "KM12088",
         "KM12073",
-        "KM12067"
+        "KM12067",
+        "KM12091",
+        "KM12088"
       ]
     },
     {
@@ -18,12 +18,12 @@
       "tittel": "Annerledes?",
       "url": "https://ndla.no/r/norsk-sf-vg1/annerledes/b7df161fac",
       "kmKoder": [
-        "KM12095",
-        "KM12091",
-        "KM12090",
         "KM12073",
         "KM12072",
-        "KM12070"
+        "KM12070",
+        "KM12095",
+        "KM12091",
+        "KM12090"
       ]
     },
     {
@@ -48,8 +48,8 @@
       "tittel": "Eksempler på eksamensoppgaver for bygg- og anleggsteknikk",
       "url": "https://ndla.no/r/naturfag-ba/eksempler-pa-eksamensoppgaver-for-bygg--og-anleggsteknikk/58233bcfe4",
       "kmKoder": [
-        "KM707",
         "KM706",
+        "KM707",
         "KM705",
         "KM704",
         "KM703",
@@ -72,8 +72,8 @@
       "tittel": "Finn og lag rim",
       "url": "https://ndla.no/r/norsk-sf-vg1/finn-og-lag-rim/57d3f70028",
       "kmKoder": [
-        "KM12091",
-        "KM12073"
+        "KM12073",
+        "KM12091"
       ]
     },
     {
@@ -81,8 +81,8 @@
       "tittel": "Hold fast! (utdrag)",
       "url": "https://ndla.no/r/norsk-sf-vg1/hold-fast-utdrag/96acbcb9b5",
       "kmKoder": [
-        "KM12091",
-        "KM12073"
+        "KM12073",
+        "KM12091"
       ]
     },
     {
@@ -99,8 +99,8 @@
       "tittel": "Menneskets største oppfinnelse",
       "url": "https://ndla.no/r/norsk-sf-vg1/menneskets-storste-oppfinnelse/a22708cc6f",
       "kmKoder": [
-        "KM12098",
-        "KM12076"
+        "KM12076",
+        "KM12098"
       ]
     },
     {
@@ -119,10 +119,10 @@
       "tittel": "Sigbjørn Obstfelder – en modernistisk lyriker",
       "url": "https://ndla.no/r/norsk-sf-vg3/sigbjorn-obstfelder---en-modernistisk-lyriker/7050c46152",
       "kmKoder": [
-        "KM12119",
-        "KM12118",
         "KM12100",
-        "KM12099"
+        "KM12099",
+        "KM12119",
+        "KM12118"
       ]
     },
     {
@@ -155,9 +155,9 @@
       "tittel": "Utoverførere og strekkere i hofteleddet",
       "url": "https://ndla.no/r/kroppsoving-vg1/utoverforere-og-strekkere-i-hofteleddet/9856489570",
       "kmKoder": [
-        "KM2054",
+        "KM2056",
         "KM2049",
-        "KM2056"
+        "KM2054"
       ]
     },
     {
