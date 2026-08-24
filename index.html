@@ -613,8 +613,31 @@
     kjerneelement_lk20: "Kjerneelement"
   };
 
-  // Verifisert 2026-08-18 mot ndla.no/search: ?query=<kode> gir treff.
-  const NDLA_SEARCH_URL = "https://ndla.no/search?query=";
+  // Rett parameter er "grepCodes" (camelCase), IKKJE "query" — "query" er
+  // fritekstsøk og gir ofte 0 eller feil treff for KM-/KE-kodar (t.d.
+  // ?query=KE236 -> 0 treff, medan ?grepCodes=KE236 -> 161 treff).
+  // "grepCodes" gir eit korrekt filter-chip sjølv når det er 0 treff
+  // (koden er attkjend, berre ingen artiklar merka med han).
+  //
+  // MEN: "grepCodes" kjenner berre att kompetansemål (KM) og kjerneelement
+  // (KE) — verifisert 2026-08-24 at verken læreplan-, fagkode- eller
+  // kompetansemålsett(KV)-kodar gir noko filter-chip i det heile (stille
+  // "ingen treff", utan attkjenning). For desse typane bruker vi difor
+  // fritekstsøk på tittelen i staden, som gir eit meir nyttig resultat enn
+  // ei tom side.
+  const NDLA_SEARCH_URL = "https://ndla.no/search?grepCodes=";
+  const NDLA_GREPCODES_TYPAR = new Set(["kompetansemaal_lk20", "kjerneelement_lk20"]);
+  function ndlaSokelenke(e) {
+    if (NDLA_GREPCODES_TYPAR.has(e.type)) {
+      return `${NDLA_SEARCH_URL}${encodeURIComponent(e.kode)}`;
+    }
+    // Kompetansemålsett (KV) har generiske titlar ("Kompetansemål og
+    // vurdering Vg1...") — bruk fagnamnet frå læreplanen dei høyrer til i
+    // staden, det gir eit langt meir nyttig fritekstsøk.
+    const kjeldeTittel = e.tilhoererLaereplan?.tittel || e.tittel || e.kode;
+    const soketekst = fagNamnFraLaereplanTittel(kjeldeTittel) || kjeldeTittel;
+    return `https://ndla.no/search?query=${encodeURIComponent(soketekst)}`;
+  }
 
   let snapshot = null, changelog = null, artiklar = null, erstatninger = null;
   let activeType = null;
@@ -742,7 +765,7 @@
     const tverrfagleg = (e.tverrfagligeTemaer || []).length
       ? `<div class="tverrfaglege-temaer">${e.tverrfagligeTemaer.map((t) => `<span class="badge-tema">${esc(t.kode)} · ${esc(t.tittel)}</span>`).join("")}</div>`
       : "";
-    const ndlaLenke = `${NDLA_SEARCH_URL}${encodeURIComponent(e.kode)}`;
+    const ndlaLenke = ndlaSokelenke(e);
     return `
       <div class="kodekort status-${badgeCls}" data-kode="${esc(e.kode)}">
         <div class="kode">${esc(e.kode)}</div>

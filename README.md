@@ -216,9 +216,13 @@ som normalt.
 - [x] Slack-varsel når nye erstatningar/utgåtte kodar dukkar opp
 - [x] Varig oppslagsverk gammal→ny kode (`data/erstatninger.json`)
 - [x] Historikkvisning per kode (klikk "Historikk" på eit kodekort i appen)
-- [x] Direkte søkelenke til ndla.no for ein gitt KM-kode ("Søk på ndla.no ↗" —
-      **verifisert 2026-08-18**: `?query=<kode>` gir reelle tref, t.d. 193
-      treff for NOR01-06)
+- [x] Direkte søkelenke til ndla.no ("Søk på ndla.no ↗") — **retta
+      2026-08-24**: bruker no `?grepCodes=<kode>` for kompetansemål/
+      kjerneelement (den tidlegare `?query=<kode>`-varianten var feil
+      parameter og ga ofte 0 eller misvisande treff, t.d. `?query=KE236`
+      → 0 treff mot `?grepCodes=KE236` → 161 treff). `grepCodes` kjenner
+      berre att KM/KE — fagkode/læreplan/KV fell tilbake til fritekstsøk
+      på fagnamnet.
 - [x] Avgrens datasettet til berre NDLA sine fag (NDLA-filter via
       `data/ndla-fagnavn.json`), i staden for heile Grep sine ~24 000 kodar
 - [x] Djupare NDLA-matching via kompetansemålsett sitt `kortform`-felt (fangar
