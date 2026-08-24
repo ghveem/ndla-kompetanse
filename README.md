@@ -1,9 +1,28 @@
 # Kodeoversikt — kompetansemål, KM-kodar og læreplanar
 
-MVP for ei statisk nettside (GitHub Pages) som gjev redaktørar oversikt over
-status på kompetansemål, kompetansemålsett, kjerneelement, læreplanar og
-fagkodar frå Udir sitt Grep-register — og varslar når kodar vert utgåtte
-eller erstatta.
+Statisk nettside (GitHub Pages) som gjev redaktørar oversikt over status på
+kompetansemål (KM), kompetansemålsett (KV), kjerneelement (KE), læreplanar og
+fagkodar frå Udir sitt Grep-register, avgrensa til dei faga NDLA dekker —
+og varslar når kodar vert utgåtte eller erstatta.
+
+**Live på:** <https://ghveem.github.io/ndla-kompetanse/>
+
+## Funksjonar
+
+- **Oppslag**: lim inn ein gammal kode (KM, KV, KE, fagkode eller læreplan)
+  og få svaret direkte på kva han er erstatta av, inkludert kjeder over
+  fleire steg
+- **Søk**: fritekstsøk med filter per kodetype, viser status, gyldigheit,
+  fagtilknyting og tverrfaglege tema
+- **Endringslogg**: automatisk generert historikk over nye/utgåtte/erstatta
+  kodar
+- **Artikkel-sjekk**: finn ekte NDLA-artiklar merka med utgåtte/erstatta
+  KM-, KV- eller KE-kodar, via NDLA sitt search-api
+- **Direkte søkelenke** til ndla.no per kode, med rett parameter for kvar
+  kodetype
+- **Slack-varsel** når nye erstatningar dukkar opp
+- **Eigne URL-ar per fane** (`#sok`, `#endringar`, `#artikkel`, `#om`) — kan
+  delast direkte
 
 ## Slik heng det saman
 
@@ -35,12 +54,16 @@ skriptet sporar.
 1. **Push til eit GitHub-repo** og slå på GitHub Pages via "GitHub Actions"
    som kjelde (Settings → Pages → Build and deployment → Source: GitHub
    Actions). Workflowen `update-grep-data.yml` byggjer og deployar sida.
-2. **Køyr skriptet manuelt** for å teste lokalt:
+2. **Køyr skripta manuelt** for å teste lokalt:
    ```bash
-   node scripts/fetch-grep-data.mjs
+   node scripts/fetch-grep-data.mjs        # Grep-data → status/erstatning/oppslag
+   node scripts/fetch-artikkel-merking.mjs # NDLA-artiklar merka med utgåtte kodar
    ```
-   Det krev Node 18+ (bruker innebygd `fetch`). Skriv over
-   `data/grep-snapshot.json` og `data/changelog.json`.
+   Krev Node 18+ (bruker innebygd `fetch`). Fyrste skriptet skriv over
+   `data/grep-snapshot.json`, `data/changelog.json`, `data/erstatninger.json`
+   og `data/siste-kjoring-endringar.json`. Andre skriptet skriv over
+   `data/artikkel-merking.json`, og må køyrast etter det fyrste sidan det
+   les frå `grep-snapshot.json`.
 3. **Juster kva fag som vert henta** ved å redigere `data/ndla-fagnavn.json`
    (kva NDLA-fag skriptet skal matche mot) og `data/ndla-laereplan-manuell.json`
    (manuelle rettingar viss matchinga bommar) — sjå eige avsnitt om
@@ -160,7 +183,8 @@ sjeldan, så det treng ikkje automatiserast.
 
 `data/erstatninger.json` er eit flatt, varig oppslagsverk som blir bygd på nytt
 kvar veke frå både det ferske Grep-uttrekket og historikken i
-`changelog.json`. Det held oppslaget i live sjølv om den gamle koden seinare
+`changelog.json`. Dekker fagkodar, læreplanar OG kompetansemål (sjå eige
+avsnitt under). Det held oppslaget i live sjølv om den gamle koden seinare
 forsvinn heilt frå Grep sine lister, og følgjer heile kjeda viss ein kode er
 erstatta fleire gonger etter kvarandre.
 
@@ -205,8 +229,6 @@ vert erstatta eller sett til utgått. For å slå det på:
 
 Ingen webhook sett opp → steget hoppar stille over, resten av jobben går
 som normalt.
-
-
 
 ## Vidare arbeid
 
