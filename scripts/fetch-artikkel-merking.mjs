@@ -36,7 +36,12 @@ const CONCURRENCY = Number(process.env.ARTIKKEL_CONCURRENCY || 8);
 const PAGE_SIZE = 50;
 
 // Kva Grep-typar vi søker etter utgåtte/erstatta kodar for.
-const RELEVANTE_TYPAR = ["kompetansemaal_lk20", "kjerneelement_lk20"];
+const RELEVANTE_TYPAR = ["kompetansemaal_lk20", "kjerneelement_lk20", "kompetansemaalsett_lk20"];
+const TYPE_NAMN = {
+  kompetansemaal_lk20: "kompetansemål (KM)",
+  kjerneelement_lk20: "kjerneelement (KE)",
+  kompetansemaalsett_lk20: "kompetansemålsett (KV)",
+};
 
 async function fetchJson(url) {
   const res = await fetch(url, { headers: { Accept: "application/json" } });
@@ -82,7 +87,7 @@ async function main() {
     (e) => RELEVANTE_TYPAR.includes(e.type) && e.status !== "publisert"
   );
   const tal = RELEVANTE_TYPAR.map(
-    (t) => `${utgatteKodar.filter((e) => e.type === t).length} ${t === "kompetansemaal_lk20" ? "kompetansemål (KM)" : "kjerneelement (KE)"}`
+    (t) => `${utgatteKodar.filter((e) => e.type === t).length} ${TYPE_NAMN[t]}`
   ).join(", ");
 
   console.log(`Søker NDLA-artiklar for ${utgatteKodar.length} utgåtte/erstatta kodar (${tal})...`);
@@ -118,7 +123,7 @@ async function main() {
     JSON.stringify(
       {
         generert: new Date().toISOString(),
-        kjelde: "NDLA search-api (grep-codes), filtrert på utgåtte/erstatta kompetansemål (KM) og kjerneelement (KE)",
+        kjelde: "NDLA search-api (grep-codes), filtrert på utgåtte/erstatta kompetansemål (KM), kjerneelement (KE) og kompetansemålsett (KV)",
         merking,
       },
       null,
@@ -127,7 +132,7 @@ async function main() {
     "utf-8"
   );
 
-  console.log(`\nFerdig. ${merking.length} artiklar merka med utgåtte/erstatta KM/KE-kodar.`);
+  console.log(`\nFerdig. ${merking.length} artiklar merka med utgåtte/erstatta KM/KE/KV-kodar.`);
 }
 
 main().catch((err) => {

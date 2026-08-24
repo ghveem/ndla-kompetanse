@@ -458,6 +458,18 @@
   }
   .badge-kodetype.km { background: var(--kunnskap-100); color: var(--kunnskap); }
   .badge-kodetype.ke { background: var(--kvalitet-100); color: var(--kvalitet-700); }
+  .badge-kodetype.kv { background: var(--leken-100); color: var(--leken-ux); }
+
+  .artikkel-seksjon { margin-bottom: 26px; }
+  .artikkel-seksjon h3 {
+    font-size: 14px;
+    margin: 0 0 4px;
+  }
+  .artikkel-seksjon .seksjon-forklaring {
+    font-size: 12.5px;
+    color: var(--svart-700);
+    margin: 0 0 10px;
+  }
 
   .tom { color: var(--svart-700); font-size: 13.5px; padding: 20px 0; text-align: center; }
 
@@ -519,13 +531,7 @@
 
   <!-- ARTIKKEL-SJEKK -->
   <section class="panel" id="panel-artikkel">
-    <div id="artikkel-varsel"></div>
-    <table class="artikkeltabell">
-      <thead>
-        <tr><th>Artikkel</th><th>KM-kodar i bruk</th></tr>
-      </thead>
-      <tbody id="artikkel-tabell"></tbody>
-    </table>
+    <div id="artikkel-innhald"></div>
   </section>
 
   <!-- OM -->
@@ -649,19 +655,31 @@
       const dager = (Date.now() - new Date(h.dato).getTime()) / 86400000;
       return dager <= 30;
     }).length;
-    const merkaMedProblem = (artiklar.merking || []).filter((a) => {
-      const koder = Array.isArray(a.koder) ? a.koder.map((k) => k.kode) : (a.kmKoder || []);
-      return koder.some((k) => {
-        const treff = el.find((e) => e.kode === k);
-        return treff && treff.status !== "publisert";
-      });
-    }).length;
+
+    const statusFor = (kode) => {
+      const t = el.find((e) => e.kode === kode);
+      return t ? t.status : "ukjend";
+    };
+    const artiklarMedKodar = (artiklar.merking || []).map((a) => {
+      const koder = Array.isArray(a.koder)
+        ? a.koder
+        : (a.kmKoder || []).map((kode) => ({ kode, type: "kompetansemaal_lk20" }));
+      return koder;
+    });
+    function talPerType(type) {
+      return artiklarMedKodar.filter((koder) => koder.some((k) => k.type === type && statusFor(k.kode) !== "publisert")).length;
+    }
+    const talKM = talPerType("kompetansemaal_lk20");
+    const talKV = talPerType("kompetansemaalsett_lk20");
+    const talKE = talPerType("kjerneelement_lk20");
 
     document.getElementById("stat-row").innerHTML = `
       <div class="stat-card"><div class="n">${el.length}</div><div class="label">Kodar i Grep-uttrekket</div></div>
       <div class="stat-card ${utgatt ? "warn" : ""}"><div class="n">${utgatt}</div><div class="label">Utgåtte / erstatta</div></div>
       <div class="stat-card"><div class="n">${sisteEndringar}</div><div class="label">Endringar siste 30 dagar</div></div>
-      <div class="stat-card ${merkaMedProblem ? "warn" : ""}"><div class="n">${merkaMedProblem}</div><div class="label">Artiklar som treng oppdatering</div></div>
+      <div class="stat-card ${talKM ? "warn" : ""}"><div class="n">${talKM}</div><div class="label">Artiklar — KM treng oppdatering</div></div>
+      <div class="stat-card ${talKV ? "warn" : ""}"><div class="n">${talKV}</div><div class="label">Artiklar — KV treng oppdatering</div></div>
+      <div class="stat-card ${talKE ? "warn" : ""}"><div class="n">${talKE}</div><div class="label">Artiklar — KE (tematisk)</div></div>
     `;
   }
 
@@ -785,11 +803,16 @@
   }
 
   /** Kodane kan koma i to former: nye {kode, type}-objekt, eller gamle rå tekststrengar (fallback/eldre data). */
+  const KODETYPE_INFO = {
+    kompetansemaal_lk20: { label: "KM", klasse: "km", namn: "Kompetansemål" },
+    kjerneelement_lk20: { label: "KE", klasse: "ke", namn: "Kjerneelement" },
+    kompetansemaalsett_lk20: { label: "KV", klasse: "kv", namn: "Kompetansemålsett" },
+  };
   function kodeTypeLabel(type) {
-    return type === "kjerneelement_lk20" ? "KE" : "KM";
+    return KODETYPE_INFO[type]?.label || "?";
   }
   function kodeTypeClass(type) {
-    return type === "kjerneelement_lk20" ? "ke" : "km";
+    return KODETYPE_INFO[type]?.klasse || "km";
   }
   function kodarFraArtikkel(a) {
     if (Array.isArray(a.koder)) return a.koder;
@@ -800,40 +823,56 @@
     return `<span class="badge-kodetype ${kodeTypeClass(k.type)}">${kodeTypeLabel(k.type)}</span><code>${esc(k.kode)}</code>`;
   }
 
+  const SEKSJON_REKKEFOLGE = [
+    { type: "kompetansemaal_lk20", forklaring: "Konkrete, spesifikke læringsmål — desse treng vanlegvis reell redaksjonell oppfølging." },
+    { type: "kompetansemaalsett_lk20", forklaring: "Heile settet med kompetansemål for eit trinn/nivå er sett til utgått/erstatta." },
+    { type: "kjerneelement_lk20", forklaring: "Breie tema-kategoriar — mange treff her er venta og treng ikkje nødvendigvis innhaldsendring, berre eit kjapt blikk." },
+  ];
+
+  function renderArtikkelSjekkSeksjon(type, forklaring, artiklarMedKodar, statusFor) {
+    const relevante = artiklarMedKodar
+      .map((a) => ({ ...a, _relevanteKoder: a._koder.filter((k) => k.type === type && statusFor(k.kode) !== "publisert") }))
+      .filter((a) => a._relevanteKoder.length > 0);
+
+    const info = KODETYPE_INFO[type];
+    const tittelHtml = `<h3><span class="badge-kodetype ${info.klasse}">${info.label}</span> ${info.namn} — ${relevante.length} artikkel(ar)</h3>`;
+    const forklaringHtml = `<p class="seksjon-forklaring">${esc(forklaring)}</p>`;
+
+    if (relevante.length === 0) {
+      return `<div class="artikkel-seksjon">${tittelHtml}${forklaringHtml}<div class="ok-boks">Ingen artiklar merka med utgåtte/erstatta ${esc(info.namn.toLowerCase())}-kodar akkurat no.</div></div>`;
+    }
+
+    const tabellRader = relevante.map((a) => `
+      <tr>
+        <td><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.tittel)}</a><br><span style="color:var(--svart-700); font-size:11.5px;">ID ${esc(a.artikkelId)}</span></td>
+        <td>${a._relevanteKoder.map((k) => `<code class="varsel" style="margin:0 4px 4px 0; display:inline-block;">${esc(k.kode)}</code>`).join("")}</td>
+      </tr>
+    `).join("");
+
+    return `
+      <div class="artikkel-seksjon">
+        ${tittelHtml}
+        ${forklaringHtml}
+        <table class="artikkeltabell">
+          <thead><tr><th>Artikkel</th><th>${esc(info.label)}-kodar (utgåtte/erstatta)</th></tr></thead>
+          <tbody>${tabellRader}</tbody>
+        </table>
+      </div>
+    `;
+  }
+
   function renderArtikkelSjekk() {
     const statusFor = (kode) => {
       const t = snapshot.elementer.find((e) => e.kode === kode);
       return t ? t.status : "ukjend";
     };
     const artiklarMedKodar = (artiklar.merking || []).map((a) => ({ ...a, _koder: kodarFraArtikkel(a) }));
-    const problemartiklar = artiklarMedKodar.filter((a) =>
-      a._koder.some((k) => statusFor(k.kode) !== "publisert")
-    );
 
-    const varselEl = document.getElementById("artikkel-varsel");
-    if (problemartiklar.length) {
-      varselEl.innerHTML = `
-        <div class="varsel-boks">
-          <h3>${problemartiklar.length} artikkel(ar) er merka med utgåtte eller erstatta kodar</h3>
-          ${problemartiklar.map((a) => `
-            <div class="rad">
-              <a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.tittel)}</a>
-              — ${a._koder.filter((k) => statusFor(k.kode) !== "publisert").map(kodeBadgeHtml).join(" ")}
-            </div>
-          `).join("")}
-        </div>
-      `;
-    } else {
-      varselEl.innerHTML = `<div class="ok-boks">Alle merka artiklar brukar gjeldande kodar. Ingen opprydding nødvendig akkurat no.</div>`;
-    }
+    const html = SEKSJON_REKKEFOLGE.map(({ type, forklaring }) =>
+      renderArtikkelSjekkSeksjon(type, forklaring, artiklarMedKodar, statusFor)
+    ).join("");
 
-    const tbody = document.getElementById("artikkel-tabell");
-    tbody.innerHTML = artiklarMedKodar.map((a) => `
-      <tr>
-        <td><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.tittel)}</a><br><span style="color:var(--svart-700); font-size:11.5px;">ID ${esc(a.artikkelId)}</span></td>
-        <td>${a._koder.map((k) => `<span style="display:inline-block; margin:0 6px 4px 0;"><span class="badge-kodetype ${kodeTypeClass(k.type)}">${kodeTypeLabel(k.type)}</span><code class="${statusFor(k.kode) !== "publisert" ? "varsel" : ""}">${esc(k.kode)}</code></span>`).join("")}</td>
-      </tr>
-    `).join("");
+    document.getElementById("artikkel-innhald").innerHTML = html;
   }
 
   function renderOppslag() {

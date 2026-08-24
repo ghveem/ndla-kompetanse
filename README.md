@@ -67,24 +67,30 @@ som søker mot NDLA sitt eige [search-api](https://api.ndla.no/search-api/api-do
   `data/erstatninger.json` i staden.
 
 **Slik fungerer skriptet:**
-1. Filtrerer `data/grep-snapshot.json` til berre kompetansemål (KM) OG
-   kjerneelement (KE) med status ulik `publisert` (dei einaste kodane det er
-   nyttig å varsle redaktørar om)
+1. Filtrerer `data/grep-snapshot.json` til berre kompetansemål (KM),
+   kompetansemålsett (KV) OG kjerneelement (KE) med status ulik `publisert`
+   (dei einaste kodane det er nyttig å varsle redaktørar om)
 2. For kvar av desse, søker `grep-codes=<kode>` mot search-api
 3. Slår saman treff per artikkel (ein artikkel kan vere merka med fleire
-   utgåtte kodar, av begge typar) og skriv til `data/artikkel-merking.json`
+   utgåtte kodar, av fleire typar) og skriv til `data/artikkel-merking.json`
 
-Kvar kode i `koder`-lista er eit objekt `{kode, type}` (type er
-`kompetansemaal_lk20` eller `kjerneelement_lk20`), slik at appen alltid kan
-vise KM/KE-merke tydeleg (2026-08-19). Eldre data som brukte flate
+Kvar kode i `koder`-lista er eit objekt `{kode, type}`, slik at appen alltid
+kan vise KM/KV/KE-merke tydeleg (2026-08-24). Eldre data som brukte flate
 `kmKoder`-strengar vert framleis lese korrekt via fallback i appen.
 
-Med ca. 2600 utgåtte kompetansemål/kjerneelement i det NDLA-filtrerte
-datasettet tek dette under eitt minutt (moderat samtidigheit, 8 parallelle
-kall).
+**Verifisert (2026-08-24): KV-kodar gir 0 treff, sjølv for gyldige/publiserte
+kodar.** NDLA-artiklar vert tydelegvis aldri merka med heile kompetansemålsett
+(for grovkorna til innhaldstagging) — berre med individuelle KM- og
+KE-kodar. Sjølve søkemekanismen fungerer, det finst berre ingen data å finne
+for KV. Koden er likevel verande i skriptet i tilfelle praksisen endrar seg.
 
-"Artikkel-sjekk"-fana i appen flaggar automatisk desse artiklane, med farga
-KM/KE-merke per kode, utan andre endringar i appen.
+Med ca. 2400 utgåtte kompetansemål/kompetansemålsett/kjerneelement i det
+NDLA-filtrerte datasettet tek dette under eitt minutt (moderat samtidigheit,
+8 parallelle kall).
+
+"Artikkel-sjekk"-fana i appen viser tre separate seksjonar (KM, KV, KE), sidan
+KE-treff er mykje breiare/mindre presserande enn KM/KV-treff — sjå
+forklaringstekst per seksjon i appen.
 
 ## NDLA-filter (avgrensar datasettet til berre NDLA sine fag)
 
