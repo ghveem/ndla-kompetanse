@@ -499,7 +499,7 @@
   <!-- ENDRINGAR -->
   <section class="panel" id="panel-endringar">
     <p class="sub" style="color:var(--svart-700); font-size:13.5px; margin-top:0;">
-      Automatisk generert kvar natt ved å samanlikne nytt Grep-uttrekk mot førre. Nyaste øvst.
+      Automatisk generert kvar veke ved å samanlikne nytt Grep-uttrekk mot førre. Nyaste øvst.
     </p>
     <div class="logg" id="endrings-logg"></div>
   </section>
@@ -519,7 +519,7 @@
   <section class="panel" id="panel-om">
     <h2 style="font-size:16px;">Korleis dette fungerer</h2>
     <p style="font-size:14px; max-width:640px;">
-      Ein planlagt jobb i GitHub Actions hentar data frå Udir sitt Grep REST-API kvar natt,
+      Ein planlagt jobb i GitHub Actions hentar data frå Udir sitt Grep REST-API kvar veke,
       avgrensar det til berre dei faga NDLA dekker, normaliserer det og samanliknar med
       førre uttrekk. Endringar (nye kodar, kodar som vert sett til utgått, og kodar som
       vert erstatta av andre) hamnar i endringsloggen. Data vert lagra som JSON-filer i
@@ -530,7 +530,7 @@
       kompetansemål-kodar, via NDLA sitt eige
       <a href="https://api.ndla.no/search-api/api-docs" target="_blank" rel="noopener">search-api</a>
       (parameteren <code>grep-codes</code>). Ingen manuell eksport er nødvendig — dette
-      køyrer som ein del av den same nattlege jobben.
+      køyrer som ein del av den same vekentlege jobben.
     </p>
     <p style="font-size:12.5px; color:var(--svart-700);">
       Kjelde: <a href="https://data.udir.no/kl06/v201906/" target="_blank" rel="noopener">data.udir.no/kl06/v201906</a> ·

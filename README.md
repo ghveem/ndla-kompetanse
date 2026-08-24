@@ -7,7 +7,7 @@ sitt Grep-register — og varslar når kodar vert utgåtte eller erstatta.
 ## Slik heng det saman
 
 ```
-.github/workflows/update-grep-data.yml   ← kjører nattleg, hentar data + varslar Slack + deployar
+.github/workflows/update-grep-data.yml   ← kjører vekentleg, hentar data + varslar Slack + deployar
 scripts/fetch-grep-data.mjs              ← hentar frå Grep REST-API, diff mot forrige uttrekk
 scripts/fetch-artikkel-merking.mjs       ← søker NDLA-artiklar merka med utgåtte kompetansemål
 scripts/send-slack-varsel.mjs            ← postar Slack-melding om nye erstatningar (valfritt)
@@ -145,7 +145,7 @@ sjeldan, så det treng ikkje automatiserast.
 ## Oppslagsverk: gammal kode → ny kode
 
 `data/erstatninger.json` er eit flatt, varig oppslagsverk som blir bygd på nytt
-kvar natt frå både det ferske Grep-uttrekket og historikken i
+kvar veke frå både det ferske Grep-uttrekket og historikken i
 `changelog.json`. Det held oppslaget i live sjølv om den gamle koden seinare
 forsvinn heilt frå Grep sine lister, og følgjer heile kjeda viss ein kode er
 erstatta fleire gonger etter kvarandre:

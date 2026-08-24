@@ -2,8 +2,8 @@ name: Oppdater Grep-data
 
 on:
   schedule:
-    # Kvar natt kl. 04:15 UTC (ca. etter Udir sin nattlege oppdatering)
-    - cron: "15 4 * * *"
+    # Kvar måndag kl. 04:15 UTC
+    - cron: "15 4 * * 1"
   workflow_dispatch: {}
   push:
     branches: [main]
