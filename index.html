@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Kodeoversikt — kompetansemål &amp; læreplanar</title>
+<title>Kodeoversikt — kompetansemålkodar &amp; læreplanar</title>
 <style>
   :root {
     --kunnskap: #2A1C5E;
@@ -490,7 +490,7 @@
 
 <header class="topbar">
   <p class="eyebrow">Produktteam NDLA.no</p>
-  <h1>Kodeoversikt — kompetansemål, KM-kodar og læreplanar</h1>
+  <h1>Kodeoversikt — kompetansemålkodar og læreplanar</h1>
   <p class="sub">Sporar status og endringar i Udir sitt Grep-register, og syner kva NDLA-artiklar som er merka med kodar som er utgåtte eller erstatta.</p>
 </header>
 
@@ -546,7 +546,7 @@
     </p>
     <p style="font-size:14px; max-width:640px;">
       «Artikkel-sjekk» søker automatisk opp NDLA-artiklar merka med utgåtte eller erstatta
-      kompetansemål-kodar, via NDLA sitt eige
+      kompetansemålkodar (KM), kjerneelement-kodar (KE) og kompetansemålsett-kodar (KV), via NDLA sitt eige
       <a href="https://api.ndla.no/search-api/api-docs" target="_blank" rel="noopener">search-api</a>
       (parameteren <code>grep-codes</code>). Ingen manuell eksport er nødvendig — dette
       køyrer som ein del av den same vekentlege jobben.
@@ -609,7 +609,7 @@
     laereplan: "Læreplan (LK06)",
     laereplan_lk20: "Læreplan (LK20)",
     kompetansemaalsett_lk20: "Kompetansemålsett",
-    kompetansemaal_lk20: "Kompetansemål",
+    kompetansemaal_lk20: "Kompetansemålkode",
     kjerneelement_lk20: "Kjerneelement"
   };
 
@@ -703,7 +703,7 @@
       <div class="stat-card"><div class="n">${el.length}</div><div class="label">Kodar i Grep-uttrekket</div></div>
       <div class="stat-card ${utgatt ? "warn" : ""}"><div class="n">${utgatt}</div><div class="label">Utgåtte / erstatta</div></div>
       <div class="stat-card"><div class="n">${sisteEndringar}</div><div class="label">Endringar siste 30 dagar</div></div>
-      <div class="stat-card ${talKM ? "warn" : ""}"><div class="n">${talKM}</div><div class="label">Treng oppdatering av kompetansemål</div></div>
+      <div class="stat-card ${talKM ? "warn" : ""}"><div class="n">${talKM}</div><div class="label">Treng oppdatering av kompetansemålkodar</div></div>
       <div class="stat-card ${talKV ? "warn" : ""}"><div class="n">${talKV}</div><div class="label">Treng oppdatering av kompetansemålsett</div></div>
       <div class="stat-card ${talKE ? "warn" : ""}"><div class="n">${talKE}</div><div class="label">Treng oppdatering av kjerneelement</div></div>
     `;
@@ -830,9 +830,9 @@
 
   /** Kodane kan koma i to former: nye {kode, type}-objekt, eller gamle rå tekststrengar (fallback/eldre data). */
   const KODETYPE_INFO = {
-    kompetansemaal_lk20: { label: "KM", klasse: "km", namn: "Kompetansemål" },
-    kjerneelement_lk20: { label: "KE", klasse: "ke", namn: "Kjerneelement" },
-    kompetansemaalsett_lk20: { label: "KV", klasse: "kv", namn: "Kompetansemålsett" },
+    kompetansemaal_lk20: { label: "KM", klasse: "km", namn: "Kompetansemålkodar", omtale: "kompetansemålkodar" },
+    kjerneelement_lk20: { label: "KE", klasse: "ke", namn: "Kjerneelement", omtale: "kjerneelement-kodar" },
+    kompetansemaalsett_lk20: { label: "KV", klasse: "kv", namn: "Kompetansemålsett", omtale: "kompetansemålsett-kodar" },
   };
   function kodeTypeLabel(type) {
     return KODETYPE_INFO[type]?.label || "?";
@@ -865,7 +865,7 @@
     const forklaringHtml = `<p class="seksjon-forklaring">${esc(forklaring)}</p>`;
 
     if (relevante.length === 0) {
-      return `<div class="artikkel-seksjon">${tittelHtml}${forklaringHtml}<div class="ok-boks">Ingen artiklar merka med utgåtte/erstatta ${esc(info.namn.toLowerCase())}-kodar akkurat no.</div></div>`;
+      return `<div class="artikkel-seksjon">${tittelHtml}${forklaringHtml}<div class="ok-boks">Ingen artiklar merka med utgåtte/erstatta ${esc(info.omtale)} akkurat no.</div></div>`;
     }
 
     const tabellRader = relevante.map((a) => `
