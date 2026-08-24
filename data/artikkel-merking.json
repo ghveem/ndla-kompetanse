@@ -1,5 +1,5 @@
 {
-  "generert": "2026-08-24T10:28:37.720Z",
+  "generert": "2026-08-24T12:40:17.894Z",
   "kjelde": "NDLA search-api (grep-codes), filtrert på utgåtte/erstatta kompetansemål",
   "merking": [
     {
@@ -14,36 +14,6 @@
       ]
     },
     {
-      "artikkelId": "16630",
-      "tittel": "Annerledes?",
-      "url": "https://ndla.no/r/norsk-sf-vg1/annerledes/b7df161fac",
-      "kmKoder": [
-        "KM12095",
-        "KM12091",
-        "KM12090",
-        "KM12073",
-        "KM12072",
-        "KM12070"
-      ]
-    },
-    {
-      "artikkelId": "38436",
-      "tittel": "Barkh draamine",
-      "url": "https://ndla.no/r/saemiengiele-voestesgieline-saemien-1-lb/barkh-draamine/533437fb84",
-      "kmKoder": [
-        "KM11812"
-      ]
-    },
-    {
-      "artikkelId": "16844",
-      "tittel": "Draugens kamp med daudingene i Lurøy",
-      "url": "https://ndla.no/r/norsk-sf-vg2/draugens-kamp-med-daudingene-i-luroy/8a5cdda706",
-      "kmKoder": [
-        "KM12111",
-        "KM12079"
-      ]
-    },
-    {
       "artikkelId": "27119",
       "tittel": "Eksempler på eksamensoppgaver for bygg- og anleggsteknikk",
       "url": "https://ndla.no/r/naturfag-ba/eksempler-pa-eksamensoppgaver-for-bygg--og-anleggsteknikk/58233bcfe4",
@@ -54,17 +24,6 @@
         "KM704",
         "KM703",
         "KM701"
-      ]
-    },
-    {
-      "artikkelId": "46432",
-      "tittel": "Film: 2040",
-      "url": "https://ndla.no/r/engelsk-sf/film-2040/94510bc452",
-      "kmKoder": [
-        "KM11835",
-        "KM11834",
-        "KM11817",
-        "KM11816"
       ]
     },
     {
@@ -123,20 +82,6 @@
         "KM12118",
         "KM12100",
         "KM12099"
-      ]
-    },
-    {
-      "artikkelId": "46433",
-      "tittel": "Tasks: 2040",
-      "url": "https://ndla.no/r/engelsk-sf/tasks-2040/de8b901fc0",
-      "kmKoder": [
-        "KM11835",
-        "KM11834",
-        "KM11831",
-        "KM11830",
-        "KM11817",
-        "KM11816",
-        "KM11812"
       ]
     },
     {
