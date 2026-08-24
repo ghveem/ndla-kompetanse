@@ -484,6 +484,17 @@ async function main() {
   );
   const kompetansemaalElementerRaa = await hentDetaljar("kompetansemaal_lk20", kompetansemaalMatcha);
 
+  // Kjerneelement — filtrert på same måte som kompetansemål (tilhoerer_laereplan
+  // finst alt i listeoppslaget). Ingen kjend erstatningsmekanisme for
+  // kjerneelement (verifisert 2026-08-19 via SPARQL — ingen "gjenbruk-av" eller
+  // tilsvarande inngåande referansar), så erstatter/erstattesAv vert alltid
+  // tomme her, i motsetnad til kompetansemål.
+  const kjerneelementRaa = await hentRåListe("kjerneelementer-lk20");
+  const kjerneelementMatcha = kjerneelementRaa.filter(
+    (k) => k.tilhoerer_laereplan && allowedLaereplanKoder.has(k.tilhoerer_laereplan.kode)
+  );
+  const kjerneelementElementerRaa = await hentDetaljar("kjerneelement_lk20", kjerneelementMatcha);
+
   // Legg til fagtilknyting (kva læreplan/fag kvart kompetansemålsett/-mål
   // høyrer til), henta frå "tilhoerer_laereplan" i rå-lista og kopla mot
   // læreplan-titlane vi alt har henta. Nyttig for søk og visning i appen.
@@ -507,9 +518,10 @@ async function main() {
   );
   const kompetansemaalElementerMedFag = leggTilFagtilknyting(kompetansemaalElementerRaa, kompetansemaalMatcha);
   const kompetansemaalElementer = berikKompetansemaalMedErstatning(kompetansemaalElementerMedFag);
+  const kjerneelementElementer = leggTilFagtilknyting(kjerneelementElementerRaa, kjerneelementMatcha);
 
   console.log(
-    `NDLA-filter: ${kompetansemaalsettElementer.length} kompetansemålsett, ${kompetansemaalElementer.length} kompetansemål matcha.`
+    `NDLA-filter: ${kompetansemaalsettElementer.length} kompetansemålsett, ${kompetansemaalElementer.length} kompetansemål, ${kjerneelementElementer.length} kjerneelement matcha.`
   );
 
   const elementer = [
@@ -518,6 +530,7 @@ async function main() {
     ...laereplanElementerLk20,
     ...kompetansemaalsettElementer,
     ...kompetansemaalElementer,
+    ...kjerneelementElementer,
   ].filter((e) => e && e.kode);
 
   const nyttSnapshot = {

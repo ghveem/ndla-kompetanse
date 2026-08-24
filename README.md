@@ -1,8 +1,9 @@
 # Kodeoversikt — kompetansemål, KM-kodar og læreplanar
 
 MVP for ei statisk nettside (GitHub Pages) som gjev redaktørar oversikt over
-status på kompetansemål, kompetansemålsett, læreplanar og fagkodar frå Udir
-sitt Grep-register — og varslar når kodar vert utgåtte eller erstatta.
+status på kompetansemål, kompetansemålsett, kjerneelement, læreplanar og
+fagkodar frå Udir sitt Grep-register — og varslar når kodar vert utgåtte
+eller erstatta.
 
 ## Slik heng det saman
 
@@ -102,11 +103,11 @@ frå [ndla.no/subjects](https://ndla.no/subjects).
    paraply-læreplanen (og alle kompetansemålsett/-mål under han) teken med —
    dette kan i nokre tilfelle dra med seg naboemne under same paraply som
    ikkje er eit eige NDLA-fag, ein akseptert avveging for enkelheit.
-3. Kompetansemålsett og kompetansemål vert filtrert via feltet
+3. Kompetansemålsett, kompetansemål og kjerneelement vert filtrert via feltet
    `tilhoerer_laereplan`, som alt finst i Grep sitt listeoppslag.
 4. Berre det filtrerte settet vert henta i full detalj for fagkodar/
-   læreplanar/kompetansemål (status/gyldighet/erstatning) — kompetansemålsett
-   er alt henta i steg 2.
+   læreplanar/kompetansemål/kjerneelement (status/gyldighet/erstatning) —
+   kompetansemålsett er alt henta i steg 2.
 
 **Kjende avgrensingar (2026-08-19):**
 - Substring-matching bommar når Grep sin offisielle tittel set ord mellom
@@ -215,3 +216,8 @@ som normalt.
 - [x] Tverrfaglege tema (TT1/TT2/TT3) — vist seg å vere eit tag-felt på
       kompetansemål, ikkje ein eigen læreplan; lagt til som `tverrfagligeTemaer`
       og synt som mårke i appen (2026-08-19)
+- [x] Erstatningssporing på kompetansemål-nivå via `gjenbruk-av`-feltet i
+      detaljoppslaget (2026-08-19)
+- [x] Kjerneelement (KE-kodar) lagt til som eigen type, filtrert via
+      `tilhoerer_laereplan` som kompetansemål(sett). Ingen kjend
+      erstatningsmekanisme funnen for kjerneelement (2026-08-19)
