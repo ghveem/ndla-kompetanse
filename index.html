@@ -636,7 +636,10 @@
     // staden, det gir eit langt meir nyttig fritekstsøk.
     const kjeldeTittel = e.tilhoererLaereplan?.tittel || e.tittel || e.kode;
     const soketekst = fagNamnFraLaereplanTittel(kjeldeTittel) || kjeldeTittel;
-    return `https://ndla.no/search?query=${encodeURIComponent(soketekst)}`;
+    // "&type=subject" avgrensar til fagsider (verifisert 2026-08-24: gir
+    // 28 presise fagtreff for "matematikk" i staden for ei blanding av alt
+    // NDLA-innhald).
+    return `https://ndla.no/search?query=${encodeURIComponent(soketekst)}&type=subject`;
   }
 
   let snapshot = null, changelog = null, artiklar = null, erstatninger = null;

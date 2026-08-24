@@ -222,7 +222,8 @@ som normalt.
       parameter og ga ofte 0 eller misvisande treff, t.d. `?query=KE236`
       → 0 treff mot `?grepCodes=KE236` → 161 treff). `grepCodes` kjenner
       berre att KM/KE — fagkode/læreplan/KV fell tilbake til fritekstsøk
-      på fagnamnet.
+      på fagnamnet med `&type=subject` lagt til (avgrensar til fagsider,
+      t.d. 28 presise treff for "matematikk" i staden for alt NDLA-innhald).
 - [x] Avgrens datasettet til berre NDLA sine fag (NDLA-filter via
       `data/ndla-fagnavn.json`), i staden for heile Grep sine ~24 000 kodar
 - [x] Djupare NDLA-matching via kompetansemålsett sitt `kortform`-felt (fangar
