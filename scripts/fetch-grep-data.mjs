@@ -132,7 +132,37 @@ function normalizeElement(type, listItem, detail) {
     erstatter: extractCodes(source["erstatter"]),
     erstattesAv: extractCodes(source["erstattes-av"]),
     tverrfagligeTemaer: type === "kompetansemaal_lk20" ? extractTverrfagligeTemaer(detail) : undefined,
+    // Mellombels felt, brukt til å byggje erstatter/erstattesAv for
+    // kompetansemål i eit etterbehandlingssteg (sjå berikKompetansemaal).
+    // Fjerna att før elementa vert skrivne til snapshotet.
+    _gjenbrukAv: type === "kompetansemaal_lk20" ? (detail?.["gjenbruk-av"]?.kode ?? null) : undefined,
   };
+}
+
+/**
+ * Grep sitt REST-API manglar "erstatter"/"erstattes-av" heilt for
+ * kompetansemål (i motsetnad til fagkode/læreplan) — men kvart kompetansemål
+ * har eit "gjenbruk-av"-felt som peikar BAKOVER til koden det vart bygd på.
+ * Ved å snu denne relasjonen (finn alle kodar som peikar TILBAKE til ein
+ * gitt gammal kode) får vi fram den faktiske erstatningskjeda, heilt gratis
+ * frå data vi alt hentar. Verifisert 2026-08-19 (KM12074 -> KM14212).
+ */
+function berikKompetansemaalMedErstatning(elementer) {
+  const nyeKodarPerGammal = new Map();
+  for (const e of elementer) {
+    if (e._gjenbrukAv) {
+      if (!nyeKodarPerGammal.has(e._gjenbrukAv)) nyeKodarPerGammal.set(e._gjenbrukAv, []);
+      nyeKodarPerGammal.get(e._gjenbrukAv).push(e.kode);
+    }
+  }
+  return elementer.map((e) => {
+    const { _gjenbrukAv, ...resten } = e;
+    return {
+      ...resten,
+      erstatter: _gjenbrukAv ? [_gjenbrukAv] : e.erstatter,
+      erstattesAv: nyeKodarPerGammal.get(e.kode) || e.erstattesAv,
+    };
+  });
 }
 
 /**
@@ -475,7 +505,8 @@ async function main() {
     kompetansemaalsettElementerRaa,
     kompetansemaalsettMatcha
   );
-  const kompetansemaalElementer = leggTilFagtilknyting(kompetansemaalElementerRaa, kompetansemaalMatcha);
+  const kompetansemaalElementerMedFag = leggTilFagtilknyting(kompetansemaalElementerRaa, kompetansemaalMatcha);
+  const kompetansemaalElementer = berikKompetansemaalMedErstatning(kompetansemaalElementerMedFag);
 
   console.log(
     `NDLA-filter: ${kompetansemaalsettElementer.length} kompetansemålsett, ${kompetansemaalElementer.length} kompetansemål matcha.`

@@ -148,7 +148,18 @@ sjeldan, så det treng ikkje automatiserast.
 kvar veke frå både det ferske Grep-uttrekket og historikken i
 `changelog.json`. Det held oppslaget i live sjølv om den gamle koden seinare
 forsvinn heilt frå Grep sine lister, og følgjer heile kjeda viss ein kode er
-erstatta fleire gonger etter kvarandre:
+erstatta fleire gonger etter kvarandre.
+
+**Kompetansemål-nivå (2026-08-19):** Grep sitt REST-API manglar "erstatter"/
+"erstattes-av" heilt for kompetansemål — men kvart kompetansemål har eit
+`gjenbruk-av`-felt i detaljoppslaget som peikar BAKOVER til koden det vart
+bygd på (t.d. KM14212 sitt `gjenbruk-av` peikar til KM12074). Ved å snu denne
+relasjonen (`berikKompetansemaalMedErstatning` i `fetch-grep-data.mjs`) får
+vi fram den faktiske erstatningskjeda for kompetansemål heilt gratis, sidan
+vi alt hentar full detalj for kvart kompetansemål. Verifisert manuelt via
+SPARQL-endepunktet <https://sparql-data.udir.no/repositories/201906> (3422
+`gjenbruk-av`-koplingar totalt, 2800 reine gammal→ny-erstatningar) og
+stadfesta at same data ligg i det vanlege REST-detaljoppslaget.
 
 ```json
 {
