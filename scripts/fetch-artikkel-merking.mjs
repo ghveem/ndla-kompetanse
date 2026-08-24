@@ -2,8 +2,9 @@
 /**
  * fetch-artikkel-merking.mjs
  *
- * Søker opp NDLA-artiklar merka med utgåtte/erstatta kompetansemål-kodar,
- * via NDLA sitt eige search-api (https://api.ndla.no/search-api/api-docs).
+ * Søker opp NDLA-artiklar merka med utgåtte/erstatta kompetansemål- (KM) og
+ * kjerneelement- (KE) kodar, via NDLA sitt eige search-api
+ * (https://api.ndla.no/search-api/api-docs).
  *
  * Nøkkelfunn (2026-08-18, verifisert manuelt):
  *  - Parameteren heiter "grep-codes" (kebab-case) i sjølve REST-kallet,
@@ -17,9 +18,9 @@
  *    (t.d. "/r/energi--og-styresystemer-el-ele-vg1/..."), prefiks med
  *    https://ndla.no for full lenke.
  *
- * Vi søker berre på kompetansemål som IKKJE er "publisert" i vårt eige
- * NDLA-filtrerte snapshot (data/grep-snapshot.json) — det er dei einaste
- * kodane det er nyttig å varsle redaktørar om.
+ * Vi søker berre på kompetansemål OG kjerneelement som IKKJE er "publisert"
+ * i vårt eige NDLA-filtrerte snapshot (data/grep-snapshot.json) — det er
+ * dei einaste kodane det er nyttig å varsle redaktørar om.
  *
  * Køyr lokalt:
  *   node scripts/fetch-artikkel-merking.mjs
@@ -33,6 +34,9 @@ const SEARCH_API = "https://api.ndla.no/search-api/v1/search";
 const NDLA_BASE = "https://ndla.no";
 const CONCURRENCY = Number(process.env.ARTIKKEL_CONCURRENCY || 8);
 const PAGE_SIZE = 50;
+
+// Kva Grep-typar vi søker etter utgåtte/erstatta kodar for.
+const RELEVANTE_TYPAR = ["kompetansemaal_lk20", "kjerneelement_lk20"];
 
 async function fetchJson(url) {
   const res = await fetch(url, { headers: { Accept: "application/json" } });
@@ -55,7 +59,7 @@ async function mapWithConcurrency(items, limit, fn) {
   return results;
 }
 
-async function sokArtiklarForKode(kode) {
+async function sokArtiklarForKode(kode, type) {
   const url = `${SEARCH_API}?grep-codes=${encodeURIComponent(kode)}&page-size=${PAGE_SIZE}&fallback=true`;
   try {
     const data = await fetchJson(url);
@@ -64,6 +68,7 @@ async function sokArtiklarForKode(kode) {
       tittel: r.title?.title || "(utan tittel)",
       url: r.context?.url ? `${NDLA_BASE}${r.context.url}` : null,
       kode,
+      type,
     }));
   } catch (err) {
     console.warn(`  Klarte ikkje søke etter ${kode}: ${err.message}`);
@@ -73,16 +78,17 @@ async function sokArtiklarForKode(kode) {
 
 async function main() {
   const snapshot = JSON.parse(await readFile(SNAPSHOT_PATH, "utf-8"));
-  const utgatteKompetansemaal = snapshot.elementer.filter(
-    (e) => e.type === "kompetansemaal_lk20" && e.status !== "publisert"
+  const utgatteKodar = snapshot.elementer.filter(
+    (e) => RELEVANTE_TYPAR.includes(e.type) && e.status !== "publisert"
   );
+  const tal = RELEVANTE_TYPAR.map(
+    (t) => `${utgatteKodar.filter((e) => e.type === t).length} ${t === "kompetansemaal_lk20" ? "kompetansemål (KM)" : "kjerneelement (KE)"}`
+  ).join(", ");
 
-  console.log(
-    `Søker NDLA-artiklar for ${utgatteKompetansemaal.length} utgåtte/erstatta kompetansemål-kodar...`
-  );
+  console.log(`Søker NDLA-artiklar for ${utgatteKodar.length} utgåtte/erstatta kodar (${tal})...`);
 
-  const alleTreff = await mapWithConcurrency(utgatteKompetansemaal, CONCURRENCY, (e) =>
-    sokArtiklarForKode(e.kode)
+  const alleTreff = await mapWithConcurrency(utgatteKodar, CONCURRENCY, (e) =>
+    sokArtiklarForKode(e.kode, e.type)
   );
 
   // Slå saman treff per artikkel — éin artikkel kan vere merka med fleire utgåtte kodar
@@ -91,14 +97,15 @@ async function main() {
     for (const treff of treffListe) {
       if (!treff.url) continue; // hopp over treff utan brukbar lenke
       const eksisterande = artiklarMap.get(treff.artikkelId);
+      const kodeOppslag = { kode: treff.kode, type: treff.type };
       if (eksisterande) {
-        if (!eksisterande.kmKoder.includes(treff.kode)) eksisterande.kmKoder.push(treff.kode);
+        if (!eksisterande.koder.some((k) => k.kode === treff.kode)) eksisterande.koder.push(kodeOppslag);
       } else {
         artiklarMap.set(treff.artikkelId, {
           artikkelId: treff.artikkelId,
           tittel: treff.tittel,
           url: treff.url,
-          kmKoder: [treff.kode],
+          koder: [kodeOppslag],
         });
       }
     }
@@ -111,7 +118,7 @@ async function main() {
     JSON.stringify(
       {
         generert: new Date().toISOString(),
-        kjelde: "NDLA search-api (grep-codes), filtrert på utgåtte/erstatta kompetansemål",
+        kjelde: "NDLA search-api (grep-codes), filtrert på utgåtte/erstatta kompetansemål (KM) og kjerneelement (KE)",
         merking,
       },
       null,
@@ -120,7 +127,7 @@ async function main() {
     "utf-8"
   );
 
-  console.log(`\nFerdig. ${merking.length} artiklar merka med utgåtte/erstatta kompetansemål-kodar.`);
+  console.log(`\nFerdig. ${merking.length} artiklar merka med utgåtte/erstatta KM/KE-kodar.`);
 }
 
 main().catch((err) => {

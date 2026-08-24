@@ -446,6 +446,19 @@
     color: var(--inspirerende-700);
   }
 
+  .badge-kodetype {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 1px 5px;
+    border-radius: 4px;
+    margin-right: 3px;
+    letter-spacing: 0.02em;
+    vertical-align: middle;
+  }
+  .badge-kodetype.km { background: var(--kunnskap-100); color: var(--kunnskap); }
+  .badge-kodetype.ke { background: var(--kvalitet-100); color: var(--kvalitet-700); }
+
   .tom { color: var(--svart-700); font-size: 13.5px; padding: 20px 0; text-align: center; }
 
   footer {
@@ -572,10 +585,10 @@
   };
   const FALLBACK_ARTIKLAR = {
     merking: [
-      { artikkelId: "8214", tittel: "Tal og talsystem", url: "https://ndla.no/article/8214", kmKoder: ["KM9002-3"] },
-      { artikkelId: "8215", tittel: "Rekning med heile tal", url: "https://ndla.no/article/8215", kmKoder: ["KM9002-3B"] },
-      { artikkelId: "5310", tittel: "Forteljarperspektiv i norske tekstar", url: "https://ndla.no/article/5310", kmKoder: ["KM6141-1", "KM6141-2"] },
-      { artikkelId: "5311", tittel: "Lesestrategiar for skjønnlitteratur", url: "https://ndla.no/article/5311", kmKoder: ["KM6141-1"] }
+      { artikkelId: "8214", tittel: "Tal og talsystem", url: "https://ndla.no/article/8214", koder: [{ kode: "KM9002-3", type: "kompetansemaal_lk20" }] },
+      { artikkelId: "8215", tittel: "Rekning med heile tal", url: "https://ndla.no/article/8215", koder: [{ kode: "KM9002-3B", type: "kompetansemaal_lk20" }] },
+      { artikkelId: "5310", tittel: "Forteljarperspektiv i norske tekstar", url: "https://ndla.no/article/5310", koder: [{ kode: "KM6141-1", type: "kompetansemaal_lk20" }, { kode: "KM6141-2", type: "kompetansemaal_lk20" }, { kode: "KE1599", type: "kjerneelement_lk20" }] },
+      { artikkelId: "5311", tittel: "Lesestrategiar for skjønnlitteratur", url: "https://ndla.no/article/5311", koder: [{ kode: "KM6141-1", type: "kompetansemaal_lk20" }] }
     ]
   };
   const FALLBACK_ERSTATNINGER = {
@@ -636,12 +649,13 @@
       const dager = (Date.now() - new Date(h.dato).getTime()) / 86400000;
       return dager <= 30;
     }).length;
-    const merkaMedProblem = (artiklar.merking || []).filter((a) =>
-      a.kmKoder.some((k) => {
+    const merkaMedProblem = (artiklar.merking || []).filter((a) => {
+      const koder = Array.isArray(a.koder) ? a.koder.map((k) => k.kode) : (a.kmKoder || []);
+      return koder.some((k) => {
         const treff = el.find((e) => e.kode === k);
         return treff && treff.status !== "publisert";
-      })
-    ).length;
+      });
+    }).length;
 
     document.getElementById("stat-row").innerHTML = `
       <div class="stat-card"><div class="n">${el.length}</div><div class="label">Kodar i Grep-uttrekket</div></div>
@@ -770,13 +784,30 @@
     `).join("");
   }
 
+  /** Kodane kan koma i to former: nye {kode, type}-objekt, eller gamle rå tekststrengar (fallback/eldre data). */
+  function kodeTypeLabel(type) {
+    return type === "kjerneelement_lk20" ? "KE" : "KM";
+  }
+  function kodeTypeClass(type) {
+    return type === "kjerneelement_lk20" ? "ke" : "km";
+  }
+  function kodarFraArtikkel(a) {
+    if (Array.isArray(a.koder)) return a.koder;
+    // Fallback for eldre/demo-data som brukte "kmKoder" (flate strengar)
+    return (a.kmKoder || []).map((kode) => ({ kode, type: "kompetansemaal_lk20" }));
+  }
+  function kodeBadgeHtml(k) {
+    return `<span class="badge-kodetype ${kodeTypeClass(k.type)}">${kodeTypeLabel(k.type)}</span><code>${esc(k.kode)}</code>`;
+  }
+
   function renderArtikkelSjekk() {
     const statusFor = (kode) => {
       const t = snapshot.elementer.find((e) => e.kode === kode);
       return t ? t.status : "ukjend";
     };
-    const problemartiklar = (artiklar.merking || []).filter((a) =>
-      a.kmKoder.some((k) => statusFor(k) !== "publisert")
+    const artiklarMedKodar = (artiklar.merking || []).map((a) => ({ ...a, _koder: kodarFraArtikkel(a) }));
+    const problemartiklar = artiklarMedKodar.filter((a) =>
+      a._koder.some((k) => statusFor(k.kode) !== "publisert")
     );
 
     const varselEl = document.getElementById("artikkel-varsel");
@@ -787,7 +818,7 @@
           ${problemartiklar.map((a) => `
             <div class="rad">
               <a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.tittel)}</a>
-              — ${a.kmKoder.filter((k) => statusFor(k) !== "publisert").map(esc).join(", ")}
+              — ${a._koder.filter((k) => statusFor(k.kode) !== "publisert").map(kodeBadgeHtml).join(" ")}
             </div>
           `).join("")}
         </div>
@@ -797,10 +828,10 @@
     }
 
     const tbody = document.getElementById("artikkel-tabell");
-    tbody.innerHTML = (artiklar.merking || []).map((a) => `
+    tbody.innerHTML = artiklarMedKodar.map((a) => `
       <tr>
         <td><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.tittel)}</a><br><span style="color:var(--svart-700); font-size:11.5px;">ID ${esc(a.artikkelId)}</span></td>
-        <td>${a.kmKoder.map((k) => `<code class="${statusFor(k) !== "publisert" ? "varsel" : ""}">${esc(k)}</code>`).join("")}</td>
+        <td>${a._koder.map((k) => `<span style="display:inline-block; margin:0 6px 4px 0;"><span class="badge-kodetype ${kodeTypeClass(k.type)}">${kodeTypeLabel(k.type)}</span><code class="${statusFor(k.kode) !== "publisert" ? "varsel" : ""}">${esc(k.kode)}</code></span>`).join("")}</td>
       </tr>
     `).join("");
   }

@@ -16,7 +16,7 @@ data/grep-snapshot.json                  ← siste uttrekk (kodar, status, gyldi
 data/changelog.json                      ← historikk over endringar (nye/utgåtte/erstatta kodar)
 data/erstatninger.json                   ← varig oppslagsverk: gammal kode → (endeleg) ny kode
 data/siste-kjoring-endringar.json        ← berre denne kjøringas nye hendingar (til Slack-steget)
-data/artikkel-merking.json               ← NDLA-artiklar merka med utgåtte/erstatta KM-kodar (ekte data)
+data/artikkel-merking.json               ← NDLA-artiklar merka med utgåtte/erstatta KM/KE-kodar (ekte data)
 index.html                               ← sjølve appen (oppslag, søk, endringslogg, artikkel-sjekk)
 ```
 
@@ -67,17 +67,24 @@ som søker mot NDLA sitt eige [search-api](https://api.ndla.no/search-api/api-do
   `data/erstatninger.json` i staden.
 
 **Slik fungerer skriptet:**
-1. Filtrerer `data/grep-snapshot.json` til berre kompetansemål med status
-   ulik `publisert` (dei einaste kodane det er nyttig å varsle redaktørar om)
+1. Filtrerer `data/grep-snapshot.json` til berre kompetansemål (KM) OG
+   kjerneelement (KE) med status ulik `publisert` (dei einaste kodane det er
+   nyttig å varsle redaktørar om)
 2. For kvar av desse, søker `grep-codes=<kode>` mot search-api
 3. Slår saman treff per artikkel (ein artikkel kan vere merka med fleire
-   utgåtte kodar) og skriv til `data/artikkel-merking.json`
+   utgåtte kodar, av begge typar) og skriv til `data/artikkel-merking.json`
 
-Med ca. 2000 utgåtte kompetansemål i det NDLA-filtrerte datasettet tek dette
-under eitt minutt (moderat samtidigheit, 8 parallelle kall).
+Kvar kode i `koder`-lista er eit objekt `{kode, type}` (type er
+`kompetansemaal_lk20` eller `kjerneelement_lk20`), slik at appen alltid kan
+vise KM/KE-merke tydeleg (2026-08-19). Eldre data som brukte flate
+`kmKoder`-strengar vert framleis lese korrekt via fallback i appen.
 
-"Artikkel-sjekk"-fana i appen flaggar automatisk desse artiklane utan andre
-endringar i appen.
+Med ca. 2600 utgåtte kompetansemål/kjerneelement i det NDLA-filtrerte
+datasettet tek dette under eitt minutt (moderat samtidigheit, 8 parallelle
+kall).
+
+"Artikkel-sjekk"-fana i appen flaggar automatisk desse artiklane, med farga
+KM/KE-merke per kode, utan andre endringar i appen.
 
 ## NDLA-filter (avgrensar datasettet til berre NDLA sine fag)
 
