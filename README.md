@@ -18,6 +18,9 @@ og varslar når kodar vert utgåtte eller erstatta.
   kodar
 - **Artikkel-sjekk**: finn ekte NDLA-artiklar merka med utgåtte/erstatta
   KM-, KV- eller KE-kodar, via NDLA sitt search-api
+- **Fagoversikt**: søk opp eit fag (fagkode eller namn) og få full oversikt
+  over læreplanen — kompetansemålsett, kompetansemålkodar/-mål, kjerneelement
+  og tverrfaglege tema, klar til å kopierast til rekneark/dokument
 - **Direkte søkelenke** til ndla.no per kode, med rett parameter for kvar
   kodetype
 - **Slack-varsel** når nye erstatningar dukkar opp
@@ -212,6 +215,26 @@ ein gammal kode og få svaret direkte, utan å måtte søke rundt.
 
 Fila er også tilgjengeleg direkte for andre system som `https://ghveem.github.io/ndla-kompetanse/data/erstatninger.json`,
 viss det er nyttig andre stader enn i denne appen.
+
+## Fagoversikt
+
+Ei eiga fane (`#fag`) der redaktørar søker opp eit fag (fagkode eller namn,
+t.d. "MAT01" eller "matematikk") og får full oversikt over læreplanen:
+
+- **Kjerneelement** for faget
+- **Kompetansemålsett** (t.d. "Vg1 BA") med tilhøyrande **kompetansemålkodar
+  og kompetansemål** gruppert under rett sett
+- **Tverrfaglege tema** som går igjen i faget (aggregert frå kompetansemåla)
+
+Datagrunnlaget er alt tilgjengeleg i `grep-snapshot.json` — koplinga mellom
+kompetansemål og kompetansemålsett kjem frå feltet
+`tilhoerer-kompetansemaalsett` i Grep sitt detaljoppslag (same mønster som
+`tilhoerer-laereplan`, men berre i detaljoppslaget, ikkje listeoppslaget).
+
+**"Kopier oversikt"-knappen** bygger ein tabulator-separert tekstblokk
+(TSV) av heile fagoversikta og legg han på utklippstavla via
+`navigator.clipboard.writeText` — limer inn reint som rader/kolonnar i
+Excel/Google Sheets, og lesbart i Word.
 
 ## Slack-varsel
 

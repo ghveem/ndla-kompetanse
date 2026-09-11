@@ -473,6 +473,78 @@
 
   .tom { color: var(--svart-700); font-size: 13.5px; padding: 20px 0; text-align: center; }
 
+  /* Fagoversikt */
+  .fag-treffliste { margin: -6px 0 16px; }
+  .fag-treffliste .fag-treff {
+    display: block;
+    width: 100%;
+    text-align: left;
+    background: var(--hvit);
+    border: 1px solid var(--svart-100);
+    border-radius: 8px;
+    padding: 10px 12px;
+    margin-bottom: 6px;
+    cursor: pointer;
+    font-family: var(--sans);
+  }
+  .fag-treffliste .fag-treff:hover { border-color: var(--kunnskap); }
+  .fag-treffliste .fag-treff .kode { font-family: var(--mono); color: var(--kunnskap); font-weight: 700; font-size: 12.5px; }
+  .fag-treffliste .fag-treff .tittel { font-size: 14px; margin-left: 8px; }
+
+  .fagoversikt-header {
+    background: var(--kunnskap);
+    color: var(--hvit);
+    border-radius: var(--radius);
+    padding: 16px 18px;
+    margin-bottom: 18px;
+  }
+  .fagoversikt-header .kode { font-family: var(--mono); font-size: 13px; color: var(--kvalitet); font-weight: 700; }
+  .fagoversikt-header h2 { margin: 4px 0 6px; font-size: 18px; }
+  .fagoversikt-header .meta { font-size: 12.5px; color: var(--svart-300); }
+
+  .fagoversikt-verktoylinje {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 14px;
+  }
+  .fagoversikt-verktoylinje button {
+    appearance: none;
+    border: 1px solid var(--kunnskap);
+    background: var(--hvit);
+    color: var(--kunnskap);
+    font-weight: 700;
+    font-size: 13px;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .fagoversikt-verktoylinje button:hover { background: var(--kunnskap-100); }
+  .fagoversikt-verktoylinje button.kopiert { background: var(--kvalitet-100); border-color: var(--kvalitet-700); color: var(--kvalitet-700); }
+
+  .fag-blokk { margin-bottom: 24px; }
+  .fag-blokk h3 { font-size: 15px; margin: 0 0 8px; }
+  .fag-blokk h3 .kode { font-family: var(--mono); font-size: 12px; color: var(--svart-700); font-weight: 400; margin-left: 6px; }
+
+  .tverrfagleg-samandrag { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 22px; }
+
+  table.fagtabell { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-bottom: 6px; }
+  table.fagtabell th {
+    text-align: left;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--svart-700);
+    border-bottom: 1px solid var(--svart-300);
+    padding: 6px 8px;
+  }
+  table.fagtabell td {
+    padding: 7px 8px;
+    border-bottom: 1px solid var(--svart-100);
+    vertical-align: top;
+  }
+  table.fagtabell td.kodecelle { font-family: var(--mono); font-size: 12.5px; color: var(--kunnskap); white-space: nowrap; }
+  table.fagtabell td.statuscelle { white-space: nowrap; }
+
   footer {
     max-width: 980px;
     margin: 0 auto;
@@ -496,6 +568,7 @@
 
 <nav class="tabs">
   <button data-tab="sok" class="active">Søk &amp; status</button>
+  <button data-tab="fag">Fagoversikt</button>
   <button data-tab="endringar">Endringar</button>
   <button data-tab="artikkel">Artikkel-sjekk</button>
   <button data-tab="om">Om løysinga</button>
@@ -519,6 +592,13 @@
     <input type="search" id="sok-input" placeholder="Søk på kode eller tittel, t.d. «KM9002» eller «norsk»…" />
     <div class="filter-row" id="type-filter"></div>
     <div class="kort-liste" id="kort-liste"></div>
+  </section>
+
+  <!-- FAGOVERSIKT -->
+  <section class="panel" id="panel-fag">
+    <input type="search" id="fag-sok-input" placeholder="Søk på fagkode eller fagnamn, t.d. «MAT01» eller «matematikk»…" />
+    <div id="fag-treffliste" class="fag-treffliste"></div>
+    <div id="fag-innhald"></div>
   </section>
 
   <!-- ENDRINGAR -->
@@ -572,8 +652,8 @@
       { type: "laereplan_lk20", kode: "NOR01-06", tittel: "Læreplan i norsk", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: ["NOR1-05"], erstattesAv: [] },
       { type: "laereplan", kode: "NOR1-05", tittel: "Læreplan i norsk (LK06)", status: "utgatt", gyldigFra: "2006-08-01", gyldigTil: "2020-07-31", erstatter: [], erstattesAv: ["NOR01-06"] },
       { type: "kompetansemaalsett_lk20", kode: "KM6141", tittel: "Kompetansemål etter Vg1 studieforberedende, norsk", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: [], erstattesAv: [], tilhoererLaereplan: { kode: "NOR01-06", tittel: "Læreplan i norsk" } },
-      { type: "kompetansemaal_lk20", kode: "KM6141-1", tittel: "utforske og reflektere over korleis tekstar framstiller...", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: [], erstattesAv: [], tilhoererLaereplan: { kode: "NOR01-06", tittel: "Læreplan i norsk" } },
-      { type: "kompetansemaal_lk20", kode: "KM6141-2", tittel: "lese, tolke og reflektere over norske og internasjonale tekstar...", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: [], erstattesAv: [], tilhoererLaereplan: { kode: "NOR01-06", tittel: "Læreplan i norsk" } },
+      { type: "kompetansemaal_lk20", kode: "KM6141-1", tittel: "utforske og reflektere over korleis tekstar framstiller...", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: [], erstattesAv: [], tilhoererLaereplan: { kode: "NOR01-06", tittel: "Læreplan i norsk" }, tilhoererKompetansemaalsett: { kode: "KM6141", tittel: "Kompetansemål etter Vg1 studieforberedende, norsk" }, tverrfagligeTemaer: [{ kode: "TT2", tittel: "Demokrati og medborgerskap" }] },
+      { type: "kompetansemaal_lk20", kode: "KM6141-2", tittel: "lese, tolke og reflektere over norske og internasjonale tekstar...", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: [], erstattesAv: [], tilhoererLaereplan: { kode: "NOR01-06", tittel: "Læreplan i norsk" }, tilhoererKompetansemaalsett: { kode: "KM6141", tittel: "Kompetansemål etter Vg1 studieforberedende, norsk" } },
       { type: "kompetansemaalsett_lk20", kode: "KM9002", tittel: "Kompetansemål etter Vg2, matematikk 1T", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: [], erstattesAv: [], tilhoererLaereplan: { kode: "MAT01-04", tittel: "Læreplan i matematikk 1T" } },
       { type: "kompetansemaal_lk20", kode: "KM9002-3", tittel: "gjere greie for eigenskapane til, og samanhengen mellom, ulike typar tal...", status: "erstattet", gyldigFra: "2020-08-01", gyldigTil: "2025-07-31", erstatter: [], erstattesAv: ["KM9002-3B"], tilhoererLaereplan: { kode: "MAT01-04", tittel: "Læreplan i matematikk 1T" } },
       { type: "kompetansemaal_lk20", kode: "KM9002-3B", tittel: "gjere greie for eigenskapane til talsystem og talmengder...", status: "publisert", gyldigFra: "2025-08-01", gyldigTil: null, erstatter: ["KM9002-3"], erstattesAv: [], tilhoererLaereplan: { kode: "MAT01-04", tittel: "Læreplan i matematikk 1T" } },
@@ -944,7 +1024,7 @@
     }
   }
 
-  const GYLDIGE_FANER = ["sok", "endringar", "artikkel", "om"];
+  const GYLDIGE_FANER = ["sok", "fag", "endringar", "artikkel", "om"];
   function faneFraHash() {
     const h = location.hash.replace("#", "");
     return GYLDIGE_FANER.includes(h) ? h : "sok";
@@ -970,6 +1050,191 @@
     document.getElementById("sok-input").value = link.dataset.jump;
     renderKortListe();
     document.querySelector(`.kodekort[data-kode="${CSS.escape(link.dataset.jump)}"]`)?.scrollIntoView({ behavior: "smooth", block: "center" });
+  });
+
+  // ---- Fagoversikt ----
+  let gjeldandeFagoversikt = null;
+
+  function finnLaereplanTreff(q) {
+    if (!q) return [];
+    const ql = q.toLowerCase();
+    return snapshot.elementer
+      .filter((e) => e.type.startsWith("laereplan") && (e.kode.toLowerCase().includes(ql) || (e.tittel || "").toLowerCase().includes(ql)))
+      .sort((a, b) => (a.tittel || "").localeCompare(b.tittel || "", "nb"));
+  }
+
+  function visFagTreffliste(q) {
+    const wrap = document.getElementById("fag-treffliste");
+    document.getElementById("fag-innhald").innerHTML = "";
+    gjeldandeFagoversikt = null;
+    if (!q) { wrap.innerHTML = ""; return; }
+    const treff = finnLaereplanTreff(q);
+    if (!treff.length) {
+      wrap.innerHTML = `<div class="tom">Ingen læreplanar matcha søket.</div>`;
+      return;
+    }
+    wrap.innerHTML = treff.slice(0, 30).map((t) => `
+      <button type="button" class="fag-treff" data-laereplan-kode="${esc(t.kode)}">
+        <span class="kode">${esc(t.kode)}</span><span class="tittel">${esc(t.tittel)}</span>
+      </button>
+    `).join("");
+  }
+
+  function byggFagoversiktData(laereplanKode) {
+    const laereplan = snapshot.elementer.find((e) => e.kode === laereplanKode && e.type.startsWith("laereplan"));
+    if (!laereplan) return null;
+    const kjerneelement = snapshot.elementer.filter((e) => e.type === "kjerneelement_lk20" && e.tilhoererLaereplan?.kode === laereplanKode);
+    const kompetansemaalsett = snapshot.elementer.filter((e) => e.type === "kompetansemaalsett_lk20" && e.tilhoererLaereplan?.kode === laereplanKode);
+    const kompetansemaal = snapshot.elementer.filter((e) => e.type === "kompetansemaal_lk20" && e.tilhoererLaereplan?.kode === laereplanKode);
+
+    const kmPerKv = new Map();
+    const kmUtanKv = [];
+    for (const km of kompetansemaal) {
+      const kvKode = km.tilhoererKompetansemaalsett?.kode;
+      if (kvKode) {
+        if (!kmPerKv.has(kvKode)) kmPerKv.set(kvKode, []);
+        kmPerKv.get(kvKode).push(km);
+      } else {
+        kmUtanKv.push(km);
+      }
+    }
+
+    const temaMap = new Map();
+    kompetansemaal.forEach((km) => (km.tverrfagligeTemaer || []).forEach((t) => temaMap.set(t.kode, t)));
+
+    return {
+      laereplan,
+      kjerneelement: [...kjerneelement].sort((a, b) => a.kode.localeCompare(b.kode, "nb", { numeric: true })),
+      kompetansemaalsett: [...kompetansemaalsett].sort((a, b) => a.kode.localeCompare(b.kode, "nb", { numeric: true })),
+      kmPerKv,
+      kmUtanKv: [...kmUtanKv].sort((a, b) => a.kode.localeCompare(b.kode, "nb", { numeric: true })),
+      tverrfagligeTemaer: [...temaMap.values()].sort((a, b) => a.kode.localeCompare(b.kode)),
+    };
+  }
+
+  function fagtabellHtml(rader, kolonneNamn) {
+    if (!rader.length) return `<tr><td colspan="3" style="color:var(--svart-700);">Ingen registrert.</td></tr>`;
+    return rader.map((r) => `
+      <tr>
+        <td class="kodecelle">${esc(r.kode)}</td>
+        <td>${esc(r.tittel || "(utan tittel)")}</td>
+        <td class="statuscelle"><span class="badge ${statusBadgeClass(r.status)}">${esc(r.status || "ukjend")}</span></td>
+      </tr>
+    `).join("");
+  }
+
+  function visFagoversikt(laereplanKode) {
+    const data = byggFagoversiktData(laereplanKode);
+    if (!data) return;
+    gjeldandeFagoversikt = data;
+    const { laereplan, kjerneelement, kompetansemaalsett, kmPerKv, kmUtanKv, tverrfagligeTemaer } = data;
+
+    let html = `
+      <div class="fagoversikt-header">
+        <div class="kode">${esc(laereplan.kode)}</div>
+        <h2>${esc(laereplan.tittel)}</h2>
+        <div class="meta">
+          <span class="badge ${statusBadgeClass(laereplan.status)}">${esc(laereplan.status || "ukjend")}</span>
+          &nbsp;Gyldig frå ${esc(laereplan.gyldigFra || "—")}${laereplan.gyldigTil ? " til " + esc(laereplan.gyldigTil) : ""}
+        </div>
+      </div>
+      <div class="fagoversikt-verktoylinje">
+        <button id="fag-kopier-knapp" type="button">📋 Kopier oversikt</button>
+      </div>
+    `;
+
+    if (tverrfagligeTemaer.length) {
+      html += `<div class="tverrfagleg-samandrag">${tverrfagligeTemaer.map((t) => `<span class="badge-tema">${esc(t.kode)} · ${esc(t.tittel)}</span>`).join("")}</div>`;
+    }
+
+    if (kjerneelement.length) {
+      html += `
+        <div class="fag-blokk">
+          <h3>Kjerneelement</h3>
+          <table class="fagtabell">
+            <thead><tr><th>Kode</th><th>Tittel</th><th>Status</th></tr></thead>
+            <tbody>${fagtabellHtml(kjerneelement)}</tbody>
+          </table>
+        </div>
+      `;
+    }
+
+    for (const kv of kompetansemaalsett) {
+      const kmListe = (kmPerKv.get(kv.kode) || []).sort((a, b) => a.kode.localeCompare(b.kode, "nb", { numeric: true }));
+      html += `
+        <div class="fag-blokk">
+          <h3>${esc(kv.tittel)}<span class="kode">${esc(kv.kode)}</span></h3>
+          <table class="fagtabell">
+            <thead><tr><th>KM-kode</th><th>Kompetansemål</th><th>Status</th></tr></thead>
+            <tbody>${fagtabellHtml(kmListe)}</tbody>
+          </table>
+        </div>
+      `;
+    }
+
+    if (kmUtanKv.length) {
+      html += `
+        <div class="fag-blokk">
+          <h3>Andre kompetansemål (ikkje knytt til eit spesifikt kompetansemålsett)</h3>
+          <table class="fagtabell">
+            <thead><tr><th>KM-kode</th><th>Kompetansemål</th><th>Status</th></tr></thead>
+            <tbody>${fagtabellHtml(kmUtanKv)}</tbody>
+          </table>
+        </div>
+      `;
+    }
+
+    document.getElementById("fag-innhald").innerHTML = html;
+    document.getElementById("fag-treffliste").innerHTML = "";
+    document.getElementById("fag-kopier-knapp").addEventListener("click", kopierFagoversikt);
+  }
+
+  function kopierFagoversikt() {
+    if (!gjeldandeFagoversikt) return;
+    const { laereplan, kjerneelement, kompetansemaalsett, kmPerKv, kmUtanKv, tverrfagligeTemaer } = gjeldandeFagoversikt;
+    const linjer = [];
+    linjer.push(`Læreplan: ${laereplan.tittel} (${laereplan.kode})`);
+    linjer.push(`Status: ${laereplan.status || "ukjend"}`);
+    linjer.push("");
+    if (tverrfagligeTemaer.length) {
+      linjer.push(`Tverrfaglege tema: ${tverrfagligeTemaer.map((t) => `${t.kode} ${t.tittel}`).join(", ")}`);
+      linjer.push("");
+    }
+    if (kjerneelement.length) {
+      linjer.push("Kjerneelement");
+      linjer.push(["Kode", "Tittel", "Status"].join("\t"));
+      kjerneelement.forEach((k) => linjer.push([k.kode, k.tittel || "", k.status || ""].join("\t")));
+      linjer.push("");
+    }
+    for (const kv of kompetansemaalsett) {
+      linjer.push(`${kv.tittel} (${kv.kode})`);
+      linjer.push(["KM-kode", "Kompetansemål", "Status"].join("\t"));
+      const kmListe = (kmPerKv.get(kv.kode) || []).sort((a, b) => a.kode.localeCompare(b.kode, "nb", { numeric: true }));
+      kmListe.forEach((km) => linjer.push([km.kode, km.tittel || "", km.status || ""].join("\t")));
+      linjer.push("");
+    }
+    if (kmUtanKv.length) {
+      linjer.push("Andre kompetansemål");
+      linjer.push(["KM-kode", "Kompetansemål", "Status"].join("\t"));
+      kmUtanKv.forEach((km) => linjer.push([km.kode, km.tittel || "", km.status || ""].join("\t")));
+    }
+
+    const tekst = linjer.join("\n");
+    const knapp = document.getElementById("fag-kopier-knapp");
+    navigator.clipboard.writeText(tekst).then(() => {
+      if (!knapp) return;
+      const opprinneleg = knapp.textContent;
+      knapp.textContent = "✓ Kopiert!";
+      knapp.classList.add("kopiert");
+      setTimeout(() => { knapp.textContent = opprinneleg; knapp.classList.remove("kopiert"); }, 2000);
+    }).catch(() => alert("Kunne ikkje kopiere automatisk til utklippstavla — merk og kopier teksten manuelt i staden."));
+  }
+
+  document.getElementById("fag-sok-input").addEventListener("input", (ev) => visFagTreffliste(ev.target.value.trim()));
+  document.getElementById("fag-treffliste").addEventListener("click", (ev) => {
+    const btn = ev.target.closest("[data-laereplan-kode]");
+    if (!btn) return;
+    visFagoversikt(btn.dataset.laereplanKode);
   });
 
   async function init() {
