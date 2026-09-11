@@ -259,6 +259,23 @@ Med `&context=TverrfagligeTema` lagt til (brukt automatisk i tema-panelet)
 utvidar Udir automatisk forklaringsboksane for tverrfaglege tema på den
 offisielle sida.
 
+**Direkte NDLA-søkelenke** ("🔍 ndla.no") på kvar rad for kjerneelement og
+kompetansemål i alle tabellar (kjerneelement-tabellen, kompetansemålsett-
+tabellane, og tema-panelet), via same `?grepCodes=<kode>`-mekanisme som
+resten av appen (2026-09-11).
+
+Fana heiter **"Kompetansemål"** i menyen (URL-ankeret er framleis `#fag`).
+
+## Tilgjenge (WCAG)
+
+Fleire merke hadde for låg fargekontrast (under WCAG 2 AA sitt krav på
+4.5:1 for vanleg tekst) — `--kvalitet-700` og `--inspirerende-700` gir god
+kontrast på kvit bakgrunn, men for dårleg på sine eigne lyse `-100`-bakgrunnar
+(3.82:1 og 4.16:1). Retta 2026-09-11 ved å innføre `--kvalitet-a11y`
+(`#156492`) og `--inspirerende-a11y` (`#B92D4C`), brukt spesifikt der teksten
+står på ein `-100`-bakgrunn (badge, ok-boks, varsel-boks, osv.) — begge gir
+no 5.23:1.
+
 ## Slack-varsel
 
 `scripts/send-slack-varsel.mjs` postar ei melding til Slack når nye kodar

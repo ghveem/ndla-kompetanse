@@ -12,9 +12,16 @@
     --kvalitet: #40BDEB;
     --kvalitet-700: #197AB2;
     --kvalitet-100: #D1ECFA;
+    /* Mørkare variant brukt der teksten står på --kvalitet-100-bakgrunn
+       (t.d. merke) — --kvalitet-700 gir berre 3.82:1 der, under WCAG AA sitt
+       krav på 4.5:1. Verifisert 2026-09-11, kontrast 5.23:1. */
+    --kvalitet-a11y: #156492;
     --inspirerende: #F67992;
     --inspirerende-700: #D53457;
     --inspirerende-100: #FDEDEF;
+    /* Same grunngjeving som over — --inspirerende-700 gir 4.16:1 på
+       --inspirerende-100-bakgrunn. Kontrast 5.22:1. */
+    --inspirerende-a11y: #B92D4C;
     --leken: #FFE767;
     --leken-ux: #86480D;
     --leken-100: #FFF9DB;
@@ -263,8 +270,8 @@
     text-transform: uppercase;
     letter-spacing: 0.03em;
   }
-  .badge.publisert { background: var(--kvalitet-100); color: var(--kvalitet-700); }
-  .badge.utgatt, .badge.erstattet { background: var(--inspirerende-100); color: var(--inspirerende-700); }
+  .badge.publisert { background: var(--kvalitet-100); color: var(--kvalitet-a11y); }
+  .badge.utgatt, .badge.erstattet { background: var(--inspirerende-100); color: var(--inspirerende-a11y); }
   .badge.type { background: var(--svart-100); color: var(--svart-700); text-transform: none; letter-spacing: 0; }
 
   .erstatning {
@@ -399,7 +406,7 @@
   .varsel-boks h3 {
     margin: 0 0 8px;
     font-size: 14px;
-    color: var(--inspirerende-700);
+    color: var(--inspirerende-a11y);
   }
   .varsel-boks .rad {
     font-size: 13.5px;
@@ -414,7 +421,7 @@
     padding: 14px 16px;
     margin-bottom: 18px;
     font-size: 13.5px;
-    color: var(--kvalitet-700);
+    color: var(--kvalitet-a11y);
   }
 
   table.artikkeltabell { width: 100%; border-collapse: collapse; font-size: 13.5px; }
@@ -443,7 +450,7 @@
   }
   table.artikkeltabell code.varsel {
     background: var(--inspirerende-100);
-    color: var(--inspirerende-700);
+    color: var(--inspirerende-a11y);
   }
 
   .badge-kodetype {
@@ -457,7 +464,7 @@
     vertical-align: middle;
   }
   .badge-kodetype.km { background: var(--kunnskap-100); color: var(--kunnskap); }
-  .badge-kodetype.ke { background: var(--kvalitet-100); color: var(--kvalitet-700); }
+  .badge-kodetype.ke { background: var(--kvalitet-100); color: var(--kvalitet-a11y); }
   .badge-kodetype.kv { background: var(--leken-100); color: var(--leken-ux); }
 
   .artikkel-seksjon { margin-bottom: 26px; }
@@ -519,7 +526,7 @@
     cursor: pointer;
   }
   .fagoversikt-verktoylinje button:hover { background: var(--kunnskap-100); }
-  .fagoversikt-verktoylinje button.kopiert { background: var(--kvalitet-100); border-color: var(--kvalitet-700); color: var(--kvalitet-700); }
+  .fagoversikt-verktoylinje button.kopiert { background: var(--kvalitet-100); border-color: var(--kvalitet-a11y); color: var(--kvalitet-a11y); }
 
   .fag-blokk { margin-bottom: 24px; }
   .fag-blokk h3 { font-size: 15px; margin: 0 0 8px; }
@@ -578,6 +585,13 @@
   }
   table.fagtabell td.kodecelle { font-family: var(--mono); font-size: 12.5px; color: var(--kunnskap); white-space: nowrap; }
   table.fagtabell td.statuscelle { white-space: nowrap; }
+  table.fagtabell td.ndlacelle { white-space: nowrap; }
+  table.fagtabell td.ndlacelle a, table.fagtabell td .udir-lenke {
+    font-size: 12.5px;
+    color: var(--kvalitet-700);
+    text-decoration: none;
+  }
+  table.fagtabell td.ndlacelle a:hover, table.fagtabell td .udir-lenke:hover { text-decoration: underline; }
 
   .kv-innhaldsliste {
     list-style: none;
@@ -623,7 +637,7 @@
 
 <nav class="tabs">
   <button data-tab="sok" class="active">Søk &amp; status</button>
-  <button data-tab="fag">Fagoversikt</button>
+  <button data-tab="fag">Kompetansemål</button>
   <button data-tab="endringar">Endringar</button>
   <button data-tab="artikkel">Artikkel-sjekk</button>
   <button data-tab="om">Om løysinga</button>
@@ -1221,13 +1235,14 @@
   }
 
   function fagtabellHtml(rader, visStatus) {
-    const kolonnetal = visStatus ? 3 : 2;
+    const kolonnetal = visStatus ? 4 : 3;
     if (!rader.length) return `<tr><td colspan="${kolonnetal}" style="color:var(--svart-700);">Ingen registrert.</td></tr>`;
     return rader.map((r) => `
       <tr>
         <td class="kodecelle">${esc(r.kode)}</td>
         <td>${esc(r.tittel || "(utan tittel)")}</td>
         ${visStatus ? `<td class="statuscelle"><span class="badge ${statusBadgeClass(r.status)}">${esc(r.status || "ukjend")}</span></td>` : ""}
+        <td class="ndlacelle"><a href="${esc(ndlaSokelenke(r))}" target="_blank" rel="noopener" title="Søk opp innhald på ndla.no merka med denne koden">🔍 ndla.no</a></td>
       </tr>
     `).join("");
   }
@@ -1258,7 +1273,7 @@
       <div class="tema-blokk fag-blokk">
         <h3>${esc(tema.kode)} · ${esc(tema.tittel)}<span class="kode">${treff.length} kompetansemål</span></h3>
         <table class="fagtabell">
-          <thead><tr><th>KM-kode</th><th>Kompetansemål</th><th>Kompetansemålsett</th></tr></thead>
+          <thead><tr><th>KM-kode</th><th>Kompetansemål</th><th>Kompetansemålsett</th><th>NDLA</th></tr></thead>
           <tbody>
             ${treff.map((km) => {
               const kv = km.tilhoererKompetansemaalsett ? kvPerKode.get(km.tilhoererKompetansemaalsett.kode) : null;
@@ -1272,6 +1287,7 @@
                   <td class="kodecelle">${esc(km.kode)}</td>
                   <td>${esc(km.tittel || "(utan tittel)")}</td>
                   <td>${kvCelle}</td>
+                  <td><a class="udir-lenke" href="${esc(ndlaSokelenke(km))}" target="_blank" rel="noopener">🔍 ndla.no</a></td>
                 </tr>
               `;
             }).join("")}
@@ -1342,7 +1358,7 @@
         <div class="fag-blokk">
           <h3>Kjerneelement</h3>
           <table class="fagtabell">
-            <thead><tr><th>Kode</th><th>Tittel</th><th>Status</th></tr></thead>
+            <thead><tr><th>Kode</th><th>Tittel</th><th>Status</th><th>NDLA</th></tr></thead>
             <tbody>${fagtabellHtml(kjerneelement, true)}</tbody>
           </table>
         </div>
@@ -1356,7 +1372,7 @@
         <div class="fag-blokk" id="kv-${esc(kv.kode)}">
           <h3>${esc(visningsnamn(kv))}<span class="kode">${esc(kv.kode)}</span>${udirLenke ? `<a class="udir-lenke" href="${esc(udirLenke)}" target="_blank" rel="noopener">↗ udir.no</a>` : ""}</h3>
           <table class="fagtabell">
-            <thead><tr><th>KM-kode</th><th>Kompetansemål</th></tr></thead>
+            <thead><tr><th>KM-kode</th><th>Kompetansemål</th><th>NDLA</th></tr></thead>
             <tbody>${fagtabellHtml(kmListe, false)}</tbody>
           </table>
         </div>
@@ -1368,7 +1384,7 @@
         <div class="fag-blokk">
           <h3>Andre kompetansemål (ikkje knytt til eit spesifikt kompetansemålsett)</h3>
           <table class="fagtabell">
-            <thead><tr><th>KM-kode</th><th>Kompetansemål</th></tr></thead>
+            <thead><tr><th>KM-kode</th><th>Kompetansemål</th><th>NDLA</th></tr></thead>
             <tbody>${fagtabellHtml(kmUtanKv, false)}</tbody>
           </table>
         </div>
