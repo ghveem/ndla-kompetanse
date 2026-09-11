@@ -672,10 +672,10 @@
     elementer: [
       { type: "laereplan_lk20", kode: "NOR01-06", tittel: "Læreplan i norsk", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: ["NOR1-05"], erstattesAv: [] },
       { type: "laereplan", kode: "NOR1-05", tittel: "Læreplan i norsk (LK06)", status: "utgatt", gyldigFra: "2006-08-01", gyldigTil: "2020-07-31", erstatter: [], erstattesAv: ["NOR01-06"] },
-      { type: "kompetansemaalsett_lk20", kode: "KM6141", tittel: "Kompetansemål etter Vg1 studieforberedende, norsk", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: [], erstattesAv: [], tilhoererLaereplan: { kode: "NOR01-06", tittel: "Læreplan i norsk" } },
+      { type: "kompetansemaalsett_lk20", kode: "KM6141", tittel: "Kompetansemål etter Vg1 studieforberedende, norsk", kortform: "Vg1 studieforberedende", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: [], erstattesAv: [], tilhoererLaereplan: { kode: "NOR01-06", tittel: "Læreplan i norsk" } },
       { type: "kompetansemaal_lk20", kode: "KM6141-1", tittel: "utforske og reflektere over korleis tekstar framstiller...", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: [], erstattesAv: [], tilhoererLaereplan: { kode: "NOR01-06", tittel: "Læreplan i norsk" }, tilhoererKompetansemaalsett: { kode: "KM6141", tittel: "Kompetansemål etter Vg1 studieforberedende, norsk" }, tverrfagligeTemaer: [{ kode: "TT2", tittel: "Demokrati og medborgerskap" }] },
       { type: "kompetansemaal_lk20", kode: "KM6141-2", tittel: "lese, tolke og reflektere over norske og internasjonale tekstar...", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: [], erstattesAv: [], tilhoererLaereplan: { kode: "NOR01-06", tittel: "Læreplan i norsk" }, tilhoererKompetansemaalsett: { kode: "KM6141", tittel: "Kompetansemål etter Vg1 studieforberedende, norsk" } },
-      { type: "kompetansemaalsett_lk20", kode: "KM9002", tittel: "Kompetansemål etter Vg2, matematikk 1T", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: [], erstattesAv: [], tilhoererLaereplan: { kode: "MAT01-04", tittel: "Læreplan i matematikk 1T" } },
+      { type: "kompetansemaalsett_lk20", kode: "KM9002", tittel: "Kompetansemål etter Vg2, matematikk 1T", kortform: "Vg2", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: [], erstattesAv: [], tilhoererLaereplan: { kode: "MAT01-04", tittel: "Læreplan i matematikk 1T" } },
       { type: "kompetansemaal_lk20", kode: "KM9002-3", tittel: "gjere greie for eigenskapane til, og samanhengen mellom, ulike typar tal...", status: "erstattet", gyldigFra: "2020-08-01", gyldigTil: "2025-07-31", erstatter: [], erstattesAv: ["KM9002-3B"], tilhoererLaereplan: { kode: "MAT01-04", tittel: "Læreplan i matematikk 1T" } },
       { type: "kompetansemaal_lk20", kode: "KM9002-3B", tittel: "gjere greie for eigenskapane til talsystem og talmengder...", status: "publisert", gyldigFra: "2025-08-01", gyldigTil: null, erstatter: ["KM9002-3"], erstattesAv: [], tilhoererLaereplan: { kode: "MAT01-04", tittel: "Læreplan i matematikk 1T" } },
       { type: "fagkode", kode: "NOR01", tittel: "Norsk", status: "publisert", gyldigFra: "2020-08-01", gyldigTil: null, erstatter: [], erstattesAv: [] },
@@ -773,6 +773,13 @@
     if (!tittel) return null;
     const utanPrefix = tittel.replace(/^Læreplan\s+(i|for)\s+/i, "");
     return utanPrefix.charAt(0).toUpperCase() + utanPrefix.slice(1);
+  }
+
+  /** Kompetansemålsett har ei kort form ("Vg1 studieforberedende") som er
+   * langt meir lesbar enn den fulle, generiske tittelen. Bruk kortform der
+   * han finst, elles fall tilbake til vanleg tittel. */
+  function visningsnamn(e) {
+    return e.kortform || e.tittel;
   }
 
   function renderStats() {
@@ -874,7 +881,7 @@
       <div class="kodekort status-${badgeCls}" data-kode="${esc(e.kode)}">
         <div class="kode">${esc(e.kode)}</div>
         <div class="body">
-          <div class="tittel">${esc(e.tittel || "(utan tittel)")}</div>
+          <div class="tittel">${esc(visningsnamn(e) || "(utan tittel)")}</div>
           <div class="meta">
             <span class="badge ${badgeCls}">${esc(e.status || "ukjend")}</span>
             <span class="badge type">${esc(TYPE_LABEL[e.type] || e.type)}</span>
@@ -892,6 +899,8 @@
     `;
   }
 
+  const MAKS_KORT_VIST = 300;
+
   function renderKortListe() {
     const q = document.getElementById("sok-input").value.trim().toLowerCase();
     let liste = snapshot.elementer;
@@ -900,17 +909,31 @@
       liste = liste.filter((e) =>
         e.kode.toLowerCase().includes(q) ||
         (e.tittel || "").toLowerCase().includes(q) ||
+        (e.kortform || "").toLowerCase().includes(q) ||
         (e.tilhoererLaereplan?.tittel || "").toLowerCase().includes(q) ||
         (e.tilhoererLaereplan?.kode || "").toLowerCase().includes(q) ||
         (e.tverrfagligeTemaer || []).some((t) => t.tittel.toLowerCase().includes(q) || t.kode.toLowerCase() === q)
       );
     }
     const wrap = document.getElementById("kort-liste");
+
+    // Utan søk/filter ville vi teikna ALLE ~8600 korta med ein gong, som gjer
+    // sida treg like etter lasting. Vent på at brukaren søker/filtrerer.
+    if (!q && !activeType) {
+      wrap.innerHTML = `<div class="tom">Skriv eit søk eller vel ein type ovanfor for å sjå kodar (${snapshot.elementer.length} totalt).</div>`;
+      return;
+    }
+
     if (!liste.length) {
       wrap.innerHTML = `<div class="tom">Ingen kodar matcha søket.</div>`;
       return;
     }
-    wrap.innerHTML = liste.map(kodekortHtml).join("");
+
+    const visesNo = liste.slice(0, MAKS_KORT_VIST);
+    wrap.innerHTML = visesNo.map(kodekortHtml).join("");
+    if (liste.length > MAKS_KORT_VIST) {
+      wrap.innerHTML += `<div class="tom">Viser dei fyrste ${MAKS_KORT_VIST} av ${liste.length} treff — snevra inn søket for å sjå fleire.</div>`;
+    }
   }
 
   function renderEndringslogg() {
@@ -1190,7 +1213,7 @@
           <h3>Kompetansemålsett i faget</h3>
           <ul class="kv-innhaldsliste">
             ${kompetansemaalsett.map((kv) => `
-              <li><a href="#" data-kv-scroll="${esc(kv.kode)}"><span class="kode">${esc(kv.kode)}</span>${esc(kv.tittel)}</a></li>
+              <li><a href="#" data-kv-scroll="${esc(kv.kode)}"><span class="kode">${esc(kv.kode)}</span>${esc(visningsnamn(kv))}</a></li>
             `).join("")}
           </ul>
         </div>
@@ -1213,7 +1236,7 @@
       const kmListe = (kmPerKv.get(kv.kode) || []).sort((a, b) => a.kode.localeCompare(b.kode, "nb", { numeric: true }));
       html += `
         <div class="fag-blokk" id="kv-${esc(kv.kode)}">
-          <h3>${esc(kv.tittel)}<span class="kode">${esc(kv.kode)}</span></h3>
+          <h3>${esc(visningsnamn(kv))}<span class="kode">${esc(kv.kode)}</span></h3>
           <table class="fagtabell">
             <thead><tr><th>KM-kode</th><th>Kompetansemål</th></tr></thead>
             <tbody>${fagtabellHtml(kmListe, false)}</tbody>
@@ -1257,7 +1280,7 @@
       linjer.push("");
     }
     for (const kv of kompetansemaalsett) {
-      linjer.push(`${kv.tittel} (${kv.kode})`);
+      linjer.push(`${visningsnamn(kv)} (${kv.kode})`);
       linjer.push(["KM-kode", "Kompetansemål"].join("\t"));
       const kmListe = (kmPerKv.get(kv.kode) || []).sort((a, b) => a.kode.localeCompare(b.kode, "nb", { numeric: true }));
       kmListe.forEach((km) => linjer.push([km.kode, km.tittel || ""].join("\t")));

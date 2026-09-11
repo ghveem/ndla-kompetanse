@@ -19,8 +19,10 @@ og varslar når kodar vert utgåtte eller erstatta.
 - **Artikkel-sjekk**: finn ekte NDLA-artiklar merka med utgåtte/erstatta
   KM-, KV- eller KE-kodar, via NDLA sitt search-api
 - **Fagoversikt**: søk opp eit fag (fagkode eller namn) og få full oversikt
-  over læreplanen — kompetansemålsett, kompetansemålkodar/-mål, kjerneelement
-  og tverrfaglege tema, klar til å kopierast til rekneark/dokument
+  over læreplanen — kompetansemålsett (kortform, t.d. "Vg1 studieforberedende",
+  filtrert for 1.-10. trinn), kompetansemålkodar/-mål, kjerneelement
+  og tverrfaglege tema, klar til å kopierast til rekneark/dokument. Innhaldsliste
+  øvst med klikkbare ankerlenker til kvart kompetansemålsett
 - **Direkte søkelenke** til ndla.no per kode, med rett parameter for kvar
   kodetype
 - **Slack-varsel** når nye erstatningar dukkar opp
@@ -235,6 +237,13 @@ kompetansemål og kompetansemålsett kjem frå feltet
 (TSV) av heile fagoversikta og legg han på utklippstavla via
 `navigator.clipboard.writeText` — limer inn reint som rader/kolonnar i
 Excel/Google Sheets, og lesbart i Word.
+
+**Kompetansemålsett vert vist med kortform** (t.d. "Vg1 studieforberedende"
+i staden for "Kompetansemål og vurdering vg1 studieforberedende
+utdanningsprogram") — feltet `kortform` finst i det same detaljoppslaget vi
+alt hentar (`normalizeElement` i `fetch-grep-data.mjs`), ingen ekstra kall.
+Kompetansemålsett for 1.-10. trinn (grunnskule) vert filtrert bort frå
+fagoversikta, sidan NDLA berre dekker Vg1-Vg3.
 
 ## Slack-varsel
 

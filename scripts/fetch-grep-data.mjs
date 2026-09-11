@@ -132,6 +132,12 @@ function normalizeElement(type, listItem, detail) {
     erstatter: extractCodes(source["erstatter"]),
     erstattesAv: extractCodes(source["erstattes-av"]),
     tverrfagligeTemaer: type === "kompetansemaal_lk20" ? extractTverrfagligeTemaer(detail) : undefined,
+    // Kompetansemålsett har både ein lang, generisk tittel ("Kompetansemål
+    // og vurdering vg1 studieforberedende utdanningsprogram") og ei kort
+    // form ("Vg1 studieforberedende") i detaljoppslaget. Kortforma er langt
+    // meir lesbar i UI. Finst berre i detaljoppslaget (same stad kortform-
+    // matchinga alt hentar frå), ingen ekstra kall nødvendig.
+    kortform: type === "kompetansemaalsett_lk20" ? extractTittel({ tittel: detail?.kortform }) : undefined,
     // Kva kompetansemålsett (KV) kvart kompetansemål høyrer til — finst i
     // detaljoppslaget ("tilhoerer-kompetansemaalsett"), ikkje i listeoppslaget
     // (i motsetnad til tilhoerer_laereplan). Nødvendig for å gruppere
