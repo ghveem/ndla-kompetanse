@@ -687,24 +687,62 @@
 
   <!-- OM -->
   <section class="panel" id="panel-om">
-    <h2 style="font-size:16px;">Korleis dette fungerer</h2>
+    <h2 style="font-size:16px;">Kva er dette?</h2>
     <p style="font-size:14px; max-width:640px;">
-      Ein planlagt jobb i GitHub Actions hentar data frå Udir sitt Grep REST-API kvar veke,
-      avgrensar det til berre dei faga NDLA dekker, normaliserer det og samanliknar med
-      førre uttrekk. Endringar (nye kodar, kodar som vert sett til utgått, og kodar som
-      vert erstatta av andre) hamnar i endringsloggen. Data vert lagra som JSON-filer i
-      repoet, så heile historikken er sporbar via Git.
+      Ei oversikt over Udir sitt Grep-register — kompetansemål (KM), kompetansemålsett
+      (KV), kjerneelement (KE), læreplanar og fagkodar — avgrensa til dei faga NDLA
+      dekker. Verktøyet held automatisk styr på kva som er gjeldande og kva som er
+      utgått, slik at redaktørar slepp å halde eit manuelt rekneark oppdatert.
     </p>
+
+    <h2 style="font-size:16px; margin-top:24px;">Slik heng det saman</h2>
     <p style="font-size:14px; max-width:640px;">
-      «Artikkel-sjekk» søker automatisk opp NDLA-artiklar merka med utgåtte eller erstatta
-      kompetansemålkodar (KM), kjerneelement-kodar (KE) og kompetansemålsett-kodar (KV), via NDLA sitt eige
+      Ein planlagt jobb i GitHub Actions hentar data frå Udir sitt Grep REST-API kvar
+      veke, avgrensar det til berre dei faga NDLA dekker, normaliserer det og
+      samanliknar med førre uttrekk. Endringar (nye kodar, kodar som vert sett til
+      utgått, og kodar som vert erstatta av andre) hamnar i endringsloggen, og data
+      vert lagra som JSON-filer i eit ope repo, så heile historikken er sporbar via Git.
+    </p>
+
+    <h2 style="font-size:16px; margin-top:24px;">Oppslag: gammal kode → ny kode</h2>
+    <p style="font-size:14px; max-width:640px;">
+      Feltet øvst på "Søk &amp; status" finn kva ein utgått kode er erstatta av — også
+      heilt ned på enkelt-kompetansemål-nivå (t.d. ein spesifikk KM-kode), ikkje berre
+      på fag-/læreplan-nivå. Følgjer kjeda viss ein kode er erstatta fleire gonger etter
+      kvarandre.
+    </p>
+
+    <h2 style="font-size:16px; margin-top:24px;">Fana "Kompetansemål"</h2>
+    <p style="font-size:14px; max-width:640px;">
+      Søk opp eit fag (fagkode eller namn) og få heile læreplanen presentert samla:
+      kompetansemålsett (viste med kortnamn, t.d. "Vg1 SF"), tilhøyrande
+      kompetansemålkodar og kompetansemål, kjerneelement, og tverrfaglege tema som går
+      igjen i faget. Kvar kode er klikkbar og fører til NDLA-søk etter innhald merka med
+      koden. "Kopier oversikt" legg heile fagoversikta på utklippstavla, klar til å
+      limast inn i eit rekneark eller dokument.
+    </p>
+
+    <h2 style="font-size:16px; margin-top:24px;">Artikkel-sjekk</h2>
+    <p style="font-size:14px; max-width:640px;">
+      Søker automatisk opp NDLA-artiklar merka med utgåtte eller erstatta
+      kompetansemålkodar (KM), kompetansemålsett-kodar (KV) og kjerneelement-kodar (KE),
+      via NDLA sitt eige
       <a href="https://api.ndla.no/search-api/api-docs" target="_blank" rel="noopener">search-api</a>
-      (parameteren <code>grep-codes</code>). Ingen manuell eksport er nødvendig — dette
-      køyrer som ein del av den same vekentlege jobben.
+      (parameteren <code>grep-codes</code>). Delt opp i tre seksjonar sidan KM-treff
+      normalt treng meir presserande oppfølging enn dei breiare KE-tema-treffa. Ingen
+      manuell eksport er nødvendig — køyrer som ein del av den vekentlege jobben.
     </p>
-    <p style="font-size:12.5px; color:var(--svart-700);">
+
+    <h2 style="font-size:16px; margin-top:24px;">Varsel</h2>
+    <p style="font-size:14px; max-width:640px;">
+      Nye erstatningar/utgåtte kodar vert automatisk posta til Slack-kanalen
+      #kompetansemål-overvaking.
+    </p>
+
+    <p style="font-size:12.5px; color:var(--svart-700); margin-top:24px;">
       Kjelde: <a href="https://data.udir.no/kl06/v201906/" target="_blank" rel="noopener">data.udir.no/kl06/v201906</a> ·
-      <a href="https://github.com/Utdanningsdirektoratet/KL06-LK20-public/wiki" target="_blank" rel="noopener">Grep-dokumentasjon</a>
+      <a href="https://github.com/Utdanningsdirektoratet/KL06-LK20-public/wiki" target="_blank" rel="noopener">Grep-dokumentasjon</a> ·
+      <a href="https://github.com/ghveem/ndla-kompetanse" target="_blank" rel="noopener">Kjeldekode på GitHub</a>
     </p>
   </section>
 
