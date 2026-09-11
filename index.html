@@ -545,6 +545,27 @@
   table.fagtabell td.kodecelle { font-family: var(--mono); font-size: 12.5px; color: var(--kunnskap); white-space: nowrap; }
   table.fagtabell td.statuscelle { white-space: nowrap; }
 
+  .kv-innhaldsliste {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .kv-innhaldsliste a {
+    color: var(--kunnskap);
+    font-size: 13.5px;
+    text-decoration: none;
+  }
+  .kv-innhaldsliste a:hover { text-decoration: underline; }
+  .kv-innhaldsliste a .kode {
+    font-family: var(--mono);
+    font-weight: 700;
+    color: var(--kunnskap);
+    margin-right: 8px;
+  }
+
   footer {
     max-width: 980px;
     margin: 0 auto;
@@ -1080,12 +1101,27 @@
     `).join("");
   }
 
+  /** NDLA dekker berre Vg1–Vg3 — nokre gjennomgåande læreplanar (t.d. norsk,
+   * engelsk) har likevel kompetansemålsett heilt ned til 1. trinn. Filtrer
+   * desse ut av fagoversikta. */
+  function erGrunnskuleKompetansemaalsett(tittel) {
+    return /\b\d{1,2}\.\s*(års)?trinn\b/i.test(tittel || "");
+  }
+
   function byggFagoversiktData(laereplanKode) {
     const laereplan = snapshot.elementer.find((e) => e.kode === laereplanKode && e.type.startsWith("laereplan"));
     if (!laereplan) return null;
     const kjerneelement = snapshot.elementer.filter((e) => e.type === "kjerneelement_lk20" && e.tilhoererLaereplan?.kode === laereplanKode);
-    const kompetansemaalsett = snapshot.elementer.filter((e) => e.type === "kompetansemaalsett_lk20" && e.tilhoererLaereplan?.kode === laereplanKode);
-    const kompetansemaal = snapshot.elementer.filter((e) => e.type === "kompetansemaal_lk20" && e.tilhoererLaereplan?.kode === laereplanKode);
+    const kompetansemaalsett = snapshot.elementer.filter(
+      (e) => e.type === "kompetansemaalsett_lk20" && e.tilhoererLaereplan?.kode === laereplanKode && !erGrunnskuleKompetansemaalsett(e.tittel)
+    );
+    const godkjenteKvKodar = new Set(kompetansemaalsett.map((kv) => kv.kode));
+    const kompetansemaal = snapshot.elementer.filter(
+      (e) =>
+        e.type === "kompetansemaal_lk20" &&
+        e.tilhoererLaereplan?.kode === laereplanKode &&
+        (!e.tilhoererKompetansemaalsett || godkjenteKvKodar.has(e.tilhoererKompetansemaalsett.kode))
+    );
 
     const kmPerKv = new Map();
     const kmUtanKv = [];
@@ -1112,13 +1148,14 @@
     };
   }
 
-  function fagtabellHtml(rader, kolonneNamn) {
-    if (!rader.length) return `<tr><td colspan="3" style="color:var(--svart-700);">Ingen registrert.</td></tr>`;
+  function fagtabellHtml(rader, visStatus) {
+    const kolonnetal = visStatus ? 3 : 2;
+    if (!rader.length) return `<tr><td colspan="${kolonnetal}" style="color:var(--svart-700);">Ingen registrert.</td></tr>`;
     return rader.map((r) => `
       <tr>
         <td class="kodecelle">${esc(r.kode)}</td>
         <td>${esc(r.tittel || "(utan tittel)")}</td>
-        <td class="statuscelle"><span class="badge ${statusBadgeClass(r.status)}">${esc(r.status || "ukjend")}</span></td>
+        ${visStatus ? `<td class="statuscelle"><span class="badge ${statusBadgeClass(r.status)}">${esc(r.status || "ukjend")}</span></td>` : ""}
       </tr>
     `).join("");
   }
@@ -1147,13 +1184,26 @@
       html += `<div class="tverrfagleg-samandrag">${tverrfagligeTemaer.map((t) => `<span class="badge-tema">${esc(t.kode)} · ${esc(t.tittel)}</span>`).join("")}</div>`;
     }
 
+    if (kompetansemaalsett.length) {
+      html += `
+        <div class="fag-blokk">
+          <h3>Kompetansemålsett i faget</h3>
+          <ul class="kv-innhaldsliste">
+            ${kompetansemaalsett.map((kv) => `
+              <li><a href="#" data-kv-scroll="${esc(kv.kode)}"><span class="kode">${esc(kv.kode)}</span>${esc(kv.tittel)}</a></li>
+            `).join("")}
+          </ul>
+        </div>
+      `;
+    }
+
     if (kjerneelement.length) {
       html += `
         <div class="fag-blokk">
           <h3>Kjerneelement</h3>
           <table class="fagtabell">
             <thead><tr><th>Kode</th><th>Tittel</th><th>Status</th></tr></thead>
-            <tbody>${fagtabellHtml(kjerneelement)}</tbody>
+            <tbody>${fagtabellHtml(kjerneelement, true)}</tbody>
           </table>
         </div>
       `;
@@ -1162,11 +1212,11 @@
     for (const kv of kompetansemaalsett) {
       const kmListe = (kmPerKv.get(kv.kode) || []).sort((a, b) => a.kode.localeCompare(b.kode, "nb", { numeric: true }));
       html += `
-        <div class="fag-blokk">
+        <div class="fag-blokk" id="kv-${esc(kv.kode)}">
           <h3>${esc(kv.tittel)}<span class="kode">${esc(kv.kode)}</span></h3>
           <table class="fagtabell">
-            <thead><tr><th>KM-kode</th><th>Kompetansemål</th><th>Status</th></tr></thead>
-            <tbody>${fagtabellHtml(kmListe)}</tbody>
+            <thead><tr><th>KM-kode</th><th>Kompetansemål</th></tr></thead>
+            <tbody>${fagtabellHtml(kmListe, false)}</tbody>
           </table>
         </div>
       `;
@@ -1177,8 +1227,8 @@
         <div class="fag-blokk">
           <h3>Andre kompetansemål (ikkje knytt til eit spesifikt kompetansemålsett)</h3>
           <table class="fagtabell">
-            <thead><tr><th>KM-kode</th><th>Kompetansemål</th><th>Status</th></tr></thead>
-            <tbody>${fagtabellHtml(kmUtanKv)}</tbody>
+            <thead><tr><th>KM-kode</th><th>Kompetansemål</th></tr></thead>
+            <tbody>${fagtabellHtml(kmUtanKv, false)}</tbody>
           </table>
         </div>
       `;
@@ -1208,15 +1258,15 @@
     }
     for (const kv of kompetansemaalsett) {
       linjer.push(`${kv.tittel} (${kv.kode})`);
-      linjer.push(["KM-kode", "Kompetansemål", "Status"].join("\t"));
+      linjer.push(["KM-kode", "Kompetansemål"].join("\t"));
       const kmListe = (kmPerKv.get(kv.kode) || []).sort((a, b) => a.kode.localeCompare(b.kode, "nb", { numeric: true }));
-      kmListe.forEach((km) => linjer.push([km.kode, km.tittel || "", km.status || ""].join("\t")));
+      kmListe.forEach((km) => linjer.push([km.kode, km.tittel || ""].join("\t")));
       linjer.push("");
     }
     if (kmUtanKv.length) {
       linjer.push("Andre kompetansemål");
-      linjer.push(["KM-kode", "Kompetansemål", "Status"].join("\t"));
-      kmUtanKv.forEach((km) => linjer.push([km.kode, km.tittel || "", km.status || ""].join("\t")));
+      linjer.push(["KM-kode", "Kompetansemål"].join("\t"));
+      kmUtanKv.forEach((km) => linjer.push([km.kode, km.tittel || ""].join("\t")));
     }
 
     const tekst = linjer.join("\n");
@@ -1235,6 +1285,15 @@
     const btn = ev.target.closest("[data-laereplan-kode]");
     if (!btn) return;
     visFagoversikt(btn.dataset.laereplanKode);
+  });
+
+  // Hopp til rett kompetansemålsett-blokk. Brukar scrollIntoView i staden
+  // for ekte URL-hash, sidan location.hash er reservert til fane-routing.
+  document.getElementById("fag-innhald").addEventListener("click", (ev) => {
+    const lenke = ev.target.closest("[data-kv-scroll]");
+    if (!lenke) return;
+    ev.preventDefault();
+    document.getElementById(`kv-${lenke.dataset.kvScroll}`)?.scrollIntoView({ behavior: "smooth", block: "start" });
   });
 
   async function init() {
