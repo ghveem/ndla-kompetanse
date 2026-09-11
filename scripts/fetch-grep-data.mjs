@@ -132,6 +132,14 @@ function normalizeElement(type, listItem, detail) {
     erstatter: extractCodes(source["erstatter"]),
     erstattesAv: extractCodes(source["erstattes-av"]),
     tverrfagligeTemaer: type === "kompetansemaal_lk20" ? extractTverrfagligeTemaer(detail) : undefined,
+    // Kva kompetansemålsett (KV) kvart kompetansemål høyrer til — finst i
+    // detaljoppslaget ("tilhoerer-kompetansemaalsett"), ikkje i listeoppslaget
+    // (i motsetnad til tilhoerer_laereplan). Nødvendig for å gruppere
+    // kompetansemål rett under sitt kompetansemålsett i fagoversikta.
+    tilhoererKompetansemaalsett:
+      type === "kompetansemaal_lk20" && detail?.["tilhoerer-kompetansemaalsett"]
+        ? { kode: detail["tilhoerer-kompetansemaalsett"].kode, tittel: extractTittel(detail["tilhoerer-kompetansemaalsett"]) }
+        : undefined,
     // Mellombels felt, brukt til å byggje erstatter/erstattesAv for
     // kompetansemål i eit etterbehandlingssteg (sjå berikKompetansemaal).
     // Fjerna att før elementa vert skrivne til snapshotet.
