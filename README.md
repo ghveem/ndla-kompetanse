@@ -245,6 +245,20 @@ alt hentar (`normalizeElement` i `fetch-grep-data.mjs`), ingen ekstra kall.
 Kompetansemålsett for 1.-10. trinn (grunnskule) vert filtrert bort frå
 fagoversikta, sidan NDLA berre dekker Vg1-Vg3.
 
+**Tverrfaglege tema-knappane opnar eit eige panel** som listar alle
+kompetansemål i faget tagga med det valde temaet (på tvers av alle
+kompetansemålsett), i staden for å filtrere KV-tabellane. Fleire tema kan
+opnast samstundes.
+
+**Direkte lenke til udir.no** per kompetansemålsett (både i hovudoverskrifta
+og i tema-panelet), verifisert 2026-09-11:
+```
+https://www.udir.no/lk20/{laereplan-kode}/kompetansemaal-og-vurdering/{kv-kode}?lang=nob
+```
+Med `&context=TverrfagligeTema` lagt til (brukt automatisk i tema-panelet)
+utvidar Udir automatisk forklaringsboksane for tverrfaglege tema på den
+offisielle sida.
+
 ## Slack-varsel
 
 `scripts/send-slack-varsel.mjs` postar ei melding til Slack når nye kodar

@@ -524,6 +524,10 @@
   .fag-blokk { margin-bottom: 24px; }
   .fag-blokk h3 { font-size: 15px; margin: 0 0 8px; }
   .fag-blokk h3 .kode { font-family: var(--mono); font-size: 12px; color: var(--svart-700); font-weight: 400; margin-left: 6px; }
+  .fag-blokk h3 .udir-lenke { font-size: 12px; font-weight: 600; color: var(--kvalitet-700); margin-left: 8px; text-decoration: none; }
+  .fag-blokk h3 .udir-lenke:hover { text-decoration: underline; }
+  table.fagtabell td .udir-lenke { font-size: 12.5px; color: var(--kvalitet-700); text-decoration: none; }
+  table.fagtabell td .udir-lenke:hover { text-decoration: underline; }
 
   .tverrfagleg-samandrag { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; margin-bottom: 22px; }
   .badge-tema-toggle {
@@ -810,6 +814,20 @@
    * han finst, elles fall tilbake til vanleg tittel. */
   function visningsnamn(e) {
     return e.kortform || e.tittel;
+  }
+
+  /**
+   * Byggjer lenke til den offisielle Udir-sida for eit kompetansemålsett.
+   * Mønster verifisert 2026-09-11 (generaliserer på tvers av fag):
+   *   https://www.udir.no/lk20/{laereplan-kode}/kompetansemaal-og-vurdering/{kv-kode}?lang=nob
+   * Med "&context=TverrfagligeTema" utvidar Udir automatisk forklarings-
+   * boksane for tverrfaglege tema under relevante kompetansemål.
+   */
+  function udirKvLenke(kv, medTemaKontekst) {
+    const laereplanKode = kv?.tilhoererLaereplan?.kode;
+    if (!laereplanKode || !kv?.kode) return null;
+    const url = `https://www.udir.no/lk20/${laereplanKode.toLowerCase()}/kompetansemaal-og-vurdering/${kv.kode.toLowerCase()}?lang=nob`;
+    return medTemaKontekst ? `${url}&context=TverrfagligeTema` : url;
   }
 
   function renderStats() {
@@ -1245,11 +1263,15 @@
             ${treff.map((km) => {
               const kv = km.tilhoererKompetansemaalsett ? kvPerKode.get(km.tilhoererKompetansemaalsett.kode) : null;
               const kvNamn = kv ? visningsnamn(kv) : (km.tilhoererKompetansemaalsett?.tittel || "—");
+              const kvLenke = kv ? udirKvLenke(kv, true) : null;
+              const kvCelle = kvLenke
+                ? `<a class="udir-lenke" href="${esc(kvLenke)}" target="_blank" rel="noopener">${esc(kvNamn)} ↗</a>`
+                : esc(kvNamn);
               return `
                 <tr>
                   <td class="kodecelle">${esc(km.kode)}</td>
                   <td>${esc(km.tittel || "(utan tittel)")}</td>
-                  <td>${esc(kvNamn)}</td>
+                  <td>${kvCelle}</td>
                 </tr>
               `;
             }).join("")}
@@ -1329,9 +1351,10 @@
 
     for (const kv of kompetansemaalsett) {
       const kmListe = (kmPerKv.get(kv.kode) || []).sort((a, b) => a.kode.localeCompare(b.kode, "nb", { numeric: true }));
+      const udirLenke = udirKvLenke(kv, opneTema.size > 0);
       html += `
         <div class="fag-blokk" id="kv-${esc(kv.kode)}">
-          <h3>${esc(visningsnamn(kv))}<span class="kode">${esc(kv.kode)}</span></h3>
+          <h3>${esc(visningsnamn(kv))}<span class="kode">${esc(kv.kode)}</span>${udirLenke ? `<a class="udir-lenke" href="${esc(udirLenke)}" target="_blank" rel="noopener">↗ udir.no</a>` : ""}</h3>
           <table class="fagtabell">
             <thead><tr><th>KM-kode</th><th>Kompetansemål</th></tr></thead>
             <tbody>${fagtabellHtml(kmListe, false)}</tbody>
