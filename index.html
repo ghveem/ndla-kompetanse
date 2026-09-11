@@ -584,6 +584,8 @@
     vertical-align: top;
   }
   table.fagtabell td.kodecelle { font-family: var(--mono); font-size: 12.5px; color: var(--kunnskap); white-space: nowrap; }
+  table.fagtabell td.kodecelle a { color: inherit; text-decoration: none; }
+  table.fagtabell td.kodecelle a:hover { text-decoration: underline; }
   table.fagtabell td.statuscelle { white-space: nowrap; }
   table.fagtabell td.ndlacelle { white-space: nowrap; }
   table.fagtabell td.ndlacelle a, table.fagtabell td .udir-lenke {
@@ -1181,7 +1183,9 @@
     }
     wrap.innerHTML = treff.slice(0, 30).map((t) => `
       <button type="button" class="fag-treff" data-laereplan-kode="${esc(t.kode)}">
-        <span class="kode">${esc(t.kode)}</span><span class="tittel">${esc(t.tittel)}</span>
+        <span class="kode">${esc(t.kode)}</span>
+        <span class="badge ${statusBadgeClass(t.status)}" style="margin-right:8px;">${esc(t.status || "ukjend")}</span>
+        <span class="tittel">${esc(t.tittel)}</span>
       </button>
     `).join("");
   }
@@ -1239,7 +1243,7 @@
     if (!rader.length) return `<tr><td colspan="${kolonnetal}" style="color:var(--svart-700);">Ingen registrert.</td></tr>`;
     return rader.map((r) => `
       <tr>
-        <td class="kodecelle">${esc(r.kode)}</td>
+        <td class="kodecelle"><a href="${esc(ndlaSokelenke(r))}" target="_blank" rel="noopener" title="Søk opp innhald på ndla.no merka med denne koden">${esc(r.kode)}</a></td>
         <td>${esc(r.tittel || "(utan tittel)")}</td>
         ${visStatus ? `<td class="statuscelle"><span class="badge ${statusBadgeClass(r.status)}">${esc(r.status || "ukjend")}</span></td>` : ""}
         <td class="ndlacelle"><a href="${esc(ndlaSokelenke(r))}" target="_blank" rel="noopener" title="Søk opp innhald på ndla.no merka med denne koden">🔍 ndla.no</a></td>
@@ -1284,7 +1288,7 @@
                 : esc(kvNamn);
               return `
                 <tr>
-                  <td class="kodecelle">${esc(km.kode)}</td>
+                  <td class="kodecelle"><a href="${esc(ndlaSokelenke(km))}" target="_blank" rel="noopener" title="Søk opp innhald på ndla.no merka med denne koden">${esc(km.kode)}</a></td>
                   <td>${esc(km.tittel || "(utan tittel)")}</td>
                   <td>${kvCelle}</td>
                   <td><a class="udir-lenke" href="${esc(ndlaSokelenke(km))}" target="_blank" rel="noopener">🔍 ndla.no</a></td>
