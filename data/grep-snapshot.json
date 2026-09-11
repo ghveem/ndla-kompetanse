@@ -1,5 +1,5 @@
 {
-  "generert": "2026-09-11T10:07:37.421Z",
+  "generert": "2026-09-11T10:44:00.016Z",
   "grepVersjon": "v201906",
   "kilde": "https://data.udir.no/kl06/v201906/",
   "ndlaFilter": {
@@ -12629,6 +12629,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Lederutvikling 1",
       "tilhoererLaereplan": {
         "kode": "IDR08-02",
         "tittel": "Læreplan i lederutvikling"
@@ -12643,6 +12644,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Lederutvikling 2",
       "tilhoererLaereplan": {
         "kode": "IDR08-02",
         "tittel": "Læreplan i lederutvikling"
@@ -12657,6 +12659,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "10. trinn",
       "tilhoererLaereplan": {
         "kode": "ENG03-02",
         "tittel": "Læreplan i fordypning i engelsk"
@@ -12671,6 +12674,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "10. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR06-02",
         "tittel": "Læreplan i fordypning i norsk"
@@ -12685,6 +12689,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Produksjon og tjenesteyting",
       "tilhoererLaereplan": {
         "kode": "LGA02-03",
         "tittel": "Læreplan i Vg2 landbruk og gartnernæring"
@@ -12699,6 +12704,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Forvaltning og drift",
       "tilhoererLaereplan": {
         "kode": "LGA02-03",
         "tittel": "Læreplan i Vg2 landbruk og gartnernæring"
@@ -12713,6 +12719,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 maskiner og teknologi i landbruk",
       "tilhoererLaereplan": {
         "kode": "LBR04-02",
         "tittel": "Læreplan i Vg3 maskiner og teknologi i landbruk"
@@ -12727,6 +12734,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 naturbasert næringsutvikling",
       "tilhoererLaereplan": {
         "kode": "NAB06-02",
         "tittel": "Læreplan i Vg3 naturbasert næringsutvikling"
@@ -12741,6 +12749,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Råvare, produksjon og kvalitet",
       "tilhoererLaereplan": {
         "kode": "MPR02-01",
         "tittel": "Læreplan i vg2 matproduksjon"
@@ -12755,6 +12764,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Bransje og arbeidsliv",
       "tilhoererLaereplan": {
         "kode": "MPR02-01",
         "tittel": "Læreplan i vg2 matproduksjon"
@@ -12769,6 +12779,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Råvare, produksjon og kvalitet",
       "tilhoererLaereplan": {
         "kode": "BAK02-01",
         "tittel": "Læreplan i vg2 bakar og konditor"
@@ -12783,6 +12794,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Bransje og arbeidsliv",
       "tilhoererLaereplan": {
         "kode": "BAK02-01",
         "tittel": "Læreplan i vg2 bakar og konditor"
@@ -12797,6 +12809,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Forretningsdrift",
       "tilhoererLaereplan": {
         "kode": "SRL02-01",
         "tittel": "Læreplan i vg2 sal og reiseliv"
@@ -12811,6 +12824,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Innovasjon og marknadsføring",
       "tilhoererLaereplan": {
         "kode": "SRL02-01",
         "tittel": "Læreplan i vg2 sal og reiseliv"
@@ -12825,6 +12839,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Kultur og kommunikasjon",
       "tilhoererLaereplan": {
         "kode": "SRL02-01",
         "tittel": "Læreplan i vg2 sal og reiseliv"
@@ -12839,6 +12854,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Design, teknologi og produksjon",
       "tilhoererLaereplan": {
         "kode": "IED02-01",
         "tittel": "Læreplan i vg2 interiør og eksponeringsdesign"
@@ -12853,6 +12869,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Kunde og kommunikasjon",
       "tilhoererLaereplan": {
         "kode": "IED02-01",
         "tittel": "Læreplan i vg2 interiør og eksponeringsdesign"
@@ -12867,6 +12884,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Produksjon og konseptutvikling",
       "tilhoererLaereplan": {
         "kode": "EKD03-01",
         "tittel": "Læreplan i vg3 eksponeringsdesign"
@@ -12881,6 +12899,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Bedriftskultur og markedsføring",
       "tilhoererLaereplan": {
         "kode": "EKD03-01",
         "tittel": "Læreplan i vg3 eksponeringsdesign"
@@ -12895,6 +12914,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Materialer og konstruksjon",
       "tilhoererLaereplan": {
         "kode": "BBF02-03",
         "tittel": "Læreplan i vg2 båtbygger"
@@ -12909,6 +12929,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Produksjon",
       "tilhoererLaereplan": {
         "kode": "BBF02-03",
         "tittel": "Læreplan i vg2 båtbygger"
@@ -12923,6 +12944,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Gull- og sølvsmedhåndverk",
       "tilhoererLaereplan": {
         "kode": "DGH02-03",
         "tittel": "Læreplan i vg2 gull- og sølvsmedhåndverk"
@@ -12937,6 +12959,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Design og produktutvikling",
       "tilhoererLaereplan": {
         "kode": "DGH02-03",
         "tittel": "Læreplan i vg2 gull- og sølvsmedhåndverk"
@@ -12951,6 +12974,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Smedhåndverk",
       "tilhoererLaereplan": {
         "kode": "SME02-03",
         "tittel": "Læreplan i vg2 smed"
@@ -12965,6 +12989,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Design og produktutvikling",
       "tilhoererLaereplan": {
         "kode": "SME02-03",
         "tittel": "Læreplan i vg2 smed"
@@ -12979,6 +13004,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Design og produktutvikling",
       "tilhoererLaereplan": {
         "kode": "STH02-01",
         "tittel": "Læreplan i vg2 søm og tekstilhåndverk"
@@ -12993,6 +13019,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Produksjon og materialer",
       "tilhoererLaereplan": {
         "kode": "STH02-01",
         "tittel": "Læreplan i vg2 søm og tekstilhåndverk"
@@ -13007,6 +13034,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Produksjon",
       "tilhoererLaereplan": {
         "kode": "DTR02-03",
         "tittel": "Læreplan i vg2 trearbeid"
@@ -13021,6 +13049,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Materialkunnskap",
       "tilhoererLaereplan": {
         "kode": "DTR02-03",
         "tittel": "Læreplan i vg2 trearbeid"
@@ -13035,6 +13064,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Arbeidsplanlegging og tegning",
       "tilhoererLaereplan": {
         "kode": "DTR02-03",
         "tittel": "Læreplan i vg2 trearbeid"
@@ -13049,6 +13079,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Produksjon og vedlikehold",
       "tilhoererLaereplan": {
         "kode": "UIM02-03",
         "tittel": "Læreplan i vg2 urmaker"
@@ -13063,6 +13094,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Produktutvikling",
       "tilhoererLaereplan": {
         "kode": "UIM02-03",
         "tittel": "Læreplan i vg2 urmaker"
@@ -13077,6 +13109,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Bransjeteknikk",
       "tilhoererLaereplan": {
         "kode": "TOL02-01",
         "tittel": "Læreplan i vg2 transport og logistikk"
@@ -13091,6 +13124,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Transport, logistikk og løfteoperasjoner",
       "tilhoererLaereplan": {
         "kode": "TOL02-01",
         "tittel": "Læreplan i vg2 transport og logistikk"
@@ -13105,6 +13139,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Bransjelære",
       "tilhoererLaereplan": {
         "kode": "TOL02-01",
         "tittel": "Læreplan i vg2 transport og logistikk"
@@ -13119,6 +13154,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Produksjon og tjenester",
       "tilhoererLaereplan": {
         "kode": "KPL02-01",
         "tittel": "Læreplan i vg2 kjemiprosess- og laboratoriefag"
@@ -13133,6 +13169,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Kjemisk teknologi",
       "tilhoererLaereplan": {
         "kode": "KPL02-01",
         "tittel": "Læreplan i vg2 kjemiprosess- og laboratoriefag"
@@ -13147,6 +13184,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Analyse, dokumentasjon og kvalitet",
       "tilhoererLaereplan": {
         "kode": "KPL02-01",
         "tittel": "Læreplan i vg2 kjemiprosess- og laboratoriefag"
@@ -13161,6 +13199,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Teknologi og produksjon",
       "tilhoererLaereplan": {
         "kode": "MED02-04",
         "tittel": "Læreplan i vg2 medieproduksjon"
@@ -13175,6 +13214,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Konseptutvikling og kommunikasjon",
       "tilhoererLaereplan": {
         "kode": "MED02-04",
         "tittel": "Læreplan i vg2 medieproduksjon"
@@ -13189,6 +13229,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Design og visualisering",
       "tilhoererLaereplan": {
         "kode": "MED02-04",
         "tittel": "Læreplan i vg2 medieproduksjon"
@@ -13203,6 +13244,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Helse, funksjon og bevegelse",
       "tilhoererLaereplan": {
         "kode": "FOT03-03",
         "tittel": "Læreplan i vg3 fotterapi"
@@ -13217,6 +13259,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Yrkesliv i fotterapifaget",
       "tilhoererLaereplan": {
         "kode": "FOT03-03",
         "tittel": "Læreplan i vg3 fotterapi"
@@ -13231,6 +13274,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Kommunikasjon og samhandling",
       "tilhoererLaereplan": {
         "kode": "FOT03-03",
         "tittel": "Læreplan i vg3 fotterapi"
@@ -13245,6 +13289,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Smittevern, tannanatomi og fysiologi",
       "tilhoererLaereplan": {
         "kode": "TAN03-03",
         "tittel": "Læreplan i vg3 tannhelsesekretær"
@@ -13259,6 +13304,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Kommunikasjon og samhandling",
       "tilhoererLaereplan": {
         "kode": "TAN03-03",
         "tittel": "Læreplan i vg3 tannhelsesekretær"
@@ -13273,6 +13319,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Yrkesliv i tannhelsesekretærfaget",
       "tilhoererLaereplan": {
         "kode": "TAN03-03",
         "tittel": "Læreplan i vg3 tannhelsesekretær"
@@ -13287,6 +13334,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Yrkesliv i helsesekretærfaget",
       "tilhoererLaereplan": {
         "kode": "HSE03-03",
         "tittel": "Læreplan i vg3 helsesekretær"
@@ -13301,6 +13349,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Helse og sjukdom",
       "tilhoererLaereplan": {
         "kode": "HSE03-03",
         "tittel": "Læreplan i vg3 helsesekretær"
@@ -13315,6 +13364,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Kommunikasjon og samhandling",
       "tilhoererLaereplan": {
         "kode": "HSE03-03",
         "tittel": "Læreplan i vg3 helsesekretær"
@@ -13329,6 +13379,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Helseveiledning i apotek",
       "tilhoererLaereplan": {
         "kode": "APO03-03",
         "tittel": "Læreplan i vg3 apotekteknikk"
@@ -13343,6 +13394,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Kommunikasjon og samhandling",
       "tilhoererLaereplan": {
         "kode": "APO03-03",
         "tittel": "Læreplan i vg3 apotekteknikk"
@@ -13357,6 +13409,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Yrkesliv i apotekteknikkfaget",
       "tilhoererLaereplan": {
         "kode": "APO03-03",
         "tittel": "Læreplan i vg3 apotekteknikk"
@@ -13371,6 +13424,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Yrkesliv i aktivitørfag",
       "tilhoererLaereplan": {
         "kode": "AKT02-04",
         "tittel": "Læreplan i vg2 aktivitør"
@@ -13385,6 +13439,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Administrasjon",
       "tilhoererLaereplan": {
         "kode": "AKT02-04",
         "tittel": "Læreplan i vg2 aktivitør"
@@ -13399,6 +13454,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Kommunikasjon og samhandling",
       "tilhoererLaereplan": {
         "kode": "AKT02-04",
         "tittel": "Læreplan i vg2 aktivitør"
@@ -13413,6 +13469,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Kommunikasjon og samhandling",
       "tilhoererLaereplan": {
         "kode": "AMB02-03",
         "tittel": "Læreplan i vg2 ambulansefag"
@@ -13427,6 +13484,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Ambulansemedisin",
       "tilhoererLaereplan": {
         "kode": "AMB02-03",
         "tittel": "Læreplan i vg2 ambulansefag"
@@ -13441,6 +13499,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Yrkesliv i ambulansefag",
       "tilhoererLaereplan": {
         "kode": "AMB02-03",
         "tittel": "Læreplan i vg2 ambulansefag"
@@ -13455,6 +13514,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Helse, funksjon og bevegelse",
       "tilhoererLaereplan": {
         "kode": "FOT02-03",
         "tittel": "Læreplan i vg2 fotterapi og ortopediteknikk"
@@ -13469,6 +13529,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Kommunikasjon og samhandling",
       "tilhoererLaereplan": {
         "kode": "FOT02-03",
         "tittel": "Læreplan i vg2 fotterapi og ortopediteknikk"
@@ -13483,6 +13544,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Yrkesliv i fotterapi og ortopediteknikk",
       "tilhoererLaereplan": {
         "kode": "FOT02-03",
         "tittel": "Læreplan i vg2 fotterapi og ortopediteknikk"
@@ -13497,6 +13559,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Helse og sjukdom",
       "tilhoererLaereplan": {
         "kode": "HES02-03",
         "tittel": "Læreplan i vg2 helseservicefag"
@@ -13511,6 +13574,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Kommunikasjon og samhandling",
       "tilhoererLaereplan": {
         "kode": "HES02-03",
         "tittel": "Læreplan i vg2 helseservicefag"
@@ -13525,6 +13589,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Yrkesliv i helseservicefag",
       "tilhoererLaereplan": {
         "kode": "HES02-03",
         "tittel": "Læreplan i vg2 helseservicefag"
@@ -13539,6 +13604,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Helsefremmende arbeid",
       "tilhoererLaereplan": {
         "kode": "HUD02-03",
         "tittel": "Læreplan i vg2 hudpleie"
@@ -13553,6 +13619,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Yrkesliv i hudpleiefag",
       "tilhoererLaereplan": {
         "kode": "HUD02-03",
         "tittel": "Læreplan i vg2 hudpleie"
@@ -13567,6 +13634,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Kommunikasjon og samhandling",
       "tilhoererLaereplan": {
         "kode": "HUD02-03",
         "tittel": "Læreplan i vg2 hudpleie"
@@ -13581,6 +13649,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Praktisk yrkesutøvelse",
       "tilhoererLaereplan": {
         "kode": "KEM02-03",
         "tittel": "Læreplan i vg2 klima, energi og miljøteknikk"
@@ -13595,6 +13664,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Arbeidsmiljø og dokumentasjon",
       "tilhoererLaereplan": {
         "kode": "KEM02-03",
         "tittel": "Læreplan i vg2 klima, energi og miljøteknikk"
@@ -13609,6 +13679,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Forbehandling og påføring",
       "tilhoererLaereplan": {
         "kode": "OFT02-03",
         "tittel": "Læreplan i vg2 overflateteknikk"
@@ -13623,6 +13694,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Helse, miljø og sikkerhet",
       "tilhoererLaereplan": {
         "kode": "OFT02-03",
         "tittel": "Læreplan i vg2 overflateteknikk"
@@ -13637,6 +13709,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Boring",
       "tilhoererLaereplan": {
         "kode": "BRT02-04",
         "tittel": "Læreplan i vg2 brønnteknikk"
@@ -13651,6 +13724,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Komplettering og brønnservice",
       "tilhoererLaereplan": {
         "kode": "BRT02-04",
         "tittel": "Læreplan i vg2 brønnteknikk"
@@ -13665,6 +13739,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Prosedyrar og praksis",
       "tilhoererLaereplan": {
         "kode": "BRT02-04",
         "tittel": "Læreplan i vg2 brønnteknikk"
@@ -13679,6 +13754,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Engelsk 1",
       "tilhoererLaereplan": {
         "kode": "ENG04-02",
         "tittel": "Læreplan i engelsk programfag"
@@ -13693,6 +13769,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Engelsk 2",
       "tilhoererLaereplan": {
         "kode": "ENG04-02",
         "tittel": "Læreplan i engelsk programfag"
@@ -13707,6 +13784,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Arbeidsmiljø og dokumentasjon",
       "tilhoererLaereplan": {
         "kode": "BAT01-03",
         "tittel": "Læreplan i vg1 bygg- og anleggsteknikk"
@@ -13721,6 +13799,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Praktisk yrkesutøvelse",
       "tilhoererLaereplan": {
         "kode": "BAT01-03",
         "tittel": "Læreplan i vg1 bygg- og anleggsteknikk"
@@ -13735,6 +13814,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Elektroniske kretser og nettverk",
       "tilhoererLaereplan": {
         "kode": "ELE01-03",
         "tittel": "Læreplan i Vg1 elektro og datateknologi"
@@ -13749,6 +13829,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Energi- og styresystemer",
       "tilhoererLaereplan": {
         "kode": "ELE01-03",
         "tittel": "Læreplan i Vg1 elektro og datateknologi"
@@ -13763,6 +13844,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Forretningsdrift",
       "tilhoererLaereplan": {
         "kode": "SSR01-01",
         "tittel": "Læreplan i vg1 salg, service og reiseliv"
@@ -13777,6 +13859,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Kultur og samhandling",
       "tilhoererLaereplan": {
         "kode": "SSR01-01",
         "tittel": "Læreplan i vg1 salg, service og reiseliv"
@@ -13791,6 +13874,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Markedsføring og innovasjon",
       "tilhoererLaereplan": {
         "kode": "SSR01-01",
         "tittel": "Læreplan i vg1 salg, service og reiseliv"
@@ -13805,6 +13889,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Produksjon og historiefortelling",
       "tilhoererLaereplan": {
         "kode": "IKM01-01",
         "tittel": "Læreplan i vg1 informasjonsteknologi og medieproduksjon"
@@ -13819,6 +13904,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Teknologiforståelse",
       "tilhoererLaereplan": {
         "kode": "IKM01-01",
         "tittel": "Læreplan i vg1 informasjonsteknologi og medieproduksjon"
@@ -13833,6 +13919,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Konseptutvikling og programmering",
       "tilhoererLaereplan": {
         "kode": "IKM01-01",
         "tittel": "Læreplan i vg1 informasjonsteknologi og medieproduksjon"
@@ -13847,6 +13934,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Produksjon og tjenester",
       "tilhoererLaereplan": {
         "kode": "TIP01-03",
         "tittel": "Læreplan i vg1 teknologi- og industrifag"
@@ -13861,6 +13949,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Konstruksjons- og styringsteknikk",
       "tilhoererLaereplan": {
         "kode": "TIP01-03",
         "tittel": "Læreplan i vg1 teknologi- og industrifag"
@@ -13875,6 +13964,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Produktivitet og kvalitetsstyring",
       "tilhoererLaereplan": {
         "kode": "TIP01-03",
         "tittel": "Læreplan i vg1 teknologi- og industrifag"
@@ -13889,6 +13979,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Produktutvikling og produksjon",
       "tilhoererLaereplan": {
         "kode": "FBI01-01",
         "tittel": "Læreplan i vg1 frisør, blomster, interiør og eksponeringsdesign"
@@ -13903,6 +13994,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Kommunikasjon, kunde og arbeidsliv",
       "tilhoererLaereplan": {
         "kode": "FBI01-01",
         "tittel": "Læreplan i vg1 frisør, blomster, interiør og eksponeringsdesign"
@@ -13917,6 +14009,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "1P-Y BA",
       "tilhoererLaereplan": {
         "kode": "MAT08-01",
         "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
@@ -13931,6 +14024,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "1P-Y DT",
       "tilhoererLaereplan": {
         "kode": "MAT08-01",
         "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
@@ -13945,6 +14039,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "1P-Y EL",
       "tilhoererLaereplan": {
         "kode": "MAT08-01",
         "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
@@ -13959,6 +14054,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "1P-Y FD",
       "tilhoererLaereplan": {
         "kode": "MAT08-01",
         "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
@@ -13973,6 +14069,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "1P-Y HS",
       "tilhoererLaereplan": {
         "kode": "MAT08-01",
         "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
@@ -13987,6 +14084,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "1P-Y IM",
       "tilhoererLaereplan": {
         "kode": "MAT08-01",
         "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
@@ -14001,6 +14099,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "1P-Y NA",
       "tilhoererLaereplan": {
         "kode": "MAT08-01",
         "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
@@ -14015,6 +14114,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "1P-Y RM",
       "tilhoererLaereplan": {
         "kode": "MAT08-01",
         "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
@@ -14029,6 +14129,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "1P-Y SR",
       "tilhoererLaereplan": {
         "kode": "MAT08-01",
         "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
@@ -14043,6 +14144,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "1P-Y TP",
       "tilhoererLaereplan": {
         "kode": "MAT08-01",
         "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
@@ -14057,6 +14159,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "1P",
       "tilhoererLaereplan": {
         "kode": "MAT08-01",
         "tittel": "Læreplan i matematikk fellesfag vg1 praktisk (matematikk P)"
@@ -14071,6 +14174,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "2P",
       "tilhoererLaereplan": {
         "kode": "MAT05-04",
         "tittel": "Læreplan i matematikk fellesfag 2P"
@@ -14085,6 +14189,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "2P-Y",
       "tilhoererLaereplan": {
         "kode": "MAT06-04",
         "tittel": "Læreplan i matematikk fellesfag 2P-Y – Vg3 påbygging til generell studiekompetanse"
@@ -14099,6 +14204,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Råvare, produksjon og kvalitet",
       "tilhoererLaereplan": {
         "kode": "RMF01-03",
         "tittel": "Læreplan i vg1 restaurant- og matfag"
@@ -14113,6 +14219,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Bransje og arbeidsliv",
       "tilhoererLaereplan": {
         "kode": "RMF01-03",
         "tittel": "Læreplan i vg1 restaurant- og matfag"
@@ -14127,6 +14234,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3",
       "tilhoererLaereplan": {
         "kode": "REL01-02",
         "tittel": "Læreplan i religion og etikk – fellesfag i studieforberedende utdanningsprogram"
@@ -14141,6 +14249,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3",
       "tilhoererLaereplan": {
         "kode": "REL02-02",
         "tittel": "Læreplan i religion og etikk, samisk plan, fellesfag i studieforberedende utdanningsprogram"
@@ -14155,6 +14264,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Samfunnskunnskap",
       "tilhoererLaereplan": {
         "kode": "SAK01-01",
         "tittel": "Læreplan i samfunnskunnskap fellesfag vg1/vg2"
@@ -14169,6 +14279,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Geografi",
       "tilhoererLaereplan": {
         "kode": "GEO01-02",
         "tittel": "Læreplan i geografi fellesfag"
@@ -14183,6 +14294,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Geografi, samisk",
       "tilhoererLaereplan": {
         "kode": "GEO02-02",
         "tittel": "Læreplan i geografi fellesfag, samisk plan"
@@ -14197,6 +14309,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg2 studieforberedende",
       "tilhoererLaereplan": {
         "kode": "HIS01-03",
         "tittel": "Læreplan i historie fellesfag"
@@ -14211,6 +14324,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 studieforberedende",
       "tilhoererLaereplan": {
         "kode": "HIS01-03",
         "tittel": "Læreplan i historie fellesfag"
@@ -14225,6 +14339,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 påbygg",
       "tilhoererLaereplan": {
         "kode": "HIS01-03",
         "tittel": "Læreplan i historie fellesfag"
@@ -14239,6 +14354,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 påbygg – samisk, kvensk eller finsk",
       "tilhoererLaereplan": {
         "kode": "HIS01-03",
         "tittel": "Læreplan i historie fellesfag"
@@ -14253,6 +14369,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Driftsstøtte",
       "tilhoererLaereplan": {
         "kode": "ITK02-01",
         "tittel": "Læreplan i vg2 informasjonsteknologi"
@@ -14267,6 +14384,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Brukerstøtte",
       "tilhoererLaereplan": {
         "kode": "ITK02-01",
         "tittel": "Læreplan i vg2 informasjonsteknologi"
@@ -14281,6 +14399,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Utvikling",
       "tilhoererLaereplan": {
         "kode": "ITK02-01",
         "tittel": "Læreplan i vg2 informasjonsteknologi"
@@ -14295,6 +14414,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Helsefremmende arbeid",
       "tilhoererLaereplan": {
         "kode": "HSF01-03",
         "tittel": "Læreplan i vg1 helse- og oppvekstfag"
@@ -14309,6 +14429,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Kommunikasjon og samhandling",
       "tilhoererLaereplan": {
         "kode": "HSF01-03",
         "tittel": "Læreplan i vg1 helse- og oppvekstfag"
@@ -14323,6 +14444,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Yrkesliv i helse- og oppvekstfag",
       "tilhoererLaereplan": {
         "kode": "HSF01-03",
         "tittel": "Læreplan i vg1 helse- og oppvekstfag"
@@ -14337,6 +14459,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Samfunnskunnskap, samisk",
       "tilhoererLaereplan": {
         "kode": "SAK02-01",
         "tittel": "Læreplan i samfunnskunnskap, samisk plan, fellesfag vg1/vg2"
@@ -14351,6 +14474,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg2 studieforberedende",
       "tilhoererLaereplan": {
         "kode": "HIS02-03",
         "tittel": "Læreplan i historie fellesfag, samisk plan"
@@ -14365,6 +14489,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 studieforberedende",
       "tilhoererLaereplan": {
         "kode": "HIS02-03",
         "tittel": "Læreplan i historie fellesfag, samisk plan"
@@ -14379,6 +14504,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 påbygg",
       "tilhoererLaereplan": {
         "kode": "HIS02-03",
         "tittel": "Læreplan i historie fellesfag, samisk plan"
@@ -14393,6 +14519,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Elektroniske kretser og utstyr",
       "tilhoererLaereplan": {
         "kode": "DEL02-03",
         "tittel": "Læreplan i Vg2 datateknologi og elektronikk"
@@ -14407,6 +14534,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Data- og informasjonsteknologi",
       "tilhoererLaereplan": {
         "kode": "DEL02-03",
         "tittel": "Læreplan i Vg2 datateknologi og elektronikk"
@@ -14421,6 +14549,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Produktutvikling og kvalitetssikring",
       "tilhoererLaereplan": {
         "kode": "BMF02-03",
         "tittel": "Læreplan i vg2 børsemakar"
@@ -14435,6 +14564,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Produksjon",
       "tilhoererLaereplan": {
         "kode": "BMF02-03",
         "tittel": "Læreplan i vg2 børsemakar"
@@ -14449,6 +14579,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Reparasjon og vedlikehold",
       "tilhoererLaereplan": {
         "kode": "AMK02-03",
         "tittel": "Læreplan i vg2 arbeidsmaskiner"
@@ -14463,6 +14594,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Planlegging og kommunikasjon",
       "tilhoererLaereplan": {
         "kode": "AMK02-03",
         "tittel": "Læreplan i vg2 arbeidsmaskiner"
@@ -14477,6 +14609,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Grunnarbeider",
       "tilhoererLaereplan": {
         "kode": "ANL02-03",
         "tittel": "Læreplan i vg2 anleggsteknikk"
@@ -14491,6 +14624,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Drift og vedlikehold",
       "tilhoererLaereplan": {
         "kode": "ANL02-03",
         "tittel": "Læreplan i vg2 anleggsteknikk"
@@ -14505,6 +14639,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Sikkerhetsopplæring for masseforflytningsmaskiner",
       "tilhoererLaereplan": {
         "kode": "ANL02-03",
         "tittel": "Læreplan i vg2 anleggsteknikk"
@@ -14519,6 +14654,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Helsefremmende arbeid",
       "tilhoererLaereplan": {
         "kode": "HEA02-04",
         "tittel": "Læreplan i vg2 helsearbeiderfag"
@@ -14533,6 +14669,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Kommunikasjon og samhandling",
       "tilhoererLaereplan": {
         "kode": "HEA02-04",
         "tittel": "Læreplan i vg2 helsearbeiderfag"
@@ -14547,6 +14684,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Yrkesliv i helsearbeiderfag",
       "tilhoererLaereplan": {
         "kode": "HEA02-04",
         "tittel": "Læreplan i vg2 helsearbeiderfag"
@@ -14561,6 +14699,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Råvare, produksjon, salg og service",
       "tilhoererLaereplan": {
         "kode": "KOS02-01",
         "tittel": "Læreplan i vg2 kokk- og servitørfag"
@@ -14575,6 +14714,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Bransje og arbeidsliv",
       "tilhoererLaereplan": {
         "kode": "KOS02-01",
         "tittel": "Læreplan i vg2 kokk- og servitørfag"
@@ -14589,6 +14729,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Teknologi",
       "tilhoererLaereplan": {
         "kode": "PIN02-03",
         "tittel": "Læreplan i vg2 industriteknologi"
@@ -14603,6 +14744,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vedlikehold",
       "tilhoererLaereplan": {
         "kode": "PIN02-03",
         "tittel": "Læreplan i vg2 industriteknologi"
@@ -14617,6 +14759,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Tegning og materialvalg",
       "tilhoererLaereplan": {
         "kode": "TRT02-03",
         "tittel": "Læreplan i vg2 treteknikk"
@@ -14631,6 +14774,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Produksjon",
       "tilhoererLaereplan": {
         "kode": "TRT02-03",
         "tittel": "Læreplan i vg2 treteknikk"
@@ -14645,6 +14789,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Norsk og samfunnskunnskap for språklige minoriteter",
       "tilhoererLaereplan": {
         "kode": "GNS02-01",
         "tittel": "Læreplan i norsk og samfunnskunnskap for språklige minoriteter – modulstrukturert opplæring for voksne"
@@ -14659,6 +14804,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Helsefremjande arbeid",
       "tilhoererLaereplan": {
         "kode": "HUD03-04",
         "tittel": "Læreplan i vg3 hudterapi"
@@ -14673,6 +14819,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Yrkesliv i hudterapifaget",
       "tilhoererLaereplan": {
         "kode": "HUD03-04",
         "tittel": "Læreplan i vg3 hudterapi"
@@ -14687,6 +14834,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Kommunikasjon og samhandling",
       "tilhoererLaereplan": {
         "kode": "HUD03-04",
         "tittel": "Læreplan i vg3 hudterapi"
@@ -14701,6 +14849,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Teknologi og design",
       "tilhoererLaereplan": {
         "kode": "TPR01-02",
         "tittel": "Læreplan i valfaget teknologi og design"
@@ -14715,6 +14864,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Reiseliv",
       "tilhoererLaereplan": {
         "kode": "RSL01-02",
         "tittel": "Læreplan i valfaget reiseliv"
@@ -14729,6 +14879,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Utvikling av produkter og tjenester",
       "tilhoererLaereplan": {
         "kode": "PVT01-02",
         "tittel": "Læreplan i valgfaget utvikling av produkter og tjenester"
@@ -14743,6 +14894,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Programmering",
       "tilhoererLaereplan": {
         "kode": "PRG01-02",
         "tittel": "Læreplan i valgfaget programmering"
@@ -14757,6 +14909,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "2. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR01-06",
         "tittel": "Læreplan i norsk"
@@ -14771,6 +14924,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "4. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR01-06",
         "tittel": "Læreplan i norsk"
@@ -14785,6 +14939,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "7. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR01-06",
         "tittel": "Læreplan i norsk"
@@ -14799,6 +14954,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "10. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR01-06",
         "tittel": "Læreplan i norsk"
@@ -14813,6 +14969,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg2 yrkesfag",
       "tilhoererLaereplan": {
         "kode": "NOR01-06",
         "tittel": "Læreplan i norsk"
@@ -14827,6 +14984,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg2 studieforberedende",
       "tilhoererLaereplan": {
         "kode": "NOR01-06",
         "tittel": "Læreplan i norsk"
@@ -14841,6 +14999,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 studieforberedende",
       "tilhoererLaereplan": {
         "kode": "NOR01-06",
         "tittel": "Læreplan i norsk"
@@ -14855,6 +15014,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 studieforberedende",
       "tilhoererLaereplan": {
         "kode": "NOR01-06",
         "tittel": "Læreplan i norsk"
@@ -14869,6 +15029,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 påbygg",
       "tilhoererLaereplan": {
         "kode": "NOR01-06",
         "tittel": "Læreplan i norsk"
@@ -14883,6 +15044,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "2. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR03-04",
         "tittel": "Læreplan i norsk for elever med samisk som førstespråk"
@@ -14897,6 +15059,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "4. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR03-04",
         "tittel": "Læreplan i norsk for elever med samisk som førstespråk"
@@ -14911,6 +15074,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "7. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR03-04",
         "tittel": "Læreplan i norsk for elever med samisk som førstespråk"
@@ -14925,6 +15089,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "10. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR03-04",
         "tittel": "Læreplan i norsk for elever med samisk som førstespråk"
@@ -14939,6 +15104,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg2 YF",
       "tilhoererLaereplan": {
         "kode": "NOR03-04",
         "tittel": "Læreplan i norsk for elever med samisk som førstespråk"
@@ -14953,6 +15119,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 SF",
       "tilhoererLaereplan": {
         "kode": "NOR03-04",
         "tittel": "Læreplan i norsk for elever med samisk som førstespråk"
@@ -14967,6 +15134,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg2 SF",
       "tilhoererLaereplan": {
         "kode": "NOR03-04",
         "tittel": "Læreplan i norsk for elever med samisk som førstespråk"
@@ -14981,6 +15149,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 SF",
       "tilhoererLaereplan": {
         "kode": "NOR03-04",
         "tittel": "Læreplan i norsk for elever med samisk som førstespråk"
@@ -14995,6 +15164,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 påbygging",
       "tilhoererLaereplan": {
         "kode": "NOR03-04",
         "tittel": "Læreplan i norsk for elever med samisk som førstespråk"
@@ -15009,6 +15179,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "2. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR05-05",
         "tittel": "Læreplan i norsk for elever med tegnspråk"
@@ -15023,6 +15194,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "4. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR05-05",
         "tittel": "Læreplan i norsk for elever med tegnspråk"
@@ -15037,6 +15209,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "7. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR05-05",
         "tittel": "Læreplan i norsk for elever med tegnspråk"
@@ -15051,6 +15224,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "10. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR05-05",
         "tittel": "Læreplan i norsk for elever med tegnspråk"
@@ -15065,6 +15239,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg2 YF",
       "tilhoererLaereplan": {
         "kode": "NOR05-05",
         "tittel": "Læreplan i norsk for elever med tegnspråk"
@@ -15079,6 +15254,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 SF",
       "tilhoererLaereplan": {
         "kode": "NOR05-05",
         "tittel": "Læreplan i norsk for elever med tegnspråk"
@@ -15093,6 +15269,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg2 SF",
       "tilhoererLaereplan": {
         "kode": "NOR05-05",
         "tittel": "Læreplan i norsk for elever med tegnspråk"
@@ -15107,6 +15284,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 SF",
       "tilhoererLaereplan": {
         "kode": "NOR05-05",
         "tittel": "Læreplan i norsk for elever med tegnspråk"
@@ -15121,6 +15299,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 påbygging",
       "tilhoererLaereplan": {
         "kode": "NOR05-05",
         "tittel": "Læreplan i norsk for elever med tegnspråk"
@@ -15135,6 +15314,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg2 YF",
       "tilhoererLaereplan": {
         "kode": "NOR09-05",
         "tittel": "Læreplan i norsk for språklige minoriteter med kort botid i Norge - videregående opplæring"
@@ -15149,6 +15329,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 SF",
       "tilhoererLaereplan": {
         "kode": "NOR09-05",
         "tittel": "Læreplan i norsk for språklige minoriteter med kort botid i Norge - videregående opplæring"
@@ -15163,6 +15344,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg2 SF",
       "tilhoererLaereplan": {
         "kode": "NOR09-05",
         "tittel": "Læreplan i norsk for språklige minoriteter med kort botid i Norge - videregående opplæring"
@@ -15177,6 +15359,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 SF",
       "tilhoererLaereplan": {
         "kode": "NOR09-05",
         "tittel": "Læreplan i norsk for språklige minoriteter med kort botid i Norge - videregående opplæring"
@@ -15191,6 +15374,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 påbygging",
       "tilhoererLaereplan": {
         "kode": "NOR09-05",
         "tittel": "Læreplan i norsk for språklige minoriteter med kort botid i Norge - videregående opplæring"
@@ -15205,6 +15389,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg2 YF",
       "tilhoererLaereplan": {
         "kode": "NOR09-04",
         "tittel": "Læreplan i norsk for språklige minoriteter med kort botid i Norge - videregående opplæring"
@@ -15219,6 +15404,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 SF",
       "tilhoererLaereplan": {
         "kode": "NOR09-04",
         "tittel": "Læreplan i norsk for språklige minoriteter med kort botid i Norge - videregående opplæring"
@@ -15233,6 +15419,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg2 SF",
       "tilhoererLaereplan": {
         "kode": "NOR09-04",
         "tittel": "Læreplan i norsk for språklige minoriteter med kort botid i Norge - videregående opplæring"
@@ -15247,6 +15434,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 SF",
       "tilhoererLaereplan": {
         "kode": "NOR09-04",
         "tittel": "Læreplan i norsk for språklige minoriteter med kort botid i Norge - videregående opplæring"
@@ -15261,6 +15449,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 påbygging",
       "tilhoererLaereplan": {
         "kode": "NOR09-04",
         "tittel": "Læreplan i norsk for språklige minoriteter med kort botid i Norge - videregående opplæring"
@@ -15275,6 +15464,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "2. trinn",
       "tilhoererLaereplan": {
         "kode": "ENG01-04",
         "tittel": "Læreplan i engelsk"
@@ -15289,6 +15479,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "4. trinn",
       "tilhoererLaereplan": {
         "kode": "ENG01-04",
         "tittel": "Læreplan i engelsk"
@@ -15303,6 +15494,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "7. trinn",
       "tilhoererLaereplan": {
         "kode": "ENG01-04",
         "tittel": "Læreplan i engelsk"
@@ -15317,6 +15509,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "10. trinn",
       "tilhoererLaereplan": {
         "kode": "ENG01-04",
         "tittel": "Læreplan i engelsk"
@@ -15331,6 +15524,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 YF",
       "tilhoererLaereplan": {
         "kode": "ENG01-04",
         "tittel": "Læreplan i engelsk"
@@ -15345,6 +15539,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 SF",
       "tilhoererLaereplan": {
         "kode": "ENG01-04",
         "tittel": "Læreplan i engelsk"
@@ -15359,6 +15554,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "2. trinn",
       "tilhoererLaereplan": {
         "kode": "ENG02-04",
         "tittel": "Læreplan i engelsk for elever med tegnspråk"
@@ -15373,6 +15569,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "4. trinn",
       "tilhoererLaereplan": {
         "kode": "ENG02-04",
         "tittel": "Læreplan i engelsk for elever med tegnspråk"
@@ -15387,6 +15584,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "7. trinn",
       "tilhoererLaereplan": {
         "kode": "ENG02-04",
         "tittel": "Læreplan i engelsk for elever med tegnspråk"
@@ -15401,6 +15599,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "10. trinn",
       "tilhoererLaereplan": {
         "kode": "ENG02-04",
         "tittel": "Læreplan i engelsk for elever med tegnspråk"
@@ -15415,6 +15614,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 YF",
       "tilhoererLaereplan": {
         "kode": "ENG02-04",
         "tittel": "Læreplan i engelsk for elever med tegnspråk"
@@ -15429,6 +15629,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 SF",
       "tilhoererLaereplan": {
         "kode": "ENG02-04",
         "tittel": "Læreplan i engelsk for elever med tegnspråk"
@@ -15443,6 +15644,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Reiseliv og språk 1",
       "tilhoererLaereplan": {
         "kode": "RSP01-03",
         "tittel": "Læreplan i reiseliv og språk"
@@ -15457,6 +15659,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Reiseliv og språk 2",
       "tilhoererLaereplan": {
         "kode": "RSP01-03",
         "tittel": "Læreplan i reiseliv og språk"
@@ -15471,6 +15674,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Reiseliv og språk 1",
       "tilhoererLaereplan": {
         "kode": "RSP01-02",
         "tittel": "Læreplan i reiseliv og språk"
@@ -15485,6 +15689,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Reiseliv og språk 2",
       "tilhoererLaereplan": {
         "kode": "RSP01-02",
         "tittel": "Læreplan i reiseliv og språk"
@@ -15499,6 +15704,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Kommunikasjon og kultur 1",
       "tilhoererLaereplan": {
         "kode": "KKM01-03",
         "tittel": "Læreplan i kommunikasjon og kultur"
@@ -15513,6 +15719,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Kommunikasjon og kultur 2",
       "tilhoererLaereplan": {
         "kode": "KKM01-03",
         "tittel": "Læreplan i kommunikasjon og kultur"
@@ -15527,6 +15734,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Kommunikasjon og kultur 3",
       "tilhoererLaereplan": {
         "kode": "KKM01-03",
         "tittel": "Læreplan i kommunikasjon og kultur"
@@ -15541,6 +15749,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Kommunikasjon og kultur 1",
       "tilhoererLaereplan": {
         "kode": "KKM01-02",
         "tittel": "Læreplan i kommunikasjon og kultur"
@@ -15555,6 +15764,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Kommunikasjon og kultur 2",
       "tilhoererLaereplan": {
         "kode": "KKM01-02",
         "tittel": "Læreplan i kommunikasjon og kultur"
@@ -15569,6 +15779,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Kommunikasjon og kultur 3",
       "tilhoererLaereplan": {
         "kode": "KKM01-02",
         "tittel": "Læreplan i kommunikasjon og kultur"
@@ -15583,6 +15794,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Entreprenørskap og bedriftsutvikling 1",
       "tilhoererLaereplan": {
         "kode": "ENT01-03",
         "tittel": "Læreplan i entreprenørskap og bedriftsutvikling"
@@ -15597,6 +15809,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Entreprenørskap og bedriftsutvikling 2",
       "tilhoererLaereplan": {
         "kode": "ENT01-03",
         "tittel": "Læreplan i entreprenørskap og bedriftsutvikling"
@@ -15611,6 +15824,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Markedsføring og ledelse 1",
       "tilhoererLaereplan": {
         "kode": "MFL01-03",
         "tittel": "Læreplan i markedsføring og ledelse"
@@ -15625,6 +15839,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Markedsføring og ledelse 2",
       "tilhoererLaereplan": {
         "kode": "MFL01-03",
         "tittel": "Læreplan i markedsføring og ledelse"
@@ -15639,6 +15854,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Medie- og informasjonskunnskap 1",
       "tilhoererLaereplan": {
         "kode": "MIN01-04",
         "tittel": "Læreplan i medie- og informasjonskunnskap"
@@ -15653,6 +15869,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Medie- og informasjonskunnskap 2",
       "tilhoererLaereplan": {
         "kode": "MIN01-04",
         "tittel": "Læreplan i medie- og informasjonskunnskap"
@@ -15667,6 +15884,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Medie- og informasjonskunnskap 1",
       "tilhoererLaereplan": {
         "kode": "MIN01-03",
         "tittel": "Læreplan i medie- og informasjonskunnskap"
@@ -15681,6 +15899,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Medie- og informasjonskunnskap 2",
       "tilhoererLaereplan": {
         "kode": "MIN01-03",
         "tittel": "Læreplan i medie- og informasjonskunnskap"
@@ -15695,6 +15914,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Historie og filosofi 1",
       "tilhoererLaereplan": {
         "kode": "HIF01-04",
         "tittel": "Læreplan i historie og filosofi"
@@ -15709,6 +15929,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Historie og filosofi 2",
       "tilhoererLaereplan": {
         "kode": "HIF01-04",
         "tittel": "Læreplan i historie og filosofi"
@@ -15723,6 +15944,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Historie og filosofi 1",
       "tilhoererLaereplan": {
         "kode": "HIF01-03",
         "tittel": "Læreplan i historie og filosofi"
@@ -15737,6 +15959,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Historie og filosofi 2",
       "tilhoererLaereplan": {
         "kode": "HIF01-03",
         "tittel": "Læreplan i historie og filosofi"
@@ -15751,6 +15974,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Mediesamfunnet 1",
       "tilhoererLaereplan": {
         "kode": "MOK01-02",
         "tittel": "Læreplan i mediesamfunnet"
@@ -15765,6 +15989,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Mediesamfunnet 2",
       "tilhoererLaereplan": {
         "kode": "MOK01-02",
         "tittel": "Læreplan i mediesamfunnet"
@@ -15779,6 +16004,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Mediesamfunnet 3",
       "tilhoererLaereplan": {
         "kode": "MOK01-02",
         "tittel": "Læreplan i mediesamfunnet"
@@ -15793,6 +16019,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Feilsøking, reparasjon og vedlikehold",
       "tilhoererLaereplan": {
         "kode": "AMM03-04",
         "tittel": "Læreplan i vg3 anleggsmaskinmekanikerfaget"
@@ -15807,6 +16034,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vurdering dokumentasjon og kontroll",
       "tilhoererLaereplan": {
         "kode": "AMM03-04",
         "tittel": "Læreplan i vg3 anleggsmaskinmekanikerfaget"
@@ -15821,6 +16049,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Feilsøking, reparasjon og vedlikehold",
       "tilhoererLaereplan": {
         "kode": "AMM03-03",
         "tittel": "Læreplan i vg3 anleggsmaskinmekanikerfaget"
@@ -15835,6 +16064,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Dokumentasjon og kontroll",
       "tilhoererLaereplan": {
         "kode": "AMM03-03",
         "tittel": "Læreplan i vg3 anleggsmaskinmekanikerfaget"
@@ -15849,6 +16079,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Veidrifts- og veivedlikeholdsfaget",
       "tilhoererLaereplan": {
         "kode": "VOV03-02",
         "tittel": "Læreplan i vg3 veidrifts- og veivedlikeholdsfaget"
@@ -15863,6 +16094,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Nivå I",
       "tilhoererLaereplan": {
         "kode": "FSP01-02",
         "tittel": "Læreplan i fremmedspråk"
@@ -15877,6 +16109,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Nivå II",
       "tilhoererLaereplan": {
         "kode": "FSP01-02",
         "tittel": "Læreplan i fremmedspråk"
@@ -15891,6 +16124,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Nivå I",
       "tilhoererLaereplan": {
         "kode": "PSP01-02",
         "tittel": "Læreplan i fremmedspråk programfag"
@@ -15905,6 +16139,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Nivå II",
       "tilhoererLaereplan": {
         "kode": "PSP01-02",
         "tittel": "Læreplan i fremmedspråk programfag"
@@ -15919,6 +16154,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Nivå III",
       "tilhoererLaereplan": {
         "kode": "PSP01-02",
         "tittel": "Læreplan i fremmedspråk programfag"
@@ -15933,6 +16169,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Matematikk S1",
       "tilhoererLaereplan": {
         "kode": "MAT04-02",
         "tittel": "Læreplan i matematikk for samfunnsfag (matematikk S)"
@@ -15947,6 +16184,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Matematikk S2",
       "tilhoererLaereplan": {
         "kode": "MAT04-02",
         "tittel": "Læreplan i matematikk for samfunnsfag (matematikk S)"
@@ -15961,6 +16199,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Matematikk R1",
       "tilhoererLaereplan": {
         "kode": "MAT03-02",
         "tittel": "Læreplan i matematikk for realfag (matematikk R)"
@@ -15975,6 +16214,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Matematikk R2",
       "tilhoererLaereplan": {
         "kode": "MAT03-02",
         "tittel": "Læreplan i matematikk for realfag (matematikk R)"
@@ -15989,6 +16229,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Luftfartøysystemer",
       "tilhoererLaereplan": {
         "kode": "AVI03-02",
         "tittel": "Læreplan i vg3 avionikerfag – opplæring i skole"
@@ -16003,6 +16244,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vedlikeholdsteknikk",
       "tilhoererLaereplan": {
         "kode": "AVI03-02",
         "tittel": "Læreplan i vg3 avionikerfag – opplæring i skole"
@@ -16017,6 +16259,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Flysikkerhet",
       "tilhoererLaereplan": {
         "kode": "AVI03-02",
         "tittel": "Læreplan i vg3 avionikerfag – opplæring i skole"
@@ -16031,6 +16274,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Luftfartøysystemer",
       "tilhoererLaereplan": {
         "kode": "FLY03-02",
         "tittel": "Læreplan i vg3 flytekniske fag – opplæring i skole"
@@ -16045,6 +16289,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vedlikeholdsteknikk",
       "tilhoererLaereplan": {
         "kode": "FLY03-02",
         "tittel": "Læreplan i vg3 flytekniske fag – opplæring i skole"
@@ -16059,6 +16304,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Flysikkerhet",
       "tilhoererLaereplan": {
         "kode": "FLY03-02",
         "tittel": "Læreplan i vg3 flytekniske fag – opplæring i skole"
@@ -16073,6 +16319,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Luftfartøysystemer",
       "tilhoererLaereplan": {
         "kode": "FLY03-03",
         "tittel": "Læreplan i vg3 flytekniske fag – opplæring i skole"
@@ -16087,6 +16334,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vedlikeholdsteknikk",
       "tilhoererLaereplan": {
         "kode": "FLY03-03",
         "tittel": "Læreplan i vg3 flytekniske fag – opplæring i skole"
@@ -16101,6 +16349,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Flysikkerhet",
       "tilhoererLaereplan": {
         "kode": "FLY03-03",
         "tittel": "Læreplan i vg3 flytekniske fag – opplæring i skole"
@@ -16115,6 +16364,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Medieuttrykk 1",
       "tilhoererLaereplan": {
         "kode": "MOK02-02",
         "tittel": "Læreplan i medieuttrykk"
@@ -16129,6 +16379,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Medieuttrykk 2",
       "tilhoererLaereplan": {
         "kode": "MOK02-02",
         "tittel": "Læreplan i medieuttrykk"
@@ -16143,6 +16394,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Medieuttrykk 3",
       "tilhoererLaereplan": {
         "kode": "MOK02-02",
         "tittel": "Læreplan i medieuttrykk"
@@ -16157,6 +16409,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Mediesamfunnet 1",
       "tilhoererLaereplan": {
         "kode": "MOK01-03",
         "tittel": "Læreplan i mediesamfunnet"
@@ -16171,6 +16424,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Mediesamfunnet 2",
       "tilhoererLaereplan": {
         "kode": "MOK01-03",
         "tittel": "Læreplan i mediesamfunnet"
@@ -16185,6 +16439,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Mediesamfunnet 3",
       "tilhoererLaereplan": {
         "kode": "MOK01-03",
         "tittel": "Læreplan i mediesamfunnet"
@@ -16199,6 +16454,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Bransjelære",
       "tilhoererLaereplan": {
         "kode": "RLF02-01",
         "tittel": "Læreplan i vg2 rørlegger"
@@ -16213,6 +16469,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Sanitærteknikk",
       "tilhoererLaereplan": {
         "kode": "RLF02-01",
         "tittel": "Læreplan i vg2 rørlegger"
@@ -16227,6 +16484,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Varmeteknikk",
       "tilhoererLaereplan": {
         "kode": "RLF02-01",
         "tittel": "Læreplan i vg2 rørlegger"
@@ -16241,6 +16499,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Kunst og visuelle virkemidler 1",
       "tilhoererLaereplan": {
         "kode": "KDA01-02",
         "tittel": "Læreplan i kunst og visuelle virkemidler"
@@ -16255,6 +16514,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Kunst og visuelle virkemidler 2",
       "tilhoererLaereplan": {
         "kode": "KDA01-02",
         "tittel": "Læreplan i kunst og visuelle virkemidler"
@@ -16269,6 +16529,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Kunst og visuelle virkemidler 3",
       "tilhoererLaereplan": {
         "kode": "KDA01-02",
         "tittel": "Læreplan i kunst og visuelle virkemidler"
@@ -16283,6 +16544,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Produktutvikling, bransjelære og kommunikasjon",
       "tilhoererLaereplan": {
         "kode": "BLD02-03",
         "tittel": "Læreplan i vg2 blomsterdekoratør"
@@ -16297,6 +16559,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Produksjon og arbeidsliv",
       "tilhoererLaereplan": {
         "kode": "BLD02-03",
         "tittel": "Læreplan i vg2 blomsterdekoratør"
@@ -16311,6 +16574,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Sosiologi og sosialantropologi",
       "tilhoererLaereplan": {
         "kode": "POS04-01",
         "tittel": "Læreplan i sosiologi og sosialantropologi"
@@ -16325,6 +16589,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Markedsføring og ledelse 1",
       "tilhoererLaereplan": {
         "kode": "MFL01-04",
         "tittel": "Læreplan i markedsføring og ledelse"
@@ -16339,6 +16604,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Markedsføring og ledelse 2",
       "tilhoererLaereplan": {
         "kode": "MFL01-04",
         "tittel": "Læreplan i markedsføring og ledelse"
@@ -16353,6 +16619,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Entreprenørskap og bedriftsutvikling 1",
       "tilhoererLaereplan": {
         "kode": "ENT01-04",
         "tittel": "Læreplan i entreprenørskap og bedriftsutvikling"
@@ -16367,6 +16634,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Entreprenørskap og bedriftsutvikling 2",
       "tilhoererLaereplan": {
         "kode": "ENT01-04",
         "tittel": "Læreplan i entreprenørskap og bedriftsutvikling"
@@ -16381,6 +16649,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Modul 1",
       "tilhoererLaereplan": {
         "kode": "NOR11-01",
         "tittel": "Læreplan i norsk for språklige minoriteter – forberedende opplæring for voksne"
@@ -16395,6 +16664,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Modul 2",
       "tilhoererLaereplan": {
         "kode": "NOR11-01",
         "tittel": "Læreplan i norsk for språklige minoriteter – forberedende opplæring for voksne"
@@ -16409,6 +16679,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Modul 3",
       "tilhoererLaereplan": {
         "kode": "NOR11-01",
         "tittel": "Læreplan i norsk for språklige minoriteter – forberedende opplæring for voksne"
@@ -16423,6 +16694,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Modul 4",
       "tilhoererLaereplan": {
         "kode": "NOR11-01",
         "tittel": "Læreplan i norsk for språklige minoriteter – forberedende opplæring for voksne"
@@ -16437,6 +16709,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Modul 1",
       "tilhoererLaereplan": {
         "kode": "NOR10-01",
         "tittel": "Læreplan i norsk – forberedende opplæring for voksne "
@@ -16451,6 +16724,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Modul 2",
       "tilhoererLaereplan": {
         "kode": "NOR10-01",
         "tittel": "Læreplan i norsk – forberedende opplæring for voksne "
@@ -16465,6 +16739,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Modul 3",
       "tilhoererLaereplan": {
         "kode": "NOR10-01",
         "tittel": "Læreplan i norsk – forberedende opplæring for voksne "
@@ -16479,6 +16754,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Modul 4",
       "tilhoererLaereplan": {
         "kode": "NOR10-01",
         "tittel": "Læreplan i norsk – forberedende opplæring for voksne "
@@ -16493,6 +16769,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Modul 1",
       "tilhoererLaereplan": {
         "kode": "NAT03-01",
         "tittel": "Læreplan i naturfag – forberedende opplæring for voksne"
@@ -16507,6 +16784,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Modul 2",
       "tilhoererLaereplan": {
         "kode": "NAT03-01",
         "tittel": "Læreplan i naturfag – forberedende opplæring for voksne"
@@ -16521,6 +16799,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Modul 3",
       "tilhoererLaereplan": {
         "kode": "NAT03-01",
         "tittel": "Læreplan i naturfag – forberedende opplæring for voksne"
@@ -16535,6 +16814,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Modul 4",
       "tilhoererLaereplan": {
         "kode": "NAT03-01",
         "tittel": "Læreplan i naturfag – forberedende opplæring for voksne"
@@ -16549,6 +16829,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Modul 1",
       "tilhoererLaereplan": {
         "kode": "ENG05-01",
         "tittel": "Læreplan i engelsk – forberedende opplæring for voksne "
@@ -16563,6 +16844,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Modul 4",
       "tilhoererLaereplan": {
         "kode": "ENG05-01",
         "tittel": "Læreplan i engelsk – forberedende opplæring for voksne "
@@ -16577,6 +16859,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Modul 2",
       "tilhoererLaereplan": {
         "kode": "ENG05-01",
         "tittel": "Læreplan i engelsk – forberedende opplæring for voksne "
@@ -16591,6 +16874,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Modul 3",
       "tilhoererLaereplan": {
         "kode": "ENG05-01",
         "tittel": "Læreplan i engelsk – forberedende opplæring for voksne "
@@ -16605,6 +16889,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Nivå I",
       "tilhoererLaereplan": {
         "kode": "FSP01-04",
         "tittel": "Læreplan i fremmedspråk"
@@ -16619,6 +16904,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Nivå II",
       "tilhoererLaereplan": {
         "kode": "FSP01-04",
         "tittel": "Læreplan i fremmedspråk"
@@ -16633,6 +16919,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Nivå I",
       "tilhoererLaereplan": {
         "kode": "PSP01-04",
         "tittel": "Læreplan i fremmedspråk programfag"
@@ -16647,6 +16934,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Nivå II",
       "tilhoererLaereplan": {
         "kode": "PSP01-04",
         "tittel": "Læreplan i fremmedspråk programfag"
@@ -16661,6 +16949,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Nivå III",
       "tilhoererLaereplan": {
         "kode": "PSP01-04",
         "tittel": "Læreplan i fremmedspråk programfag"
@@ -16675,6 +16964,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Nivå I",
       "tilhoererLaereplan": {
         "kode": "FSP01-03",
         "tittel": "Læreplan i fremmedspråk"
@@ -16689,6 +16979,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Nivå II",
       "tilhoererLaereplan": {
         "kode": "FSP01-03",
         "tittel": "Læreplan i fremmedspråk"
@@ -16703,6 +16994,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Nivå I",
       "tilhoererLaereplan": {
         "kode": "PSP01-03",
         "tittel": "Læreplan i fremmedspråk programfag"
@@ -16717,6 +17009,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Nivå II",
       "tilhoererLaereplan": {
         "kode": "PSP01-03",
         "tittel": "Læreplan i fremmedspråk programfag"
@@ -16731,6 +17024,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Nivå III",
       "tilhoererLaereplan": {
         "kode": "PSP01-03",
         "tittel": "Læreplan i fremmedspråk programfag"
@@ -16745,6 +17039,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Veidrifts- og veivedlikeholdsfaget",
       "tilhoererLaereplan": {
         "kode": "VOV03-01",
         "tittel": "Læreplan i vg3 veidrifts- og veivedlikeholdsfaget"
@@ -16759,6 +17054,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Teknologi og forskningslære X",
       "tilhoererLaereplan": {
         "kode": "TNF01-02",
         "tittel": "Læreplan i teknologi og forskningslære"
@@ -16773,6 +17069,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Teknologi og forskningslære 1",
       "tilhoererLaereplan": {
         "kode": "TNF01-02",
         "tittel": "Læreplan i teknologi og forskningslære"
@@ -16787,6 +17084,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Teknologi og forskningslære 2",
       "tilhoererLaereplan": {
         "kode": "TNF01-02",
         "tittel": "Læreplan i teknologi og forskningslære"
@@ -16801,6 +17099,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Teknologi og forskningslære X",
       "tilhoererLaereplan": {
         "kode": "TNF01-03",
         "tittel": "Læreplan i teknologi og forskningslære"
@@ -16815,6 +17114,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Teknologi og forskningslære 1",
       "tilhoererLaereplan": {
         "kode": "TNF01-03",
         "tittel": "Læreplan i teknologi og forskningslære"
@@ -16829,6 +17129,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Teknologi og forskningslære 2",
       "tilhoererLaereplan": {
         "kode": "TNF01-03",
         "tittel": "Læreplan i teknologi og forskningslære"
@@ -16843,6 +17144,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Informasjonsteknologi 1",
       "tilhoererLaereplan": {
         "kode": "INF01-03",
         "tittel": "Læreplan i informasjonsteknologi"
@@ -16857,6 +17159,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Informasjonsteknologi 2",
       "tilhoererLaereplan": {
         "kode": "INF01-03",
         "tittel": "Læreplan i informasjonsteknologi"
@@ -16871,6 +17174,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Informasjonsteknologi 1",
       "tilhoererLaereplan": {
         "kode": "INF01-02",
         "tittel": "Læreplan i informasjonsteknologi"
@@ -16885,6 +17189,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Informasjonsteknologi 2",
       "tilhoererLaereplan": {
         "kode": "INF01-02",
         "tittel": "Læreplan i informasjonsteknologi"
@@ -16899,6 +17204,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Luftfartøysystemer",
       "tilhoererLaereplan": {
         "kode": "AVI03-03",
         "tittel": "Læreplan i vg3 avionikerfag – opplæring i skole"
@@ -16913,6 +17219,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vedlikeholdsteknikk",
       "tilhoererLaereplan": {
         "kode": "AVI03-03",
         "tittel": "Læreplan i vg3 avionikerfag – opplæring i skole"
@@ -16927,6 +17234,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Flysikkerhet",
       "tilhoererLaereplan": {
         "kode": "AVI03-03",
         "tittel": "Læreplan i vg3 avionikerfag – opplæring i skole"
@@ -16941,6 +17249,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Mattrygghet",
       "tilhoererLaereplan": {
         "kode": "EKF05-01",
         "tittel": "Læreplan i ernæringskokkfaget – modulstrukturert opplæring for voksne"
@@ -16955,6 +17264,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Demokrati, yrkesidentitet og arbeidsliv",
       "tilhoererLaereplan": {
         "kode": "EKF05-01",
         "tittel": "Læreplan i ernæringskokkfaget – modulstrukturert opplæring for voksne"
@@ -16969,6 +17279,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Ernæring, måltidsutvikling og folkehelse",
       "tilhoererLaereplan": {
         "kode": "EKF05-01",
         "tittel": "Læreplan i ernæringskokkfaget – modulstrukturert opplæring for voksne"
@@ -16983,6 +17294,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Råvarekunnskap, bærekraft og håndverksferdigheter",
       "tilhoererLaereplan": {
         "kode": "EKF05-01",
         "tittel": "Læreplan i ernæringskokkfaget – modulstrukturert opplæring for voksne"
@@ -16997,6 +17309,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Helse, miljø og sikkerhet ombord",
       "tilhoererLaereplan": {
         "kode": "FFA05-01",
         "tittel": "Læreplan i fiske og fangst – modulstrukturert opplæring for voksne"
@@ -17011,6 +17324,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Fangst og redskap",
       "tilhoererLaereplan": {
         "kode": "FFA05-01",
         "tittel": "Læreplan i fiske og fangst – modulstrukturert opplæring for voksne"
@@ -17025,6 +17339,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Drift av fartøy",
       "tilhoererLaereplan": {
         "kode": "FFA05-01",
         "tittel": "Læreplan i fiske og fangst – modulstrukturert opplæring for voksne"
@@ -17039,6 +17354,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Organisering, arbeidsforhold og forvaltning",
       "tilhoererLaereplan": {
         "kode": "FFA05-01",
         "tittel": "Læreplan i fiske og fangst – modulstrukturert opplæring for voksne"
@@ -17053,6 +17369,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Mattrygghet",
       "tilhoererLaereplan": {
         "kode": "KOK05-01",
         "tittel": "Læreplan i kokkfaget – modulstrukturert opplæring for voksne"
@@ -17067,6 +17384,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Demokrati, yrkesidentitet og arbeidsliv",
       "tilhoererLaereplan": {
         "kode": "KOK05-01",
         "tittel": "Læreplan i kokkfaget – modulstrukturert opplæring for voksne"
@@ -17081,6 +17399,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Råvarekunnskap og håndverksferdigheter",
       "tilhoererLaereplan": {
         "kode": "KOK05-01",
         "tittel": "Læreplan i kokkfaget – modulstrukturert opplæring for voksne"
@@ -17095,6 +17414,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Måltidsutvikling, bærekraft og ernæring",
       "tilhoererLaereplan": {
         "kode": "KOK05-01",
         "tittel": "Læreplan i kokkfaget – modulstrukturert opplæring for voksne"
@@ -17109,6 +17429,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Norsk og samfunnskunnskap",
       "tilhoererLaereplan": {
         "kode": "GNS01-01",
         "tittel": "Læreplan i norsk og samfunnskunnskap – modulstrukturert opplæring for voksne"
@@ -17123,6 +17444,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Helse, miljø og sikkehet",
       "tilhoererLaereplan": {
         "kode": "PRT05-01",
         "tittel": "Læreplan i produksjonsteknikkfaget – modulstrukturert opplæring for voksne"
@@ -17137,6 +17459,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Produksjon og drift",
       "tilhoererLaereplan": {
         "kode": "PRT05-01",
         "tittel": "Læreplan i produksjonsteknikkfaget – modulstrukturert opplæring for voksne"
@@ -17151,6 +17474,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Forebyggende vedlikehold",
       "tilhoererLaereplan": {
         "kode": "PRT05-01",
         "tittel": "Læreplan i produksjonsteknikkfaget – modulstrukturert opplæring for voksne"
@@ -17165,6 +17489,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Forbedringsarbeid, økonomi og bærekraft",
       "tilhoererLaereplan": {
         "kode": "PRT05-01",
         "tittel": "Læreplan i produksjonsteknikkfaget – modulstrukturert opplæring for voksne"
@@ -17179,6 +17504,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Kvalitet",
       "tilhoererLaereplan": {
         "kode": "PRT05-01",
         "tittel": "Læreplan i produksjonsteknikkfaget – modulstrukturert opplæring for voksne"
@@ -17193,6 +17519,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Helse, miljø og sikkerheit og bransjelære",
       "tilhoererLaereplan": {
         "kode": "RLF05-01",
         "tittel": "Læreplan i rørleggerfaget – modulstrukturert opplæring for voksne"
@@ -17207,6 +17534,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Utvendige røyranlegg og andre røyrsystem",
       "tilhoererLaereplan": {
         "kode": "RLF05-01",
         "tittel": "Læreplan i rørleggerfaget – modulstrukturert opplæring for voksne"
@@ -17221,6 +17549,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Sanitæranlegg",
       "tilhoererLaereplan": {
         "kode": "RLF05-01",
         "tittel": "Læreplan i rørleggerfaget – modulstrukturert opplæring for voksne"
@@ -17235,6 +17564,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vassborne energianlegg",
       "tilhoererLaereplan": {
         "kode": "RLF05-01",
         "tittel": "Læreplan i rørleggerfaget – modulstrukturert opplæring for voksne"
@@ -17249,6 +17579,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Brannsikringsanlegg",
       "tilhoererLaereplan": {
         "kode": "RLF05-01",
         "tittel": "Læreplan i rørleggerfaget – modulstrukturert opplæring for voksne"
@@ -17263,6 +17594,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Samfunnsgeografi",
       "tilhoererLaereplan": {
         "kode": "POS03-01",
         "tittel": "Læreplan i samfunnsgeografi"
@@ -17277,6 +17609,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "1T-Y BA",
       "tilhoererLaereplan": {
         "kode": "MAT09-01",
         "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
@@ -17291,6 +17624,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "1T-Y DT",
       "tilhoererLaereplan": {
         "kode": "MAT09-01",
         "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
@@ -17305,6 +17639,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "1T-Y EL",
       "tilhoererLaereplan": {
         "kode": "MAT09-01",
         "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
@@ -17319,6 +17654,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "1T-Y FD",
       "tilhoererLaereplan": {
         "kode": "MAT09-01",
         "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
@@ -17333,6 +17669,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "1T-Y HS",
       "tilhoererLaereplan": {
         "kode": "MAT09-01",
         "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
@@ -17347,6 +17684,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "1T-Y IM",
       "tilhoererLaereplan": {
         "kode": "MAT09-01",
         "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
@@ -17361,6 +17699,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "1T-Y NA",
       "tilhoererLaereplan": {
         "kode": "MAT09-01",
         "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
@@ -17375,6 +17714,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "1T-Y RM",
       "tilhoererLaereplan": {
         "kode": "MAT09-01",
         "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
@@ -17389,6 +17729,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "1T-Y SR",
       "tilhoererLaereplan": {
         "kode": "MAT09-01",
         "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
@@ -17403,6 +17744,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "1T-Y TP",
       "tilhoererLaereplan": {
         "kode": "MAT09-01",
         "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
@@ -17417,6 +17759,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "1T",
       "tilhoererLaereplan": {
         "kode": "MAT09-01",
         "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
@@ -17431,6 +17774,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "1T",
       "tilhoererLaereplan": {
         "kode": "MAT09-02",
         "tittel": "Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T)"
@@ -17445,6 +17789,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Pedagogisk arbeid",
       "tilhoererLaereplan": {
         "kode": "BUA02-03",
         "tittel": "Læreplan i vg2 barne- og ungdomsarbeiderfag"
@@ -17459,6 +17804,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Kommunikasjon og samhandling",
       "tilhoererLaereplan": {
         "kode": "BUA02-03",
         "tittel": "Læreplan i vg2 barne- og ungdomsarbeiderfag"
@@ -17473,6 +17819,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Yrkesliv i barne- og ungdomsarbeiderfag",
       "tilhoererLaereplan": {
         "kode": "BUA02-03",
         "tittel": "Læreplan i vg2 barne- og ungdomsarbeiderfag"
@@ -17487,6 +17834,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Romteknologi og satellittteknikk",
       "tilhoererLaereplan": {
         "kode": "ROM03-02",
         "tittel": "Læreplan i vg3 romteknologi"
@@ -17501,6 +17849,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Fjernanalyse og GIS",
       "tilhoererLaereplan": {
         "kode": "ROM03-02",
         "tittel": "Læreplan i vg3 romteknologi"
@@ -17515,6 +17864,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Romfysikk",
       "tilhoererLaereplan": {
         "kode": "ROM03-02",
         "tittel": "Læreplan i vg3 romteknologi"
@@ -17529,6 +17879,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Telemetri",
       "tilhoererLaereplan": {
         "kode": "ROM03-02",
         "tittel": "Læreplan i vg3 romteknologi"
@@ -17543,6 +17894,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Elektronikk og kommunikasjonsteknologi",
       "tilhoererLaereplan": {
         "kode": "ROM03-02",
         "tittel": "Læreplan i vg3 romteknologi"
@@ -17557,6 +17909,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Økonomi og administrasjon",
       "tilhoererLaereplan": {
         "kode": "SSR02-01",
         "tittel": "Læreplan i vg2 salg, service og reiseliv"
@@ -17571,6 +17924,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Kommunikasjon og marknadsføring",
       "tilhoererLaereplan": {
         "kode": "SSR02-01",
         "tittel": "Læreplan i vg2 salg, service og reiseliv"
@@ -17585,6 +17939,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Helse, miljø og sikkerheit",
       "tilhoererLaereplan": {
         "kode": "SSR02-01",
         "tittel": "Læreplan i vg2 salg, service og reiseliv"
@@ -17599,6 +17954,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Biologi 1",
       "tilhoererLaereplan": {
         "kode": "BIO01-02",
         "tittel": "Læreplan i biologi"
@@ -17613,6 +17969,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Biologi 2",
       "tilhoererLaereplan": {
         "kode": "BIO01-02",
         "tittel": "Læreplan i biologi"
@@ -17627,6 +17984,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Medieutvikling",
       "tilhoererLaereplan": {
         "kode": "MOK07-02",
         "tittel": "Læreplan i medieutvikling"
@@ -17641,6 +17999,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Samisk historie og samfunn 1",
       "tilhoererLaereplan": {
         "kode": "SHS01-03",
         "tittel": "Læreplan i samisk historie og samfunn"
@@ -17655,6 +18014,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Samisk historie og samfunn 2",
       "tilhoererLaereplan": {
         "kode": "SHS01-03",
         "tittel": "Læreplan i samisk historie og samfunn"
@@ -17669,6 +18029,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Internkontroll og helse, miljø og sikkerhet",
       "tilhoererLaereplan": {
         "kode": "GVF05-01",
         "tittel": "Læreplan i gjenvinningsfaget – modulstrukturert opplæring for voksne"
@@ -17683,6 +18044,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Regelverk og rammeverk",
       "tilhoererLaereplan": {
         "kode": "GVF05-01",
         "tittel": "Læreplan i gjenvinningsfaget – modulstrukturert opplæring for voksne"
@@ -17697,6 +18059,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Drift i praksis",
       "tilhoererLaereplan": {
         "kode": "GVF05-01",
         "tittel": "Læreplan i gjenvinningsfaget – modulstrukturert opplæring for voksne"
@@ -17711,6 +18074,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Marked, økonomi og forvaltning",
       "tilhoererLaereplan": {
         "kode": "GVF05-01",
         "tittel": "Læreplan i gjenvinningsfaget – modulstrukturert opplæring for voksne"
@@ -17725,6 +18089,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Utvikling, bærekraft og sirkulær økonomi",
       "tilhoererLaereplan": {
         "kode": "GVF05-01",
         "tittel": "Læreplan i gjenvinningsfaget – modulstrukturert opplæring for voksne"
@@ -17739,6 +18104,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Søm og tilvirking",
       "tilhoererLaereplan": {
         "kode": "BUN05-01",
         "tittel": "Læreplan i bunadtilvirkerfaget - modulstrukturert opplæring for voksne"
@@ -17753,6 +18119,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Formidling og kundebehandling",
       "tilhoererLaereplan": {
         "kode": "BUN05-01",
         "tittel": "Læreplan i bunadtilvirkerfaget - modulstrukturert opplæring for voksne"
@@ -17767,6 +18134,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Forretningsdrift og arbeidsliv",
       "tilhoererLaereplan": {
         "kode": "BUN05-01",
         "tittel": "Læreplan i bunadtilvirkerfaget - modulstrukturert opplæring for voksne"
@@ -17781,6 +18149,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Bunadbruk og yrkesidentitet",
       "tilhoererLaereplan": {
         "kode": "BUN05-01",
         "tittel": "Læreplan i bunadtilvirkerfaget - modulstrukturert opplæring for voksne"
@@ -17795,6 +18164,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Materialkunnskap og yrkesidentitet",
       "tilhoererLaereplan": {
         "kode": "BLD05-01",
         "tittel": "Læreplan i vg3 blomsterdekoratørfaget - modulstrukturert opplæring for voksne"
@@ -17809,6 +18179,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Kommunikasjon og kundeveiledning",
       "tilhoererLaereplan": {
         "kode": "BLD05-01",
         "tittel": "Læreplan i vg3 blomsterdekoratørfaget - modulstrukturert opplæring for voksne"
@@ -17823,6 +18194,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Blomsterdekorering og håndverksferdigheter",
       "tilhoererLaereplan": {
         "kode": "BLD05-01",
         "tittel": "Læreplan i vg3 blomsterdekoratørfaget - modulstrukturert opplæring for voksne"
@@ -17837,6 +18209,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Idè og produktutvikling",
       "tilhoererLaereplan": {
         "kode": "BLD05-01",
         "tittel": "Læreplan i vg3 blomsterdekoratørfaget - modulstrukturert opplæring for voksne"
@@ -17851,6 +18224,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Økonomi og arbeidsliv",
       "tilhoererLaereplan": {
         "kode": "BLD05-01",
         "tittel": "Læreplan i vg3 blomsterdekoratørfaget - modulstrukturert opplæring for voksne"
@@ -17865,6 +18239,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Helse, miljø og sikkerhet og arbeidsliv",
       "tilhoererLaereplan": {
         "kode": "BET05-01",
         "tittel": "Læreplan i betongfaget – modulstrukturert opplæring for voksne"
@@ -17879,6 +18254,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Forskaling",
       "tilhoererLaereplan": {
         "kode": "BET05-01",
         "tittel": "Læreplan i betongfaget – modulstrukturert opplæring for voksne"
@@ -17893,6 +18269,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Armering",
       "tilhoererLaereplan": {
         "kode": "BET05-01",
         "tittel": "Læreplan i betongfaget – modulstrukturert opplæring for voksne"
@@ -17907,6 +18284,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Betongteknologi og utstøping",
       "tilhoererLaereplan": {
         "kode": "BET05-01",
         "tittel": "Læreplan i betongfaget – modulstrukturert opplæring for voksne"
@@ -17921,6 +18299,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Veving og grunnbindingene",
       "tilhoererLaereplan": {
         "kode": "HVF05-01",
         "tittel": "Læreplan i vg3 håndveverfaget -  modulstrukturert opplæring for voksne"
@@ -17935,6 +18314,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vevnaden",
       "tilhoererLaereplan": {
         "kode": "HVF05-01",
         "tittel": "Læreplan i vg3 håndveverfaget -  modulstrukturert opplæring for voksne"
@@ -17949,6 +18329,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Tradisjon og nyskapning",
       "tilhoererLaereplan": {
         "kode": "HVF05-01",
         "tittel": "Læreplan i vg3 håndveverfaget -  modulstrukturert opplæring for voksne"
@@ -17963,6 +18344,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Yrkesutøvelse",
       "tilhoererLaereplan": {
         "kode": "HVF05-01",
         "tittel": "Læreplan i vg3 håndveverfaget -  modulstrukturert opplæring for voksne"
@@ -17977,6 +18359,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vedlikehold og ressursutnyttelse",
       "tilhoererLaereplan": {
         "kode": "HVF05-01",
         "tittel": "Læreplan i vg3 håndveverfaget -  modulstrukturert opplæring for voksne"
@@ -17991,6 +18374,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "2. trinn",
       "tilhoererLaereplan": {
         "kode": "ENG01-06",
         "tittel": "Læreplan i engelsk"
@@ -18005,6 +18389,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "4. trinn",
       "tilhoererLaereplan": {
         "kode": "ENG01-06",
         "tittel": "Læreplan i engelsk"
@@ -18019,6 +18404,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "7. trinn",
       "tilhoererLaereplan": {
         "kode": "ENG01-06",
         "tittel": "Læreplan i engelsk"
@@ -18033,6 +18419,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "10. trinn",
       "tilhoererLaereplan": {
         "kode": "ENG01-06",
         "tittel": "Læreplan i engelsk"
@@ -18047,6 +18434,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 YF",
       "tilhoererLaereplan": {
         "kode": "ENG01-06",
         "tittel": "Læreplan i engelsk"
@@ -18061,6 +18449,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 SF",
       "tilhoererLaereplan": {
         "kode": "ENG01-06",
         "tittel": "Læreplan i engelsk"
@@ -18075,6 +18464,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "2. trinn",
       "tilhoererLaereplan": {
         "kode": "ENG02-06",
         "tittel": "Læreplan i engelsk for elever med tegnspråk"
@@ -18089,6 +18479,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "4. trinn",
       "tilhoererLaereplan": {
         "kode": "ENG02-06",
         "tittel": "Læreplan i engelsk for elever med tegnspråk"
@@ -18103,6 +18494,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "7. trinn",
       "tilhoererLaereplan": {
         "kode": "ENG02-06",
         "tittel": "Læreplan i engelsk for elever med tegnspråk"
@@ -18117,6 +18509,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "10. trinn",
       "tilhoererLaereplan": {
         "kode": "ENG02-06",
         "tittel": "Læreplan i engelsk for elever med tegnspråk"
@@ -18131,6 +18524,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 YF",
       "tilhoererLaereplan": {
         "kode": "ENG02-06",
         "tittel": "Læreplan i engelsk for elever med tegnspråk"
@@ -18145,6 +18539,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 SF",
       "tilhoererLaereplan": {
         "kode": "ENG02-06",
         "tittel": "Læreplan i engelsk for elever med tegnspråk"
@@ -18159,6 +18554,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "2. trinn",
       "tilhoererLaereplan": {
         "kode": "KRO01-06",
         "tittel": "Læreplan i kroppsøving"
@@ -18173,6 +18569,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "4. trinn",
       "tilhoererLaereplan": {
         "kode": "KRO01-06",
         "tittel": "Læreplan i kroppsøving"
@@ -18187,6 +18584,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "7. trinn",
       "tilhoererLaereplan": {
         "kode": "KRO01-06",
         "tittel": "Læreplan i kroppsøving"
@@ -18201,6 +18599,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "10. trinn",
       "tilhoererLaereplan": {
         "kode": "KRO01-06",
         "tittel": "Læreplan i kroppsøving"
@@ -18215,6 +18614,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1",
       "tilhoererLaereplan": {
         "kode": "KRO01-06",
         "tittel": "Læreplan i kroppsøving"
@@ -18229,6 +18629,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg2",
       "tilhoererLaereplan": {
         "kode": "KRO01-06",
         "tittel": "Læreplan i kroppsøving"
@@ -18243,6 +18644,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3",
       "tilhoererLaereplan": {
         "kode": "KRO01-06",
         "tittel": "Læreplan i kroppsøving"
@@ -18257,6 +18659,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "2. trinn",
       "tilhoererLaereplan": {
         "kode": "NAT01-05",
         "tittel": "Læreplan i naturfag"
@@ -18271,6 +18674,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "4. trinn",
       "tilhoererLaereplan": {
         "kode": "NAT01-05",
         "tittel": "Læreplan i naturfag"
@@ -18285,6 +18689,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "7. trinn",
       "tilhoererLaereplan": {
         "kode": "NAT01-05",
         "tittel": "Læreplan i naturfag"
@@ -18299,6 +18704,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "10. trinn",
       "tilhoererLaereplan": {
         "kode": "NAT01-05",
         "tittel": "Læreplan i naturfag"
@@ -18313,6 +18719,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 SF",
       "tilhoererLaereplan": {
         "kode": "NAT01-05",
         "tittel": "Læreplan i naturfag"
@@ -18327,6 +18734,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 BA",
       "tilhoererLaereplan": {
         "kode": "NAT01-05",
         "tittel": "Læreplan i naturfag"
@@ -18341,6 +18749,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 EL",
       "tilhoererLaereplan": {
         "kode": "NAT01-05",
         "tittel": "Læreplan i naturfag"
@@ -18355,6 +18764,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 HS",
       "tilhoererLaereplan": {
         "kode": "NAT01-05",
         "tittel": "Læreplan i naturfag"
@@ -18369,6 +18779,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 NA",
       "tilhoererLaereplan": {
         "kode": "NAT01-05",
         "tittel": "Læreplan i naturfag"
@@ -18383,6 +18794,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 RM",
       "tilhoererLaereplan": {
         "kode": "NAT01-05",
         "tittel": "Læreplan i naturfag"
@@ -18397,6 +18809,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 TP",
       "tilhoererLaereplan": {
         "kode": "NAT01-05",
         "tittel": "Læreplan i naturfag"
@@ -18411,6 +18824,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 DT",
       "tilhoererLaereplan": {
         "kode": "NAT01-05",
         "tittel": "Læreplan i naturfag"
@@ -18425,6 +18839,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 IM",
       "tilhoererLaereplan": {
         "kode": "NAT01-05",
         "tittel": "Læreplan i naturfag"
@@ -18439,6 +18854,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 SR",
       "tilhoererLaereplan": {
         "kode": "NAT01-05",
         "tittel": "Læreplan i naturfag"
@@ -18453,6 +18869,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 FD",
       "tilhoererLaereplan": {
         "kode": "NAT01-05",
         "tittel": "Læreplan i naturfag"
@@ -18467,6 +18884,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 Påbygging",
       "tilhoererLaereplan": {
         "kode": "NAT01-05",
         "tittel": "Læreplan i naturfag"
@@ -18481,6 +18899,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "2. trinn",
       "tilhoererLaereplan": {
         "kode": "NAT02-05",
         "tittel": "Læreplan i naturfag samisk"
@@ -18495,6 +18914,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "4. trinn",
       "tilhoererLaereplan": {
         "kode": "NAT02-05",
         "tittel": "Læreplan i naturfag samisk"
@@ -18509,6 +18929,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "7. trinn",
       "tilhoererLaereplan": {
         "kode": "NAT02-05",
         "tittel": "Læreplan i naturfag samisk"
@@ -18523,6 +18944,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "10. trinn",
       "tilhoererLaereplan": {
         "kode": "NAT02-05",
         "tittel": "Læreplan i naturfag samisk"
@@ -18537,6 +18959,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 SF",
       "tilhoererLaereplan": {
         "kode": "NAT02-05",
         "tittel": "Læreplan i naturfag samisk"
@@ -18551,6 +18974,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 BA",
       "tilhoererLaereplan": {
         "kode": "NAT02-05",
         "tittel": "Læreplan i naturfag samisk"
@@ -18565,6 +18989,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 EL",
       "tilhoererLaereplan": {
         "kode": "NAT02-05",
         "tittel": "Læreplan i naturfag samisk"
@@ -18579,6 +19004,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 HS",
       "tilhoererLaereplan": {
         "kode": "NAT02-05",
         "tittel": "Læreplan i naturfag samisk"
@@ -18593,6 +19019,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 NA",
       "tilhoererLaereplan": {
         "kode": "NAT02-05",
         "tittel": "Læreplan i naturfag samisk"
@@ -18607,6 +19034,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 RM",
       "tilhoererLaereplan": {
         "kode": "NAT02-05",
         "tittel": "Læreplan i naturfag samisk"
@@ -18621,6 +19049,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 TP",
       "tilhoererLaereplan": {
         "kode": "NAT02-05",
         "tittel": "Læreplan i naturfag samisk"
@@ -18635,6 +19064,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 DT",
       "tilhoererLaereplan": {
         "kode": "NAT02-05",
         "tittel": "Læreplan i naturfag samisk"
@@ -18649,6 +19079,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 IM",
       "tilhoererLaereplan": {
         "kode": "NAT02-05",
         "tittel": "Læreplan i naturfag samisk"
@@ -18663,6 +19094,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 SR",
       "tilhoererLaereplan": {
         "kode": "NAT02-05",
         "tittel": "Læreplan i naturfag samisk"
@@ -18677,6 +19109,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 FD",
       "tilhoererLaereplan": {
         "kode": "NAT02-05",
         "tittel": "Læreplan i naturfag samisk"
@@ -18691,6 +19124,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 Påbygging",
       "tilhoererLaereplan": {
         "kode": "NAT02-05",
         "tittel": "Læreplan i naturfag samisk"
@@ -18705,6 +19139,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "2. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR01-08",
         "tittel": "Læreplan i norsk"
@@ -18719,6 +19154,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "4. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR01-08",
         "tittel": "Læreplan i norsk"
@@ -18733,6 +19169,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "7. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR01-08",
         "tittel": "Læreplan i norsk"
@@ -18747,6 +19184,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "10. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR01-08",
         "tittel": "Læreplan i norsk"
@@ -18761,6 +19199,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg2 yrkesfag",
       "tilhoererLaereplan": {
         "kode": "NOR01-08",
         "tittel": "Læreplan i norsk"
@@ -18775,6 +19214,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg2 studieforberedende",
       "tilhoererLaereplan": {
         "kode": "NOR01-08",
         "tittel": "Læreplan i norsk"
@@ -18789,6 +19229,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 studieforberedende",
       "tilhoererLaereplan": {
         "kode": "NOR01-08",
         "tittel": "Læreplan i norsk"
@@ -18803,6 +19244,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 studieforberedende",
       "tilhoererLaereplan": {
         "kode": "NOR01-08",
         "tittel": "Læreplan i norsk"
@@ -18817,6 +19259,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 påbygg",
       "tilhoererLaereplan": {
         "kode": "NOR01-08",
         "tittel": "Læreplan i norsk"
@@ -18831,6 +19274,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "2. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR03-06",
         "tittel": "Læreplan i norsk for elever med samisk som førstespråk"
@@ -18845,6 +19289,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "4. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR03-06",
         "tittel": "Læreplan i norsk for elever med samisk som førstespråk"
@@ -18859,6 +19304,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "7. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR03-06",
         "tittel": "Læreplan i norsk for elever med samisk som førstespråk"
@@ -18873,6 +19319,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "10. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR03-06",
         "tittel": "Læreplan i norsk for elever med samisk som førstespråk"
@@ -18887,6 +19334,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg2 yrkesfag",
       "tilhoererLaereplan": {
         "kode": "NOR03-06",
         "tittel": "Læreplan i norsk for elever med samisk som førstespråk"
@@ -18901,6 +19349,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 studieforberedende",
       "tilhoererLaereplan": {
         "kode": "NOR03-06",
         "tittel": "Læreplan i norsk for elever med samisk som førstespråk"
@@ -18915,6 +19364,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg2 studieforberedende",
       "tilhoererLaereplan": {
         "kode": "NOR03-06",
         "tittel": "Læreplan i norsk for elever med samisk som førstespråk"
@@ -18929,6 +19379,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 studieforberedende",
       "tilhoererLaereplan": {
         "kode": "NOR03-06",
         "tittel": "Læreplan i norsk for elever med samisk som førstespråk"
@@ -18943,6 +19394,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 påbygg",
       "tilhoererLaereplan": {
         "kode": "NOR03-06",
         "tittel": "Læreplan i norsk for elever med samisk som førstespråk"
@@ -18957,6 +19409,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "2. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR04-06",
         "tittel": "Læreplan i norsk tegnspråk"
@@ -18971,6 +19424,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "4. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR04-06",
         "tittel": "Læreplan i norsk tegnspråk"
@@ -18985,6 +19439,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "7. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR04-06",
         "tittel": "Læreplan i norsk tegnspråk"
@@ -18999,6 +19454,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "10. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR04-06",
         "tittel": "Læreplan i norsk tegnspråk"
@@ -19013,6 +19469,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg2 YF",
       "tilhoererLaereplan": {
         "kode": "NOR04-06",
         "tittel": "Læreplan i norsk tegnspråk"
@@ -19027,6 +19484,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 SF",
       "tilhoererLaereplan": {
         "kode": "NOR04-06",
         "tittel": "Læreplan i norsk tegnspråk"
@@ -19041,6 +19499,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg2 SF",
       "tilhoererLaereplan": {
         "kode": "NOR04-06",
         "tittel": "Læreplan i norsk tegnspråk"
@@ -19055,6 +19514,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 SF",
       "tilhoererLaereplan": {
         "kode": "NOR04-06",
         "tittel": "Læreplan i norsk tegnspråk"
@@ -19069,6 +19529,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 påbygging",
       "tilhoererLaereplan": {
         "kode": "NOR04-06",
         "tittel": "Læreplan i norsk tegnspråk"
@@ -19083,6 +19544,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "2. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR05-07",
         "tittel": "Læreplan i norsk for elever med tegnspråk"
@@ -19097,6 +19559,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "4. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR05-07",
         "tittel": "Læreplan i norsk for elever med tegnspråk"
@@ -19111,6 +19574,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "7. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR05-07",
         "tittel": "Læreplan i norsk for elever med tegnspråk"
@@ -19125,6 +19589,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "10. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR05-07",
         "tittel": "Læreplan i norsk for elever med tegnspråk"
@@ -19139,6 +19604,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg2 YF",
       "tilhoererLaereplan": {
         "kode": "NOR05-07",
         "tittel": "Læreplan i norsk for elever med tegnspråk"
@@ -19153,6 +19619,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 SF",
       "tilhoererLaereplan": {
         "kode": "NOR05-07",
         "tittel": "Læreplan i norsk for elever med tegnspråk"
@@ -19167,6 +19634,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg2 SF",
       "tilhoererLaereplan": {
         "kode": "NOR05-07",
         "tittel": "Læreplan i norsk for elever med tegnspråk"
@@ -19181,6 +19649,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 SF",
       "tilhoererLaereplan": {
         "kode": "NOR05-07",
         "tittel": "Læreplan i norsk for elever med tegnspråk"
@@ -19195,6 +19664,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 påbygging",
       "tilhoererLaereplan": {
         "kode": "NOR05-07",
         "tittel": "Læreplan i norsk for elever med tegnspråk"
@@ -19209,6 +19679,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Nivå 1",
       "tilhoererLaereplan": {
         "kode": "NOR07-03",
         "tittel": "Læreplan i grunnleggende norsk for språklige minoriteter"
@@ -19223,6 +19694,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Nivå 2",
       "tilhoererLaereplan": {
         "kode": "NOR07-03",
         "tittel": "Læreplan i grunnleggende norsk for språklige minoriteter"
@@ -19237,6 +19709,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Nivå 3",
       "tilhoererLaereplan": {
         "kode": "NOR07-03",
         "tittel": "Læreplan i grunnleggende norsk for språklige minoriteter"
@@ -19251,6 +19724,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "2. trinn",
       "tilhoererLaereplan": {
         "kode": "ENG01-05",
         "tittel": "Læreplan i engelsk"
@@ -19265,6 +19739,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "4. trinn",
       "tilhoererLaereplan": {
         "kode": "ENG01-05",
         "tittel": "Læreplan i engelsk"
@@ -19279,6 +19754,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "7. trinn",
       "tilhoererLaereplan": {
         "kode": "ENG01-05",
         "tittel": "Læreplan i engelsk"
@@ -19293,6 +19769,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "10. trinn",
       "tilhoererLaereplan": {
         "kode": "ENG01-05",
         "tittel": "Læreplan i engelsk"
@@ -19307,6 +19784,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 YF",
       "tilhoererLaereplan": {
         "kode": "ENG01-05",
         "tittel": "Læreplan i engelsk"
@@ -19321,6 +19799,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 SF",
       "tilhoererLaereplan": {
         "kode": "ENG01-05",
         "tittel": "Læreplan i engelsk"
@@ -19335,6 +19814,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "2. trinn",
       "tilhoererLaereplan": {
         "kode": "ENG02-05",
         "tittel": "Læreplan i engelsk for elever med tegnspråk"
@@ -19349,6 +19829,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "4. trinn",
       "tilhoererLaereplan": {
         "kode": "ENG02-05",
         "tittel": "Læreplan i engelsk for elever med tegnspråk"
@@ -19363,6 +19844,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "7. trinn",
       "tilhoererLaereplan": {
         "kode": "ENG02-05",
         "tittel": "Læreplan i engelsk for elever med tegnspråk"
@@ -19377,6 +19859,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "10. trinn",
       "tilhoererLaereplan": {
         "kode": "ENG02-05",
         "tittel": "Læreplan i engelsk for elever med tegnspråk"
@@ -19391,6 +19874,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 YF",
       "tilhoererLaereplan": {
         "kode": "ENG02-05",
         "tittel": "Læreplan i engelsk for elever med tegnspråk"
@@ -19405,6 +19889,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 SF",
       "tilhoererLaereplan": {
         "kode": "ENG02-05",
         "tittel": "Læreplan i engelsk for elever med tegnspråk"
@@ -19419,6 +19904,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "2. trinn",
       "tilhoererLaereplan": {
         "kode": "KRO01-05",
         "tittel": "Læreplan i kroppsøving"
@@ -19433,6 +19919,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "4. trinn",
       "tilhoererLaereplan": {
         "kode": "KRO01-05",
         "tittel": "Læreplan i kroppsøving"
@@ -19447,6 +19934,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "7. trinn",
       "tilhoererLaereplan": {
         "kode": "KRO01-05",
         "tittel": "Læreplan i kroppsøving"
@@ -19461,6 +19949,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "10. trinn",
       "tilhoererLaereplan": {
         "kode": "KRO01-05",
         "tittel": "Læreplan i kroppsøving"
@@ -19475,6 +19964,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1",
       "tilhoererLaereplan": {
         "kode": "KRO01-05",
         "tittel": "Læreplan i kroppsøving"
@@ -19489,6 +19979,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg2",
       "tilhoererLaereplan": {
         "kode": "KRO01-05",
         "tittel": "Læreplan i kroppsøving"
@@ -19503,6 +19994,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3",
       "tilhoererLaereplan": {
         "kode": "KRO01-05",
         "tittel": "Læreplan i kroppsøving"
@@ -19517,6 +20009,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "2. trinn",
       "tilhoererLaereplan": {
         "kode": "NAT01-04",
         "tittel": "Læreplan i naturfag"
@@ -19531,6 +20024,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "4. trinn",
       "tilhoererLaereplan": {
         "kode": "NAT01-04",
         "tittel": "Læreplan i naturfag"
@@ -19545,6 +20039,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "7. trinn",
       "tilhoererLaereplan": {
         "kode": "NAT01-04",
         "tittel": "Læreplan i naturfag"
@@ -19559,6 +20054,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "10. trinn",
       "tilhoererLaereplan": {
         "kode": "NAT01-04",
         "tittel": "Læreplan i naturfag"
@@ -19573,6 +20069,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 SF",
       "tilhoererLaereplan": {
         "kode": "NAT01-04",
         "tittel": "Læreplan i naturfag"
@@ -19587,6 +20084,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 BA",
       "tilhoererLaereplan": {
         "kode": "NAT01-04",
         "tittel": "Læreplan i naturfag"
@@ -19601,6 +20099,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 EL",
       "tilhoererLaereplan": {
         "kode": "NAT01-04",
         "tittel": "Læreplan i naturfag"
@@ -19615,6 +20114,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 HS",
       "tilhoererLaereplan": {
         "kode": "NAT01-04",
         "tittel": "Læreplan i naturfag"
@@ -19629,6 +20129,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 NA",
       "tilhoererLaereplan": {
         "kode": "NAT01-04",
         "tittel": "Læreplan i naturfag"
@@ -19643,6 +20144,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 RM",
       "tilhoererLaereplan": {
         "kode": "NAT01-04",
         "tittel": "Læreplan i naturfag"
@@ -19657,6 +20159,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 TP",
       "tilhoererLaereplan": {
         "kode": "NAT01-04",
         "tittel": "Læreplan i naturfag"
@@ -19671,6 +20174,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 DT",
       "tilhoererLaereplan": {
         "kode": "NAT01-04",
         "tittel": "Læreplan i naturfag"
@@ -19685,6 +20189,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 IM",
       "tilhoererLaereplan": {
         "kode": "NAT01-04",
         "tittel": "Læreplan i naturfag"
@@ -19699,6 +20204,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 SR",
       "tilhoererLaereplan": {
         "kode": "NAT01-04",
         "tittel": "Læreplan i naturfag"
@@ -19713,6 +20219,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 FD",
       "tilhoererLaereplan": {
         "kode": "NAT01-04",
         "tittel": "Læreplan i naturfag"
@@ -19727,6 +20234,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 Påbygging",
       "tilhoererLaereplan": {
         "kode": "NAT01-04",
         "tittel": "Læreplan i naturfag"
@@ -19741,6 +20249,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "2. trinn",
       "tilhoererLaereplan": {
         "kode": "NAT02-04",
         "tittel": "Læreplan i naturfag samisk"
@@ -19755,6 +20264,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "4. trinn",
       "tilhoererLaereplan": {
         "kode": "NAT02-04",
         "tittel": "Læreplan i naturfag samisk"
@@ -19769,6 +20279,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "7. trinn",
       "tilhoererLaereplan": {
         "kode": "NAT02-04",
         "tittel": "Læreplan i naturfag samisk"
@@ -19783,6 +20294,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "10. trinn",
       "tilhoererLaereplan": {
         "kode": "NAT02-04",
         "tittel": "Læreplan i naturfag samisk"
@@ -19797,6 +20309,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 SF",
       "tilhoererLaereplan": {
         "kode": "NAT02-04",
         "tittel": "Læreplan i naturfag samisk"
@@ -19811,6 +20324,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 BA",
       "tilhoererLaereplan": {
         "kode": "NAT02-04",
         "tittel": "Læreplan i naturfag samisk"
@@ -19825,6 +20339,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 EL",
       "tilhoererLaereplan": {
         "kode": "NAT02-04",
         "tittel": "Læreplan i naturfag samisk"
@@ -19839,6 +20354,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 HS",
       "tilhoererLaereplan": {
         "kode": "NAT02-04",
         "tittel": "Læreplan i naturfag samisk"
@@ -19853,6 +20369,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 NA",
       "tilhoererLaereplan": {
         "kode": "NAT02-04",
         "tittel": "Læreplan i naturfag samisk"
@@ -19867,6 +20384,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 RM",
       "tilhoererLaereplan": {
         "kode": "NAT02-04",
         "tittel": "Læreplan i naturfag samisk"
@@ -19881,6 +20399,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 TP",
       "tilhoererLaereplan": {
         "kode": "NAT02-04",
         "tittel": "Læreplan i naturfag samisk"
@@ -19895,6 +20414,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 DT",
       "tilhoererLaereplan": {
         "kode": "NAT02-04",
         "tittel": "Læreplan i naturfag samisk"
@@ -19909,6 +20429,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 IM",
       "tilhoererLaereplan": {
         "kode": "NAT02-04",
         "tittel": "Læreplan i naturfag samisk"
@@ -19923,6 +20444,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 SR",
       "tilhoererLaereplan": {
         "kode": "NAT02-04",
         "tittel": "Læreplan i naturfag samisk"
@@ -19937,6 +20459,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 FD",
       "tilhoererLaereplan": {
         "kode": "NAT02-04",
         "tittel": "Læreplan i naturfag samisk"
@@ -19951,6 +20474,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 Påbygging",
       "tilhoererLaereplan": {
         "kode": "NAT02-04",
         "tittel": "Læreplan i naturfag samisk"
@@ -19965,6 +20489,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "2. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR01-07",
         "tittel": "Læreplan i norsk"
@@ -19979,6 +20504,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "4. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR01-07",
         "tittel": "Læreplan i norsk"
@@ -19993,6 +20519,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "7. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR01-07",
         "tittel": "Læreplan i norsk"
@@ -20007,6 +20534,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "10. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR01-07",
         "tittel": "Læreplan i norsk"
@@ -20021,6 +20549,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg2 yrkesfag",
       "tilhoererLaereplan": {
         "kode": "NOR01-07",
         "tittel": "Læreplan i norsk"
@@ -20035,6 +20564,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg2 studieforberedende",
       "tilhoererLaereplan": {
         "kode": "NOR01-07",
         "tittel": "Læreplan i norsk"
@@ -20049,6 +20579,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 studieforberedende",
       "tilhoererLaereplan": {
         "kode": "NOR01-07",
         "tittel": "Læreplan i norsk"
@@ -20063,6 +20594,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 studieforberedende",
       "tilhoererLaereplan": {
         "kode": "NOR01-07",
         "tittel": "Læreplan i norsk"
@@ -20077,6 +20609,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 påbygg",
       "tilhoererLaereplan": {
         "kode": "NOR01-07",
         "tittel": "Læreplan i norsk"
@@ -20091,6 +20624,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "2. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR04-05",
         "tittel": "Læreplan i norsk tegnspråk"
@@ -20105,6 +20639,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "4. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR04-05",
         "tittel": "Læreplan i norsk tegnspråk"
@@ -20119,6 +20654,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "7. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR04-05",
         "tittel": "Læreplan i norsk tegnspråk"
@@ -20133,6 +20669,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "10. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR04-05",
         "tittel": "Læreplan i norsk tegnspråk"
@@ -20147,6 +20684,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg2 YF",
       "tilhoererLaereplan": {
         "kode": "NOR04-05",
         "tittel": "Læreplan i norsk tegnspråk"
@@ -20161,6 +20699,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 SF",
       "tilhoererLaereplan": {
         "kode": "NOR04-05",
         "tittel": "Læreplan i norsk tegnspråk"
@@ -20175,6 +20714,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg2 SF",
       "tilhoererLaereplan": {
         "kode": "NOR04-05",
         "tittel": "Læreplan i norsk tegnspråk"
@@ -20189,6 +20729,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 SF",
       "tilhoererLaereplan": {
         "kode": "NOR04-05",
         "tittel": "Læreplan i norsk tegnspråk"
@@ -20203,6 +20744,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 påbygging",
       "tilhoererLaereplan": {
         "kode": "NOR04-05",
         "tittel": "Læreplan i norsk tegnspråk"
@@ -20217,6 +20759,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "2. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR05-06",
         "tittel": "Læreplan i norsk for elever med tegnspråk"
@@ -20231,6 +20774,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "4. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR05-06",
         "tittel": "Læreplan i norsk for elever med tegnspråk"
@@ -20245,6 +20789,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "7. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR05-06",
         "tittel": "Læreplan i norsk for elever med tegnspråk"
@@ -20259,6 +20804,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "10. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR05-06",
         "tittel": "Læreplan i norsk for elever med tegnspråk"
@@ -20273,6 +20819,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg2 YF",
       "tilhoererLaereplan": {
         "kode": "NOR05-06",
         "tittel": "Læreplan i norsk for elever med tegnspråk"
@@ -20287,6 +20834,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 SF",
       "tilhoererLaereplan": {
         "kode": "NOR05-06",
         "tittel": "Læreplan i norsk for elever med tegnspråk"
@@ -20301,6 +20849,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg2 SF",
       "tilhoererLaereplan": {
         "kode": "NOR05-06",
         "tittel": "Læreplan i norsk for elever med tegnspråk"
@@ -20315,6 +20864,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 SF",
       "tilhoererLaereplan": {
         "kode": "NOR05-06",
         "tittel": "Læreplan i norsk for elever med tegnspråk"
@@ -20329,6 +20879,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 påbygging",
       "tilhoererLaereplan": {
         "kode": "NOR05-06",
         "tittel": "Læreplan i norsk for elever med tegnspråk"
@@ -20343,6 +20894,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Nivå 1",
       "tilhoererLaereplan": {
         "kode": "NOR07-02",
         "tittel": "Læreplan i grunnleggende norsk for språklige minoriteter"
@@ -20357,6 +20909,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Nivå 2",
       "tilhoererLaereplan": {
         "kode": "NOR07-02",
         "tittel": "Læreplan i grunnleggende norsk for språklige minoriteter"
@@ -20371,6 +20924,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Nivå 3",
       "tilhoererLaereplan": {
         "kode": "NOR07-02",
         "tittel": "Læreplan i grunnleggende norsk for språklige minoriteter"
@@ -20385,6 +20939,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "2. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR03-05",
         "tittel": "Læreplan i norsk for elever med samisk som førstespråk"
@@ -20399,6 +20954,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "4. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR03-05",
         "tittel": "Læreplan i norsk for elever med samisk som førstespråk"
@@ -20413,6 +20969,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "7. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR03-05",
         "tittel": "Læreplan i norsk for elever med samisk som førstespråk"
@@ -20427,6 +20984,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "10. trinn",
       "tilhoererLaereplan": {
         "kode": "NOR03-05",
         "tittel": "Læreplan i norsk for elever med samisk som førstespråk"
@@ -20441,6 +20999,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg2 yrkesfag",
       "tilhoererLaereplan": {
         "kode": "NOR03-05",
         "tittel": "Læreplan i norsk for elever med samisk som førstespråk"
@@ -20455,6 +21014,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg1 studieforberedende",
       "tilhoererLaereplan": {
         "kode": "NOR03-05",
         "tittel": "Læreplan i norsk for elever med samisk som førstespråk"
@@ -20469,6 +21029,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg2 studieforberedende",
       "tilhoererLaereplan": {
         "kode": "NOR03-05",
         "tittel": "Læreplan i norsk for elever med samisk som førstespråk"
@@ -20483,6 +21044,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 studieforberedende",
       "tilhoererLaereplan": {
         "kode": "NOR03-05",
         "tittel": "Læreplan i norsk for elever med samisk som førstespråk"
@@ -20497,6 +21059,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Vg3 påbygg",
       "tilhoererLaereplan": {
         "kode": "NOR03-05",
         "tittel": "Læreplan i norsk for elever med samisk som førstespråk"
@@ -20511,6 +21074,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Produktutvikling og skapende prosesser",
       "tilhoererLaereplan": {
         "kode": "DTH01-01",
         "tittel": "Læreplan i vg1 håndverk, design og produktutvikling"
@@ -20525,6 +21089,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Materialer og teknikker",
       "tilhoererLaereplan": {
         "kode": "DTH01-01",
         "tittel": "Læreplan i vg1 håndverk, design og produktutvikling"
@@ -20539,6 +21104,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Naturbasert produksjon og tjenesteyting",
       "tilhoererLaereplan": {
         "kode": "NAB01-03",
         "tittel": "Læreplan i vg1 naturbruk"
@@ -20553,6 +21119,7 @@
       "gyldigTil": null,
       "erstatter": [],
       "erstattesAv": [],
+      "kortform": "Naturbasert næringsaktivitet",
       "tilhoererLaereplan": {
         "kode": "NAB01-03",
         "tittel": "Læreplan i vg1 naturbruk"
