@@ -525,7 +525,37 @@
   .fag-blokk h3 { font-size: 15px; margin: 0 0 8px; }
   .fag-blokk h3 .kode { font-family: var(--mono); font-size: 12px; color: var(--svart-700); font-weight: 400; margin-left: 6px; }
 
-  .tverrfagleg-samandrag { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 22px; }
+  .tverrfagleg-samandrag { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; margin-bottom: 8px; }
+  .badge-tema-toggle {
+    appearance: none;
+    display: inline-block;
+    background: var(--leken-100);
+    color: var(--leken-ux);
+    border: 1.5px solid transparent;
+    font-weight: 600;
+    font-size: 11.5px;
+    padding: 4px 10px;
+    border-radius: 999px;
+    cursor: pointer;
+    font-family: var(--sans);
+  }
+  .badge-tema-toggle:hover { border-color: var(--leken-ux); }
+  .badge-tema-toggle.aktiv {
+    background: var(--leken-ux);
+    color: var(--hvit);
+    border-color: var(--leken-ux);
+  }
+  .badge-tema-toggle.aktiv::before { content: "✓ "; }
+  .fjern-tema-filter {
+    appearance: none;
+    background: none;
+    border: none;
+    color: var(--svart-700);
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: underline;
+    font-family: var(--sans);
+  }
 
   table.fagtabell { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-bottom: 6px; }
   table.fagtabell th {
@@ -1183,10 +1213,26 @@
     `).join("");
   }
 
+  let aktivtTemaFilter = new Set();
+
+  /** Filtrerer ei KM-liste på det aktive tverrfaglege tema-filteret (viss noko er valt). */
+  function filtrerPaTema(kmListe) {
+    if (aktivtTemaFilter.size === 0) return kmListe;
+    return kmListe.filter((km) => (km.tverrfagligeTemaer || []).some((t) => aktivtTemaFilter.has(t.kode)));
+  }
+
   function visFagoversikt(laereplanKode) {
     const data = byggFagoversiktData(laereplanKode);
     if (!data) return;
     gjeldandeFagoversikt = data;
+    aktivtTemaFilter = new Set();
+    renderFagoversiktInnhald();
+    document.getElementById("fag-treffliste").innerHTML = "";
+  }
+
+  function renderFagoversiktInnhald() {
+    const data = gjeldandeFagoversikt;
+    if (!data) return;
     const { laereplan, kjerneelement, kompetansemaalsett, kmPerKv, kmUtanKv, tverrfagligeTemaer } = data;
 
     let html = `
@@ -1204,7 +1250,15 @@
     `;
 
     if (tverrfagligeTemaer.length) {
-      html += `<div class="tverrfagleg-samandrag">${tverrfagligeTemaer.map((t) => `<span class="badge-tema">${esc(t.kode)} · ${esc(t.tittel)}</span>`).join("")}</div>`;
+      html += `
+        <div class="tverrfagleg-samandrag">
+          ${tverrfagligeTemaer.map((t) => `
+            <button type="button" class="badge-tema-toggle${aktivtTemaFilter.has(t.kode) ? " aktiv" : ""}" data-tema-toggle="${esc(t.kode)}">${esc(t.kode)} · ${esc(t.tittel)}</button>
+          `).join("")}
+          ${aktivtTemaFilter.size ? `<button type="button" class="fjern-tema-filter" data-tema-nullstill="1">✕ Vis alle kompetansemål</button>` : ""}
+        </div>
+        ${aktivtTemaFilter.size ? `<p class="seksjon-forklaring">Viser berre kompetansemål tagga med valt(e) tverrfagleg(e) tema.</p>` : ""}
+      `;
     }
 
     if (kompetansemaalsett.length) {
@@ -1233,7 +1287,7 @@
     }
 
     for (const kv of kompetansemaalsett) {
-      const kmListe = (kmPerKv.get(kv.kode) || []).sort((a, b) => a.kode.localeCompare(b.kode, "nb", { numeric: true }));
+      const kmListe = filtrerPaTema(kmPerKv.get(kv.kode) || []).sort((a, b) => a.kode.localeCompare(b.kode, "nb", { numeric: true }));
       html += `
         <div class="fag-blokk" id="kv-${esc(kv.kode)}">
           <h3>${esc(visningsnamn(kv))}<span class="kode">${esc(kv.kode)}</span></h3>
@@ -1245,20 +1299,20 @@
       `;
     }
 
-    if (kmUtanKv.length) {
+    const kmUtanKvFiltrert = filtrerPaTema(kmUtanKv);
+    if (kmUtanKvFiltrert.length) {
       html += `
         <div class="fag-blokk">
           <h3>Andre kompetansemål (ikkje knytt til eit spesifikt kompetansemålsett)</h3>
           <table class="fagtabell">
             <thead><tr><th>KM-kode</th><th>Kompetansemål</th></tr></thead>
-            <tbody>${fagtabellHtml(kmUtanKv, false)}</tbody>
+            <tbody>${fagtabellHtml(kmUtanKvFiltrert, false)}</tbody>
           </table>
         </div>
       `;
     }
 
     document.getElementById("fag-innhald").innerHTML = html;
-    document.getElementById("fag-treffliste").innerHTML = "";
     document.getElementById("fag-kopier-knapp").addEventListener("click", kopierFagoversikt);
   }
 
@@ -1270,7 +1324,10 @@
     linjer.push(`Status: ${laereplan.status || "ukjend"}`);
     linjer.push("");
     if (tverrfagligeTemaer.length) {
-      linjer.push(`Tverrfaglege tema: ${tverrfagligeTemaer.map((t) => `${t.kode} ${t.tittel}`).join(", ")}`);
+      const temaLinje = aktivtTemaFilter.size
+        ? tverrfagligeTemaer.filter((t) => aktivtTemaFilter.has(t.kode)).map((t) => `${t.kode} ${t.tittel}`).join(", ") + " (filter aktivt)"
+        : tverrfagligeTemaer.map((t) => `${t.kode} ${t.tittel}`).join(", ");
+      linjer.push(`Tverrfaglege tema: ${temaLinje}`);
       linjer.push("");
     }
     if (kjerneelement.length) {
@@ -1280,16 +1337,18 @@
       linjer.push("");
     }
     for (const kv of kompetansemaalsett) {
+      const kmListe = filtrerPaTema(kmPerKv.get(kv.kode) || []).sort((a, b) => a.kode.localeCompare(b.kode, "nb", { numeric: true }));
+      if (!kmListe.length) continue;
       linjer.push(`${visningsnamn(kv)} (${kv.kode})`);
       linjer.push(["KM-kode", "Kompetansemål"].join("\t"));
-      const kmListe = (kmPerKv.get(kv.kode) || []).sort((a, b) => a.kode.localeCompare(b.kode, "nb", { numeric: true }));
       kmListe.forEach((km) => linjer.push([km.kode, km.tittel || ""].join("\t")));
       linjer.push("");
     }
-    if (kmUtanKv.length) {
+    const kmUtanKvFiltrertKopi = filtrerPaTema(kmUtanKv);
+    if (kmUtanKvFiltrertKopi.length) {
       linjer.push("Andre kompetansemål");
       linjer.push(["KM-kode", "Kompetansemål"].join("\t"));
-      kmUtanKv.forEach((km) => linjer.push([km.kode, km.tittel || ""].join("\t")));
+      kmUtanKvFiltrertKopi.forEach((km) => linjer.push([km.kode, km.tittel || ""].join("\t")));
     }
 
     const tekst = linjer.join("\n");
@@ -1313,6 +1372,20 @@
   // Hopp til rett kompetansemålsett-blokk. Brukar scrollIntoView i staden
   // for ekte URL-hash, sidan location.hash er reservert til fane-routing.
   document.getElementById("fag-innhald").addEventListener("click", (ev) => {
+    const temaKnapp = ev.target.closest("[data-tema-toggle]");
+    if (temaKnapp) {
+      const kode = temaKnapp.dataset.temaToggle;
+      if (aktivtTemaFilter.has(kode)) aktivtTemaFilter.delete(kode);
+      else aktivtTemaFilter.add(kode);
+      renderFagoversiktInnhald();
+      return;
+    }
+    const nullstillKnapp = ev.target.closest("[data-tema-nullstill]");
+    if (nullstillKnapp) {
+      aktivtTemaFilter = new Set();
+      renderFagoversiktInnhald();
+      return;
+    }
     const lenke = ev.target.closest("[data-kv-scroll]");
     if (!lenke) return;
     ev.preventDefault();
