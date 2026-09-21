@@ -1,14 +1,36 @@
 {
-  "generert": "2026-09-14T09:58:21.314Z",
+  "generert": "2026-09-21T10:00:50.912Z",
   "kjelde": "NDLA search-api (grep-codes), filtrert på utgåtte/erstatta kompetansemål (KM), kjerneelement (KE) og kompetansemålsett (KV)",
   "merking": [
     {
-      "artikkelId": "25564",
-      "tittel": "\"Riv skiten\" – retorisk analyse",
-      "url": "https://ndla.no/r/norsk-sf-vg2/riv-skiten---retorisk-analyse/65f36618a6",
+      "artikkelId": "34141",
+      "tittel": "\"Foran loven\" av Franz Kafka",
+      "url": "https://ndla.no/r/norsk-sf-vg3/foran-loven-av-franz-kafka/441c08601d",
       "koder": [
         {
-          "kode": "KE1602",
+          "kode": "KE1599",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "35411",
+      "tittel": "\"Gutten\" – ei novelle om skilsmisse",
+      "url": "https://ndla.no/r/norsk-sf-vg3/gutten---ei-novelle-om-skilsmisse/84a21d18fb",
+      "koder": [
+        {
+          "kode": "KE1599",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "34297",
+      "tittel": "\"Kristendommen, den tiende landeplage\" og Muhammed-karikaturene",
+      "url": "https://ndla.no/r/norsk-sf-vg3/kristendommen-den-tiende-landeplage-og-muhammed-karikaturene/fcd435b0a7",
+      "koder": [
+        {
+          "kode": "KE1599",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -82,20 +104,9 @@
       ]
     },
     {
-      "artikkelId": "26680",
-      "tittel": "Aftensalme",
-      "url": "https://ndla.no/r/norsk-sf-vg2/aftensalme/f6be1614ab",
-      "koder": [
-        {
-          "kode": "KE1599",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
       "artikkelId": "32258",
       "tittel": "Aktiv læring ute",
-      "url": "https://ndla.no/r/naturfag-hs/aktiv-laring-ute/4c9f0f5943",
+      "url": "https://ndla.no/r/naturfag-fd/aktiv-laring-ute/d65b0da701",
       "koder": [
         {
           "kode": "KE71",
@@ -130,31 +141,9 @@
       ]
     },
     {
-      "artikkelId": "32551",
-      "tittel": "Amtmannens døtre (utdrag)",
-      "url": "https://ndla.no/r/norsk-sf-vg3/amtmannens-dotre-utdrag/43cfe33f81",
-      "koder": [
-        {
-          "kode": "KE1599",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "41522",
-      "tittel": "Analyser en reklamefilm",
-      "url": "https://ndla.no/r/norsk-kort-botid-sf-vg1/analyser-en-reklamefilm/dffa0c70b0",
-      "koder": [
-        {
-          "kode": "KE1600",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "5343",
-      "tittel": "Analyser tidsskrift fra det okkuperte Norge",
-      "url": "https://ndla.no/r/norsk-sf-vg3/analyser-tidsskrift-fra-det-okkuperte-norge/d7dc7a0e97",
+      "artikkelId": "46214",
+      "tittel": "Analyser en kronikk",
+      "url": "https://ndla.no/r/norsk-sf-vg3/analyser-en-kronikk/980eea4428",
       "koder": [
         {
           "kode": "KE1600",
@@ -185,6 +174,28 @@
       ]
     },
     {
+      "artikkelId": "36504",
+      "tittel": "Arranger en lesesirkel om samtidslitteraturen",
+      "url": "https://ndla.no/r/norsk-sf-vg3/arranger-en-lesesirkel-om-samtidslitteraturen/7c8a6a603b",
+      "koder": [
+        {
+          "kode": "KE1599",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "14112",
+      "tittel": "Artstre",
+      "url": "https://ndla.no/r/naturfag-sf/artstre/c7032cd207",
+      "koder": [
+        {
+          "kode": "KE70",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
       "artikkelId": "20551",
       "tittel": "Arvestoffet",
       "url": "https://ndla.no/e/naturfag-sf/arvestoffet/2232be1abf",
@@ -202,21 +213,6 @@
       "koder": [
         {
           "kode": "KE69",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "26912",
-      "tittel": "Badminton",
-      "url": "https://ndla.no/e/kroppsoving-vg2/badminton/48244f412f",
-      "koder": [
-        {
-          "kode": "KE183",
-          "type": "kjerneelement_lk20"
-        },
-        {
-          "kode": "KE184",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -248,12 +244,12 @@
       ]
     },
     {
-      "artikkelId": "31472",
-      "tittel": "Befinner du deg i et ekkokammer?",
-      "url": "https://ndla.no/r/norsk-sf-vg3/befinner-du-deg-i-et-ekkokammer/08f61b62ba",
+      "artikkelId": "25251",
+      "tittel": "Behandling av store datamengder i Python",
+      "url": "https://ndla.no/r/verktoykassa---for-elever/behandling-av-store-datamengder-i-python/81f8d60949",
       "koder": [
         {
-          "kode": "KE1600",
+          "kode": "KE68",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -270,23 +266,34 @@
       ]
     },
     {
-      "artikkelId": "20714",
-      "tittel": "Bevegelsesaktivitet",
-      "url": "https://ndla.no/e/kroppsoving-vg3/bevegelsesaktivitet/bc10de164c",
+      "artikkelId": "12723",
+      "tittel": "Bevegelighet",
+      "url": "https://ndla.no/e/kroppsoving-vg1/bevegelighet/095a46f003",
       "koder": [
         {
-          "kode": "KE184",
+          "kode": "KE183",
           "type": "kjerneelement_lk20"
         }
       ]
     },
     {
-      "artikkelId": "5010",
-      "tittel": "Bildet som medietekst",
-      "url": "https://ndla.no/r/medie--og-informasjonskunnskap-2/bildet-som-medietekst/2cc99e607f",
+      "artikkelId": "12732",
+      "tittel": "Bevegelighet i overkroppen",
+      "url": "https://ndla.no/e/kroppsoving-vg1/bevegelighet-i-overkroppen/04cba318f4",
       "koder": [
         {
-          "kode": "KE1603",
+          "kode": "KE183",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "12724",
+      "tittel": "Bevegelighet i underkroppen",
+      "url": "https://ndla.no/e/kroppsoving-vg2/bevegelighet-i-underkroppen/bb068efa8d",
+      "koder": [
+        {
+          "kode": "KE183",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -303,9 +310,20 @@
       ]
     },
     {
-      "artikkelId": "16914",
-      "tittel": "Blant alle lande",
-      "url": "https://ndla.no/r/norsk-sf-vg2/blant-alle-lande/30db422382",
+      "artikkelId": "13704",
+      "tittel": "Biologisk mangfold",
+      "url": "https://ndla.no/r/naturfag-sf/biologisk-mangfold/db1f76017b",
+      "koder": [
+        {
+          "kode": "KE70",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "35165",
+      "tittel": "Bjørneboe, Aakvaag og ungdommen",
+      "url": "https://ndla.no/r/norsk-sf-vg3/bjorneboe-aakvaag-og-ungdommen/a710bc5649",
       "koder": [
         {
           "kode": "KE1599",
@@ -341,31 +359,20 @@
       "url": "https://ndla.no/r/naturfag-sf/blyrester-i-viltkjott/573052e3ee",
       "koder": [
         {
-          "kode": "KE70",
-          "type": "kjerneelement_lk20"
-        },
-        {
           "kode": "KE71",
           "type": "kjerneelement_lk20"
         }
       ]
     },
     {
-      "artikkelId": "35109",
-      "tittel": "Bondestudentar (utdrag)",
-      "url": "https://ndla.no/r/norsk-sf-vg3/bondestudentar-utdrag/dec72d30ad",
+      "artikkelId": "20229",
+      "tittel": "Blå (utdrag)",
+      "url": "https://ndla.no/r/norsk-sf-vg1/bla-utdrag/5822489d2c",
       "koder": [
         {
           "kode": "KE1599",
           "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "13654",
-      "tittel": "Bruk av digitale kart i feltarbeid",
-      "url": "https://ndla.no/r/naturfag-sf/bruk-av-digitale-kart-i-feltarbeid/a2f715ab23",
-      "koder": [
+        },
         {
           "kode": "KE70",
           "type": "kjerneelement_lk20"
@@ -384,6 +391,17 @@
       ]
     },
     {
+      "artikkelId": "31297",
+      "tittel": "Bruk de retoriske stilidealene i presentasjon og tale",
+      "url": "https://ndla.no/r/norsk-pb/bruk-de-retoriske-stilidealene-i-presentasjon-og-tale/96ebf6d75e",
+      "koder": [
+        {
+          "kode": "KE1601",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
       "artikkelId": "34604",
       "tittel": "Bruk virkemidler i essay",
       "url": "https://ndla.no/r/norsk-sf-vg3/bruk-virkemidler-i-essay/e12ec2e0da",
@@ -395,23 +413,16 @@
       ]
     },
     {
-      "artikkelId": "24663",
-      "tittel": "Brytning og overlagring – programmering",
-      "url": "https://ndla.no/r/naturfag-sf/brytning-og-overlagring---programmering/3926ef2b99",
-      "koder": [
-        {
-          "kode": "KE68",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
       "artikkelId": "22489",
       "tittel": "Bærekraftig begravelse?",
       "url": "https://ndla.no/r/produktutvikling-og-produksjon-fd-fbi-vg1/barekraftig-begravelse/9d74803a37",
       "koder": [
         {
           "kode": "KE69",
+          "type": "kjerneelement_lk20"
+        },
+        {
+          "kode": "KE70",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -433,10 +444,6 @@
       "url": "https://ndla.no/e/naturfag-pb/barekraftig-utvikling/b1b374e721",
       "koder": [
         {
-          "kode": "KE69",
-          "type": "kjerneelement_lk20"
-        },
-        {
           "kode": "KE71",
           "type": "kjerneelement_lk20"
         },
@@ -455,9 +462,24 @@
       ]
     },
     {
-      "artikkelId": "20748",
-      "tittel": "Bærekraftsmålene viser vei",
-      "url": "https://ndla.no/r/tverrfaglige-temaer/barekraftsmalene-viser-vei/495e3136d2",
+      "artikkelId": "22484",
+      "tittel": "Bærekraftige blomster?",
+      "url": "https://ndla.no/r/produktutvikling-og-produksjon-fd-fbi-vg1/barekraftige-blomster/b994f414bd",
+      "koder": [
+        {
+          "kode": "KE69",
+          "type": "kjerneelement_lk20"
+        },
+        {
+          "kode": "KE70",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "22347",
+      "tittel": "Bærekraftige materialer og produkter",
+      "url": "https://ndla.no/r/produksjon-og-tjenester-tp-tip-vg1/barekraftige-materialer-og-produkter/c53b483fc1",
       "koder": [
         {
           "kode": "KE70",
@@ -471,7 +493,7 @@
       "url": "https://ndla.no/r/naturfag-sf/bolgefenomen/12afbec80d",
       "koder": [
         {
-          "kode": "KE68",
+          "kode": "KE67",
           "type": "kjerneelement_lk20"
         },
         {
@@ -481,27 +503,12 @@
       ]
     },
     {
-      "artikkelId": "22065",
-      "tittel": "Bølger, energi og stråling",
-      "url": "https://ndla.no/e/naturfag-pb/bolger-energi-og-straling/19063ab488",
+      "artikkelId": "13854",
+      "tittel": "Bølger og energi",
+      "url": "https://ndla.no/r/naturfag-sf/bolger-og-energi/d755b9813d",
       "koder": [
         {
           "kode": "KE68",
-          "type": "kjerneelement_lk20"
-        },
-        {
-          "kode": "KE69",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "22418",
-      "tittel": "Bør du ha flyskam?",
-      "url": "https://ndla.no/r/norsk-sf-vg1/bor-du-ha-flyskam/10b1020b51",
-      "koder": [
-        {
-          "kode": "KE1600",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -518,64 +525,31 @@
       ]
     },
     {
-      "artikkelId": "21012",
-      "tittel": "Dans",
-      "url": "https://ndla.no/e/kroppsoving-vg2/dans/c92812af73",
+      "artikkelId": "23403",
+      "tittel": "Celledeling: mitose og meiose",
+      "url": "https://ndla.no/r/naturfag-pb/celledeling-mitose-og-meiose/92f4660fb0",
       "koder": [
         {
-          "kode": "KE184",
+          "kode": "KE70",
           "type": "kjerneelement_lk20"
         }
       ]
     },
     {
-      "artikkelId": "17252",
-      "tittel": "Demoforsøk: Blodig skrift",
-      "url": "https://ndla.no/r/naturfag-sf/demoforsok-blodig-skrift/22f8a96112",
+      "artikkelId": "24544",
+      "tittel": "Charles Darwin",
+      "url": "https://ndla.no/r/naturfag-pb/charles-darwin/a1bf091d9c",
       "koder": [
         {
-          "kode": "KE67",
+          "kode": "KE70",
           "type": "kjerneelement_lk20"
         }
       ]
     },
     {
-      "artikkelId": "17269",
-      "tittel": "Demoforsøk: Brannslukker",
-      "url": "https://ndla.no/r/naturfag-sf/demoforsok-brannslukker/a34b1c7c8a",
-      "koder": [
-        {
-          "kode": "KE67",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "17260",
-      "tittel": "Demoforsøk: Diffusjonsfelling av salter",
-      "url": "https://ndla.no/r/naturfag-sf/demoforsok-diffusjonsfelling-av-salter/cc6528a2dd",
-      "koder": [
-        {
-          "kode": "KE67",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "17272",
-      "tittel": "Demoforsøk: Elefanttannkrem",
-      "url": "https://ndla.no/r/naturfag-sf/demoforsok-elefanttannkrem/0e4c790466",
-      "koder": [
-        {
-          "kode": "KE67",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "17261",
-      "tittel": "Demoforsøk: Elektrolyse av vann",
-      "url": "https://ndla.no/r/naturfag-el/demoforsok-elektrolyse-av-vann/fc04b644ae",
+      "artikkelId": "23020",
+      "tittel": "Demoforsøk",
+      "url": "https://ndla.no/e/naturfag-hs/demoforsok/37f3c08088",
       "koder": [
         {
           "kode": "KE67",
@@ -599,14 +573,10 @@
       ]
     },
     {
-      "artikkelId": "17274",
-      "tittel": "Demoforsøk: Flammesøyle",
-      "url": "https://ndla.no/r/naturfag-sf/demoforsok-flammesoyle/1bcf740c3b",
+      "artikkelId": "38657",
+      "tittel": "Demoforsøk: Energimengden i en gummibjørn",
+      "url": "https://ndla.no/r/naturfag-sf/demoforsok-energimengden-i-en-gummibjorn/2d3c019363",
       "koder": [
-        {
-          "kode": "KE67",
-          "type": "kjerneelement_lk20"
-        },
         {
           "kode": "KE69",
           "type": "kjerneelement_lk20"
@@ -617,6 +587,28 @@
       "artikkelId": "17254",
       "tittel": "Demoforsøk: Flytende termometer",
       "url": "https://ndla.no/r/naturfag-sf/demoforsok-flytende-termometer/0b4a606b84",
+      "koder": [
+        {
+          "kode": "KE67",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "38654",
+      "tittel": "Demoforsøk: Grønne flammer",
+      "url": "https://ndla.no/r/naturfag-sf/demoforsok-gronne-flammer/30fbe0c394",
+      "koder": [
+        {
+          "kode": "KE69",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "17281",
+      "tittel": "Demoforsøk: Jodklokke (ikke-oscillerende)",
+      "url": "https://ndla.no/r/naturfag-sf/demoforsok-jodklokke-ikke-oscillerende/10de2724cd",
       "koder": [
         {
           "kode": "KE67",
@@ -636,53 +628,9 @@
       ]
     },
     {
-      "artikkelId": "17270",
-      "tittel": "Demoforsøk: Likevekt i en sprøyte",
-      "url": "https://ndla.no/r/naturfag-sf/demoforsok-likevekt-i-en-sproyte/1745cd59cd",
-      "koder": [
-        {
-          "kode": "KE67",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "17275",
-      "tittel": "Demoforsøk: Lycopodiumdrage",
-      "url": "https://ndla.no/r/naturfag-sf/demoforsok-lycopodiumdrage/a077ed9211",
-      "koder": [
-        {
-          "kode": "KE67",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "17264",
-      "tittel": "Demoforsøk: Magisk egg",
-      "url": "https://ndla.no/r/naturfag-sf/demoforsok-magisk-egg/c379cdac05",
-      "koder": [
-        {
-          "kode": "KE67",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
       "artikkelId": "17265",
       "tittel": "Demoforsøk: Magisk røyk",
       "url": "https://ndla.no/r/naturfag-sf/demoforsok-magisk-royk/2adeb96f08",
-      "koder": [
-        {
-          "kode": "KE67",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "17271",
-      "tittel": "Demoforsøk: Nitrøse gasser",
-      "url": "https://ndla.no/r/naturfag-sf/demoforsok-nitrose-gasser/90bb3bf9b5",
       "koder": [
         {
           "kode": "KE67",
@@ -702,20 +650,9 @@
       ]
     },
     {
-      "artikkelId": "17267",
-      "tittel": "Demoforsøk: Sukker og svovelsyre",
-      "url": "https://ndla.no/r/naturfag-sf/demoforsok-sukker-og-svovelsyre/3328c3611a",
-      "koder": [
-        {
-          "kode": "KE67",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "17268",
-      "tittel": "Demoforsøk: Syreånde",
-      "url": "https://ndla.no/r/naturfag-sf/demoforsok-syreande/bf079cf661",
+      "artikkelId": "45146",
+      "tittel": "Demoforsøk: Svosj-flaske",
+      "url": "https://ndla.no/r/naturfag-sf/demoforsok-svosj-flaske/7852d48881",
       "koder": [
         {
           "kode": "KE67",
@@ -739,20 +676,20 @@
       ]
     },
     {
-      "artikkelId": "26806",
-      "tittel": "Demokrati og desinformasjon",
-      "url": "https://ndla.no/r/mediesamfunnet-1/demokrati-og-desinformasjon/ff1d867538",
+      "artikkelId": "38653",
+      "tittel": "Demoforsøk: Vanneksplosjon",
+      "url": "https://ndla.no/r/naturfag-sf/demoforsok-vanneksplosjon/aa62fe362e",
       "koder": [
         {
-          "kode": "KE1600",
+          "kode": "KE69",
           "type": "kjerneelement_lk20"
         }
       ]
     },
     {
-      "artikkelId": "20331",
-      "tittel": "Den lange reisen til Norge",
-      "url": "https://ndla.no/r/norsk-sf-vg1/den-lange-reisen-til-norge/0c2be41e12",
+      "artikkelId": "32507",
+      "tittel": "Den historiske bakgrunnen for to skriftspråk i Norge",
+      "url": "https://ndla.no/r/norsk-sf-vg2/den-historiske-bakgrunnen-for-to-skriftsprak-i-norge/8f70e0e0b6",
       "koder": [
         {
           "kode": "KE1604",
@@ -772,45 +709,34 @@
       ]
     },
     {
-      "artikkelId": "24362",
-      "tittel": "Den siste villmark?",
-      "url": "https://ndla.no/r/biologi-1/den-siste-villmark/43d70646a3",
+      "artikkelId": "35194",
+      "tittel": "Det vi ikke snakker om, når vi snakker om fedme",
+      "url": "https://ndla.no/r/norsk-sf-vg3/det-vi-ikke-snakker-om-nar-vi-snakker-om-fedme/a6c3521fe4",
       "koder": [
         {
-          "kode": "KE70",
+          "kode": "KE1600",
           "type": "kjerneelement_lk20"
         }
       ]
     },
     {
-      "artikkelId": "30762",
-      "tittel": "Den stundesløse",
-      "url": "https://ndla.no/r/norsk-sf-vg2/den-stundeslose/c4dedf077d",
+      "artikkelId": "36608",
+      "tittel": "Dialekt og stereotypier – humor eller ramme alvor?",
+      "url": "https://ndla.no/r/norsk-sf-vg3/dialekt-og-stereotypier---humor-eller-ramme-alvor/74be9e0e5a",
       "koder": [
         {
-          "kode": "KE1599",
+          "kode": "KE1604",
           "type": "kjerneelement_lk20"
         }
       ]
     },
     {
-      "artikkelId": "16912",
-      "tittel": "Der er et yndigt land",
-      "url": "https://ndla.no/r/norsk-sf-vg2/der-er-et-yndigt-land/fea65b230a",
+      "artikkelId": "32473",
+      "tittel": "Dialektparadiset Norge",
+      "url": "https://ndla.no/r/norsk-sf-vg3/dialektparadiset-norge/217e5e6433",
       "koder": [
         {
-          "kode": "KE1599",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "17119",
-      "tittel": "Det omvendte beger",
-      "url": "https://ndla.no/r/norsk-sf-vg2/det-omvendte-beger/f0385bf6e9",
-      "koder": [
-        {
-          "kode": "KE1599",
+          "kode": "KE1604",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -822,17 +748,6 @@
       "koder": [
         {
           "kode": "KE185",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "20098",
-      "tittel": "Disksport",
-      "url": "https://ndla.no/e/kroppsoving-vg1/disksport/61f5bff07e",
-      "koder": [
-        {
-          "kode": "KE184",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -871,6 +786,17 @@
       ]
     },
     {
+      "artikkelId": "24717",
+      "tittel": "Diskusjonsoppgaver om fair play",
+      "url": "https://ndla.no/r/kroppsoving-vg1/diskusjonsoppgaver-om-fair-play/e79b4a1c85",
+      "koder": [
+        {
+          "kode": "KE184",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
       "artikkelId": "20363",
       "tittel": "Diskusjonsøvelser",
       "url": "https://ndla.no/r/norsk-sf-vg1/diskusjonsovelser/55695fdea7",
@@ -882,23 +808,16 @@
       ]
     },
     {
-      "artikkelId": "46692",
-      "tittel": "Diskuter et vinneressay",
-      "url": "https://ndla.no/r/norsk-sf-vg2/diskuter-et-vinneressay/a68e781077",
+      "artikkelId": "25729",
+      "tittel": "Diskuter påstander om plast",
+      "url": "https://ndla.no/r/naturfag-sf/diskuter-pastander-om-plast/a9e5da94b6",
       "koder": [
         {
-          "kode": "KE1602",
+          "kode": "KE69",
           "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "45265",
-      "tittel": "Diskuter skriftlig eksamen",
-      "url": "https://ndla.no/r/norsk-kort-botid-yf/diskuter-skriftlig-eksamen/64e266e039",
-      "koder": [
+        },
         {
-          "kode": "KE1602",
+          "kode": "KE70",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -915,34 +834,23 @@
       ]
     },
     {
-      "artikkelId": "20653",
-      "tittel": "DNA i cellekjernen",
-      "url": "https://ndla.no/r/naturfag-pb/dna-i-cellekjernen/dbb0d83516",
-      "koder": [
-        {
-          "kode": "KE67",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "35842",
-      "tittel": "Doppler (utdrag)",
-      "url": "https://ndla.no/r/norsk-sf-vg3/doppler-utdrag/083183311e",
-      "koder": [
-        {
-          "kode": "KE1599",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "36851",
-      "tittel": "Drøft sammenhenger",
-      "url": "https://ndla.no/r/kroppsoving-vg1/droft-sammenhenger/7dc9611960",
+      "artikkelId": "27911",
+      "tittel": "Dokumentaren Influenser",
+      "url": "https://ndla.no/r/markedsforing-og-ledelse-1/dokumentaren-influenser/759b87bd55",
       "koder": [
         {
           "kode": "KE183",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "25446",
+      "tittel": "Dominant arv og krysning",
+      "url": "https://ndla.no/r/naturfag-pb/dominant-arv-og-krysning/f956c5e833",
+      "koder": [
+        {
+          "kode": "KE70",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -959,12 +867,31 @@
       ]
     },
     {
-      "artikkelId": "30311",
-      "tittel": "Echo Mountain",
-      "url": "https://ndla.no/r/norsk-pb/echo-mountain/e53b971392",
+      "artikkelId": "33368",
+      "tittel": "Edvard Munch og Sigbjørn Obstfelder",
+      "url": "https://ndla.no/r/norsk-sf-vg3/edvard-munch-og-sigbjorn-obstfelder/07313943e8",
       "koder": [
         {
           "kode": "KE1599",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "13931",
+      "tittel": "Effekt av solceller – simulering og oppgaver",
+      "url": "https://ndla.no/r/naturfag-el/effekt-av-solceller---simulering-og-oppgaver/8adb1e3ec3",
+      "koder": [
+        {
+          "kode": "KE67",
+          "type": "kjerneelement_lk20"
+        },
+        {
+          "kode": "KE68",
+          "type": "kjerneelement_lk20"
+        },
+        {
+          "kode": "KE69",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -975,7 +902,7 @@
       "url": "https://ndla.no/r/verktoykassa---for-elever/egendefinerte-funksjoner-i-python/94199d0bce",
       "koder": [
         {
-          "kode": "KE68",
+          "kode": "KE67",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -987,10 +914,6 @@
       "koder": [
         {
           "kode": "KE68",
-          "type": "kjerneelement_lk20"
-        },
-        {
-          "kode": "KE69",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -1023,6 +946,14 @@
       "url": "https://ndla.no/e/naturfag-pb/elektromagnetisk-og-ioniserende-straling/bb851c38f7",
       "koder": [
         {
+          "kode": "KE67",
+          "type": "kjerneelement_lk20"
+        },
+        {
+          "kode": "KE69",
+          "type": "kjerneelement_lk20"
+        },
+        {
           "kode": "KE71",
           "type": "kjerneelement_lk20"
         }
@@ -1035,10 +966,6 @@
       "koder": [
         {
           "kode": "KE68",
-          "type": "kjerneelement_lk20"
-        },
-        {
-          "kode": "KE69",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -1061,73 +988,33 @@
           "type": "kjerneelement_lk20"
         },
         {
+          "kode": "KE70",
+          "type": "kjerneelement_lk20"
+        },
+        {
           "kode": "KE71",
           "type": "kjerneelement_lk20"
         }
       ]
     },
     {
-      "artikkelId": "37467",
-      "tittel": "Elevtekst: essay vg3",
-      "url": "https://ndla.no/r/norsk-sf-vg3/elevtekst-essay-vg3/a0997775a9",
-      "koder": [
-        {
-          "kode": "KE1602",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "31980",
-      "tittel": "Elevtekst: et essay om engelsk i norsk",
-      "url": "https://ndla.no/r/norsk-pb/elevtekst-et-essay-om-engelsk-i-norsk/7ff5914392",
-      "koder": [
-        {
-          "kode": "KE1602",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "34834",
-      "tittel": "Elevtekst: et essay om kunnskap og læring",
-      "url": "https://ndla.no/r/norsk-sf-vg3/elevtekst-et-essay-om-kunnskap-og-laring/17fb54237b",
-      "koder": [
-        {
-          "kode": "KE1602",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "34789",
-      "tittel": "Elevtekst: et essay om russetida og kjærligheten",
-      "url": "https://ndla.no/r/norsk-sf-vg3/elevtekst-et-essay-om-russetida-og-kjarligheten/3c1537ed3a",
-      "koder": [
-        {
-          "kode": "KE1602",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "35846",
-      "tittel": "Emigrantene",
-      "url": "https://ndla.no/r/norsk-sf-vg3/emigrantene/3fecfd14c4",
-      "koder": [
-        {
-          "kode": "KE1599",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "38788",
-      "tittel": "En hyllest til det å lytte",
-      "url": "https://ndla.no/r/norsk-sf-vg1/en-hyllest-til-det-a-lytte/5ad3127d98",
+      "artikkelId": "24129",
+      "tittel": "Elleve kreative tips til framføringer",
+      "url": "https://ndla.no/r/verktoykassa---for-elever/elleve-kreative-tips-til-framforinger/44a645250a",
       "koder": [
         {
           "kode": "KE1601",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "5085",
+      "tittel": "En flik av virkeligheten",
+      "url": "https://ndla.no/r/medieuttrykk-1/en-flik-av-virkeligheten/ab643257f8",
+      "koder": [
+        {
+          "kode": "KE1600",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -1139,6 +1026,50 @@
       "koder": [
         {
           "kode": "KE71",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "36486",
+      "tittel": "En podkast om Henrik Ibsen",
+      "url": "https://ndla.no/r/norsk-sf-vg3/en-podkast-om-henrik-ibsen/b022092a0f",
+      "koder": [
+        {
+          "kode": "KE1599",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "36485",
+      "tittel": "En podkast om Knut Hamsun",
+      "url": "https://ndla.no/r/norsk-sf-vg3/en-podkast-om-knut-hamsun/505a2de6f4",
+      "koder": [
+        {
+          "kode": "KE1599",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "16542",
+      "tittel": "En strategi for å overbevise",
+      "url": "https://ndla.no/r/norsk-sf-vg2/en-strategi-for-a-overbevise/92e4ad1097",
+      "koder": [
+        {
+          "kode": "KE1601",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "22503",
+      "tittel": "Energi",
+      "url": "https://ndla.no/e/naturfag-ba/energi/434652dcea",
+      "koder": [
+        {
+          "kode": "KE69",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -1189,6 +1120,28 @@
       ]
     },
     {
+      "artikkelId": "23569",
+      "tittel": "Episk diktning",
+      "url": "https://ndla.no/e/norsk-pb/episk-diktning/57c639f15e",
+      "koder": [
+        {
+          "kode": "KE1599",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "20657",
+      "tittel": "Er det mulig å lage en bærekraftig mobiltelefon? (interaktiv historie)",
+      "url": "https://ndla.no/r/medie--og-informasjonskunnskap-1/er-det-mulig-a-lage-en-barekraftig-mobiltelefon-interaktiv-historie/1a62a101f2",
+      "koder": [
+        {
+          "kode": "KE69",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
       "artikkelId": "22362",
       "tittel": "Er friluftsliv en bærekraftig aktivitet?",
       "url": "https://ndla.no/r/kroppsoving-vg1/er-friluftsliv-en-barekraftig-aktivitet/0e9e221c00",
@@ -1200,20 +1153,9 @@
       ]
     },
     {
-      "artikkelId": "36264",
-      "tittel": "Essay-oppgaver om tekst i kontekst",
-      "url": "https://ndla.no/r/norsk-sf-vg3/essay-oppgaver-om-tekst-i-kontekst/478bed5fba",
-      "koder": [
-        {
-          "kode": "KE1602",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "5544",
-      "tittel": "Et godt middel mot trollskap",
-      "url": "https://ndla.no/r/norsk-sf-vg3/et-godt-middel-mot-trollskap/7a723eb449",
+      "artikkelId": "31400",
+      "tittel": "Er kvinnekamp og likestilling kun for kvinner?",
+      "url": "https://ndla.no/r/norsk-sf-vg2/er-kvinnekamp-og-likestilling-kun-for-kvinner/5b03799038",
       "koder": [
         {
           "kode": "KE1600",
@@ -1222,20 +1164,9 @@
       ]
     },
     {
-      "artikkelId": "24051",
-      "tittel": "Etikk begrenser bioteknologi",
-      "url": "https://ndla.no/r/naturfag-pb/etikk-begrenser-bioteknologi/0bd0a04e85",
-      "koder": [
-        {
-          "kode": "KE68",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "26456",
-      "tittel": "Evaluering av endringsprosjektet",
-      "url": "https://ndla.no/r/tverrfaglige-temaer/evaluering-av-endringsprosjektet/bd88ca02eb",
+      "artikkelId": "24282",
+      "tittel": "Evolusjon",
+      "url": "https://ndla.no/e/naturfag-sf/evolusjon/7167c9b74a",
       "koder": [
         {
           "kode": "KE70",
@@ -1288,9 +1219,31 @@
       ]
     },
     {
+      "artikkelId": "24656",
+      "tittel": "Fair play",
+      "url": "https://ndla.no/e/kroppsoving-vg2/fair-play/1e0ca522ec",
+      "koder": [
+        {
+          "kode": "KE184",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "26534",
+      "tittel": "Familien i litteraturen",
+      "url": "https://ndla.no/e/norsk-pb/familien-i-litteraturen/babb251a3a",
+      "koder": [
+        {
+          "kode": "KE1599",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
       "artikkelId": "23067",
       "tittel": "Fett – e-forelesning",
-      "url": "https://ndla.no/r/naturfag-el/fett---e-forelesning/4f27c04038",
+      "url": "https://ndla.no/r/naturfag-im/fett---e-forelesning/a1d4c3e703",
       "koder": [
         {
           "kode": "KE71",
@@ -1321,20 +1274,20 @@
       ]
     },
     {
-      "artikkelId": "20239",
-      "tittel": "Filmordliste",
-      "url": "https://ndla.no/r/medieuttrykk-3/filmordliste/31d440c0a9",
+      "artikkelId": "37011",
+      "tittel": "Film: Realisme og modernisme i litteraturen",
+      "url": "https://ndla.no/r/norsk-sf-vg3/film-realisme-og-modernisme-i-litteraturen/e536bdeace",
       "koder": [
         {
-          "kode": "KE1600",
+          "kode": "KE1599",
           "type": "kjerneelement_lk20"
         }
       ]
     },
     {
-      "artikkelId": "21331",
-      "tittel": "Finn og bruk faglitteratur",
-      "url": "https://ndla.no/r/norsk-yf/finn-og-bruk-faglitteratur/49ea23d6f3",
+      "artikkelId": "20239",
+      "tittel": "Filmordliste",
+      "url": "https://ndla.no/r/medieuttrykk-3/filmordliste/31d440c0a9",
       "koder": [
         {
           "kode": "KE1600",
@@ -1354,12 +1307,23 @@
       ]
     },
     {
-      "artikkelId": "16422",
-      "tittel": "Flerspråklighet, fordel eller ulempe?",
-      "url": "https://ndla.no/r/norsk-kort-botid-yf/flerspraklighet-fordel-eller-ulempe/0f3a019503",
+      "artikkelId": "32373",
+      "tittel": "Fire årsaker til at den kritiske realismen oppstod",
+      "url": "https://ndla.no/r/norsk-sf-vg3/fire-arsaker-til-at-den-kritiske-realismen-oppstod/bf74ddf54b",
       "koder": [
         {
-          "kode": "KE1604",
+          "kode": "KE1599",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "27932",
+      "tittel": "Folkediktning",
+      "url": "https://ndla.no/e/norsk-pb/folkediktning/43ea759c2e",
+      "koder": [
+        {
+          "kode": "KE1599",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -1376,9 +1340,9 @@
       ]
     },
     {
-      "artikkelId": "20089",
-      "tittel": "Forklar et yrkesfaglig emne",
-      "url": "https://ndla.no/r/norsk-yf/forklar-et-yrkesfaglig-emne/2d55c0834e",
+      "artikkelId": "23035",
+      "tittel": "Formelle møter i arbeidslivet",
+      "url": "https://ndla.no/r/produktivitet-og-kvalitetsstyring-tp-tip-vg1/formelle-moter-i-arbeidslivet/93f3a70a41",
       "koder": [
         {
           "kode": "KE1601",
@@ -1393,62 +1357,6 @@
       "koder": [
         {
           "kode": "KE1604",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "33170",
-      "tittel": "Forrådt (utdrag)",
-      "url": "https://ndla.no/r/norsk-sf-vg3/forradt-utdrag/dadf696920",
-      "koder": [
-        {
-          "kode": "KE1599",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "13689",
-      "tittel": "Forsøk: Blodtypebestemmelse",
-      "url": "https://ndla.no/r/naturfag-hs/forsok-blodtypebestemmelse/d25dd9e5c4",
-      "koder": [
-        {
-          "kode": "KE70",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "22848",
-      "tittel": "Forsøk: Bølgelengde og frekvens (simulering)",
-      "url": "https://ndla.no/r/naturfag-sf/forsok-bolgelengde-og-frekvens-simulering/49a926cae0",
-      "koder": [
-        {
-          "kode": "KE68",
-          "type": "kjerneelement_lk20"
-        },
-        {
-          "kode": "KE69",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "13885",
-      "tittel": "Forsøk: Elektronsprang og absorpsjonsspekter (simulering)",
-      "url": "https://ndla.no/r/naturfag-sf/simulering-av-elektronsprang-og-absorpsjonsspekter/9f5716d7ba",
-      "koder": [
-        {
-          "kode": "KE67",
-          "type": "kjerneelement_lk20"
-        },
-        {
-          "kode": "KE68",
-          "type": "kjerneelement_lk20"
-        },
-        {
-          "kode": "KE69",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -1476,24 +1384,17 @@
         {
           "kode": "KE69",
           "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "13972",
-      "tittel": "Forsøk: Galvaniske elementer",
-      "url": "https://ndla.no/r/naturfag-el/forsok-galvaniske-elementer/5c03cffe16",
-      "koder": [
+        },
         {
-          "kode": "KE69",
+          "kode": "KE70",
           "type": "kjerneelement_lk20"
         }
       ]
     },
     {
-      "artikkelId": "22644",
-      "tittel": "Forsøk: Holdbarheten til snittblomster",
-      "url": "https://ndla.no/r/kommunikasjon-kunde-og-arbeidsliv-fd-fbi-vg1/forsok-holdbarheten-til-snittblomster/04bd47ea79",
+      "artikkelId": "20270",
+      "tittel": "Forsøk: Forsuring av vann",
+      "url": "https://ndla.no/r/naturfag-sf/forsok-forsuring-av-vann/9de3ff6126",
       "koder": [
         {
           "kode": "KE70",
@@ -1513,6 +1414,10 @@
         {
           "kode": "KE69",
           "type": "kjerneelement_lk20"
+        },
+        {
+          "kode": "KE70",
+          "type": "kjerneelement_lk20"
         }
       ]
     },
@@ -1528,6 +1433,10 @@
         {
           "kode": "KE69",
           "type": "kjerneelement_lk20"
+        },
+        {
+          "kode": "KE70",
+          "type": "kjerneelement_lk20"
         }
       ]
     },
@@ -1537,18 +1446,15 @@
       "url": "https://ndla.no/r/tverrfaglige-temaer/forsok-hvor-super-er-supermaten/012be5984c",
       "koder": [
         {
-          "kode": "KE71",
+          "kode": "KE67",
           "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "21743",
-      "tittel": "Forsøk: Isolering av DNA fra fiskemelke",
-      "url": "https://ndla.no/r/naturfag-sf/forsok-isolering-av-dna-fra-fiskemelke/fe9566b776",
-      "koder": [
+        },
         {
-          "kode": "KE70",
+          "kode": "KE69",
+          "type": "kjerneelement_lk20"
+        },
+        {
+          "kode": "KE71",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -1558,6 +1464,10 @@
       "tittel": "Forsøk: Kan du stoppe stråling fra radioaktive kjerner?",
       "url": "https://ndla.no/r/naturfag-sf/forsok-kan-du-stoppe-straling-fra-radioaktive-kjerner/b8b186b45e",
       "koder": [
+        {
+          "kode": "KE69",
+          "type": "kjerneelement_lk20"
+        },
         {
           "kode": "KE71",
           "type": "kjerneelement_lk20"
@@ -1576,20 +1486,9 @@
       ]
     },
     {
-      "artikkelId": "21759",
-      "tittel": "Forsøk: Lag bilvoks",
-      "url": "https://ndla.no/r/naturfag-tp/forsok-lag-bilvoks/636434a43c",
-      "koder": [
-        {
-          "kode": "KE70",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "21839",
-      "tittel": "Forsøk: Lag majones",
-      "url": "https://ndla.no/r/naturfag-rm/forsok-lag-majones/4a8bbc7a13",
+      "artikkelId": "13843",
+      "tittel": "Forsøk: Lag din egen hudkrem",
+      "url": "https://ndla.no/r/naturfag-fd/forsok-lag-din-egen-hudkrem/ed57c438ef",
       "koder": [
         {
           "kode": "KE67",
@@ -1602,12 +1501,27 @@
       ]
     },
     {
-      "artikkelId": "18746",
-      "tittel": "Forsøk: Lag vannpreparat for mikroskopering",
-      "url": "https://ndla.no/r/naturfag-sf/forsok-lag-vannpreparat-for-mikroskopering/badc4184dd",
+      "artikkelId": "13934",
+      "tittel": "Forsøk: Lag din egen solfanger",
+      "url": "https://ndla.no/r/naturfag-el/forsok-lag-din-egen-solfanger/08292968d2",
       "koder": [
         {
-          "kode": "KE67",
+          "kode": "KE68",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "23034",
+      "tittel": "Forsøk: Lag en generator",
+      "url": "https://ndla.no/r/naturfag-el/forsok-lag-en-generator/5693515bd7",
+      "koder": [
+        {
+          "kode": "KE68",
+          "type": "kjerneelement_lk20"
+        },
+        {
+          "kode": "KE69",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -1618,7 +1532,7 @@
       "url": "https://ndla.no/r/naturfag-sf/forsok-laserlys-i-vannstrale/0d2c3dbc06",
       "koder": [
         {
-          "kode": "KE68",
+          "kode": "KE67",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -1627,43 +1541,6 @@
       "artikkelId": "22792",
       "tittel": "Forsøk: Lysbrytning (simulering)",
       "url": "https://ndla.no/r/naturfag-sf/forsok-lysbrytning-simulering/18647696ec",
-      "koder": [
-        {
-          "kode": "KE68",
-          "type": "kjerneelement_lk20"
-        },
-        {
-          "kode": "KE69",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "18840",
-      "tittel": "Forsøk: Løkcellas oppbygning",
-      "url": "https://ndla.no/r/naturfag-pb/forsok-lokcellas-oppbygning/57b6b5e2f2",
-      "koder": [
-        {
-          "kode": "KE67",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "21820",
-      "tittel": "Forsøk: Maling og løsemidler",
-      "url": "https://ndla.no/r/naturfag-dt/forsok-maling-og-losemidler/d790a2fb79",
-      "koder": [
-        {
-          "kode": "KE70",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "18745",
-      "tittel": "Forsøk: Mikroskop – innstilling og bruk",
-      "url": "https://ndla.no/r/naturfag-sf/forsok-mikroskop---innstilling-og-bruk/7eb577416a",
       "koder": [
         {
           "kode": "KE67",
@@ -1725,7 +1602,26 @@
       "url": "https://ndla.no/r/naturfag-tp/forsok-rustindikator/584821967d",
       "koder": [
         {
+          "kode": "KE67",
+          "type": "kjerneelement_lk20"
+        },
+        {
+          "kode": "KE69",
+          "type": "kjerneelement_lk20"
+        },
+        {
           "kode": "KE70",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "13933",
+      "tittel": "Forsøk: Solceller og virkningsgrad",
+      "url": "https://ndla.no/r/naturfag-el/forsok-solceller-og-virkningsgrad/287fdfffca",
+      "koder": [
+        {
+          "kode": "KE68",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -1753,12 +1649,12 @@
       ]
     },
     {
-      "artikkelId": "14006",
-      "tittel": "Forsøk: Utforsk planteceller",
-      "url": "https://ndla.no/r/naturfag-pb/forsok-utforsk-planteceller/726974d708",
+      "artikkelId": "20028",
+      "tittel": "Forsøk: Undersøk sammenhengen mellom egenskaper og kjemiske bindinger",
+      "url": "https://ndla.no/r/naturfag-sf/forsok-undersok-sammenhengen-mellom-egenskaper-og-kjemiske-bindinger/518e8e0041",
       "koder": [
         {
-          "kode": "KE67",
+          "kode": "KE69",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -1783,42 +1679,9 @@
       ]
     },
     {
-      "artikkelId": "33071",
-      "tittel": "Fra bønn til banning – broderi som tekst",
-      "url": "https://ndla.no/r/materialer-og-teknikker-dt-dth-vg1/fra-bonn-til-banning---broderi-som-tekst/ece49e8d22",
-      "koder": [
-        {
-          "kode": "KE1599",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "31733",
-      "tittel": "Fra et aktivt til et stillesittende liv",
-      "url": "https://ndla.no/r/kroppsoving-vg2/fra-et-aktivt-til-et-stillesittende-liv/be5c0a6288",
-      "koder": [
-        {
-          "kode": "KE183",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "33179",
-      "tittel": "Fra Kristiania-bohêmen (utdrag)",
-      "url": "https://ndla.no/r/norsk-sf-vg3/fra-kristiania-bohemen-utdrag/9fec24d8dc",
-      "koder": [
-        {
-          "kode": "KE1599",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "36965",
-      "tittel": "Fra urnordisk til moderne norsk",
-      "url": "https://ndla.no/r/norsk-sf-vg2/fra-urnordisk-til-moderne-norsk/92cb71307e",
+      "artikkelId": "29748",
+      "tittel": "Fra trykkekunst til tastetrykk: språk og teknologi",
+      "url": "https://ndla.no/r/norsk-sf-vg2/fra-trykkekunst-til-tastetrykk-sprak-og-teknologi/da1701526a",
       "koder": [
         {
           "kode": "KE1604",
@@ -1827,12 +1690,23 @@
       ]
     },
     {
-      "artikkelId": "30853",
-      "tittel": "Friluftsliv",
-      "url": "https://ndla.no/r/norsk-sf-vg2/friluftsliv/1a21a99322",
+      "artikkelId": "36057",
+      "tittel": "Framtida for det norske talespråket",
+      "url": "https://ndla.no/r/norsk-sf-vg3/framtida-for-det-norske-talespraket/6436af7a19",
       "koder": [
         {
-          "kode": "KE1599",
+          "kode": "KE1604",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "35538",
+      "tittel": "Framtida for norske dialekter",
+      "url": "https://ndla.no/r/norsk-sf-vg3/framtida-for-norske-dialekter/484c54e679",
+      "koder": [
+        {
+          "kode": "KE1604",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -1860,6 +1734,39 @@
       ]
     },
     {
+      "artikkelId": "36767",
+      "tittel": "Fysisk og psykisk helse",
+      "url": "https://ndla.no/e/kroppsoving-vg2/fysisk-og-psykisk-helse/8b51292e43",
+      "koder": [
+        {
+          "kode": "KE183",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "20681",
+      "tittel": "Føkk fossils II – tipping point",
+      "url": "https://ndla.no/e/tverrfaglige-temaer/fokk-fossils-ii---tipping-point/cbf9a4b94b",
+      "koder": [
+        {
+          "kode": "KE70",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "32582",
+      "tittel": "Første handling i Peer Gynt",
+      "url": "https://ndla.no/r/norsk-sf-vg3/forste-handling-i-peer-gynt/a1d885f660",
+      "koder": [
+        {
+          "kode": "KE1599",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
       "artikkelId": "25264",
       "tittel": "Førstehjelp på tur",
       "url": "https://ndla.no/r/kroppsoving-vg1/forstehjelp-pa-tur/0ec701796d",
@@ -1882,49 +1789,12 @@
       ]
     },
     {
-      "artikkelId": "21410",
-      "tittel": "Førstehjelp til novelleskriving",
-      "url": "https://ndla.no/r/norsk-sf-vg1/forstehjelp-til-novelleskriving/56aec1f28e",
+      "artikkelId": "33265",
+      "tittel": "Garborg – en europeer fra Jæren",
+      "url": "https://ndla.no/r/norsk-sf-vg3/garborg---en-europeer-fra-jaren/fbebfd7e18",
       "koder": [
         {
-          "kode": "KE1602",
-          "type": "kjerneelement_lk20"
-        },
-        {
-          "kode": "KE1603",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "35390",
-      "tittel": "Garderoben og dusjen",
-      "url": "https://ndla.no/r/tverrfaglige-temaer/garderoben-og-dusjen/671ad12967",
-      "koder": [
-        {
-          "kode": "KE183",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "42736",
-      "tittel": "Geahččaladdan: Fysalaš mihtideamit ja variašuvdnagovdodat",
-      "url": "https://ndla.no/r/luonddufaga-sf-sami-plana-so-jo1/geahccaladdan-fysalas-mihtideamit-ja-variasuvdnagovdodat/78418beb3a",
-      "koder": [
-        {
-          "kode": "KE67",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "42735",
-      "tittel": "Geahččaladdan: Guorahala mii gihttačoalttu siste lea",
-      "url": "https://ndla.no/r/luonddufaga-sf-sami-plana-so-jo1/geahccaladdan-guorahala-mii-gihttacoalttu-siste-lea/e8e7410f30",
-      "koder": [
-        {
-          "kode": "KE67",
+          "kode": "KE1599",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -1932,10 +1802,14 @@
     {
       "artikkelId": "20654",
       "tittel": "Gener, kromosomer og DNA",
-      "url": "https://ndla.no/r/naturfag-sf/gener-kromosomer-og-dna/f1511db1a9",
+      "url": "https://ndla.no/r/naturfag-sf/kromosomer-dna-og-gener/f1511db1a9",
       "koder": [
         {
           "kode": "KE67",
+          "type": "kjerneelement_lk20"
+        },
+        {
+          "kode": "KE70",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -1950,29 +1824,11 @@
           "type": "kjerneelement_lk20"
         },
         {
+          "kode": "KE70",
+          "type": "kjerneelement_lk20"
+        },
+        {
           "kode": "KE71",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "16350",
-      "tittel": "Genetisk sykdom – jakten på sykdomsgenet",
-      "url": "https://ndla.no/r/naturfag-pb/genetisk-sykdom---jakten-pa-sykdomsgenet/d096479ed9",
-      "koder": [
-        {
-          "kode": "KE70",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "23657",
-      "tittel": "Genteknologi i matproduksjonen",
-      "url": "https://ndla.no/r/naturfag-sf/genteknologi-i-matproduksjonen/a30ee48879",
-      "koder": [
-        {
-          "kode": "KE70",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -2011,10 +1867,6 @@
         {
           "kode": "KE1601",
           "type": "kjerneelement_lk20"
-        },
-        {
-          "kode": "KE1602",
-          "type": "kjerneelement_lk20"
         }
       ]
     },
@@ -2029,39 +1881,6 @@
         },
         {
           "kode": "KE68",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "16697",
-      "tittel": "Grafitti er hærverk!",
-      "url": "https://ndla.no/r/norsk-sf-vg1/grafitti-er-harverk/1afbd7991d",
-      "koder": [
-        {
-          "kode": "KE1600",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "19958",
-      "tittel": "Grammatikken finnes i hodet ditt",
-      "url": "https://ndla.no/r/norsk-sf-vg1/grammatikken-finnes-i-hodet-ditt/2866d992a3",
-      "koder": [
-        {
-          "kode": "KE1604",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "22351",
-      "tittel": "Grunneierens vindturbindilemma",
-      "url": "https://ndla.no/r/tverrfaglige-temaer/grunneierens-vindturbindilemma/5d1ae0a5ca",
-      "koder": [
-        {
-          "kode": "KE70",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -2104,6 +1923,21 @@
       ]
     },
     {
+      "artikkelId": "33205",
+      "tittel": "Har du selvdisiplin?",
+      "url": "https://ndla.no/r/norsk-sf-vg3/har-du-selvdisiplin/b1a5f38072",
+      "koder": [
+        {
+          "kode": "KE1599",
+          "type": "kjerneelement_lk20"
+        },
+        {
+          "kode": "KE1602",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
       "artikkelId": "36158",
       "tittel": "Hat trick, hættrikk eller trillingmål?",
       "url": "https://ndla.no/r/norsk-sf-vg3/hat-trick-hattrikk-eller-trillingmal/09ef57c78c",
@@ -2121,6 +1955,17 @@
       "koder": [
         {
           "kode": "KE184",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "46194",
+      "tittel": "Hei, jeg heter Karen, og jeg er polarisert",
+      "url": "https://ndla.no/r/norsk-pb/hei-jeg-heter-karen-og-jeg-er-polarisert/74dcee6608",
+      "koder": [
+        {
+          "kode": "KE1600",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -2152,9 +1997,20 @@
       ]
     },
     {
-      "artikkelId": "17051",
-      "tittel": "Herre Gud! Ditt dyre navn og ære",
-      "url": "https://ndla.no/r/norsk-sf-vg2/herre-gud-ditt-dyre-navn-og-are/246fa20270",
+      "artikkelId": "27070",
+      "tittel": "Helter",
+      "url": "https://ndla.no/e/norsk-sf-vg2/helter/c11449a360",
+      "koder": [
+        {
+          "kode": "KE1599",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "35043",
+      "tittel": "Hestene står i regnet",
+      "url": "https://ndla.no/r/norsk-sf-vg3/hestene-star-i-regnet/d13bfbab79",
       "koder": [
         {
           "kode": "KE1599",
@@ -2174,12 +2030,12 @@
       ]
     },
     {
-      "artikkelId": "17071",
-      "tittel": "Holbergs Epistler – \"Om Fruentimmerselskab\"",
-      "url": "https://ndla.no/r/norsk-sf-vg2/holbergs-epistler---om-fruentimmerselskab/f19f897ff8",
+      "artikkelId": "12712",
+      "tittel": "Horisontal spenst",
+      "url": "https://ndla.no/e/kroppsoving-vg2/horisontal-spenst/362c38cf88",
       "koder": [
         {
-          "kode": "KE1599",
+          "kode": "KE183",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -2204,16 +2060,12 @@
       ]
     },
     {
-      "artikkelId": "20734",
-      "tittel": "Hva avgjør om et produkt er bærekraftig eller ikke?",
-      "url": "https://ndla.no/r/tverrfaglige-temaer/hva-avgjor-om-et-produkt-er-barekraftig-eller-ikke/dc8d3ec50c",
+      "artikkelId": "32815",
+      "tittel": "Hva er dialekt?",
+      "url": "https://ndla.no/r/norsk-sf-vg3/hva-er-dialekt/d8a9ebb30b",
       "koder": [
         {
-          "kode": "KE69",
-          "type": "kjerneelement_lk20"
-        },
-        {
-          "kode": "KE70",
+          "kode": "KE1604",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -2221,7 +2073,7 @@
     {
       "artikkelId": "34343",
       "tittel": "Hva er en diskurs?",
-      "url": "https://ndla.no/r/mediesamfunnet-3/hva-er-en-diskurs/747e4020bf",
+      "url": "https://ndla.no/r/norsk-sf-vg3/hva-er-en-diskurs/28bf438eb9",
       "koder": [
         {
           "kode": "KE1600",
@@ -2241,34 +2093,45 @@
       ]
     },
     {
-      "artikkelId": "32501",
-      "tittel": "Hva er greia med Hamsun?",
-      "url": "https://ndla.no/r/norsk-sf-vg3/hva-er-greia-med-hamsun/05e9462505",
+      "artikkelId": "22131",
+      "tittel": "Hva er forskjellen på bølger og stråling?",
+      "url": "https://ndla.no/r/naturfag-sf/hva-er-forskjellen-pa-bolger-og-straling/72ad828305",
       "koder": [
         {
-          "kode": "KE1599",
+          "kode": "KE68",
           "type": "kjerneelement_lk20"
         }
       ]
     },
     {
-      "artikkelId": "32508",
-      "tittel": "Hva er greia med Ibsen?",
-      "url": "https://ndla.no/r/norsk-sf-vg3/hva-er-greia-med-ibsen/b4809570b3",
-      "koder": [
-        {
-          "kode": "KE1599",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "36945",
-      "tittel": "Hva er greia med norsk, svensk og dansk?",
-      "url": "https://ndla.no/r/norsk-sf-vg2/hva-er-greia-med-norsk-svensk-og-dansk/9ac77be893",
+      "artikkelId": "32972",
+      "tittel": "Hva er forskjellene mellom talespråk og skriftspråk?",
+      "url": "https://ndla.no/r/norsk-sf-vg3/hva-er-forskjellene-mellom-talesprak-og-skriftsprak/fb7f0f0be5",
       "koder": [
         {
           "kode": "KE1604",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "34572",
+      "tittel": "Hva er greia med Knausgård?",
+      "url": "https://ndla.no/r/norsk-sf-vg3/hva-er-greia-med-knausgard/1cfeb26aac",
+      "koder": [
+        {
+          "kode": "KE1599",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "20600",
+      "tittel": "Hva er miljøgifter?",
+      "url": "https://ndla.no/r/produksjon-og-tjenester-tp-tip-vg1/hva-er-miljogifter/36595350fc",
+      "koder": [
+        {
+          "kode": "KE69",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -2296,34 +2159,12 @@
       ]
     },
     {
-      "artikkelId": "26065",
-      "tittel": "Hva er problemet med plasten?",
-      "url": "https://ndla.no/r/naturfag-sf/hva-er-problemet-med-plasten/9c0fb572be",
+      "artikkelId": "30592",
+      "tittel": "Hva er psykisk helse?",
+      "url": "https://ndla.no/r/kroppsoving-vg1/hva-er-psykisk-helse/0e32eb702d",
       "koder": [
         {
-          "kode": "KE70",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "34952",
-      "tittel": "Hva er topos?",
-      "url": "https://ndla.no/r/kommunikasjon-og-kultur-2/hva-er-topos/6be86fec6f",
-      "koder": [
-        {
-          "kode": "KE1600",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "31227",
-      "tittel": "Hva gjør sosiale medier med språket vårt?",
-      "url": "https://ndla.no/r/norsk-sf-vg2/hva-gjor-sosiale-medier-med-spraket-vart/1481fd43c4",
-      "koder": [
-        {
-          "kode": "KE1604",
+          "kode": "KE183",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -2335,39 +2176,6 @@
       "koder": [
         {
           "kode": "KE70",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "34574",
-      "tittel": "Hva kjennetegner dagens samtidslitteratur?",
-      "url": "https://ndla.no/r/norsk-sf-vg3/hva-kjennetegner-dagens-samtidslitteratur/471d615661",
-      "koder": [
-        {
-          "kode": "KE1599",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "29974",
-      "tittel": "Hva kjennetegner en god fagartikkel?",
-      "url": "https://ndla.no/r/norsk-sf-vg1/hva-kjennetegner-en-god-fagartikkel/f090241928",
-      "koder": [
-        {
-          "kode": "KE1602",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "16517",
-      "tittel": "Hva slags kommunikasjon?",
-      "url": "https://ndla.no/r/medieuttrykk-1/hva-slags-kommunikasjon/861a6eae71",
-      "koder": [
-        {
-          "kode": "KE1601",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -2397,7 +2205,7 @@
     {
       "artikkelId": "31087",
       "tittel": "Hvem skal vinne? (modernisert)",
-      "url": "https://ndla.no/r/norsk-sf-vg2/hvem-skal-vinne-modernisert/28d314a305",
+      "url": "https://ndla.no/r/norsk-pb/hvem-skal-vinne-modernisert/5163488f14",
       "koder": [
         {
           "kode": "KE1604",
@@ -2417,38 +2225,20 @@
       ]
     },
     {
-      "artikkelId": "21210",
-      "tittel": "Hvilken framtid venter samisk?",
-      "url": "https://ndla.no/r/norsk-sf-vg1/hvilken-framtid-venter-samisk/1963557fdc",
-      "koder": [
-        {
-          "kode": "KE1604",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
       "artikkelId": "20325",
       "tittel": "Hvor viktige er miljøgiftene?",
-      "url": "https://ndla.no/r/naturfag-sf/hvor-viktige-er-miljogiftene/6b56883c42",
+      "url": "https://ndla.no/r/naturfag-pb/hvor-viktige-er-miljogiftene/0521833fa6",
       "koder": [
         {
           "kode": "KE69",
           "type": "kjerneelement_lk20"
         },
         {
-          "kode": "KE71",
+          "kode": "KE70",
           "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "21704",
-      "tittel": "Hvordan bruke sitater i sakprosa?",
-      "url": "https://ndla.no/r/norsk-sf-vg1/hvordan-bruke-sitater-i-sakprosa/85e9272344",
-      "koder": [
+        },
         {
-          "kode": "KE1602",
+          "kode": "KE71",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -2460,6 +2250,28 @@
       "koder": [
         {
           "kode": "KE1601",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "35756",
+      "tittel": "Hvordan gi tilbakemeldinger?",
+      "url": "https://ndla.no/r/verktoykassa---for-elever/hvordan-gi-tilbakemeldinger/6cea6d37b0",
+      "koder": [
+        {
+          "kode": "KE1602",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "24254",
+      "tittel": "Hvordan gjennomføre utholdenhetstrening?",
+      "url": "https://ndla.no/r/kroppsoving-vg1/hvordan-gjennomfore-utholdenhetstrening/bbad5f9682",
+      "koder": [
+        {
+          "kode": "KE183",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -2509,20 +2321,9 @@
       ]
     },
     {
-      "artikkelId": "20492",
-      "tittel": "Hvordan lage gode avsnitt i fagartikler?",
-      "url": "https://ndla.no/r/norsk-sf-vg1/hvordan-lage-gode-avsnitt-i-fagartikler/fec1f7fdb4",
-      "koder": [
-        {
-          "kode": "KE1602",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "31560",
-      "tittel": "Hvordan påvirker samfunnet språket?",
-      "url": "https://ndla.no/r/norsk-sf-vg2/hvordan-pavirker-samfunnet-spraket/a92235d510",
+      "artikkelId": "27042",
+      "tittel": "Hvordan kan vi styre språket?",
+      "url": "https://ndla.no/r/norsk-sf-vg2/hvordan-kan-vi-styre-spraket/2e0b87b284",
       "koder": [
         {
           "kode": "KE1604",
@@ -2531,12 +2332,23 @@
       ]
     },
     {
-      "artikkelId": "22193",
-      "tittel": "Hvordan sammenlikne to karakterer?",
-      "url": "https://ndla.no/r/norsk-pb/hvordan-sammenlikne-to-karakterer/94dd932982",
+      "artikkelId": "32347",
+      "tittel": "Hvordan lese akademiske tekster?",
+      "url": "https://ndla.no/r/mediesamfunnet-3/hvordan-lese-akademiske-tekster/5cbc7dc9d3",
       "koder": [
         {
-          "kode": "KE1602",
+          "kode": "KE1600",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "32545",
+      "tittel": "Hvordan oppsto norske dialekter?",
+      "url": "https://ndla.no/r/norsk-sf-vg3/hvordan-oppsto-norske-dialekter/bffc965e65",
+      "koder": [
+        {
+          "kode": "KE1604",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -2553,31 +2365,9 @@
       ]
     },
     {
-      "artikkelId": "14120",
-      "tittel": "Hvordan skal vi lære naturfag?",
-      "url": "https://ndla.no/r/naturfag-sf/hvordan-skal-vi-lare-naturfag/5338bb1031",
-      "koder": [
-        {
-          "kode": "KE67",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "46104",
-      "tittel": "Hvordan skrive essay?",
-      "url": "https://ndla.no/r/norsk-sf-vg2/hvordan-skrive-essay/8c34821540",
-      "koder": [
-        {
-          "kode": "KE1602",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "35549",
-      "tittel": "Hvordan skrive kortsvar om grammatikk?",
-      "url": "https://ndla.no/r/norsk-sf-vg3/hvordan-skrive-kortsvar-om-grammatikk/f7cfa48073",
+      "artikkelId": "35726",
+      "tittel": "Hvordan skrive gode kortsvar på eksamen?",
+      "url": "https://ndla.no/r/norsk-sf-vg3/hvordan-skrive-gode-kortsvar-pa-eksamen/57a67500b4",
       "koder": [
         {
           "kode": "KE1602",
@@ -2597,34 +2387,12 @@
       ]
     },
     {
-      "artikkelId": "36106",
-      "tittel": "Hvordan skrive ryddige avsnitt?",
-      "url": "https://ndla.no/r/norsk-sf-vg1/hvordan-skrive-ryddige-avsnitt/d21c7e17d1",
+      "artikkelId": "16820",
+      "tittel": "Hvorfor er kropp så viktig i sosiale medier?",
+      "url": "https://ndla.no/r/norsk-sf-vg1/hvorfor-er-kropp-sa-viktig-i-sosiale-medier/064581eb16",
       "koder": [
         {
-          "kode": "KE1602",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "26826",
-      "tittel": "Hvordan trene koordinasjon",
-      "url": "https://ndla.no/r/kroppsoving-vg1/hvordan-trene-koordinasjon/d5eebd2a5b",
-      "koder": [
-        {
-          "kode": "KE184",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "20494",
-      "tittel": "Hvordan vise til kilder i fagartikler?",
-      "url": "https://ndla.no/r/norsk-sf-vg1/hvordan-vise-til-kilder-i-fagartikler/8d4ef6ac44",
-      "koder": [
-        {
-          "kode": "KE1602",
+          "kode": "KE1600",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -2652,31 +2420,31 @@
       ]
     },
     {
-      "artikkelId": "29906",
-      "tittel": "Hvorfor laga Ivar Aasen nynorsk?",
-      "url": "https://ndla.no/r/norsk-sf-vg2/hvorfor-laga-ivar-aasen-nynorsk/fce934bd48",
+      "artikkelId": "33290",
+      "tittel": "Hvorfor modernisme?",
+      "url": "https://ndla.no/r/norsk-sf-vg3/hvorfor-modernisme/b06f28f7f6",
       "koder": [
         {
-          "kode": "KE1604",
+          "kode": "KE1599",
           "type": "kjerneelement_lk20"
         }
       ]
     },
     {
-      "artikkelId": "29724",
-      "tittel": "Hvorfor trene skadeforebyggende?",
-      "url": "https://ndla.no/r/kroppsoving-vg1/hvorfor-trene-skadeforebyggende/a378426fe5",
+      "artikkelId": "32403",
+      "tittel": "Hvorfor skreiv realistene på 1800-tallet samfunnskritisk litteratur?",
+      "url": "https://ndla.no/r/norsk-sf-vg3/hvorfor-skreiv-realistene-pa-1800-tallet-samfunnskritisk-litteratur/9a1b417e1c",
       "koder": [
         {
-          "kode": "KE183",
+          "kode": "KE1599",
           "type": "kjerneelement_lk20"
         }
       ]
     },
     {
-      "artikkelId": "31132",
-      "tittel": "Hvorfor ville Knud Knudsen fornorske dansk?",
-      "url": "https://ndla.no/r/norsk-sf-vg2/hvorfor-ville-knud-knudsen-fornorske-dansk/5483f04779",
+      "artikkelId": "36980",
+      "tittel": "Hvorfor snakker du sånn?",
+      "url": "https://ndla.no/r/norsk-sf-vg3/hvorfor-snakker-du-sann/d6326abc13",
       "koder": [
         {
           "kode": "KE1604",
@@ -2691,6 +2459,28 @@
       "koder": [
         {
           "kode": "KE71",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "36470",
+      "tittel": "Hør en podkast om Knausgård og les utdrag fra bokserien Min kamp",
+      "url": "https://ndla.no/r/norsk-sf-vg3/hor-en-podkast-om-knausgard-og-les-utdrag-fra-bokserien-min-kamp/765f005726",
+      "koder": [
+        {
+          "kode": "KE1599",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "32847",
+      "tittel": "Ibsens gåter i Gjengangere",
+      "url": "https://ndla.no/r/norsk-sf-vg3/ibsens-gater-i-gjengangere/e2b3bf23ac",
+      "koder": [
+        {
+          "kode": "KE1599",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -2718,12 +2508,34 @@
       ]
     },
     {
+      "artikkelId": "33163",
+      "tittel": "Inndelinga av norske geolekter",
+      "url": "https://ndla.no/r/norsk-sf-vg3/inndelinga-av-norske-geolekter/44f7d4fbd4",
+      "koder": [
+        {
+          "kode": "KE1604",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
       "artikkelId": "28000",
       "tittel": "Innebandy",
       "url": "https://ndla.no/e/kroppsoving-vg2/innebandy/78adcb6b09",
       "koder": [
         {
           "kode": "KE184",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "32568",
+      "tittel": "Innføring i Peer Gynt",
+      "url": "https://ndla.no/r/norsk-sf-vg3/innforing-i-peer-gynt/05f57cf3c3",
+      "koder": [
+        {
+          "kode": "KE1599",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -2736,10 +2548,6 @@
         {
           "kode": "KE68",
           "type": "kjerneelement_lk20"
-        },
-        {
-          "kode": "KE69",
-          "type": "kjerneelement_lk20"
         }
       ]
     },
@@ -2748,6 +2556,14 @@
       "tittel": "Introduksjonskurs i kart og kompass",
       "url": "https://ndla.no/r/kroppsoving-vg1/introduksjonskurs-i-kart-og-kompass/d3fc15a7d5",
       "koder": [
+        {
+          "kode": "KE183",
+          "type": "kjerneelement_lk20"
+        },
+        {
+          "kode": "KE184",
+          "type": "kjerneelement_lk20"
+        },
         {
           "kode": "KE185",
           "type": "kjerneelement_lk20"
@@ -2761,10 +2577,6 @@
       "koder": [
         {
           "kode": "KE68",
-          "type": "kjerneelement_lk20"
-        },
-        {
-          "kode": "KE69",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -2781,17 +2593,6 @@
       ]
     },
     {
-      "artikkelId": "16489",
-      "tittel": "Ivar Aasen – Språkmann, dikter og påvirker",
-      "url": "https://ndla.no/r/norsk-sf-vg2/ivar-aasen---sprakmann-dikter-og-pavirker/3d65c8acc8",
-      "koder": [
-        {
-          "kode": "KE1604",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
       "artikkelId": "25978",
       "tittel": "Ivar Aasen og landsmålet",
       "url": "https://ndla.no/r/norsk-sf-vg2/ivar-aasen-og-landsmalet/8cb35d8e63",
@@ -2803,23 +2604,12 @@
       ]
     },
     {
-      "artikkelId": "16965",
-      "tittel": "Ja visst gör det ont",
-      "url": "https://ndla.no/r/norsk-sf-vg3/ja-visst-gor-det-ont/88dbbfca0c",
+      "artikkelId": "16893",
+      "tittel": "Ja, vi elsker dette landet!",
+      "url": "https://ndla.no/r/norsk-pb/ja-vi-elsker-dette-landet/4629339aac",
       "koder": [
         {
-          "kode": "KE1599",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "16915",
-      "tittel": "Ja, vi elsker",
-      "url": "https://ndla.no/r/norsk-sf-vg2/ja-vi-elsker/857dc3f9d0",
-      "koder": [
-        {
-          "kode": "KE1599",
+          "kode": "KE1604",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -2832,25 +2622,7 @@
         {
           "kode": "KE69",
           "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "28143",
-      "tittel": "jeg vet ikke hva jeg søker",
-      "url": "https://ndla.no/r/norsk-sf-vg1/jeg-vet-ikke-hva-jeg-soker/a815e13dc7",
-      "koder": [
-        {
-          "kode": "KE1599",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "27153",
-      "tittel": "Jobb med filmen The Biggest Little Farm",
-      "url": "https://ndla.no/r/tverrfaglige-temaer/jobb-med-filmen-the-biggest-little-farm/2146169f6a",
-      "koder": [
+        },
         {
           "kode": "KE70",
           "type": "kjerneelement_lk20"
@@ -2858,34 +2630,23 @@
       ]
     },
     {
-      "artikkelId": "16580",
-      "tittel": "Jobb med personifikasjoner",
-      "url": "https://ndla.no/r/norsk-sf-vg1/jobb-med-personifikasjoner/bec3e87239",
+      "artikkelId": "30634",
+      "tittel": "Jens Stoltenberg: Et budskap fra hele Norge",
+      "url": "https://ndla.no/r/norsk-pb/jens-stoltenberg-et-budskap-fra-hele-norge/3da8da67e8",
       "koder": [
         {
-          "kode": "KE1599",
+          "kode": "KE1600",
           "type": "kjerneelement_lk20"
         }
       ]
     },
     {
-      "artikkelId": "47264",
-      "tittel": "Jobb med teksten \"Karakterboka\"",
-      "url": "https://ndla.no/r/norsk-sf-vg1/jobb-med-teksten-karakterboka/978048afb5",
+      "artikkelId": "37817",
+      "tittel": "Jobb med filmen Motvind",
+      "url": "https://ndla.no/r/forvaltning-og-drift-na-lga-vg2/jobb-med-filmen-motvind/5d6c3f02a6",
       "koder": [
         {
-          "kode": "KE1604",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "12629",
-      "tittel": "Jogging med hofterotasjon",
-      "url": "https://ndla.no/r/kroppsoving-vg1/jogging-med-hofterotasjon/053935215e",
-      "koder": [
-        {
-          "kode": "KE183",
+          "kode": "KE70",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -2902,16 +2663,27 @@
       ]
     },
     {
-      "artikkelId": "22222",
-      "tittel": "Kampen mot vindmøllene",
-      "url": "https://ndla.no/e/tverrfaglige-temaer/kampen-mot-vindmollene/51c6d7b68a",
+      "artikkelId": "34331",
+      "tittel": "Kamplyrikk",
+      "url": "https://ndla.no/r/norsk-sf-vg3/kamplyrikk/ef034fa53b",
+      "koder": [
+        {
+          "kode": "KE1599",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "24031",
+      "tittel": "Kan biotek-biff brødfø verden?",
+      "url": "https://ndla.no/r/naturbasert-naringsaktivitet-na-nab-vg1/kan-biotek-biff-brodfo-verden/a3d24256d0",
       "koder": [
         {
           "kode": "KE68",
           "type": "kjerneelement_lk20"
         },
         {
-          "kode": "KE69",
+          "kode": "KE70",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -2922,18 +2694,11 @@
       "url": "https://ndla.no/r/naturfag-pb/kan-bioteknologi-redde-verden/a432f4c32e",
       "koder": [
         {
-          "kode": "KE71",
+          "kode": "KE68",
           "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "22808",
-      "tittel": "Kan en 16-åring redde klimaet?",
-      "url": "https://ndla.no/r/tverrfaglige-temaer/kan-en-16-aring-redde-klimaet/fef676884b",
-      "koder": [
+        },
         {
-          "kode": "KE70",
+          "kode": "KE71",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -2950,34 +2715,12 @@
       ]
     },
     {
-      "artikkelId": "35038",
-      "tittel": "Kjenner du hovedområdene for norske geolekter?",
-      "url": "https://ndla.no/r/norsk-sf-vg3/kjenner-du-hovedomradene-for-norske-geolekter/6d5a198d9a",
-      "koder": [
-        {
-          "kode": "KE1604",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
       "artikkelId": "13851",
       "tittel": "Kjennetegn på en bølge",
       "url": "https://ndla.no/r/naturfag-sf/kjennetegn-pa-en-bolge/aa13d63d7e",
       "koder": [
         {
-          "kode": "KE68",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "16927",
-      "tittel": "Kjerringa mot strømmen",
-      "url": "https://ndla.no/r/norsk-pb/kjerringa-mot-strommen/1053aaf723",
-      "koder": [
-        {
-          "kode": "KE1599",
+          "kode": "KE67",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -2988,7 +2731,22 @@
       "url": "https://ndla.no/r/naturfag-pb/kjonn-og-kjonnsbundet-arv/8d1da87e6b",
       "koder": [
         {
+          "kode": "KE70",
+          "type": "kjerneelement_lk20"
+        },
+        {
           "kode": "KE71",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "23690",
+      "tittel": "Kjønnsroller i tekster",
+      "url": "https://ndla.no/e/norsk-sf-vg1/kjonnsroller-i-tekster/1a438fc85d",
+      "koder": [
+        {
+          "kode": "KE1599",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -3031,17 +2789,6 @@
       ]
     },
     {
-      "artikkelId": "29658",
-      "tittel": "Knud Knudsen, riksmålet og det ortofone prinsippet",
-      "url": "https://ndla.no/r/norsk-sf-vg2/knud-knudsen-riksmalet-og-det-ortofone-prinsippet/f5a4e90347",
-      "koder": [
-        {
-          "kode": "KE1604",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
       "artikkelId": "25545",
       "tittel": "Kodominant, intermediær og recessiv arv",
       "url": "https://ndla.no/r/naturfag-pb/kodominant-intermediar-og-recessiv-arv/d27833c70a",
@@ -3053,20 +2800,20 @@
       ]
     },
     {
-      "artikkelId": "16694",
-      "tittel": "Kommentert tekst: debattinnlegg",
-      "url": "https://ndla.no/r/norsk-sf-vg1/kommentert-tekst-debattinnlegg/2270b69832",
+      "artikkelId": "16516",
+      "tittel": "Kommunikasjon og retorikk",
+      "url": "https://ndla.no/r/norsk-sf-vg1/kommunikasjon-og-retorikk/885e4c1704",
       "koder": [
         {
-          "kode": "KE1602",
+          "kode": "KE1601",
           "type": "kjerneelement_lk20"
         }
       ]
     },
     {
-      "artikkelId": "16516",
-      "tittel": "Kommunikasjon og retorikk",
-      "url": "https://ndla.no/r/norsk-sf-vg1/kommunikasjon-og-retorikk/885e4c1704",
+      "artikkelId": "16526",
+      "tittel": "Kommunikasjonssituasjoner",
+      "url": "https://ndla.no/r/norsk-yf/kommunikasjonssituasjoner/7d70bf9a93",
       "koder": [
         {
           "kode": "KE1601",
@@ -3086,12 +2833,12 @@
       ]
     },
     {
-      "artikkelId": "25982",
-      "tittel": "Kort fortalt om plast",
-      "url": "https://ndla.no/r/tverrfaglige-temaer/kort-fortalt-om-plast/a84c2847c7",
+      "artikkelId": "16536",
+      "tittel": "Kontekst, kairos og aptum",
+      "url": "https://ndla.no/r/norsk-sf-vg2/kontekst-kairos-og-aptum/023dc87528",
       "koder": [
         {
-          "kode": "KE70",
+          "kode": "KE1600",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -3130,45 +2877,12 @@
       ]
     },
     {
-      "artikkelId": "4786",
-      "tittel": "Krav til faktaargumentasjon",
-      "url": "https://ndla.no/r/medie--og-informasjonskunnskap-2/krav-til-faktaargumentasjon/a4a713d9fd",
+      "artikkelId": "21687",
+      "tittel": "Krefter mellom partikler",
+      "url": "https://ndla.no/r/naturfag-fd/krefter-mellom-partikler/a46705aee6",
       "koder": [
         {
-          "kode": "KE1600",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "22119",
-      "tittel": "Kreativ dans",
-      "url": "https://ndla.no/r/kroppsoving-vg1/kreativ-dans/6c42c0f7df",
-      "koder": [
-        {
-          "kode": "KE184",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "34428",
-      "tittel": "Kristin Lavransdatter (utdrag)",
-      "url": "https://ndla.no/r/norsk-sf-vg3/kristin-lavransdatter-utdrag/71e885896e",
-      "koder": [
-        {
-          "kode": "KE1599",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "23271",
-      "tittel": "Kritisk tilnærming til tekst",
-      "url": "https://ndla.no/e/norsk-sf-vg1/kritisk-tilnarming-til-tekst/6ac52dd885",
-      "koder": [
-        {
-          "kode": "KE1600",
+          "kode": "KE69",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -3185,14 +2899,21 @@
       ]
     },
     {
+      "artikkelId": "23271",
+      "tittel": "Kritisk tilnærming til tekst",
+      "url": "https://ndla.no/e/norsk-sf-vg1/kritisk-tilnarming-til-tekst/6ac52dd885",
+      "koder": [
+        {
+          "kode": "KE1600",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
       "artikkelId": "36768",
       "tittel": "Kropp",
       "url": "https://ndla.no/e/kroppsoving-vg2/kropp/76949d6a6b",
       "koder": [
-        {
-          "kode": "KE183",
-          "type": "kjerneelement_lk20"
-        },
         {
           "kode": "KE184",
           "type": "kjerneelement_lk20"
@@ -3233,31 +2954,24 @@
       ]
     },
     {
-      "artikkelId": "32003",
-      "tittel": "Kroppslig læring og parkour, økt 2",
-      "url": "https://ndla.no/r/kroppsoving-vg1/kroppslig-laring-og-parkour-okt-2/6a52d85733",
+      "artikkelId": "23100",
+      "tittel": "Krysning og arv – programmering i Python",
+      "url": "https://ndla.no/r/naturfag-pb/krysning-og-arv---programmering-i-python/aaa8ae0824",
       "koder": [
         {
-          "kode": "KE184",
+          "kode": "KE68",
+          "type": "kjerneelement_lk20"
+        },
+        {
+          "kode": "KE70",
           "type": "kjerneelement_lk20"
         }
       ]
     },
     {
-      "artikkelId": "34198",
-      "tittel": "Kroppslig læring og parkour, økt 3",
-      "url": "https://ndla.no/r/kroppsoving-vg1/kroppslig-laring-og-parkour-okt-3/fd7f81220a",
-      "koder": [
-        {
-          "kode": "KE184",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "16874",
-      "tittel": "Kryonikk handler om livet",
-      "url": "https://ndla.no/r/norsk-sf-vg2/kryonikk-handler-om-livet/423ad05575",
+      "artikkelId": "34325",
+      "tittel": "Kulturkampen på 30-tallet i kontekst",
+      "url": "https://ndla.no/r/norsk-sf-vg3/kulturkampen-pa-30-tallet-i-kontekst/41d0d96dfa",
       "koder": [
         {
           "kode": "KE1599",
@@ -3266,20 +2980,9 @@
       ]
     },
     {
-      "artikkelId": "23100",
-      "tittel": "Krysning og arv – programmering i Python",
-      "url": "https://ndla.no/r/naturfag-pb/krysning-og-arv---programmering-i-python/aaa8ae0824",
-      "koder": [
-        {
-          "kode": "KE68",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "16508",
-      "tittel": "Kvensk språk",
-      "url": "https://ndla.no/r/norsk-sf-vg2/kvensk-sprak/4eb13acbf1",
+      "artikkelId": "41161",
+      "tittel": "Kurmandsji og norsk",
+      "url": "https://ndla.no/r/norsk-kort-botid-sf-vg1/kurmandsji-og-norsk/e550fda66c",
       "koder": [
         {
           "kode": "KE1603",
@@ -3288,9 +2991,20 @@
       ]
     },
     {
+      "artikkelId": "20308",
+      "tittel": "Kvikksølv i fisk og skalldyr",
+      "url": "https://ndla.no/r/naturfag-pb/kvikksolv-i-fisk-og-skalldyr/3000324e42",
+      "koder": [
+        {
+          "kode": "KE70",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
       "artikkelId": "14110",
       "tittel": "Labøvelser – e-forelesning",
-      "url": "https://ndla.no/r/naturfag-hs/labovelser---e-forelesning/09c0fa7662",
+      "url": "https://ndla.no/r/naturfag-dt/labovelser---e-forelesning/9d15da282f",
       "koder": [
         {
           "kode": "KE67",
@@ -3299,12 +3013,23 @@
       ]
     },
     {
-      "artikkelId": "22677",
-      "tittel": "Lag reklamefilm for din bærekraftige frisørsalong",
-      "url": "https://ndla.no/r/naturfag-fd/lag-reklamefilm-for-din-barekraftige-frisorsalong/d976af7fba",
+      "artikkelId": "27423",
+      "tittel": "Lag en modell som viser trådløs kommunikasjon",
+      "url": "https://ndla.no/r/naturfag-sf/lag-en-modell-som-viser-tradlos-kommunikasjon/392dfe2340",
       "koder": [
         {
-          "kode": "KE69",
+          "kode": "KE68",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "22651",
+      "tittel": "Lag merkeoversikt for salongen",
+      "url": "https://ndla.no/r/naturfag-fd/lag-merkeoversikt-for-salongen/8d20fba524",
+      "koder": [
+        {
+          "kode": "KE70",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -3317,9 +3042,27 @@
         {
           "kode": "KE183",
           "type": "kjerneelement_lk20"
-        },
+        }
+      ]
+    },
+    {
+      "artikkelId": "35301",
+      "tittel": "Lektor Rukla og Sinnapsykologen",
+      "url": "https://ndla.no/r/norsk-sf-vg3/lektor-rukla-og-sinnapsykologen/06b843ace4",
+      "koder": [
         {
-          "kode": "KE184",
+          "kode": "KE1599",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "35835",
+      "tittel": "Let's face it, norsk er i endring",
+      "url": "https://ndla.no/r/norsk-sf-vg3/lets-face-it-norsk-er-i-endring/829816a9a5",
+      "koder": [
+        {
+          "kode": "KE1604",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -3331,65 +3074,6 @@
       "koder": [
         {
           "kode": "KE68",
-          "type": "kjerneelement_lk20"
-        },
-        {
-          "kode": "KE69",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "16855",
-      "tittel": "Liti Kjersti",
-      "url": "https://ndla.no/r/norsk-sf-vg2/liti-kjersti/efe8ded485",
-      "koder": [
-        {
-          "kode": "KE1599",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "32472",
-      "tittel": "Litt av hvert om språk - podkast",
-      "url": "https://ndla.no/r/norsk-sf-vg1/litt-av-hvert-om-sprak---podkast/7af9b8740c",
-      "koder": [
-        {
-          "kode": "KE1604",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "22352",
-      "tittel": "Livsløpet til ei T-skjorte",
-      "url": "https://ndla.no/r/tverrfaglige-temaer/livslopet-til-ei-t-skjorte/8f22c19328",
-      "koder": [
-        {
-          "kode": "KE69",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "22404",
-      "tittel": "Livsløpet til materialer og produkter",
-      "url": "https://ndla.no/e/naturfag-sr/livslopet-til-materialer-og-produkter/1e3e336bfa",
-      "koder": [
-        {
-          "kode": "KE70",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "31319",
-      "tittel": "Livsstil",
-      "url": "https://ndla.no/r/kroppsoving-vg1/livsstil/b8f9e59df3",
-      "koder": [
-        {
-          "kode": "KE183",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -3411,18 +3095,7 @@
       "url": "https://ndla.no/r/naturfag-el/lokal-kamp-om-energi-og-arealer/e26c4b9648",
       "koder": [
         {
-          "kode": "KE70",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "26002",
-      "tittel": "Loke hadde glidd rett inn i Pride-paraden",
-      "url": "https://ndla.no/r/norsk-sf-vg2/loke-hadde-glidd-rett-inn-i-pride-paraden/417e4ec7b8",
-      "koder": [
-        {
-          "kode": "KE1599",
+          "kode": "KE68",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -3511,36 +3184,6 @@
         {
           "kode": "KE68",
           "type": "kjerneelement_lk20"
-        },
-        {
-          "kode": "KE69",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "27549",
-      "tittel": "Lyden av en morder: Hvem drepte Sir Earnest?",
-      "url": "https://ndla.no/r/naturfag-sf/lyden-av-en-morder-hvem-drepte-sir-earnest/6c3c0a2e6f",
-      "koder": [
-        {
-          "kode": "KE68",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "22130",
-      "tittel": "Lys, lyd og bølgefenomen",
-      "url": "https://ndla.no/e/naturfag-im/lys-lyd-og-bolgefenomen/0ec153bd9b",
-      "koder": [
-        {
-          "kode": "KE68",
-          "type": "kjerneelement_lk20"
-        },
-        {
-          "kode": "KE69",
-          "type": "kjerneelement_lk20"
         }
       ]
     },
@@ -3561,7 +3204,7 @@
       "url": "https://ndla.no/r/verktoykassa---for-elever/lokker-med-kodeordet-for/1a6f55e31f",
       "koder": [
         {
-          "kode": "KE68",
+          "kode": "KE67",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -3572,7 +3215,7 @@
       "url": "https://ndla.no/r/verktoykassa---for-elever/lokker-med-kodeordet-while/c767b1678f",
       "koder": [
         {
-          "kode": "KE68",
+          "kode": "KE67",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -3589,12 +3232,12 @@
       ]
     },
     {
-      "artikkelId": "12627",
-      "tittel": "Løping",
-      "url": "https://ndla.no/e/kroppsoving-vg1/loping/6f6455dbb6",
+      "artikkelId": "34288",
+      "tittel": "Løs mordgåten i Jante",
+      "url": "https://ndla.no/r/norsk-sf-vg3/los-mordgaten-i-jante/da8c8637e1",
       "koder": [
         {
-          "kode": "KE183",
+          "kode": "KE1599",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -3622,21 +3265,6 @@
       ]
     },
     {
-      "artikkelId": "22118",
-      "tittel": "Materialer",
-      "url": "https://ndla.no/e/naturfag-tp/materialer/17e0b3f5bb",
-      "koder": [
-        {
-          "kode": "KE67",
-          "type": "kjerneelement_lk20"
-        },
-        {
-          "kode": "KE69",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
       "artikkelId": "23258",
       "tittel": "Medisinsk bruk av stråling – e-forelesning",
       "url": "https://ndla.no/r/naturfag-sf/medisinsk-bruk-av-straling---e-forelesning/be8b590819",
@@ -3648,12 +3276,12 @@
       ]
     },
     {
-      "artikkelId": "21739",
-      "tittel": "Memory – begreper om arvestoff",
-      "url": "https://ndla.no/r/naturfag-pb/memory---begreper-om-arvestoff/2e1a5bc965",
+      "artikkelId": "26173",
+      "tittel": "Memento mori",
+      "url": "https://ndla.no/e/norsk-sf-vg2/memento-mori/d1b23b1fc8",
       "koder": [
         {
-          "kode": "KE70",
+          "kode": "KE1599",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -3681,38 +3309,12 @@
       ]
     },
     {
-      "artikkelId": "34455",
-      "tittel": "Midt i byen",
-      "url": "https://ndla.no/r/norsk-sf-vg3/midt-i-byen/bad1845689",
-      "koder": [
-        {
-          "kode": "KE1599",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
       "artikkelId": "23723",
       "tittel": "Mikroorganismer",
-      "url": "https://ndla.no/e/naturfag-rm/mikroorganismer/b0f0635e83",
+      "url": "https://ndla.no/e/naturfag-hs/mikroorganismer/863f13424a",
       "koder": [
         {
           "kode": "KE71",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "26017",
-      "tittel": "Mikroplast fra klær?",
-      "url": "https://ndla.no/r/produktutvikling-og-skapende-prosesser-dt-dth-vg1/mikroplast-fra-klar/60e2ff7c09",
-      "koder": [
-        {
-          "kode": "KE69",
-          "type": "kjerneelement_lk20"
-        },
-        {
-          "kode": "KE70",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -3734,30 +3336,37 @@
       "url": "https://ndla.no/e/naturfag-pb/miljogifter/c084eb8174",
       "koder": [
         {
-          "kode": "KE69",
-          "type": "kjerneelement_lk20"
-        },
-        {
           "kode": "KE71",
           "type": "kjerneelement_lk20"
         }
       ]
     },
     {
-      "artikkelId": "22663",
-      "tittel": "Min bærekraftige frisørsalong",
-      "url": "https://ndla.no/r/produktutvikling-og-produksjon-fd-fbi-vg1/min-barekraftige-frisorsalong/c296cef4f6",
+      "artikkelId": "23887",
+      "tittel": "Modelltekst retorisk analyse",
+      "url": "https://ndla.no/r/norsk-sf-vg1/modelltekst-retorisk-analyse/3074631416",
       "koder": [
         {
-          "kode": "KE70",
+          "kode": "KE1600",
           "type": "kjerneelement_lk20"
         }
       ]
     },
     {
-      "artikkelId": "16873",
-      "tittel": "Mitt verdensbilde",
-      "url": "https://ndla.no/r/norsk-sf-vg2/mitt-verdensbilde/64e7d28665",
+      "artikkelId": "46216",
+      "tittel": "Modelltekst: retorisk analyse av kronikk",
+      "url": "https://ndla.no/r/norsk-pb/modelltekst-retorisk-analyse-av-kronikk/e726954a35",
+      "koder": [
+        {
+          "kode": "KE1600",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "32528",
+      "tittel": "Modernisme",
+      "url": "https://ndla.no/e/norsk-pb/modernisme/be6af2da2b",
       "koder": [
         {
           "kode": "KE1599",
@@ -3766,56 +3375,12 @@
       ]
     },
     {
-      "artikkelId": "13625",
-      "tittel": "Modeller",
-      "url": "https://ndla.no/r/naturfag-pb/modeller/fe1b9b3cf1",
+      "artikkelId": "33429",
+      "tittel": "Modernisme 1900–1945",
+      "url": "https://ndla.no/e/norsk-pb/modernisme-1900-1945/e4ca07422e",
       "koder": [
         {
-          "kode": "KE68",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "24372",
-      "tittel": "Modelltekst: lyrikkanalyse",
-      "url": "https://ndla.no/r/norsk-sf-vg1/modelltekst-lyrikkanalyse/8c1ab237c1",
-      "koder": [
-        {
-          "kode": "KE1602",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "23751",
-      "tittel": "Modelltekst: Novelleanalyse av \"Blodspor\"",
-      "url": "https://ndla.no/r/norsk-sf-vg1/modelltekst-novelleanalyse-av-blodspor/a9c79ac3b4",
-      "koder": [
-        {
-          "kode": "KE1602",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "21230",
-      "tittel": "Morsmålet er nøkkelen til hjertet",
-      "url": "https://ndla.no/r/norsk-sf-vg1/morsmalet-er-nokkelen-til-hjertet/6117e3e7fc",
-      "koder": [
-        {
-          "kode": "KE1604",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "23264",
-      "tittel": "Muntlig kommunikasjon",
-      "url": "https://ndla.no/e/norsk-pb/muntlig-kommunikasjon/87c016ac6a",
-      "koder": [
-        {
-          "kode": "KE1601",
+          "kode": "KE1599",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -3832,9 +3397,9 @@
       ]
     },
     {
-      "artikkelId": "21324",
-      "tittel": "Muntlig kommunikasjon på jobb",
-      "url": "https://ndla.no/r/norsk-yf/muntlig-kommunikasjon-pa-jobb/4c8470e86f",
+      "artikkelId": "23264",
+      "tittel": "Muntlig kommunikasjon",
+      "url": "https://ndla.no/e/norsk-pb/muntlig-kommunikasjon/87c016ac6a",
       "koder": [
         {
           "kode": "KE1601",
@@ -3843,45 +3408,34 @@
       ]
     },
     {
-      "artikkelId": "34791",
-      "tittel": "Myrstrå vipper",
-      "url": "https://ndla.no/r/norsk-sf-vg3/myrstra-vipper/92cd52617c",
+      "artikkelId": "20683",
+      "tittel": "Muntlig kommunikasjon – ekstern",
+      "url": "https://ndla.no/r/norsk-yf/muntlig-kommunikasjon---ekstern/5a9b02ad1e",
       "koder": [
         {
-          "kode": "KE1599",
+          "kode": "KE1601",
           "type": "kjerneelement_lk20"
         }
       ]
     },
     {
-      "artikkelId": "34898",
-      "tittel": "Mørk saga (prolog til oljealderen)",
-      "url": "https://ndla.no/r/norsk-sf-vg3/mork-saga-prolog-til-oljealderen/7bd1563e04",
+      "artikkelId": "30178",
+      "tittel": "Målsetting og motivasjon",
+      "url": "https://ndla.no/r/kroppsoving-vg1/malsetting-og-motivasjon/e54c4806f5",
       "koder": [
         {
-          "kode": "KE1599",
+          "kode": "KE183",
           "type": "kjerneelement_lk20"
         }
       ]
     },
     {
-      "artikkelId": "36329",
-      "tittel": "Naturen er din mester",
-      "url": "https://ndla.no/r/norsk-sf-vg2/naturen-er-din-mester/f59dcf558f",
+      "artikkelId": "32695",
+      "tittel": "Naturen og mennesket",
+      "url": "https://ndla.no/e/norsk-sf-vg3/naturen-og-mennesket/444f7d23f6",
       "koder": [
         {
           "kode": "KE1599",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "36299",
-      "tittel": "Naturen i samisk kultur",
-      "url": "https://ndla.no/r/kroppsoving-vg1/naturen-i-samisk-kultur/0d416fcb6e",
-      "koder": [
-        {
-          "kode": "KE185",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -3892,19 +3446,15 @@
       "url": "https://ndla.no/e/kroppsoving-vg3/naturferdsel/cd8511971f",
       "koder": [
         {
-          "kode": "KE184",
-          "type": "kjerneelement_lk20"
-        },
-        {
           "kode": "KE185",
           "type": "kjerneelement_lk20"
         }
       ]
     },
     {
-      "artikkelId": "21966",
+      "artikkelId": "21965",
       "tittel": "Naturvitenskap",
-      "url": "https://ndla.no/e/naturfag-sf/naturvitenskap/75cc366e5a",
+      "url": "https://ndla.no/e/naturfag-im/naturvitenskap/fd8b4f5768",
       "koder": [
         {
           "kode": "KE67",
@@ -3917,9 +3467,9 @@
       ]
     },
     {
-      "artikkelId": "21965",
+      "artikkelId": "21966",
       "tittel": "Naturvitenskap",
-      "url": "https://ndla.no/e/naturfag-im/naturvitenskap/fd8b4f5768",
+      "url": "https://ndla.no/e/naturfag-sf/naturvitenskap/75cc366e5a",
       "koder": [
         {
           "kode": "KE55",
@@ -3939,45 +3489,12 @@
       ]
     },
     {
-      "artikkelId": "30957",
-      "tittel": "Ni tips til fagsamtalen om språk",
-      "url": "https://ndla.no/r/norsk-sf-vg2/ni-tips-til-fagsamtalen-om-sprak/d5f7b1b9d8",
+      "artikkelId": "29389",
+      "tittel": "Norrønt – et kasusspråk",
+      "url": "https://ndla.no/r/norsk-sf-vg2/norront---et-kasussprak/9b2a93c574",
       "koder": [
         {
-          "kode": "KE1601",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "16490",
-      "tittel": "Nordmannen",
-      "url": "https://ndla.no/r/norsk-sf-vg2/nordmannen/56b25624c8",
-      "koder": [
-        {
-          "kode": "KE1599",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "16943",
-      "tittel": "Norge i fløtesaus",
-      "url": "https://ndla.no/r/norsk-sf-vg2/norge-i-flotesaus/e24cfe2211",
-      "koder": [
-        {
-          "kode": "KE1599",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "16904",
-      "tittel": "Norges Dæmring",
-      "url": "https://ndla.no/r/norsk-sf-vg2/norges-damring/12b4439759",
-      "koder": [
-        {
-          "kode": "KE1599",
+          "kode": "KE1603",
           "type": "kjerneelement_lk20"
         },
         {
@@ -3987,9 +3504,20 @@
       ]
     },
     {
-      "artikkelId": "24524",
-      "tittel": "Norsk dialektmangfold i fare?",
-      "url": "https://ndla.no/r/norsk-sf-vg1/norsk-dialektmangfold-i-fare/f88e74d412",
+      "artikkelId": "36056",
+      "tittel": "Norsk grammatikk og norske lyder i framtida",
+      "url": "https://ndla.no/r/norsk-sf-vg3/norsk-grammatikk-og-norske-lyder-i-framtida/0659e4a083",
+      "koder": [
+        {
+          "kode": "KE1604",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "34118",
+      "tittel": "Norsk vokabular i framtida",
+      "url": "https://ndla.no/r/norsk-sf-vg3/norsk-vokabular-i-framtida/f55ddb44d0",
       "koder": [
         {
           "kode": "KE1604",
@@ -4003,18 +3531,18 @@
       "url": "https://ndla.no/r/verktoykassa---for-elever/numeriske-tabeller-med-linspace-tilleggsmoduler/af6764d011",
       "koder": [
         {
-          "kode": "KE68",
+          "kode": "KE67",
           "type": "kjerneelement_lk20"
         }
       ]
     },
     {
-      "artikkelId": "29637",
-      "tittel": "Nynorskforakt?",
-      "url": "https://ndla.no/r/norsk-sf-vg2/nynorskforakt/381f155b6f",
+      "artikkelId": "24556",
+      "tittel": "Nye arter utvikles",
+      "url": "https://ndla.no/r/naturfag-pb/nye-arter-utvikles/100ad6ab38",
       "koder": [
         {
-          "kode": "KE1604",
+          "kode": "KE70",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -4024,6 +3552,10 @@
       "tittel": "Næringskjeder, næringsnett og stoffkretsløp",
       "url": "https://ndla.no/r/naturfag-sf/naringskjeder-naringsnett-og-stoffkretslop/e1bb5fefc1",
       "koder": [
+        {
+          "kode": "KE70",
+          "type": "kjerneelement_lk20"
+        },
         {
           "kode": "KE57",
           "type": "kjerneelement_lk20"
@@ -4046,42 +3578,9 @@
       ]
     },
     {
-      "artikkelId": "45191",
-      "tittel": "Nærles to dikt",
-      "url": "https://ndla.no/r/norsk-kort-botid-yf/narles-to-dikt/244d4c9edc",
-      "koder": [
-        {
-          "kode": "KE1602",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "16768",
-      "tittel": "Nærlesing av to dikt om byen",
-      "url": "https://ndla.no/r/norsk-sf-vg3/narlesing-av-to-dikt-om-byen/94d6b1bf2e",
-      "koder": [
-        {
-          "kode": "KE1602",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "20316",
-      "tittel": "Når språk møtes",
-      "url": "https://ndla.no/r/norsk-sf-vg2/nar-sprak-motes/a15d4572dd",
-      "koder": [
-        {
-          "kode": "KE1604",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "33172",
-      "tittel": "Oliver Twist (utdrag)",
-      "url": "https://ndla.no/r/norsk-sf-vg3/oliver-twist-utdrag/406f084220",
+      "artikkelId": "35309",
+      "tittel": "Når minoriteten beskriver majoriteten",
+      "url": "https://ndla.no/r/norsk-sf-vg3/nar-minoriteten-beskriver-majoriteten/03c134aa7d",
       "koder": [
         {
           "kode": "KE1599",
@@ -4099,11 +3598,30 @@
           "type": "kjerneelement_lk20"
         },
         {
+          "kode": "KE1599",
+          "type": "kjerneelement_lk20"
+        },
+        {
           "kode": "KE1601",
           "type": "kjerneelement_lk20"
         },
         {
           "kode": "KE1603",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "24670",
+      "tittel": "Om fair play",
+      "url": "https://ndla.no/r/kroppsoving-vg1/om-fair-play/94c309e422",
+      "koder": [
+        {
+          "kode": "KE183",
+          "type": "kjerneelement_lk20"
+        },
+        {
+          "kode": "KE184",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -4146,38 +3664,12 @@
       ]
     },
     {
-      "artikkelId": "29656",
-      "tittel": "Om skriftspråket vårt",
-      "url": "https://ndla.no/r/norsk-sf-vg2/om-skriftspraket-vart/298ec373d0",
+      "artikkelId": "37859",
+      "tittel": "Om pickleball",
+      "url": "https://ndla.no/r/kroppsoving-vg1/om-pickleball/b34e56e85a",
       "koder": [
-        {
-          "kode": "KE1604",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "12554",
-      "tittel": "Om turn",
-      "url": "https://ndla.no/r/kroppsoving-vg1/om-turn/bbe20ff3ca",
-      "koder": [
-        {
-          "kode": "KE183",
-          "type": "kjerneelement_lk20"
-        },
         {
           "kode": "KE184",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "16496",
-      "tittel": "Om vort Skriftsprog",
-      "url": "https://ndla.no/r/norsk-sf-vg2/om-vort-skriftsprog/370201749e",
-      "koder": [
-        {
-          "kode": "KE1599",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -4187,6 +3679,10 @@
       "tittel": "Omsettingsøving 2",
       "url": "https://ndla.no/r/norsk-sf-vg1/omsettingsoving-2/33c9da7d84",
       "koder": [
+        {
+          "kode": "KE1602",
+          "type": "kjerneelement_lk20"
+        },
         {
           "kode": "KE1603",
           "type": "kjerneelement_lk20"
@@ -4199,6 +3695,10 @@
       "url": "https://ndla.no/r/norsk-sf-vg1/omsettingsoving-3/44a159df40",
       "koder": [
         {
+          "kode": "KE1602",
+          "type": "kjerneelement_lk20"
+        },
+        {
           "kode": "KE1603",
           "type": "kjerneelement_lk20"
         }
@@ -4210,18 +3710,11 @@
       "url": "https://ndla.no/r/norsk-sf-vg1/omsettingsoving-6/bfb65379ac",
       "koder": [
         {
-          "kode": "KE1603",
+          "kode": "KE1602",
           "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "22475",
-      "tittel": "Oppdrag: Handlenett av bomull forbys!",
-      "url": "https://ndla.no/r/tverrfaglige-temaer/oppdrag-handlenett-av-bomull-forbys/a9a5c9b60b",
-      "koder": [
+        },
         {
-          "kode": "KE70",
+          "kode": "KE1603",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -4234,10 +3727,6 @@
         {
           "kode": "KE68",
           "type": "kjerneelement_lk20"
-        },
-        {
-          "kode": "KE69",
-          "type": "kjerneelement_lk20"
         }
       ]
     },
@@ -4248,17 +3737,6 @@
       "koder": [
         {
           "kode": "KE71",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "27009",
-      "tittel": "Oppsummeringsoppgaver om arvestoff og celler",
-      "url": "https://ndla.no/r/naturfag-pb/oppsummeringsoppgaver-om-arvestoff-og-celler/92036999f8",
-      "koder": [
-        {
-          "kode": "KE70",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -4280,7 +3758,18 @@
       "url": "https://ndla.no/r/naturfag-sf/oppsummeringsoppgaver-lys-lyd-og-bolgefenomen/900e13f216",
       "koder": [
         {
-          "kode": "KE68",
+          "kode": "KE69",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "12626",
+      "tittel": "Oppvarming",
+      "url": "https://ndla.no/e/kroppsoving-vg1/oppvarming/be985583fb",
+      "koder": [
+        {
+          "kode": "KE183",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -4290,10 +3779,6 @@
       "tittel": "Oppvarming",
       "url": "https://ndla.no/e/kroppsoving-vg3/oppvarming/67a3c8f87e",
       "koder": [
-        {
-          "kode": "KE183",
-          "type": "kjerneelement_lk20"
-        },
         {
           "kode": "KE184",
           "type": "kjerneelement_lk20"
@@ -4307,17 +3792,6 @@
       "koder": [
         {
           "kode": "KE1",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "23256",
-      "tittel": "Ordklasser",
-      "url": "https://ndla.no/e/norsk-yf/ordklasser/1868e42562",
-      "koder": [
-        {
-          "kode": "KE1603",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -4338,6 +3812,17 @@
       ]
     },
     {
+      "artikkelId": "31321",
+      "tittel": "Overbevis med god stil",
+      "url": "https://ndla.no/r/norsk-sf-vg2/overbevis-med-god-stil/43c2e0b732",
+      "koder": [
+        {
+          "kode": "KE1601",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
       "artikkelId": "20468",
       "tittel": "Pakking av ryggsekk",
       "url": "https://ndla.no/r/kroppsoving-vg1/pakking-av-ryggsekk/bd4bbdc13a",
@@ -4349,36 +3834,10 @@
       ]
     },
     {
-      "artikkelId": "36451",
-      "tittel": "Pan (utdrag)",
-      "url": "https://ndla.no/r/norsk-sf-vg3/pan-utdrag/e816cf7b61",
-      "koder": [
-        {
-          "kode": "KE1599",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
       "artikkelId": "22179",
       "tittel": "Papirballstafett",
       "url": "https://ndla.no/r/kroppsoving-vg1/papirballstafett/f3aac8d16f",
       "koder": [
-        {
-          "kode": "KE184",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "32004",
-      "tittel": "Parkour",
-      "url": "https://ndla.no/e/kroppsoving-vg3/parkour/f9d2bbbb98",
-      "koder": [
-        {
-          "kode": "KE183",
-          "type": "kjerneelement_lk20"
-        },
         {
           "kode": "KE184",
           "type": "kjerneelement_lk20"
@@ -4402,33 +3861,11 @@
       "url": "https://ndla.no/r/kroppsoving-vg1/plast-i-naturen---plogging/2ad70cadd2",
       "koder": [
         {
-          "kode": "KE185",
+          "kode": "KE183",
           "type": "kjerneelement_lk20"
         },
         {
-          "kode": "KE70",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "25972",
-      "tittel": "Plast og emballasje i kokk- og servitørfag",
-      "url": "https://ndla.no/r/ravare-produksjon-salg-og-service-rm-kos-vg2/plast-og-emballasje-i-kokk--og-servitorfag/7d0e6f4ca6",
-      "koder": [
-        {
-          "kode": "KE70",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "25689",
-      "tittel": "Plasten – populær og problematisk",
-      "url": "https://ndla.no/e/tverrfaglige-temaer/plasten---popular-og-problematisk/4cfd5862af",
-      "koder": [
-        {
-          "kode": "KE70",
+          "kode": "KE185",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -4438,10 +3875,6 @@
       "tittel": "Podkast om fysisk aktivitet",
       "url": "https://ndla.no/r/kroppsoving-vg1/podkast-om-fysisk-aktivitet/4e8ad70845",
       "koder": [
-        {
-          "kode": "KE183",
-          "type": "kjerneelement_lk20"
-        },
         {
           "kode": "KE184",
           "type": "kjerneelement_lk20"
@@ -4455,29 +3888,7 @@
     {
       "artikkelId": "36272",
       "tittel": "Podkast om kosthold og ernæring",
-      "url": "https://ndla.no/r/naturfag-hs/podkast-om-kosthold-og-ernaring/dce555f960",
-      "koder": [
-        {
-          "kode": "KE183",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "28018",
-      "tittel": "Podkast om styrketrening",
-      "url": "https://ndla.no/r/kroppsoving-vg1/podkast-om-styrketrening/82450904f9",
-      "koder": [
-        {
-          "kode": "KE183",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "28014",
-      "tittel": "Podkast om utholdenhet",
-      "url": "https://ndla.no/r/kroppsoving-vg2/podkast-om-utholdenhet/6a593d7897",
+      "url": "https://ndla.no/r/kroppsoving-vg1/podkast-om-kosthold-og-ernaring/e5254f31c7",
       "koder": [
         {
           "kode": "KE183",
@@ -4490,10 +3901,6 @@
       "tittel": "Podkast: friluftsliv",
       "url": "https://ndla.no/r/kroppsoving-vg1/podkast-friluftsliv/d97b07e4d7",
       "koder": [
-        {
-          "kode": "KE183",
-          "type": "kjerneelement_lk20"
-        },
         {
           "kode": "KE185",
           "type": "kjerneelement_lk20"
@@ -4527,17 +3934,6 @@
       ]
     },
     {
-      "artikkelId": "29862",
-      "tittel": "Presentasjonsformen PechaKucha",
-      "url": "https://ndla.no/r/verktoykassa---for-elever/presentasjonsformen-pechakucha/57c9933fdb",
-      "koder": [
-        {
-          "kode": "KE1601",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
       "artikkelId": "21143",
       "tittel": "Presenter løsninga di på et bærekraftsproblem",
       "url": "https://ndla.no/r/norsk-yf/presenter-losninga-di-pa-et-barekraftsproblem/ecb9933fab",
@@ -4554,15 +3950,26 @@
       "url": "https://ndla.no/r/verktoykassa---for-elever/programmer-som-tar-imot-brukerdata-input/545464e3f0",
       "koder": [
         {
+          "kode": "KE67",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "22400",
+      "tittel": "Programmering",
+      "url": "https://ndla.no/e/naturfag-sf/programmering/c8818f3372",
+      "koder": [
+        {
           "kode": "KE68",
           "type": "kjerneelement_lk20"
         }
       ]
     },
     {
-      "artikkelId": "23293",
-      "tittel": "Programmering med egendefinerte funksjoner",
-      "url": "https://ndla.no/r/verktoykassa---for-elever/programmering-med-egendefinerte-funksjoner/2bfc6fcadb",
+      "artikkelId": "23792",
+      "tittel": "Programmering i naturfag",
+      "url": "https://ndla.no/e/naturfag-sf/programmering-i-naturfag/a3ea925f2a",
       "koder": [
         {
           "kode": "KE68",
@@ -4617,7 +4024,7 @@
     {
       "artikkelId": "23065",
       "tittel": "Proteiner – e-forelesning",
-      "url": "https://ndla.no/r/naturfag-fd/proteiner---e-forelesning/4c49d5acec",
+      "url": "https://ndla.no/r/naturfag-dt/proteiner---e-forelesning/c73f0a805c",
       "koder": [
         {
           "kode": "KE71",
@@ -4632,6 +4039,80 @@
       "koder": [
         {
           "kode": "KE68",
+          "type": "kjerneelement_lk20"
+        },
+        {
+          "kode": "KE70",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "26913",
+      "tittel": "På jakt etter fremmede arter",
+      "url": "https://ndla.no/r/naturfag-sf/pa-jakt-etter-fremmede-arter/3f44011204",
+      "koder": [
+        {
+          "kode": "KE70",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "24523",
+      "tittel": "Radiosignaler",
+      "url": "https://ndla.no/r/teknologiforstaelse-im-ikm-vg1/radiosignaler/a9c5e95737",
+      "koder": [
+        {
+          "kode": "KE68",
+          "type": "kjerneelement_lk20"
+        },
+        {
+          "kode": "KE69",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "10645",
+      "tittel": "Rapportmal",
+      "url": "https://ndla.no/r/naturfag-sf/rapportmal/8b73525160",
+      "koder": [
+        {
+          "kode": "KE68",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "38621",
+      "tittel": "Rask håndskrift",
+      "url": "https://ndla.no/r/norsk-kort-botid-yf/rask-handskrift/e6b40f2dab",
+      "koder": [
+        {
+          "kode": "KE1602",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "34265",
+      "tittel": "Realistisk litteratur i Norge 1900–1945",
+      "url": "https://ndla.no/e/norsk-pb/realistisk-litteratur-i-norge-1900-1945/c0274ece3d",
+      "koder": [
+        {
+          "kode": "KE1599",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "12595",
+      "tittel": "Reinlender",
+      "url": "https://ndla.no/r/kroppsoving-vg1/reinlender/6264da026e",
+      "koder": [
+        {
+          "kode": "KE184",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -4663,23 +4144,16 @@
       ]
     },
     {
-      "artikkelId": "35376",
-      "tittel": "Retorisk situasjon i endring",
-      "url": "https://ndla.no/r/norsk-pb/retorisk-situasjon-i-endring/552f4e6980",
-      "koder": [
-        {
-          "kode": "KE1600",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
       "artikkelId": "22481",
       "tittel": "Rettferdig pris på klær",
       "url": "https://ndla.no/r/naturfag-dt/rettferdig-pris-pa-klar/30ea7ab5e4",
       "koder": [
         {
           "kode": "KE69",
+          "type": "kjerneelement_lk20"
+        },
+        {
+          "kode": "KE70",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -4703,6 +4177,21 @@
         {
           "kode": "KE1601",
           "type": "kjerneelement_lk20"
+        },
+        {
+          "kode": "KE1603",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "23013",
+      "tittel": "Roller og rammer for kommunikasjon på jobb",
+      "url": "https://ndla.no/r/norsk-yf/roller-og-rammer-for-kommunikasjon-pa-jobb/1dc2656afe",
+      "koder": [
+        {
+          "kode": "KE1601",
+          "type": "kjerneelement_lk20"
         }
       ]
     },
@@ -4712,22 +4201,7 @@
       "url": "https://ndla.no/r/naturbasert-naringsaktivitet-na-nab-vg1/rollespill---debatt-interessekonflikter/996a5ae455",
       "koder": [
         {
-          "kode": "KE67",
-          "type": "kjerneelement_lk20"
-        },
-        {
           "kode": "KE71",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "16492",
-      "tittel": "Rollespill om språkdebatten på 1800-tallet",
-      "url": "https://ndla.no/r/norsk-sf-vg2/rollespill-om-sprakdebatten-pa-1800-tallet/b900ac9ba5",
-      "koder": [
-        {
-          "kode": "KE1604",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -4744,9 +4218,9 @@
       ]
     },
     {
-      "artikkelId": "26314",
-      "tittel": "Sagaen om Floafolket",
-      "url": "https://ndla.no/r/norsk-sf-vg2/sagaen-om-floafolket/78310bb94a",
+      "artikkelId": "17115",
+      "tittel": "Rudolf Nilsen – en ekte østkantdikter",
+      "url": "https://ndla.no/r/norsk-sf-vg3/rudolf-nilsen---en-ekte-ostkantdikter/c4ad4243c7",
       "koder": [
         {
           "kode": "KE1599",
@@ -4755,56 +4229,149 @@
       ]
     },
     {
-      "artikkelId": "21190",
-      "tittel": "Samisk i dag",
-      "url": "https://ndla.no/r/norsk-sf-vg1/samisk-i-dag/aed512c0ef",
-      "koder": [
-        {
-          "kode": "KE1604",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "41793",
-      "tittel": "Samiske språk",
-      "url": "https://ndla.no/r/norsk-kort-botid-yf/samiske-sprak/ff30213bb3",
-      "koder": [
-        {
-          "kode": "KE1604",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "21140",
-      "tittel": "Samiske språk",
-      "url": "https://ndla.no/r/norsk-sf-vg1/samiske-sprak/27bdb6ce15",
-      "koder": [
-        {
-          "kode": "KE1604",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "46362",
-      "tittel": "Se nærmere på en lyrikkanalyse",
-      "url": "https://ndla.no/r/norsk-sf-vg1/se-narmere-pa-en-lyrikkanalyse/bf935c8a6e",
-      "koder": [
-        {
-          "kode": "KE1602",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "46592",
-      "tittel": "Se nærmere på en reklameanalyse",
-      "url": "https://ndla.no/r/norsk-sf-vg1/se-narmere-pa-en-reklameanalyse/4306af126a",
+      "artikkelId": "31470",
+      "tittel": "Russelåter og kvinnesyn",
+      "url": "https://ndla.no/r/norsk-sf-vg2/russelater-og-kvinnesyn/a2a268345a",
       "koder": [
         {
           "kode": "KE1600",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "12809",
+      "tittel": "Rygghev med medisinball",
+      "url": "https://ndla.no/r/kroppsoving-vg1/rygghev-med-medisinball/a0e54b5d45",
+      "koder": [
+        {
+          "kode": "KE183",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "25306",
+      "tittel": "Ryggrulle",
+      "url": "https://ndla.no/r/kroppsoving-vg1/ryggrulle/9b5e2e72f1",
+      "koder": [
+        {
+          "kode": "KE183",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "12737",
+      "tittel": "Ryggstrekker og kappemuskelen",
+      "url": "https://ndla.no/r/kroppsoving-vg1/ryggstrekker-og-kappemuskelen/e8ae4cf477",
+      "koder": [
+        {
+          "kode": "KE183",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "34577",
+      "tittel": "Sammenlikn natursynet i Pan og to moderne tekster",
+      "url": "https://ndla.no/r/norsk-sf-vg3/sammenlikn-natursynet-i-pan-og-to-moderne-tekster/5966200665",
+      "koder": [
+        {
+          "kode": "KE1599",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "32671",
+      "tittel": "Sammensatte tekster",
+      "url": "https://ndla.no/e/norsk-sf-vg3/sammensatte-tekster/34caff24c8",
+      "koder": [
+        {
+          "kode": "KE1599",
+          "type": "kjerneelement_lk20"
+        },
+        {
+          "kode": "KE1603",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "32943",
+      "tittel": "Sammensatte tekster",
+      "url": "https://ndla.no/e/norsk-pb/sammensatte-tekster/3b89e7bac8",
+      "koder": [
+        {
+          "kode": "KE1599",
+          "type": "kjerneelement_lk20"
+        },
+        {
+          "kode": "KE1603",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "12596",
+      "tittel": "Seksmannsril",
+      "url": "https://ndla.no/r/kroppsoving-vg1/seksmannsril/01d7b8f0d3",
+      "koder": [
+        {
+          "kode": "KE184",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "33272",
+      "tittel": "Sentrale norske målmerker",
+      "url": "https://ndla.no/r/norsk-sf-vg3/sentrale-norske-malmerker/567ea354e3",
+      "koder": [
+        {
+          "kode": "KE1604",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "39055",
+      "tittel": "Setningsadverbial på norsk og førstespråket ditt",
+      "url": "https://ndla.no/r/norsk-kort-botid-sf-vg1/setningsadverbial-pa-norsk-og-forstespraket-ditt/1c7ae48bd9",
+      "koder": [
+        {
+          "kode": "KE1603",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "22373",
+      "tittel": "Si din mening!",
+      "url": "https://ndla.no/r/tverrfaglige-temaer/si-din-mening/1051c111bb",
+      "koder": [
+        {
+          "kode": "KE1601",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "13973",
+      "tittel": "Simulering: Forsøk med galvanisk element",
+      "url": "https://ndla.no/r/naturfag-el/forsok-galvanisk-element-simulering/8b719c610e",
+      "koder": [
+        {
+          "kode": "KE67",
+          "type": "kjerneelement_lk20"
+        },
+        {
+          "kode": "KE68",
+          "type": "kjerneelement_lk20"
+        },
+        {
+          "kode": "KE69",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -4814,10 +4381,6 @@
       "tittel": "Simulering: Fra DNA til protein",
       "url": "https://ndla.no/r/naturfag-pb/simulering-fra-dna-til-protein/cbf250439e",
       "koder": [
-        {
-          "kode": "KE70",
-          "type": "kjerneelement_lk20"
-        },
         {
           "kode": "KE71",
           "type": "kjerneelement_lk20"
@@ -4845,37 +4408,30 @@
       "url": "https://ndla.no/r/naturfag-sf/simulering-halveringstid/2f8b1cc05e",
       "koder": [
         {
+          "kode": "KE69",
+          "type": "kjerneelement_lk20"
+        },
+        {
           "kode": "KE71",
           "type": "kjerneelement_lk20"
         }
       ]
     },
     {
-      "artikkelId": "14013",
-      "tittel": "Simulering: Proteiner i hydrofile og hydrofobe omgivelser",
-      "url": "https://ndla.no/r/naturfag-pb/simulering-proteiner-i-hydrofile-og-hydrofobe-omgivelser/713ed45bd4",
+      "artikkelId": "34521",
+      "tittel": "Skriv essay om kropp i tekst",
+      "url": "https://ndla.no/r/norsk-sf-vg3/skriv-essay-om-kropp-i-tekst/5595dd7929",
       "koder": [
         {
-          "kode": "KE69",
+          "kode": "KE1600",
           "type": "kjerneelement_lk20"
         }
       ]
     },
     {
-      "artikkelId": "29559",
-      "tittel": "Skje eller skei? Lyd eller ljod? Er det så nøye, da?",
-      "url": "https://ndla.no/r/norsk-sf-vg2/skje-eller-skei-lyd-eller-ljod-er-det-sa-noye-da/8c2276b075",
-      "koder": [
-        {
-          "kode": "KE1604",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "36286",
-      "tittel": "Skriv et essay om algoritmer i sosiale medier",
-      "url": "https://ndla.no/r/norsk-sf-vg3/skriv-et-essay-om-algoritmer-i-sosiale-medier/31a1a31b7c",
+      "artikkelId": "38614",
+      "tittel": "Skriv for hånd!",
+      "url": "https://ndla.no/r/verktoykassa---for-elever/skriv-for-hand/b5ca81524f",
       "koder": [
         {
           "kode": "KE1602",
@@ -4890,17 +4446,6 @@
       "koder": [
         {
           "kode": "KE1601",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "46057",
-      "tittel": "Slik skriver du novelleanalyse: Les en modelltekst!",
-      "url": "https://ndla.no/r/norsk-sf-vg1/slik-skriver-du-novelleanalyse-les-en-modelltekst/7d7df3ae97",
-      "koder": [
-        {
-          "kode": "KE1602",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -4928,6 +4473,17 @@
       ]
     },
     {
+      "artikkelId": "29413",
+      "tittel": "Snakk som en viking",
+      "url": "https://ndla.no/r/norsk-pb/snakk-som-en-viking/b00c07c0fa",
+      "koder": [
+        {
+          "kode": "KE1604",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
       "artikkelId": "12753",
       "tittel": "Snipp og Snapp",
       "url": "https://ndla.no/r/kroppsoving-vg1/snipp-og-snapp/b2c9b87ebd",
@@ -4950,12 +4506,45 @@
       ]
     },
     {
+      "artikkelId": "23092",
+      "tittel": "Solceller – e-forelesning",
+      "url": "https://ndla.no/r/naturfag-ba/solceller---e-forelesning/8112b92bb4",
+      "koder": [
+        {
+          "kode": "KE69",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
       "artikkelId": "23093",
       "tittel": "Solfangere – e-forelesning",
       "url": "https://ndla.no/r/naturfag-im/solfangere---e-forelesning/bf7312b7f2",
       "koder": [
         {
           "kode": "KE69",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "34342",
+      "tittel": "Sosiale forskjeller i språket",
+      "url": "https://ndla.no/r/norsk-sf-vg3/sosiale-forskjeller-i-spraket/1ac1ad06b0",
+      "koder": [
+        {
+          "kode": "KE1604",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "12711",
+      "tittel": "Spenst",
+      "url": "https://ndla.no/e/kroppsoving-vg2/spenst/b0758b94aa",
+      "koder": [
+        {
+          "kode": "KE183",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -4972,6 +4561,17 @@
       ]
     },
     {
+      "artikkelId": "35980",
+      "tittel": "Spiseforstyrrelser",
+      "url": "https://ndla.no/r/kroppsoving-vg1/spiseforstyrrelser/920c034d11",
+      "koder": [
+        {
+          "kode": "KE183",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
       "artikkelId": "12715",
       "tittel": "Sprunglauf",
       "url": "https://ndla.no/r/kroppsoving-vg1/sprunglauf/6bd74d90e5",
@@ -4983,9 +4583,9 @@
       ]
     },
     {
-      "artikkelId": "29615",
-      "tittel": "Språk og demokrati – temaoppgave",
-      "url": "https://ndla.no/r/norsk-pb/sprak-og-demokrati---temaoppgave/ac79d10cc6",
+      "artikkelId": "28173",
+      "tittel": "Språk og ideologi i debatten om to skriftspråk",
+      "url": "https://ndla.no/r/norsk-sf-vg2/sprak-og-ideologi-i-debatten-om-to-skriftsprak/1e64b69398",
       "koder": [
         {
           "kode": "KE1604",
@@ -4994,9 +4594,20 @@
       ]
     },
     {
-      "artikkelId": "22791",
-      "tittel": "Språk og identitet i Tante Ulrikkes vei",
-      "url": "https://ndla.no/r/norsk-sf-vg1/sprak-og-identitet-i-tante-ulrikkes-vei/2a64c6c18a",
+      "artikkelId": "36528",
+      "tittel": "Språk- og litteraturhistorisk tidslinje",
+      "url": "https://ndla.no/r/norsk-pb/sprak--og-litteraturhistorisk-tidslinje/abf93a94d2",
+      "koder": [
+        {
+          "kode": "KE1599",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "36512",
+      "tittel": "Språk, kjønn og ungdom",
+      "url": "https://ndla.no/r/norsk-sf-vg3/sprak-kjonn-og-ungdom/9624403b59",
       "koder": [
         {
           "kode": "KE1604",
@@ -5005,9 +4616,9 @@
       ]
     },
     {
-      "artikkelId": "29356",
-      "tittel": "Språkdommerne",
-      "url": "https://ndla.no/r/norsk-sf-vg2/sprakdommerne/2e87e076ad",
+      "artikkelId": "35493",
+      "tittel": "Språk, kultur og identitet",
+      "url": "https://ndla.no/e/norsk-pb/sprak-kultur-og-identitet/e07aa7b9da",
       "koder": [
         {
           "kode": "KE1604",
@@ -5016,9 +4627,9 @@
       ]
     },
     {
-      "artikkelId": "29844",
-      "tittel": "Språkendring – hva er det, og hvorfor skjer det?",
-      "url": "https://ndla.no/r/norsk-sf-vg2/sprakendring---hva-er-det-og-hvorfor-skjer-det/ee8fddd242",
+      "artikkelId": "36378",
+      "tittel": "Språk, kultur og identitet",
+      "url": "https://ndla.no/r/norsk-sf-vg3/sprak-kultur-og-identitet/99f7fdfdad",
       "koder": [
         {
           "kode": "KE1604",
@@ -5027,9 +4638,31 @@
       ]
     },
     {
-      "artikkelId": "23263",
-      "tittel": "Språklig mangfold",
-      "url": "https://ndla.no/e/norsk-pb/spraklig-mangfold/1c92f1b2ff",
+      "artikkelId": "36605",
+      "tittel": "Språket ditt og du",
+      "url": "https://ndla.no/r/norsk-sf-vg3/spraket-ditt-og-du/f01422592b",
+      "koder": [
+        {
+          "kode": "KE1604",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "36192",
+      "tittel": "Språket som system og mulighet",
+      "url": "https://ndla.no/e/norsk-pb/spraket-som-system-og-mulighet/c343b0de02",
+      "koder": [
+        {
+          "kode": "KE1603",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "32693",
+      "tittel": "Språklig kjønnsskifte?",
+      "url": "https://ndla.no/r/norsk-sf-vg3/spraklig-kjonnsskifte/c0da463541",
       "koder": [
         {
           "kode": "KE1604",
@@ -5053,23 +4686,23 @@
       ]
     },
     {
-      "artikkelId": "16769",
-      "tittel": "Språklige virkemidler i dikt",
-      "url": "https://ndla.no/r/norsk-sf-vg3/spraklige-virkemidler-i-dikt/47447ac129",
+      "artikkelId": "25818",
+      "tittel": "Språksituasjonen i Norge i dag",
+      "url": "https://ndla.no/r/norsk-sf-vg2/spraksituasjonen-i-norge-i-dag/5869f4857e",
       "koder": [
         {
-          "kode": "KE1602",
+          "kode": "KE1604",
           "type": "kjerneelement_lk20"
         }
       ]
     },
     {
-      "artikkelId": "27987",
-      "tittel": "Stamceller",
-      "url": "https://ndla.no/r/naturfag-sf/stamceller/c722cc4029",
+      "artikkelId": "27086",
+      "tittel": "Språkstyring i Norge",
+      "url": "https://ndla.no/r/norsk-sf-vg2/sprakstyring-i-norge/689d78471e",
       "koder": [
         {
-          "kode": "KE70",
+          "kode": "KE1604",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -5081,6 +4714,10 @@
       "koder": [
         {
           "kode": "KE1600",
+          "type": "kjerneelement_lk20"
+        },
+        {
+          "kode": "KE1599",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -5137,10 +4774,6 @@
         {
           "kode": "KE68",
           "type": "kjerneelement_lk20"
-        },
-        {
-          "kode": "KE69",
-          "type": "kjerneelement_lk20"
         }
       ]
     },
@@ -5150,44 +4783,22 @@
       "url": "https://ndla.no/e/naturfag-pb/straling-og-helse/03bfad6c0e",
       "koder": [
         {
+          "kode": "KE69",
+          "type": "kjerneelement_lk20"
+        },
+        {
           "kode": "KE71",
           "type": "kjerneelement_lk20"
         }
       ]
     },
     {
-      "artikkelId": "22354",
-      "tittel": "Sweatshop – dødelig mote",
-      "url": "https://ndla.no/r/mediesamfunnet-3/sweatshop---dodelig-mote/10e1f7cc18",
+      "artikkelId": "23175",
+      "tittel": "Swing",
+      "url": "https://ndla.no/r/kroppsoving-vg1/swing/9d73748210",
       "koder": [
         {
-          "kode": "KE69",
-          "type": "kjerneelement_lk20"
-        },
-        {
-          "kode": "KE70",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "28192",
-      "tittel": "Syntetisk biologi",
-      "url": "https://ndla.no/r/naturfag-pb/syntetisk-biologi/4a02fc3c4f",
-      "koder": [
-        {
-          "kode": "KE70",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "20128",
-      "tittel": "Særpreg ved norsk tale",
-      "url": "https://ndla.no/r/norsk-sf-vg1/sarpreg-ved-norsk-tale/5e001aa5bc",
-      "koder": [
-        {
-          "kode": "KE1604",
+          "kode": "KE184",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -5215,31 +4826,9 @@
       ]
     },
     {
-      "artikkelId": "12520",
-      "tittel": "Teknikk",
-      "url": "https://ndla.no/r/kroppsoving-vg1/teknikk/831ac7e665",
-      "koder": [
-        {
-          "kode": "KE184",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "22112",
-      "tittel": "The Biggest Little Farm",
-      "url": "https://ndla.no/r/ndla-film/the-biggest-little-farm/e1d4a7f071",
-      "koder": [
-        {
-          "kode": "KE70",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "33154",
-      "tittel": "Thérèse Raquin (utdrag)",
-      "url": "https://ndla.no/r/norsk-sf-vg3/therese-raquin-utdrag/fa36bd6bda",
+      "artikkelId": "40555",
+      "tittel": "Tante Ulrikkes vei (utdrag)",
+      "url": "https://ndla.no/r/norsk-kort-botid-sf-vg1/tante-ulrikkes-vei-utdrag/25ba11ae77",
       "koder": [
         {
           "kode": "KE1599",
@@ -5248,20 +4837,31 @@
       ]
     },
     {
-      "artikkelId": "29912",
-      "tittel": "Til Foraaret",
-      "url": "https://ndla.no/r/norsk-sf-vg2/til-foraaret/f99265df62",
+      "artikkelId": "23047",
+      "tittel": "Tegne grafer med pyplot",
+      "url": "https://ndla.no/r/verktoykassa---for-elever/tegne-grafer-med-pyplot/c9f57e625d",
       "koder": [
         {
-          "kode": "KE1599",
+          "kode": "KE67",
           "type": "kjerneelement_lk20"
         }
       ]
     },
     {
-      "artikkelId": "20402",
-      "tittel": "Tilbakekoblingsmekanismer",
-      "url": "https://ndla.no/r/tverrfaglige-temaer/tilbakekoblingsmekanismer/6fe1080a39",
+      "artikkelId": "23912",
+      "tittel": "Testing",
+      "url": "https://ndla.no/r/kroppsoving-vg1/testing/a84404d471",
+      "koder": [
+        {
+          "kode": "KE183",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "27224",
+      "tittel": "The Evolution Lab",
+      "url": "https://ndla.no/r/biologi-1/the-evolution-lab/3854f51e3f",
       "koder": [
         {
           "kode": "KE70",
@@ -5272,7 +4872,7 @@
     {
       "artikkelId": "20446",
       "tittel": "Tiltak mot miljøgifter",
-      "url": "https://ndla.no/r/naturfag-sf/tiltak-mot-miljogifter/29d03bdea6",
+      "url": "https://ndla.no/r/naturfag-pb/tiltak-mot-miljogifter/312d37d8a2",
       "koder": [
         {
           "kode": "KE71",
@@ -5287,28 +4887,6 @@
       "koder": [
         {
           "kode": "KE185",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "30890",
-      "tittel": "To oppgaver til fagsamtale om litteratur",
-      "url": "https://ndla.no/r/norsk-sf-vg2/to-oppgaver-til-fagsamtale-om-litteratur/7a62481545",
-      "koder": [
-        {
-          "kode": "KE1601",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "31015",
-      "tittel": "To oppgaver til fagsamtale om språk",
-      "url": "https://ndla.no/r/norsk-sf-vg2/to-oppgaver-til-fagsamtale-om-sprak/871a7ccad2",
-      "koder": [
-        {
-          "kode": "KE1601",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -5336,34 +4914,12 @@
       ]
     },
     {
-      "artikkelId": "32697",
-      "tittel": "Torvmyr",
-      "url": "https://ndla.no/r/norsk-sf-vg3/torvmyr/10b8a34afa",
+      "artikkelId": "41620",
+      "tittel": "Tre måter å eie noe på",
+      "url": "https://ndla.no/r/norsk-kort-botid-yf/tre-mater-a-eie-noe-pa/ae324d20f4",
       "koder": [
         {
-          "kode": "KE1599",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "20315",
-      "tittel": "Tre norske språkmøter",
-      "url": "https://ndla.no/r/norsk-sf-vg1/tre-norske-sprakmoter/2b2c50064e",
-      "koder": [
-        {
-          "kode": "KE1604",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "36814",
-      "tittel": "Trenger jeg kosttilskudd?",
-      "url": "https://ndla.no/r/kroppsoving-vg1/trenger-jeg-kosttilskudd/a4f3ca220b",
-      "koder": [
-        {
-          "kode": "KE183",
+          "kode": "KE1603",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -5402,12 +4958,12 @@
       ]
     },
     {
-      "artikkelId": "27312",
-      "tittel": "Trymskvida",
-      "url": "https://ndla.no/r/norsk-sf-vg2/trymskvida/218ccb6d61",
+      "artikkelId": "32984",
+      "tittel": "Trøbbel i dialektparadiset?",
+      "url": "https://ndla.no/r/norsk-sf-vg3/trobbel-i-dialektparadiset/f1ef511927",
       "koder": [
         {
-          "kode": "KE1599",
+          "kode": "KE1604",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -5448,19 +5004,15 @@
       "url": "https://ndla.no/r/kroppsoving-vg1/turplanlegging/9f1bbc692c",
       "koder": [
         {
-          "kode": "KE184",
-          "type": "kjerneelement_lk20"
-        },
-        {
           "kode": "KE185",
           "type": "kjerneelement_lk20"
         }
       ]
     },
     {
-      "artikkelId": "26819",
-      "tittel": "Undersøk valgfriheten i norsk skriftspråk",
-      "url": "https://ndla.no/r/norsk-sf-vg2/undersok-valgfriheten-i-norsk-skriftsprak/cacf3b1e84",
+      "artikkelId": "32970",
+      "tittel": "Undersøk forskjeller mellom talespråk og skriftspråk",
+      "url": "https://ndla.no/r/norsk-sf-vg3/undersok-forskjeller-mellom-talesprak-og-skriftsprak/c697fb8125",
       "koder": [
         {
           "kode": "KE1604",
@@ -5474,10 +5026,6 @@
       "url": "https://ndla.no/r/kroppsoving-vg1/undervisningsopplegg-i-badminton-okt-1/0bec8edd6f",
       "koder": [
         {
-          "kode": "KE183",
-          "type": "kjerneelement_lk20"
-        },
-        {
           "kode": "KE184",
           "type": "kjerneelement_lk20"
         }
@@ -5488,10 +5036,6 @@
       "tittel": "Undervisningsopplegg i badminton, økt 2",
       "url": "https://ndla.no/r/kroppsoving-vg1/undervisningsopplegg-i-badminton-okt-2/f9ea07524f",
       "koder": [
-        {
-          "kode": "KE183",
-          "type": "kjerneelement_lk20"
-        },
         {
           "kode": "KE184",
           "type": "kjerneelement_lk20"
@@ -5504,19 +5048,15 @@
       "url": "https://ndla.no/r/kroppsoving-vg1/undervisningsopplegg-i-badminton-okt-3/53a78a1582",
       "koder": [
         {
-          "kode": "KE183",
-          "type": "kjerneelement_lk20"
-        },
-        {
           "kode": "KE184",
           "type": "kjerneelement_lk20"
         }
       ]
     },
     {
-      "artikkelId": "26934",
-      "tittel": "Undervisningsopplegg i basketball og samarbeid",
-      "url": "https://ndla.no/r/kroppsoving-vg1/undervisningsopplegg-i-basketball-og-samarbeid/bfbdf6e345",
+      "artikkelId": "36598",
+      "tittel": "Undervisningsopplegg i dans, vg1",
+      "url": "https://ndla.no/r/kroppsoving-vg1/undervisningsopplegg-i-dans-vg1/24f49ce87c",
       "koder": [
         {
           "kode": "KE184",
@@ -5525,12 +5065,34 @@
       ]
     },
     {
-      "artikkelId": "34398",
-      "tittel": "Ut med Joikakaker, inn med VILTi",
-      "url": "https://ndla.no/r/medie--og-informasjonskunnskap-2/ut-med-joikakaker-inn-med-vilti/fcc6f397f6",
+      "artikkelId": "36635",
+      "tittel": "Undervisningsopplegg i dans, vg2",
+      "url": "https://ndla.no/r/kroppsoving-vg1/undervisningsopplegg-i-dans-vg2/f2eb347612",
       "koder": [
         {
-          "kode": "KE1600",
+          "kode": "KE184",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "36647",
+      "tittel": "Undervisningsopplegg i dans, vg3",
+      "url": "https://ndla.no/r/kroppsoving-vg1/undervisningsopplegg-i-dans-vg3/dcc4af7e8c",
+      "koder": [
+        {
+          "kode": "KE184",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "30744",
+      "tittel": "Undervisningsopplegg i volleyball",
+      "url": "https://ndla.no/r/kroppsoving-vg1/undervisningsopplegg-i-volleyball/296678f64e",
+      "koder": [
+        {
+          "kode": "KE184",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -5569,12 +5131,16 @@
       ]
     },
     {
-      "artikkelId": "36817",
-      "tittel": "Utforsk temaet trening, kropp og doping",
-      "url": "https://ndla.no/r/kroppsoving-vg2/utforsk-temaet-trening-kropp-og-doping/af5b92f4a6",
+      "artikkelId": "26167",
+      "tittel": "Utforsk lydbølger",
+      "url": "https://ndla.no/r/naturfag-sf/utforsk-lydbolger/5fca6650ce",
       "koder": [
         {
-          "kode": "KE183",
+          "kode": "KE68",
+          "type": "kjerneelement_lk20"
+        },
+        {
+          "kode": "KE69",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -5587,6 +5153,10 @@
         {
           "kode": "KE1600",
           "type": "kjerneelement_lk20"
+        },
+        {
+          "kode": "KE1599",
+          "type": "kjerneelement_lk20"
         }
       ]
     },
@@ -5596,7 +5166,7 @@
       "url": "https://ndla.no/r/norsk-pb/valgfrihet---til-hvilken-pris/ad4ce5e958",
       "koder": [
         {
-          "kode": "KE1604",
+          "kode": "KE1600",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -5613,45 +5183,12 @@
       ]
     },
     {
-      "artikkelId": "34416",
-      "tittel": "Vanfør",
-      "url": "https://ndla.no/r/norsk-sf-vg3/vanfor/082f6fac8e",
-      "koder": [
-        {
-          "kode": "KE1599",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "31857",
-      "tittel": "Var samnorsk egentlig en god idé?",
-      "url": "https://ndla.no/r/norsk-sf-vg2/var-samnorsk-egentlig-en-god-ide/590009ab9c",
-      "koder": [
-        {
-          "kode": "KE1604",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
       "artikkelId": "20708",
       "tittel": "Variabler, matematiske operatorer og funksjonen print()",
       "url": "https://ndla.no/r/verktoykassa---for-elever/variabler-matematiske-operatorer-og-funksjonen-print/49496d61e6",
       "koder": [
         {
-          "kode": "KE68",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "16922",
-      "tittel": "Ved Rondane",
-      "url": "https://ndla.no/r/norsk-sf-vg2/ved-rondane/51a7eb25f2",
-      "koder": [
-        {
-          "kode": "KE1599",
+          "kode": "KE67",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -5662,7 +5199,7 @@
       "url": "https://ndla.no/r/verktoykassa---for-elever/veivalg---if-elif-else/b6f2491be7",
       "koder": [
         {
-          "kode": "KE68",
+          "kode": "KE67",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -5674,10 +5211,6 @@
       "koder": [
         {
           "kode": "KE68",
-          "type": "kjerneelement_lk20"
-        },
-        {
-          "kode": "KE69",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -5694,14 +5227,21 @@
       ]
     },
     {
+      "artikkelId": "12716",
+      "tittel": "Vertikal spenst",
+      "url": "https://ndla.no/e/kroppsoving-vg3/vertikal-spenst/2d68752fb0",
+      "koder": [
+        {
+          "kode": "KE183",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
       "artikkelId": "33781",
       "tittel": "Vi er formet av arv og miljø",
       "url": "https://ndla.no/r/naturfag-pb/vi-er-formet-av-arv-og-miljo/c8c27578ec",
       "koder": [
-        {
-          "kode": "KE70",
-          "type": "kjerneelement_lk20"
-        },
         {
           "kode": "KE71",
           "type": "kjerneelement_lk20"
@@ -5709,23 +5249,23 @@
       ]
     },
     {
-      "artikkelId": "12260",
-      "tittel": "Vi ere en nasjon, vi med (Småguttenes nasjonalsang)",
-      "url": "https://ndla.no/r/norsk-sf-vg2/vi-ere-en-nasjon-vi-med-smaguttenes-nasjonalsang/36c753d22e",
+      "artikkelId": "34115",
+      "tittel": "Vil dialektene dø?",
+      "url": "https://ndla.no/r/norsk-sf-vg3/vil-dialektene-do/156ec82545",
       "koder": [
         {
-          "kode": "KE1599",
+          "kode": "KE1604",
           "type": "kjerneelement_lk20"
         }
       ]
     },
     {
-      "artikkelId": "35843",
-      "tittel": "Vi vil ikke gi kaffekjelen vinger",
-      "url": "https://ndla.no/r/norsk-sf-vg3/vi-vil-ikke-gi-kaffekjelen-vinger/32868f4868",
+      "artikkelId": "34242",
+      "tittel": "Vil norsk dø?",
+      "url": "https://ndla.no/r/norsk-sf-vg3/vil-norsk-do/57c98c1e29",
       "koder": [
         {
-          "kode": "KE1599",
+          "kode": "KE1604",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -5742,12 +5282,16 @@
       ]
     },
     {
-      "artikkelId": "29298",
-      "tittel": "Virus og vaksiner",
-      "url": "https://ndla.no/r/naturfag-sf/virus-og-vaksiner/2570405213",
+      "artikkelId": "13971",
+      "tittel": "Virtuell lab med elektrolyse",
+      "url": "https://ndla.no/r/naturfag-el/virtuell-lab-med-elektrolyse/439f4e2dc5",
       "koder": [
         {
-          "kode": "KE70",
+          "kode": "KE67",
+          "type": "kjerneelement_lk20"
+        },
+        {
+          "kode": "KE69",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -5775,9 +5319,57 @@
       ]
     },
     {
+      "artikkelId": "27763",
+      "tittel": "Volleyball",
+      "url": "https://ndla.no/e/kroppsoving-vg1/volleyball/290361b2e0",
+      "koder": [
+        {
+          "kode": "KE183",
+          "type": "kjerneelement_lk20"
+        },
+        {
+          "kode": "KE184",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "23654",
+      "tittel": "Vurder miljøtilstanden i vann og vassdrag",
+      "url": "https://ndla.no/r/naturfag-sf/vurder-miljotilstanden-i-vann-og-vassdrag/b662f8036e",
+      "koder": [
+        {
+          "kode": "KE70",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "16737",
+      "tittel": "Vurdering av muntlig presentasjon",
+      "url": "https://ndla.no/r/verktoykassa---for-larere/vurdering-av-muntlig-presentasjon/867b701127",
+      "koder": [
+        {
+          "kode": "KE1601",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
       "artikkelId": "34824",
       "tittel": "Vær dialektforsker på eget hjemsted",
       "url": "https://ndla.no/r/norsk-sf-vg3/var-dialektforsker-pa-eget-hjemsted/9ba92507d0",
+      "koder": [
+        {
+          "kode": "KE1604",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "32985",
+      "tittel": "Vær en dialektdetektiv!",
+      "url": "https://ndla.no/r/norsk-sf-vg3/var-en-dialektdetektiv/555ffaadab",
       "koder": [
         {
           "kode": "KE1604",
@@ -5792,6 +5384,10 @@
       "koder": [
         {
           "kode": "KE67",
+          "type": "kjerneelement_lk20"
+        },
+        {
+          "kode": "KE70",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -5841,25 +5437,10 @@
       ]
     },
     {
-      "artikkelId": "34496",
-      "tittel": "Ærens mark",
-      "url": "https://ndla.no/r/norsk-sf-vg3/arens-mark/58194af94a",
-      "koder": [
-        {
-          "kode": "KE1599",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
       "artikkelId": "22884",
       "tittel": "Økologi",
       "url": "https://ndla.no/e/naturfag-pb/okologi/594488eba9",
       "koder": [
-        {
-          "kode": "KE70",
-          "type": "kjerneelement_lk20"
-        },
         {
           "kode": "KE58",
           "type": "kjerneelement_lk20"
@@ -5867,23 +5448,12 @@
       ]
     },
     {
-      "artikkelId": "16386",
-      "tittel": "Øst møter vest",
-      "url": "https://ndla.no/r/norsk-sf-vg1/ost-moter-vest/e91f7ae410",
+      "artikkelId": "13663",
+      "tittel": "Økologi og økosystemer",
+      "url": "https://ndla.no/r/naturfag-sf/okologi-og-okosystemer/4d3fbaa1ba",
       "koder": [
         {
-          "kode": "KE1604",
-          "type": "kjerneelement_lk20"
-        }
-      ]
-    },
-    {
-      "artikkelId": "35694",
-      "tittel": "Øv deg på å skrive kortsvar som sammenlikner tekster",
-      "url": "https://ndla.no/r/norsk-pb/ov-deg-pa-a-skrive-kortsvar-som-sammenlikner-tekster/abb24347b0",
-      "koder": [
-        {
-          "kode": "KE1602",
+          "kode": "KE70",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -5911,12 +5481,23 @@
       ]
     },
     {
-      "artikkelId": "23718",
-      "tittel": "Øvingsbank",
-      "url": "https://ndla.no/e/kroppsoving-vg1/ovingsbank/0eed55fb5f",
+      "artikkelId": "26900",
+      "tittel": "Øvingsoppgaver om ioniserende stråling",
+      "url": "https://ndla.no/r/naturfag-sf/ovingsoppgaver-om-ioniserende-straling/6e72c00f13",
       "koder": [
         {
-          "kode": "KE183",
+          "kode": "KE68",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "13669",
+      "tittel": "Øvingsoppgaver om økologi",
+      "url": "https://ndla.no/r/naturfag-sf/ovingsoppgaver-om-okologi/dbebc4b92a",
+      "koder": [
+        {
+          "kode": "KE70",
           "type": "kjerneelement_lk20"
         }
       ]
@@ -5933,9 +5514,53 @@
       ]
     },
     {
-      "artikkelId": "33210",
-      "tittel": "Å skrive er å tenke (utdrag)",
-      "url": "https://ndla.no/r/verktoykassa---for-elever/a-skrive-er-a-tenke-utdrag/66f9018be0",
+      "artikkelId": "41622",
+      "tittel": "Å eie noe på norsk og andre språk",
+      "url": "https://ndla.no/r/norsk-kort-botid-yf/a-eie-noe-pa-norsk-og-andre-sprak/c855186e29",
+      "koder": [
+        {
+          "kode": "KE1603",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "39123",
+      "tittel": "Å skrive argumenterende og reflekterende",
+      "url": "https://ndla.no/e/norsk-kort-botid-sf-vg1/a-skrive-argumenterende-og-reflekterende/0a4a228b61",
+      "koder": [
+        {
+          "kode": "KE1602",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "39121",
+      "tittel": "Å skrive fagartikkel",
+      "url": "https://ndla.no/e/norsk-kort-botid-yf/a-skrive-fagartikkel/0bcb982818",
+      "koder": [
+        {
+          "kode": "KE1602",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "39124",
+      "tittel": "Å skrive i jobben",
+      "url": "https://ndla.no/e/norsk-kort-botid-yf/a-skrive-i-jobben/5996d134a1",
+      "koder": [
+        {
+          "kode": "KE1602",
+          "type": "kjerneelement_lk20"
+        }
+      ]
+    },
+    {
+      "artikkelId": "36410",
+      "tittel": "Å skrive kortsvar",
+      "url": "https://ndla.no/e/norsk-pb/a-skrive-kortsvar/0072d52ca1",
       "koder": [
         {
           "kode": "KE1602",
@@ -5955,12 +5580,12 @@
       ]
     },
     {
-      "artikkelId": "30868",
-      "tittel": "Åtte tips til fagsamtalen om litteratur",
-      "url": "https://ndla.no/r/norsk-sf-vg2/atte-tips-til-fagsamtalen-om-litteratur/75f0419536",
+      "artikkelId": "39122",
+      "tittel": "Å skrive tekstanalyser",
+      "url": "https://ndla.no/e/norsk-kort-botid-sf-vg1/a-skrive-tekstanalyser/e28197ca8d",
       "koder": [
         {
-          "kode": "KE1601",
+          "kode": "KE1602",
           "type": "kjerneelement_lk20"
         }
       ]
