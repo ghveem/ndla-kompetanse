@@ -21,7 +21,7 @@ Statisk nettside på GitHub Pages som viser status på kompetansemål (KM), komp
 
 - Search-api brukar `grep-codes` (kebab-case), ikkje `grepCodes`. Feltet `grepCodes` i svaret er alltid tomt
 - KV-kodar gir 0 treff i artikkel-sjekken, fordi artiklar berre blir merka med KM og KE
-- Grep-URL-ar: `https://data.udir.no/kl06/v201906/{type-plural}` og `.../{kode}`
+- Grep-URL-ar: `https://data.udir.no/kl06/v201906/{type-plural}` og `.../{kode}`. Versjonen kan overstyrast med miljøvariabelen `GREP_VERSJON`
 - Dei automatiske data-commitane gjer at historikken er full av støy. Bruk `git log --invert-grep --grep=automatisk`
 - Pull før du pushar, sidan workflowen committar til `main`
 
