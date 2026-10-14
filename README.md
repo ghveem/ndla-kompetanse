@@ -204,6 +204,12 @@ SPARQL-endepunktet <https://sparql-data.udir.no/repositories/201906> (3422
 `gjenbruk-av`-koplingar totalt, 2800 reine gammal→ny-erstatningar) og
 stadfesta at same data ligg i det vanlege REST-detaljoppslaget.
 
+Sidan koplinga ligg på den *nye* koden, vil eit feila detaljoppslag for den
+nye koden få den gamle til å mista `erstattesAv`. Difor prøver `fetchJson`
+på nytt ved nettverksfeil og 5xx/429, og ei erstatning som forsvinn blir
+ikkje logga som hending (berre åtvaring i loggen). Bakgrunn: falsk
+«KM1073 → Erstatta av» 2026-10-14.
+
 ```json
 {
   "oppslag": {
