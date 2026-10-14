@@ -43573,7 +43573,9 @@
       "gyldigFra": null,
       "gyldigTil": null,
       "erstatter": [],
-      "erstattesAv": [],
+      "erstattesAv": [
+        "KM15086"
+      ],
       "tverrfagligeTemaer": [
         {
           "kode": "TT1",
@@ -52133,9 +52135,24 @@
       "status": "publisert",
       "gyldigFra": null,
       "gyldigTil": null,
-      "erstatter": [],
+      "erstatter": [
+        "KM1073"
+      ],
       "erstattesAv": [],
-      "tverrfagligeTemaer": [],
+      "tverrfagligeTemaer": [
+        {
+          "kode": "TT1",
+          "tittel": "Folkehelse og livsmestring"
+        },
+        {
+          "kode": "TT2",
+          "tittel": "Demokrati og medborgerskap"
+        }
+      ],
+      "tilhoererKompetansemaalsett": {
+        "kode": "KV1183",
+        "tittel": "Kompetansemål og vurdering nivå 2"
+      },
       "tilhoererLaereplan": {
         "kode": "NOR07-03",
         "tittel": "Læreplan i grunnleggende norsk for språklige minoriteter"

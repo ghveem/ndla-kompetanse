@@ -50,12 +50,25 @@ const MAX_CHANGELOG_ENTRIES = 500;
 // Grunnleggande hjelpefunksjonar
 // ---------------------------------------------------------------------------
 
-async function fetchJson(url) {
-  const res = await fetch(url, { headers: { Accept: "application/json" } });
-  if (!res.ok) {
-    throw new Error(`${res.status} ${res.statusText} for ${url}`);
+// Prøver på nytt ved nettverksfeil og 5xx/429. Eitt enkelt feila
+// detaljoppslag kan elles gi falske hendingar i endringsloggen
+// (KM1073, 2026-10-14).
+async function fetchJson(url, forsok = 3) {
+  for (let i = 1; ; i++) {
+    let res;
+    try {
+      res = await fetch(url, { headers: { Accept: "application/json" } });
+    } catch (err) {
+      if (i >= forsok) throw err;
+      await new Promise((r) => setTimeout(r, 1000 * i));
+      continue;
+    }
+    if (res.ok) return res.json();
+    if (i >= forsok || (res.status < 500 && res.status !== 429)) {
+      throw new Error(`${res.status} ${res.statusText} for ${url}`);
+    }
+    await new Promise((r) => setTimeout(r, 1000 * i));
   }
-  return res.json();
 }
 
 async function hentRåListe(endpoint) {
@@ -321,6 +334,12 @@ function diffSnapshots(gammalt, nytt, tidspunkt) {
         nyKode: erErstatta ? ny.erstattesAv[0] : null,
       });
     } else if (JSON.stringify(gammal.erstattesAv) !== JSON.stringify(ny.erstattesAv)) {
+      // Ei erstatning som forsvinn er nesten alltid eit feila oppslag,
+      // ikkje ei reell endring i Grep. Ikkje meld ho som "erstattet".
+      if (ny.erstattesAv.length === 0) {
+        console.warn(`  ${kode} mista erstattesAv (${gammal.erstattesAv.join(", ")}). Ikkje logga som hending.`);
+        continue;
+      }
       hendingar.push({
         dato: tidspunkt,
         kode,
