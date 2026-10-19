@@ -7,7 +7,7 @@ Statisk nettside på GitHub Pages som viser status på kompetansemål (KM), komp
 - Krev Node 18+ (innebygd `fetch`), ingen `npm install`
 - `node scripts/fetch-grep-data.mjs` hentar Grep-data og skriv `data/grep-snapshot.json`, `changelog.json`, `erstatninger.json` og `siste-kjoring-endringar.json`
 - `node scripts/fetch-artikkel-merking.mjs` skriv `data/artikkel-merking.json`. Må køyrast etter det fyrste, sidan det les `grep-snapshot.json`
-- `node scripts/send-slack-varsel.mjs` krev `SLACK_WEBHOOK_URL` (berre som GitHub-secret)
+- `node scripts/send-slack-varsel.mjs` les `data/siste-kjoring-endringar.json` og postar til `SLACK_WEBHOOK_URL` (berre som GitHub-secret). Utan variabelen hoppar det stille over
 - `.github/workflows/update-grep-data.yml` køyrer måndagar kl. 04:15 UTC, ved kvar push til `main` og manuelt, committar data som «Oppdater Grep-data [automatisk]» og deployar
 
 ## Struktur
