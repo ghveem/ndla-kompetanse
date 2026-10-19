@@ -1,5 +1,4506 @@
 {
-  "generert": "2026-10-14T18:39:54.273Z",
-  "forrigeKjoring": "2026-10-14T07:55:24.266Z",
-  "endringar": []
+  "generert": "2026-10-19T10:50:29.868Z",
+  "forrigeKjoring": "2026-10-14T18:39:54.273Z",
+  "endringar": [
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE9",
+      "tittel": "Språklæring",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE10",
+      "tittel": "Språk og teknologi",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE115",
+      "tittel": "Språket som system og mulighet",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE515",
+      "tittel": "Sikkerhet og kvalitet",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE949",
+      "tittel": "Drift og utvikling av naturbasert næring",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE527",
+      "tittel": "Kvalitet og trygg mat",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE502",
+      "tittel": "Handverksferdigheiter",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE503",
+      "tittel": "Berekraftig produksjon av bakar- og konditorvarer",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE448",
+      "tittel": "Sals- og vertskapsrolla",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE462",
+      "tittel": "Design og eksponering",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE463",
+      "tittel": "Kommunikasjon og kundebehandling",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE909",
+      "tittel": "Bedriftskultur og yrkesidentitet",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE474",
+      "tittel": "Håndverk og tradisjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE488",
+      "tittel": "Håndverk, produksjon og materialer",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE490",
+      "tittel": "Kultur, tradisjon og innovasjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE528",
+      "tittel": "Teknologisk, digitalt og elektronisk utstyr",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE529",
+      "tittel": "Planlegging, produksjon og dokumentasjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE530",
+      "tittel": "Samhandling",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE531",
+      "tittel": "Helse, miljø og sikkerhet",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE459",
+      "tittel": "Teknologi og produksjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE656",
+      "tittel": "Funksjonell anatomi, fottøy og mobilitet",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE659",
+      "tittel": "Lover, reglar og entreprenørskap",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE641",
+      "tittel": "E-helse og teknologi i apoteket",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE457",
+      "tittel": "Ambulanseoppdrag og ambulanseoperative emner",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE424",
+      "tittel": "Rettleiing, service og relasjonar",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE434",
+      "tittel": "Kvalitetssikring, etikk og teknologi",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE435",
+      "tittel": "Hudpleiefaglig veiledning, salg og service",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE382",
+      "tittel": "Overflatebehandling",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE383",
+      "tittel": "Materialvalg og bruk av verktøy",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE540",
+      "tittel": "Utstyr på overflata og i brønnen",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE332",
+      "tittel": "Kommunikasjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE241",
+      "tittel": "Bygg- og anleggsarbeid",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE242",
+      "tittel": "Materialer og verktøy",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE251",
+      "tittel": "Energi og miljø",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE217",
+      "tittel": "Produktutvikling",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE219",
+      "tittel": "Arbeidsliv, kommunikasjon og eksponering",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE60",
+      "tittel": "Utforsking og geografiske metoder",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE72",
+      "tittel": "Historiebevissthet",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE73",
+      "tittel": "Utforskende historie og kildekritisk bevissthet",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE75",
+      "tittel": "Mennesker og samfunn i fortid, nåtid og framtid",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE443",
+      "tittel": "IT-støtte og kommunikasjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE447",
+      "tittel": "Utviklingsprosesser og kreativ problemløsing",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE234",
+      "tittel": "Helse og livsstil",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE236",
+      "tittel": "Etikk og teknologi",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE85",
+      "tittel": "Språklig mangfold",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE3",
+      "tittel": "Møte med engelskspråklige tekster",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE4",
+      "tittel": "Kommunikasjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE5",
+      "tittel": "Språklæring",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE7",
+      "tittel": "Språk og teknologi",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1547",
+      "tittel": "Kommunikasjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1548",
+      "tittel": "Kulturell identitet",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1549",
+      "tittel": "Teori og metode",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE868",
+      "tittel": "Teori og metode",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE757",
+      "tittel": "Strategi og virksomhetsutvikling",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE758",
+      "tittel": "Markedsanalyse og innsikt",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE760",
+      "tittel": "Faglig kreativitet og problemløsing",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE220",
+      "tittel": "Etikk, lovverk og yrkesutøvelse",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE222",
+      "tittel": "Kommunikasjon og historiefortelling",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE245",
+      "tittel": "Produksjon og dokumentasjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE246",
+      "tittel": "Samhandling",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE247",
+      "tittel": "Helse, miljø og sikkerhet",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE77",
+      "tittel": "Utforskende historie og kildekritisk bevissthet",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE585",
+      "tittel": "Komponenter, kretser og systemer",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE588",
+      "tittel": "Programmering",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE411",
+      "tittel": "Handverk og formgiving",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE413",
+      "tittel": "Lover og reglar",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE107",
+      "tittel": "Muntlig kommunikasjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE108",
+      "tittel": "Skriftlig tekstskaping",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE110",
+      "tittel": "Språklig mangfold",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE131",
+      "tittel": "Muntlig kommunikasjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE117",
+      "tittel": "Tekst i kontekst",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1593",
+      "tittel": "Tekst i kontekst",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1631",
+      "tittel": "Vedlikehold av vei",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE37",
+      "tittel": "Modellering og anvendelser",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE38",
+      "tittel": "Resonnering og argumentasjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE39",
+      "tittel": "Representasjon og kommunikasjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE41",
+      "tittel": "Matematiske kunnskapsområder",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE45",
+      "tittel": "Representasjon og kommunikasjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE46",
+      "tittel": "Abstraksjon og generalisering",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE47",
+      "tittel": "Matematiske kunnskapsområder",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE520",
+      "tittel": "Håndverksferdigheter",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE408",
+      "tittel": "Teknologi",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE410",
+      "tittel": "Industriell produksjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1123",
+      "tittel": "Reparasjonsteknikk",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1521",
+      "tittel": "Refleksjon og kritisk tenkning",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE165",
+      "tittel": "Kjennskap til religioner og livssyn",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE168",
+      "tittel": "Kunne ta andres perspektiv",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE169",
+      "tittel": "Etisk refleksjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE161",
+      "tittel": "Utforsking av religioner og livssyn med ulike metoder",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE164",
+      "tittel": "Etisk refleksjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE49",
+      "tittel": "Perspektivmangfold og samfunnskritisk tenkning",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE387",
+      "tittel": "Arbeidsutstyr",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1580",
+      "tittel": "Menneskets plass i verden",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE280",
+      "tittel": "Innholdsproduksjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1629",
+      "tittel": "Helse miljø og sikkerhet",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE389",
+      "tittel": "Bygging, drift og vedlikehold",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE436",
+      "tittel": "Kropp, helse og omsorg",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE437",
+      "tittel": "Dialog, relasjon og veiledning",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE337",
+      "tittel": "Teknologi",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE351",
+      "tittel": "Lokalt reiseliv",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE352",
+      "tittel": "Reiselivstenester og berekraft",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1597",
+      "tittel": "Språket som system og mulighet",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE80",
+      "tittel": "Tekst i kontekst",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE81",
+      "tittel": "Kritisk tilnærming til tekst",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1573",
+      "tittel": "Mediemedvit",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE665",
+      "tittel": "Medieforteljingar",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE666",
+      "tittel": "Journalistikk",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1578",
+      "tittel": "Et meningsfylt og godt liv",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE154",
+      "tittel": "Språklæring og flerspråklighet",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE155",
+      "tittel": "Språk og teknologi",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE331",
+      "tittel": "Språk og teknologi",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE318",
+      "tittel": "Resonnering og argumentasjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE320",
+      "tittel": "Abstraksjon og generalisering",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE321",
+      "tittel": "Matematiske kunnskapsområder",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1318",
+      "tittel": "Luftfartøyets komponenter, kretser og systemer",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE253",
+      "tittel": "Etikk, opphavsrett og vurdering",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE254",
+      "tittel": "Kreativitet, produksjon og prosess",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1581",
+      "tittel": "Mediedeltakelse og medborgerskap",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1584",
+      "tittel": "Tekst- og kildeferdighet",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE281",
+      "tittel": "Skapende prosesser",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE660",
+      "tittel": "Kulturforståelse og interkulturell kompetanse",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE662",
+      "tittel": "Sosialisering og medborgerskap",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE663",
+      "tittel": "Samfunnsvitenskapelig metode og kildebruk",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1560",
+      "tittel": "Markedsstrategiske vurderinger",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1557",
+      "tittel": "Verdiskaping og bærekraft",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1501",
+      "tittel": "Muntlig og skriftlig kommunikasjon.",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1484",
+      "tittel": "Oppbygning – naturens byggesteiner og systemer",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1486",
+      "tittel": "Innsikt – den naturfaglige medborger",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1516",
+      "tittel": "Språklæring",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1665",
+      "tittel": "Kommunikasjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1666",
+      "tittel": "Interkulturell kompetanse",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1670",
+      "tittel": "Interkulturell kompetanse",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1671",
+      "tittel": "Språklæring og flerspråklighet",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1672",
+      "tittel": "Språk og teknologi",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1534",
+      "tittel": "Bærekraftig produksjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1535",
+      "tittel": "Arbeidsliv og yrkesidentitet",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1523",
+      "tittel": "Språk og tekst i bruk",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1476",
+      "tittel": "Helse, miljø og sikkerhet",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE677",
+      "tittel": "Befolkning og geografisk mobilitet",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE678",
+      "tittel": "Planlegging og ressursforvaltning",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE30",
+      "tittel": "Utforsking og problemløsing",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE31",
+      "tittel": "Modellering og anvendelser",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE32",
+      "tittel": "Resonnering og argumentasjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1697",
+      "tittel": "Tilvirke en bunad",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1694",
+      "tittel": "Blomsterdekorering",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1816",
+      "tittel": "Språket som system og mulighet",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1815",
+      "tittel": "Skriftlig tekstskaping",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1820",
+      "tittel": "Muntlig kommunikasjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1821",
+      "tittel": "Skriftlig tekstskaping",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1823",
+      "tittel": "Språklig mangfold i Norge og Sápmi/Sábme/Saepmie",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1824",
+      "tittel": "Tekst i kontekst",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1826",
+      "tittel": "Muntlig kommunikasjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1828",
+      "tittel": "Norsk tegnspråk som system og mulighet",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1833",
+      "tittel": "Skriftlig tekstskaping",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1834",
+      "tittel": "Språket som system og mulighet",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE68",
+      "tittel": "Teknologi",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE69",
+      "tittel": "Energi og materie",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE27",
+      "tittel": "Representasjon og kommunikasjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE28",
+      "tittel": "Abstraksjon og generalisering",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1493",
+      "tittel": "Språklæring",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1497",
+      "tittel": "Språklig og kulturelt mangfold",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1499",
+      "tittel": "Lesing og kritisk tilnærming til tekst",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1429",
+      "tittel": "Språklæring og flerspråklighet",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1431",
+      "tittel": "Kommunikasjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1433",
+      "tittel": "Språklæring og flerspråklighet",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1434",
+      "tittel": "Språk og teknologi",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1768",
+      "tittel": "Møte med engelskspråklige tekster",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1772",
+      "tittel": "Språk og teknologi",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1778",
+      "tittel": "Deltakelse og samspill i bevegelsesaktiviteter",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1835",
+      "tittel": "Språklig mangfold",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1867",
+      "tittel": "Muntlig kommunikasjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1869",
+      "tittel": "Lesing",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1871",
+      "tittel": "Språk og teknologi",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1586",
+      "tittel": "Kommunikasjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1588",
+      "tittel": "Møte med engelskspråklige tekster",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE127",
+      "tittel": "Norsk tegnspråk som system og mulighet",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1613",
+      "tittel": "Muntlig kommunikasjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE93",
+      "tittel": "Språklæring",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE94",
+      "tittel": "Lesing",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE95",
+      "tittel": "Skriftlig tekstskaping",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE323",
+      "tittel": "Modellering og anvendelser",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE326",
+      "tittel": "Abstraksjon og generalisering",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE327",
+      "tittel": "Matematiske kunnskapsområder",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE24",
+      "tittel": "Utforsking og problemløsing",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1388",
+      "tittel": "Verdensrommet",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1804",
+      "tittel": "Energi og materie",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1805",
+      "tittel": "Jorda og livet på jorda",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1806",
+      "tittel": "Kropp og helse",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1810",
+      "tittel": "Jorda og livet på jorda",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1814",
+      "tittel": "Muntlig kommunikasjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1589",
+      "tittel": "Kommunikasjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE25",
+      "tittel": "Modellering og anvendelser",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE682",
+      "tittel": "Vedlikehold av vei",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE617",
+      "tittel": "Naturvitenskapelige praksiser og tenkemåter",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1680",
+      "tittel": "Forskning",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1683",
+      "tittel": "Mennesket, naturvitenskapen og teknologien",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1684",
+      "tittel": "Kreativ problemløsing",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1685",
+      "tittel": "Modellering og programmering",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE621",
+      "tittel": "Modellering og programmering",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE622",
+      "tittel": "Digital representasjon og informasjonsutveksling",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1608",
+      "tittel": "Skriftlig tekstskaping",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1657",
+      "tittel": "Luftfartøyets komponenter, kretser og systemer",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1660",
+      "tittel": "Flyfaglig sikkerhet",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1527",
+      "tittel": "Sikkerhet, etikk og samarbeid i fiskeryrket",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1690",
+      "tittel": "Resonnering og argumentasjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1691",
+      "tittel": "Representasjon og kommunikasjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1701",
+      "tittel": "Håndveving",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1704",
+      "tittel": "Formidling",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1766",
+      "tittel": "Kommunikasjon",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE185",
+      "tittel": "Uteaktiviteter og naturferdsel",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE58",
+      "tittel": "Jorda og livet på jorda",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE783",
+      "tittel": "Metoda ja gáldokritihkka",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1480",
+      "tittel": "Maskiner, utstyr og teknologi",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1481",
+      "tittel": "Produksjon, dokumentasjon og veiledning",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1482",
+      "tittel": "Håndtering av avfallsressurser",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1603",
+      "tittel": "Språket som system og mulighet",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE1604",
+      "tittel": "Språklig mangfold",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE123",
+      "tittel": "Tekst i kontekst",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"utgaatt\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KE230",
+      "tittel": "Kulturarv og nyskaping",
+      "type": "kjerneelement_lk20",
+      "hendelse": "status_endra",
+      "detalj": "Status endra frå \"publisert\" til \"null\"",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "BBF02-03",
+      "tittel": "Læreplan i vg2 båtbygger",
+      "type": "laereplan_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "SME02-03",
+      "tittel": "Læreplan i vg2 smed",
+      "type": "laereplan_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KPL02-01",
+      "tittel": "Læreplan i vg2 kjemiprosess- og laboratoriefag",
+      "type": "laereplan_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "TAN03-03",
+      "tittel": "Læreplan i vg3 tannhelsesekretær",
+      "type": "laereplan_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "HSE03-03",
+      "tittel": "Læreplan i vg3 helsesekretær",
+      "type": "laereplan_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "AKT02-04",
+      "tittel": "Læreplan i vg2 aktivitør",
+      "type": "laereplan_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "FOT02-03",
+      "tittel": "Læreplan i vg2 fotterapi og ortopediteknikk",
+      "type": "laereplan_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "SSR01-01",
+      "tittel": "Læreplan i vg1 salg, service og reiseliv",
+      "type": "laereplan_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "AMK02-03",
+      "tittel": "Læreplan i vg2 arbeidsmaskiner",
+      "type": "laereplan_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "HUD03-04",
+      "tittel": "Læreplan i vg3 hudterapi",
+      "type": "laereplan_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "PRG01-02",
+      "tittel": "Læreplan i valgfaget programmering",
+      "type": "laereplan_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "AMM03-04",
+      "tittel": "Læreplan i vg3 anleggsmaskinmekanikerfaget",
+      "type": "laereplan_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "AVI03-02",
+      "tittel": "Læreplan i vg3 avionikerfag – opplæring i skole",
+      "type": "laereplan_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "FLY03-03",
+      "tittel": "Læreplan i vg3 flytekniske fag – opplæring i skole",
+      "type": "laereplan_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "BLD02-03",
+      "tittel": "Læreplan i vg2 blomsterdekoratør",
+      "type": "laereplan_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "EKF05-01",
+      "tittel": "Læreplan i ernæringskokkfaget – modulstrukturert opplæring for voksne",
+      "type": "laereplan_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "RLF05-01",
+      "tittel": "Læreplan i rørleggerfaget – modulstrukturert opplæring for voksne",
+      "type": "laereplan_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "SSR02-01",
+      "tittel": "Læreplan i vg2 salg, service og reiseliv",
+      "type": "laereplan_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "BET05-01",
+      "tittel": "Læreplan i betongfaget – modulstrukturert opplæring for voksne",
+      "type": "laereplan_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV394",
+      "tittel": "Kompetansemål og vurdering materialer og konstruksjon",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV393",
+      "tittel": "Kompetansemål og vurdering produksjon",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV397",
+      "tittel": "Kompetansemål og vurdering smedhåndverk ",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV398",
+      "tittel": "Kompetansemål og vurdering design og produktutvikling ",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV429",
+      "tittel": "Kompetansemål og vurdering produksjon og tjenester",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV430",
+      "tittel": "Kompetansemål og vurdering kjemisk teknologi",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV431",
+      "tittel": "Kompetansemål og vurdering analyse, dokumentasjon og kvalitet",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV474",
+      "tittel": "Kompetansemål og vurdering smittevern, tannanatomi og fysiologi ",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV475",
+      "tittel": "Kompetansemål og vurdering kommunikasjon og samhandling ",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV476",
+      "tittel": "Kompetansemål og vurdering yrkesliv i tannhelsesekretærfaget ",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV477",
+      "tittel": "Kompetansemål og vurdering yrkesliv i helsesekretærfaget ",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV478",
+      "tittel": "Kompetansemål og vurdering helse og sjukdom ",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV479",
+      "tittel": "Kompetansemål og vurdering kommunikasjon og samhandling ",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV369",
+      "tittel": "Kompetansemål og vurdering yrkesliv i aktivitørfag ",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV370",
+      "tittel": "Kompetansemål og vurdering administrasjon ",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV371",
+      "tittel": "Kompetansemål og vurdering kommunikasjon og samhandling ",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV360",
+      "tittel": "Kompetansemål og vurdering helse, funksjon og bevegelse ",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV361",
+      "tittel": "Kompetansemål og vurdering kommunikasjon og samhandling ",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV362",
+      "tittel": "Kompetansemål og vurdering yrkesliv i fotterapi og ortopediteknikk",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV241",
+      "tittel": "Kompetansemål og vurdering forretningsdrift",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV242",
+      "tittel": "Kompetansemål og vurdering kultur og samhandling",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV243",
+      "tittel": "Kompetansemål og vurdering markedsføring og innovasjon",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV347",
+      "tittel": "Kompetansemål og vurdering reparasjon og vedlikehold",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV348",
+      "tittel": "Kompetansemål og vurdering planlegging og kommunikasjon",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV875",
+      "tittel": "Kompetansemål og vurdering helsefremjande arbeid ",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV876",
+      "tittel": "Kompetansemål og vurdering yrkesliv i hudterapifaget",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV877",
+      "tittel": "Kompetansemål og vurdering kommunikasjon og samhandling ",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV304",
+      "tittel": "Kompetansemål og vurdering programmering",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV944",
+      "tittel": "Kompetansemål og vurdering feilsøking, reparasjon og vedlikehold",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV945",
+      "tittel": "Kompetansemål og vurdering dokumentasjon og kontroll",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV720",
+      "tittel": "Kompetansemål og vurdering luftfartøysystemer",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV721",
+      "tittel": "Kompetansemål og vurdering vedlikeholdsteknikk",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV722",
+      "tittel": "Kompetansemål og vurdering flysikkerhet",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV962",
+      "tittel": "Kompetansemål og vurdering luftfartøysystemer",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV963",
+      "tittel": "Kompetansemål og vurdering vedlikeholdsteknikk",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV964",
+      "tittel": "Kompetansemål og vurdering flysikkerhet",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV389",
+      "tittel": "Kompetansemål og vurdering produktutvikling, bransjelære og kommunikasjon",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV390",
+      "tittel": "Kompetansemål og vurdering produksjon og arbeidsliv",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV866",
+      "tittel": "Kompetansemål og vurdering mattrygghet",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV867",
+      "tittel": "Kompetansemål og vurdering demokrati, yrkesidentitet og arbeidsliv",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV868",
+      "tittel": "Kompetansemål og vurdering ernæring, måltidsutvikling og folkehelse",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV869",
+      "tittel": "Kompetansemål og vurdering råvarekunnskap, bærekraft og håndverksferdigheter",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV798",
+      "tittel": "Kompetansemål og vurdering helse, miljø og sikkerhet og bransjelære",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV799",
+      "tittel": "Kompetansemål og vurdering utvendige røranlegg og andre rørsystem",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV800",
+      "tittel": "Kompetansemål og vurdering sanitæranlegg",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV801",
+      "tittel": "Kompetansemål og vurdering vannbårne energianlegg",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV802",
+      "tittel": "Kompetansemål og vurdering brannsikringsanlegg",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV1011",
+      "tittel": "Kompetansemål og vurdering økonomi og administrasjon",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV1012",
+      "tittel": "Kompetansemål og vurdering kommunikasjon og markedsføring",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV1013",
+      "tittel": "Kompetansemål og vurdering helse, miljø og sikkerhet",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV794",
+      "tittel": "Kompetansemål og vurdering helse, miljø og sikkerhet og arbeidsliv",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV795",
+      "tittel": "Kompetansemål og vurdering forskaling",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV796",
+      "tittel": "Kompetansemål og vurdering armering",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KV797",
+      "tittel": "Kompetansemål og vurdering betongteknologi og utstøping",
+      "type": "kompetansemaalsett_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4209",
+      "tittel": "gjøre rede for og bruke antikvariske prinsipper for restaurering og kopiering av gamle gjenstander",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4203",
+      "tittel": "formgi og dimensjonere eget smedarbeid etter kundens ønsker om funksjon og design",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4210",
+      "tittel": "planlegge og gjennomføre et smedarbeid alene og i samarbeid med andre",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4211",
+      "tittel": "holde orden på egen arbeidsplass og følge gjeldende regelverk for helse, miljø og sikkerhet i alt arbeid",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4212",
+      "tittel": "gjøre rede for hvordan maskiner, verktøy og utstyr installeres, brukes og vedlikeholdes",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4213",
+      "tittel": "anvende maskinhammer, håndverktøy, maskiner og utstyr i smia og gjøre rede for hvordan ulike valg påvirker resultatet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4214",
+      "tittel": "formgi og dimensjonere eget smedarbeid etter brukerens krav til funksjon og estetikk",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4215",
+      "tittel": "smisveise og anvende ulike moderne sveisemetoder",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4216",
+      "tittel": "gjøre rede for oppbygning, egenskaper og bruksområder for stål og metaller i smedfaget",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4196",
+      "tittel": "utforske og bruke grunnleggende smiteknikker for å strekke, stuke, bøye, kløyve og krympe i framstilling av smedprodukter",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4592",
+      "tittel": "beskrive og forklare virkemåten for måle-, styre- og reguleringsutstyr og kunne bruke utstyret i laboratoriet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4593",
+      "tittel": "bruke, tegne og forklare blokkskjemaer, tekniske flytskjemaer og forriglingsmatriser.",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4566",
+      "tittel": "kjøre prosesser sikkert og i henhold til prosedyrer for drift og helse, miljø og sikkerhet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4588",
+      "tittel": "gjøre rede for virkemåten til skjermbaserte styrings- og overvåkingssystemer",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4589",
+      "tittel": "beskrive prinsipper for å kontrollere og optimalisere produksjonsprosesser og utføre arbeidet i tråd med prinsippene",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4590",
+      "tittel": "beskrive ulike reguleringsprinsipper",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4591",
+      "tittel": "gjøre rede for start- og stopp-prosedyrer for utstyr, anlegg og instrumenter",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4576",
+      "tittel": "anvende grunnleggende kjemi for å forstå kjemiske reaksjoner i prosess og analyse",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4584",
+      "tittel": "beskrive enhetsoperasjoner med tilhørende prosess- og laboratorieutstyr og forklare virkemåten",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4218",
+      "tittel": "gjøre rede for smedfagets historiske utvikling og estetikk og anvende denne kunnskapen i eget smedarbeid",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4206",
+      "tittel": "designe og utvikle hjelpeverktøy til en smedproduksjon ut fra ønsket form og funksjon for produktet og gjøre rede for virkemåten og hvordan ulike valg påvirker sluttproduktet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4197",
+      "tittel": "bruke fagspråk i presentasjon og formidling av smedprodukter og -tjenester",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4204",
+      "tittel": "drøfte hvilke krav og forventninger som stilles til et likeverdig og inkluderende yrkesfellesskap, og beskrive hvilke plikter og rettigheter arbeidsgiver og arbeidstaker har i arbeidslivet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4205",
+      "tittel": "vurdere miljøeffektene av smedproduksjon og gjøre rede for hvordan gjenbruk, avfallshåndtering og valg av brensel kan bidra til en bærekraftig drift",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4198",
+      "tittel": "beregne og presentere tid og pris på egne smedprodukter og tjenester, og vurdere sammenhengen mellom materialvalg, produktivitet og lønnsomhet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4199",
+      "tittel": "formgi egne smedprodukter og eksperimentere med form og komposisjon",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4207",
+      "tittel": "vurdere og anvende ulike sammenføyningsmetoder, som å nagle, krympe, kile og klamre stål",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4217",
+      "tittel": "utforske og utføre grunnleggende varmebehandling for forskjellige ståltyper og kjenne til hvordan ulike valg påvirker sluttproduktet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4208",
+      "tittel": "vurdere bruk og anvende jigger, maler og annet hjelpeverktøy i smia, reflektere over virkemåten og forbedre disse ved behov",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4200",
+      "tittel": "velge og dimensjonere stålemner ut fra krav til form og funksjon til det ferdige smedproduktet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4201",
+      "tittel": "lage og anvende tekniske tegninger og designtegninger i eget arbeid",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4202",
+      "tittel": "utvikle, dokumentere og presentere eget smedarbeid ved hjelp av digitale ressurser",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4572",
+      "tittel": "bruke støkiometriske beregninger",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4573",
+      "tittel": "gjøre rede for metoder for å kvalitetssikre prøvetaking og analyser",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4574",
+      "tittel": "kalibrere laboratorieutstyr og instrumenter, og gjøre rede for systematisk vedlikehold",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4575",
+      "tittel": "gjøre rede for kjemiske analysemetoder og planlegge og gjennomføre laboratorieforsøk",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4578",
+      "tittel": "forklare og gjøre beregninger på varme- og energibalanse i et anlegg og sammenligne med forsøk",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4579",
+      "tittel": "drøfte trykktap og energiomsetning i et rørsystem og sammenligne med forsøk",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4580",
+      "tittel": "gjennomføre beregninger på masse- og energibalanser",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4581",
+      "tittel": "anvende grunnleggende fysikk og kjemi til å forklare prosesser, utstyr, målemetoder og analysemetoder",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4582",
+      "tittel": "forklare hvordan kjemiske og fysiske forhold påvirker kjemiske reaksjoner og produksjonsprosesser",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4583",
+      "tittel": "forklare den logiske sammenhengen mellom enhetsoperasjonene i prosessanlegg",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4585",
+      "tittel": "bruke norsk og engelsk fagterminologi i kommunikasjon med andre",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4586",
+      "tittel": "utføre vedlikehold på utstyr, instrumenter og måleutstyr i samsvar med rutiner og prosedyrer",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4587",
+      "tittel": "identifisere og korrigere avvik og mulige feilkilder på måle-, styre- og reguleringsutstyr",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4570",
+      "tittel": "utføre miljøtester i nærmiljøet og analysere dem",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4571",
+      "tittel": "tolke, presentere og rapportere analyseresultater og vurdere usikkerhet og avvik i målingene",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4595",
+      "tittel": "drøfte hvilke krav og forventninger som stilles til et likeverdig og inkluderende yrkesfellesskap, og beskrive hvilke plikter og rettigheter arbeidsgiveren og arbeidstakeren har i arbeidslivet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4577",
+      "tittel": "drøfte tiltak og metoder for miljøvennlig produksjon og bærekraftig utvikling",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4594",
+      "tittel": "vurdere og beskrive egen utvikling på grunnlag av utførte arbeidsoppgaver knyttet til ulike prosess- og laboratorieteknikker",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4567",
+      "tittel": "arbeide og evaluere eget arbeid i tråd med gjeldende standarder og regelverk for internkontroll og kvalitet og helse, miljø og sikkerhet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4568",
+      "tittel": "bruke datablader og oppslagsverk, og foreta risikovurderinger",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4569",
+      "tittel": "lage et mikrobiologisk preparat og analysere det ved mikroskopering",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4179",
+      "tittel": "finne og vurdere informasjon for å analysere faglige spørsmål og problemstillinger og bruke kildene på en måte som lar seg etterprøve",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4178",
+      "tittel": "gjøre rede for de grunnleggende hydrodynamiske prinsippene for båter",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4168",
+      "tittel": "drøfte hvilke krav og forventninger som stilles til et likeverdig og inkluderende yrkesfellesskap, og beskrive hvilke plikter og rettigheter arbeidsgiver og arbeidstaker har i arbeidslivet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4169",
+      "tittel": "slipe skjæreverktøy og vedlikeholde maskiner og utstyr ut fra gjeldende regelverk for helse, miljø og sikkerhet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4170",
+      "tittel": "bruke hensiktsmessige arbeidsstillinger og gjøre rede for hvordan kroppen kan bidra til gode arbeidsrutiner i en produksjon",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4157",
+      "tittel": "vurdere og velge arbeidsmetoder og materialbruk og gjøre rede for hvordan ulike valg påvirker resultat, bærekraft og samsvar med miljøkrav i produksjon av båter",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4158",
+      "tittel": "gjøre rede for ulike båttyper, byggetradisjoner, bruk av båtene og tradisjonene de inngår i, og bruke denne kunnskapen i eget arbeid",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4159",
+      "tittel": "gjøre rede for og anvende linjetegning og lage oppslag i full størrelse",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4160",
+      "tittel": "gjøre rede for gjeldende lov- og regelverk knyttet til båtbyggerfagene",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4161",
+      "tittel": "beregne materialforbruk og arbeidstid til en enkel produksjon av deler til en båt",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4162",
+      "tittel": "lage og bruke skisser og enkle modeller av komponenter",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4171",
+      "tittel": "planlegge, gjennomføre og dokumentere arbeid i tråd med gjeldende regelverk for helse, miljø og sikkerhet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4163",
+      "tittel": "gjøre rede for hvordan gjenbruk, avfallshåndtering og valg av materialer kan bidra til en bærekraftig produksjon",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4164",
+      "tittel": "gjøre rede for prinsipper knyttet til kjemiske og mekaniske sammenføyinger i båtbyggerfaget og bruke denne kunnskapen i praktisk arbeid med å vedlikeholde og å bygge deler av en ny båt",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4165",
+      "tittel": "gjøre rede for bruk av ulike materialer i tradisjonell og moderne båtbygging og bruke denne kunnskapen i praktisk arbeid med å bygge deler av en ny båt",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4166",
+      "tittel": "gjøre rede for relevante egenskaper ved metaller som brukes i båter, forskjellige typer korrosjon og hvordan metaller kan beskyttes mot korrosjon",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4172",
+      "tittel": "bearbeide tre- og komposittmaterialer ved å bruke forskjellige maskiner, verktøy og teknikker og gjøre rede for hvordan ulike valg påvirker resultat, bærekraft og samsvar med miljøkrav",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4173",
+      "tittel": "velge og bruke egnet overflatebehandling i samsvar med materialenes egenart, bruksområder og miljøhensyn",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4174",
+      "tittel": "utføre enkelt vedlikehold og små reparasjoner av båter",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4175",
+      "tittel": "gjøre rede for og bruke digitale verktøy i produksjonen",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4176",
+      "tittel": "velge og bruke mekaniske og kjemiske forbindelsesmetoder til bygging og vedlikehold av båter",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4177",
+      "tittel": "velge og bruke aktuelle tre- og komposittmaterialer tilpasset ønsket produkt og gjøre rede for hvordan ulike valg påvirker resultat, bærekraft og samsvar med miljøkrav",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4167",
+      "tittel": "gjøre rede for håndtering og lagring av tre og komposittråvarer og gjennomføre enkle tekniske og klimatiske undersøkelser av aktuelle materialer og produkter",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM4156",
+      "tittel": "gjøre rede for hvordan båter bygges, og bruke denne kunnskapen i praktisk arbeid med å bygge deler av en ny båt",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10617",
+      "tittel": "anvende betongteknologi i tråd med gitte klassifikasjoner og spesifikasjoner ut fra hensynet til miljø og bærekraft",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10595",
+      "tittel": "utforske og bruke egenskapene ved geometriske figurer, målestokk og trigonometri til å beregne lengder, vinkler og arealer i problemløsing innenfor bygg- og anleggsfag",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10616",
+      "tittel": "gjennomføre mottakskontroll av betong på byggeplass og vurdere betongegenskaper og-  kvaliteter",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10615",
+      "tittel": "kviste, slipe og flikke betongen etter herding i tråd med gjeldende kravspesifikasjoner",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10614",
+      "tittel": "vurdere hvordan klimatiske forhold påvirker betongen, og velge ulike herdetiltak før og etter støping",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10613",
+      "tittel": "støpe ulike konstruksjonsdeler og gulv og vurdere konsekvenser av ulike støpetrykk og stigehastigheter for forskalingskonstruksjonen",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10612",
+      "tittel": "anhuke, transportere, lagre og understøtte betongelementer",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10611",
+      "tittel": "utarbeide framdriftsplaner, bestille og motta materialer og utstyr og kontrollere kvalitet og mengde i tråd med arbeidsoppdraget",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10610",
+      "tittel": "planlegge støping av nye konstruksjoner og vedlikehold av bygningsmasser, arbeide etter bygningsinformasjonsmodeller, tegninger, beskrivelser og prefabrikkerte løsninger, velge verktøy og materialer og vurdere kostnader, tidsbruk og miljøbelastning ved arbeidet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10609",
+      "tittel": "armere konstruksjoner og bygningsdeler etter gjeldende beskrivelser for overdekning, forankring og omfaring og gjøre rede for arbeidsprosesser ved bruk av prefabrikkerte og tradisjonelle metoder",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10608",
+      "tittel": "utarbeide framdriftsplaner, bestille og motta materialer og utstyr og kontrollere kvalitet og mengde i tråd med arbeidsoppdraget",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10607",
+      "tittel": "planlegge armering og vedlikehold av bygningsmasser, arbeide etter bygningsinformasjonsmodeller, tegninger, beskrivelser og prefabrikkerte løsninger, velge verktøy og materialer og vurdere kostnader, tidsbruk og miljøbelastning ved arbeidet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10606",
+      "tittel": "demontere forskaling, drøfte ulike risikofaktorer i arbeidssituasjonen og iverksette tiltak",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10605",
+      "tittel": "montere innstøpingsgods, isolasjonsprodukter og utsparinger i forskalingsform og vurdere konsekvenser av avvik fra geometriske toleransekrav",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10604",
+      "tittel": "velge forskalingsmetode, forskale bygningdeler og gjøre rede for hvordan valget av metode påvirker kostnadseffektivitet, ressursutnyttelse og produktivitet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10603",
+      "tittel": "forskale ulike konstruksjoner og bygningsdeler ved bruk av tradisjonell forskaling og systemforskaling",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10602",
+      "tittel": "sette ut mål på bygningskonstruksjoner, kontrollere høyder, akser og mål med manuelt og elektronisk måleutstyr og vurdere konsekvenser av feilmåling",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10601",
+      "tittel": "utarbeide framdriftsplaner, bestille og motta materialer og utstyr og kontrollere kvalitet og mengde i tråd med arbeidsoppdraget",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10600",
+      "tittel": "planlegge forskaling og vedlikehold av bygningsmasser, arbeide etter bygningsinformasjonsmodeller, tegninger, beskrivelser og prefabrikkerte løsninger, velge verktøy og materialer og vurdere kostnader, tidsbruk og miljøbelastning ved arbeidet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10594",
+      "tittel": "anvende sikkerhetsdatablad og følge anvisninger ved bruk av kjemikalier",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10593",
+      "tittel": "gjøre rede for varme arbeider som brannårsak, gjennomføre sikkerhetstiltak og hindre brann",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10592",
+      "tittel": "montere og bruke arbeidsplattformer på opptil ni meter og iverksette tiltak for å redusere risiko ved arbeid i høyden",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10591",
+      "tittel": "utføre grunnleggende førstehjelp",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10590",
+      "tittel": "gjøre rede for riggplan, gjennomføre riggarbeid, sikre byggeplassen og vurdere ulike tiltak som sikrer risikoutsatte arbeidssituasjoner",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10589",
+      "tittel": "kildesortere og håndtere avfall etter gjeldende regelverk, gjenbruke materialer og reflektere over konsekvenser av feilhåndtering",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10588",
+      "tittel": "bruke verne- og sikkerhetsutstyr og vurdere konsekvensene av feilbruk",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10587",
+      "tittel": "arbeide i tråd med ergonomiske prinsipper, drøfte hvordan arbeidsteknikker og arbeidsstillinger kan forebygge helseskader og reflektere over konsekvenser av støy og vibrasjon",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10586",
+      "tittel": "følge rutiner for å stroppe og anhuke, og vurdere konsekvenser av brudd på rutiner",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10585",
+      "tittel": "gjøre rede for sikkerhetstiltak ved arbeid i høyden, bruke stillaser og sikre risikoutsatte arbeidssituasjoner",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10584",
+      "tittel": "risikovurdere arbeidsoppdrag, gjennomføre en sikker jobbanalyse og rapportere om uønskede hendelser",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10583",
+      "tittel": "arbeide etter regelverk og avtaler som regulerer arbeidsforhold i faget, og gjøre rede for pliktene og rettighetene til arbeidsgiveren og arbeidstakeren og reflektere over krav og forventinger som stilles til et likeverdig og inkluderende yrkesfellesskap",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10582",
+      "tittel": "gjøre rede for og bruke kvalitetssikringssystemer, gjennomføre arbeid i tråd med gjeldende krav for helse, miljø og sikkerhet og reflektere over konsekvenser av å ikke følge kravene",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10598",
+      "tittel": "bruke fagterminologi for å kommunisere med kolleger og andre yrkesutøvere, drøfte ulike løsninger som bidrar til å redusere miljøavtrykket og sikre en effektiv ressursutnyttelse og iverksette tiltak",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10599",
+      "tittel": "tolke og bruke sammensatte måleenheter i praktiske sammenhenger og velge egnet måleenhet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10597",
+      "tittel": "gjøre rede for andres argumentasjon og bruke og følge opp andres innspill i samtaler og diskusjoner om yrkesrelevante emner",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM10596",
+      "tittel": "utforske og presentere teknologi knyttet til eget utdanningsprogram og vurdere den i et bærekraftsperspektiv",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13071",
+      "tittel": "drøfte hvilke krav og forventninger som stilles til et likeverdig og inkluderende yrkesfellesskap, og beskrive hvilke plikter og rettigheter arbeidsgiveren og arbeidstakeren har i arbeidslivet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13078",
+      "tittel": "gjøre rede for ulike merkevarer og utforske ulike markedsstrategier som bedrifter kan bruke",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13070",
+      "tittel": "reflektere over hvordan det tas hensyn til bærekraft i en verdikjede",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13069",
+      "tittel": "beskrive ulike typer svinn, reflektere over konsekvensene av svinn og foreslå tiltak for å forebygge svinn",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13068",
+      "tittel": "utarbeide og presentere regnskap og budsjett for en selvvalgt virksomhet eller et selvvalgt arrangement og kommentere budsjettavvik",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13067",
+      "tittel": "gjøre rede for ulike typer lønn og lønnskostnader",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13066",
+      "tittel": "beskrive rekrutteringsprosesser og reflektere over forventninger til ansatte i ulike typer servicebedrifter",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13065",
+      "tittel": "utvikle, presentere og vurdere en forretningsplan",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13092",
+      "tittel": "reflektere over hva sikkerhet og personvern har å si for yrkesutøvelsen, og følge rutiner for sikkerhet og personvern i ulike informasjons- og kommunikasjonskanaler",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13091",
+      "tittel": "reflektere over hva yrkesetikk og bedriftskultur har å si innenfor servicefagene, og gjøre rede for etiske dilemmaer som kan oppstå i ulike arbeidssituasjoner",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13077",
+      "tittel": "utvikle og presentere et helhetlig reiselivsprodukt og forklare hvordan ulike aktører samarbeider med og påvirker hverandre",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13076",
+      "tittel": "vurdere tiltak i salgskanaler som kan fremme salg, mersalg og gjensalg, og ta hensyn til dette i utviklingen av det indre og ytre salgsmiljøet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13090",
+      "tittel": "undersøke helse-, miljø- og sikkerhetsarbeidet i en virksomhet og gjøre rede for hvordan ansvar og oppgaver er fordelt på de ulike rollene i virksomheten",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13075",
+      "tittel": "utforske ulike reiselivsdestinasjoner og vurdere hvordan reiselivsvirksomhet påvirker bærekraftig utvikling",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13064",
+      "tittel": "bruke digitale systemer og plattformer til å veilede, informere, kommunisere og følge opp kunder, brukere, gjester og kolleger",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13063",
+      "tittel": "beskrive og følge regelverk som gjelder for servicebedrifter, og som regulerer forholdet til kunder, ansatte og næringsliv",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13074",
+      "tittel": "utforske og vurdere hva vertskapsrollen har å si i ulike reiselivsaktiviteter",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13062",
+      "tittel": "beregne pris på et produkt eller en tjeneste og vurdere ulike former og strategier for kalkulasjon og prissetting",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13089",
+      "tittel": "gjøre rede for brannteori og planlegge, gjennomføre og evaluere en brannøvelse",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13072",
+      "tittel": "gjøre rede for servicerollen og utforske hvordan utøvelsen av den må tilpasses ulike mottakere i ulike situasjoner, og hvordan måten rollen blir utøvd på, kan påvirke omdømmet til bedrifter",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13095",
+      "tittel": "vurdere tiltak som kan forebygge konflikt, bruke ulike metoder for håndtering av konflikt- og nødssituasjoner og forklare hvordan utfordrende atferd og ens egen atferd kan påvirke situasjonen og sikkerheten",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13094",
+      "tittel": "vurdere ulike fysiske, tekniske, manuelle og administrative sikkerhetstiltak",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13093",
+      "tittel": "utarbeide en risikoanalyse med forslag til tiltak og gjøre rede for ulike former for risikovurdering",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13085",
+      "tittel": "reflektere over hvordan kultur, verdier og holdninger påvirker kommunikasjon mellom mennesker, og ta hensyn til dette i yrkesutøvelsen",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13084",
+      "tittel": "skape opplevelser av og formidle fortellinger om norsk og samisk kultur, natur og geografi",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13083",
+      "tittel": "planlegge og gjennomføre en markedsføringskampanje og presentere hvordan det er tatt hensyn til målgruppens forbrukeratferd og medievaner",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13082",
+      "tittel": "utvikle og gjennomføre en markedsundersøkelse og bruke resultatene i videre arbeid",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13081",
+      "tittel": "planlegge, gjennomføre og evaluere et arrangement med tanke på lønnsomhet, bærekraft og sikkerhet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13080",
+      "tittel": "presentere et produkt som representerer innovasjon og nyskaping, og gjøre rede for hvilken rolle lønnsomhet, klima og etiske forhold har spilt i utviklingen",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13079",
+      "tittel": "gjøre rede for sammenhengen mellom ekstern, intern og interaktiv markedsføring",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13087",
+      "tittel": "utføre livreddende førstehjelp, ta ansvar for et skadested og reflektere over hva ens egen framferd har å si",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13073",
+      "tittel": "planlegge, gjennomføre og avslutte et salg og vurdere salgsprosessen med utgangspunkt i måloppnåelse, kundeopplevelse og bruk av egnede salgsteknikker",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13060",
+      "tittel": "regne ut og bruke sentrale nøkkeltall og vurdere lønnsomheten ut fra dem",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13086",
+      "tittel": "utforske, forklare og bruke en beredskapsplan",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13088",
+      "tittel": "drøfte ulike trusselbilder for virksomheter og for samfunnet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM13061",
+      "tittel": "utforske trender og forretningsmodeller lokalt og reflektere over hvordan disse påvirker bærekraft og miljø",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11475",
+      "tittel": "bruke etisk dømmekraft i yrkesutøvinga og drøfte bruken av reklame",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11474",
+      "tittel": "bruke digitale ressursar i kommunikasjon og samhandling og vise digital dømmekraft",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11473",
+      "tittel": "skape tryggleik og tillit i møte med kundar og reflektere over verdien av langsiktige kundeforhold",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11472",
+      "tittel": "bruke passande strategiar for konflikthandtering og vurdere konfliktreduserande tiltak",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11471",
+      "tittel": "reflektere over og gjennomføre profesjonell kundebehandling",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11470",
+      "tittel": "rettleie om val og bruk av hudpleieprodukt",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11469",
+      "tittel": "gjere prisoverslag og rekne ut pris ved kjøp og sal av hudpleieprodukt og berekne avanse på produkt og behandlingar",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11468",
+      "tittel": "gi råd om behandling av uønskt hårvekst og bruke ulike arbeidsmetodar og apparat for slik behandling",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11467",
+      "tittel": "setje i verk tiltak som sørgjer for hygiene og hindrar smitte",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11466",
+      "tittel": "følgje opp eigne rettar og plikter i arbeidsforholdet, og gjere greie for korleis partane i arbeidslivet utfører samfunnsrolla si i den norske modellen",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11465",
+      "tittel": "utforske og drøfte estetikk og trendar i hudterapifaget",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11464",
+      "tittel": "arbeide i tråd med yrkesetiske retningslinjer og opptre profesjonelt som hudpleiar",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11463",
+      "tittel": "reflektere over ressursbruken i yrkesutøvinga og gjere miljøbevisste val",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11462",
+      "tittel": "bruke fagterminologi og tilpasse språket til samtalepartnaren",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11461",
+      "tittel": "vurdere ny teknologi, nye produkt og behandlingsmetodar",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11460",
+      "tittel": "planleggje, gjennomføre og vurdere manikyr- og pedikyrbehandlingar",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11459",
+      "tittel": "bruke ulike teknikkar for og typar av massasje for ansikt og kropp og tilpasse behandlinga til kunden",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11458",
+      "tittel": "gjennomføre velvære-, spa- og kroppsbehandlingar og reflektere over forbetringspotensialet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11457",
+      "tittel": "bruke korrigeringsteknikkar og kamuflere endringar i huda, og vurdere resultatet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11477",
+      "tittel": "presentere resultat av hudanalysar og foreslå tiltak i samråd med kunden",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11476",
+      "tittel": "vurdere og anvende passande metodar for sal av varer og tenester",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11456",
+      "tittel": "planleggje, gjennomføre og vurdere marknadsføring og forretningsdrift",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11455",
+      "tittel": "planleggje, gjennomføre og vurdere spesialiserte ansiktsbehandlingar",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11454",
+      "tittel": "vurdere passande hårfjerningsmetodar og drøfte ulike sider ved bruken av dei",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11453",
+      "tittel": "planleggje og gjennomføre konsultasjonar med kundar og utarbeide behandlings- og oppfølgingsplanar",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11452",
+      "tittel": "utføre arbeidet i tråd med ergonomiske prinsipp og regelverk for helse, miljø og sikkerheit",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM3208",
+      "tittel": "utvikle og feilsøke dataprogram som løser definerte problemer, inkludert kontrollering eller simulering av fysiske objekter",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM3207",
+      "tittel": "planlegge og skape et digitalt produkt og vurdere dette med tanke på brukervennlighet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM3206",
+      "tittel": "analysere problemer, gjøre dem om til delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med programmering",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM3205",
+      "tittel": "bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM3204",
+      "tittel": "bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM3203",
+      "tittel": "gjøre rede for hvordan datamaskiner og dataprogram fungerer, og forklare egne og andres koder",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11451",
+      "tittel": "gjennomføre tiltak som førebyggjer hudlidingar",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11450",
+      "tittel": "gjere greie for og vurdere verknadene ulike produkt har i og på huda",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11449",
+      "tittel": "utføre førstehjelp etter gjeldande retningslinjer",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11448",
+      "tittel": "vurdere og dokumentere kontraindikasjonar ved behandling av hud",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11447",
+      "tittel": "gjere greie for samansetjinga av hudforbetrande og kosmetiske produkt og reflektere over kosmetiske produkt i eit miljøperspektiv",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11446",
+      "tittel": "forklare korleis hormonsystemet, fordøyingssystemet, immunsystemet og musklane verkar inn på hudhelsa",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11445",
+      "tittel": "reflektere over samanhengen mellom hudhelse og ernæring og fysisk aktivitet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11444",
+      "tittel": "gjere greie for oppbygginga og funksjonen til neglene og behandle ulike nagletilstandar",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11443",
+      "tittel": "vurdere og gjennomføre passende tiltak for å førebyggje og betre hudendringar",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM11442",
+      "tittel": "gjere greie for livsløpet til huda og forklare korleis indre og ytre miljø påverkar huda",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM3656",
+      "tittel": "beregne kostnader ved reparasjon og vedlikehold og vurdere dette opp mot lønnsomhet og valg av metoder",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM3666",
+      "tittel": "drøfte hvilke krav og forventninger som stilles til et likeverdig og inkluderende yrkesfellesskap, og beskrive hvilke plikter og rettigheter arbeidsgiver og arbeidstaker har i arbeidslivet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM3657",
+      "tittel": "vurdere og dokumentere kvalitet på eget arbeid i henhold til beskrivelser, regelverk og standarder",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM3658",
+      "tittel": "bruke verneutstyr og reflektere over sammenhengen mellom ergonomi og helse",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM3659",
+      "tittel": "reflektere over risiko og utarbeide risikovurderinger knyttet til ulike arbeidsoppgaver",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM3660",
+      "tittel": "registrere avvik på arbeidsmaskiner, utarbeide avviksrapporter og følge gjeldende regelverk for bruk av arbeidsutstyr",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM3661",
+      "tittel": "bruke sikkerhetsdatablader og velge og behandle kjemiske produkter i henhold til gjeldende regelverk",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM3662",
+      "tittel": "utføre arbeidsoppgaver i tråd med bestemmelsene for arbeidsmiljø, ansvar og konsekvenser",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM3663",
+      "tittel": "vurdere risiko ved, og følge rutiner for stropping, anhuking og signalføring",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM3664",
+      "tittel": "utføre varme arbeider etter gjeldende regler og krav og reflektere over nødvendige sikkerhetstiltak",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM3665",
+      "tittel": "planlegge arbeid og prosesser i tråd med gjeldende regler for helse, miljø og sikkerhet",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM3667",
+      "tittel": "vurdere og reflektere over sikkerhetstiltak ved reparasjoner på elektrisk drevne, gass- og hydrogendrevne arbeidsmaskiner",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM3678",
+      "tittel": "identifisere og gjøre rede for egenskaper ved og bruksområder for oljer og væsker som brukes i arbeidsmaskiner og utstyr ut fra teknisk dokumentasjon",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM3668",
+      "tittel": "forklare oppbygningen og virkemåten til hydraulikk og trykkluftsystemer og utføre trykkmålinger og justeringer",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM3669",
+      "tittel": "bruke skjemaer for elektrisitet og hydraulikk for å måle grunnleggende elektriske og hydrauliske størrelser og vurdere måleresultatet opp mot teknisk litteratur",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM3670",
+      "tittel": "beskrive oppbygningen og virkemåten til systemer og komponenter i drivverk, styring og bremser",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    },
+    {
+      "dato": "2026-10-19T10:50:29.868Z",
+      "kode": "KM3671",
+      "tittel": "utføre service på komfort- og klimaanlegg i henhold til prosedyre og sikkerhetshensyn",
+      "type": "kompetansemaal_lk20",
+      "hendelse": "fjerna",
+      "detalj": "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+      "nyKode": null
+    }
+  ]
 }
