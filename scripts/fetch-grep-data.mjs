@@ -37,7 +37,10 @@ import { existsSync } from "node:fs";
 const GREP_VERSJON = process.env.GREP_VERSJON || "v201906";
 const BASE_URL = `https://data.udir.no/kl06/${GREP_VERSJON}`;
 
-const CONCURRENCY = Number(process.env.GREP_CONCURRENCY || 6);
+const CONCURRENCY = Number(process.env.GREP_CONCURRENCY || 2);
+// Detaljoppslag som feila etter alle forsøk. Viss desse finst, skal ikkje
+// snapshotet skrivast: manglande detaljar gjev kompetansemål utan KV-kopling.
+const detaljFeil = [];
 const SNAPSHOT_PATH = new URL("../data/grep-snapshot.json", import.meta.url);
 const CHANGELOG_PATH = new URL("../data/changelog.json", import.meta.url);
 const ERSTATNINGER_PATH = new URL("../data/erstatninger.json", import.meta.url);
@@ -53,7 +56,7 @@ const MAX_CHANGELOG_ENTRIES = 500;
 // Prøver på nytt ved nettverksfeil og 5xx/429. Eitt enkelt feila
 // detaljoppslag kan elles gi falske hendingar i endringsloggen
 // (KM1073, 2026-10-14).
-async function fetchJson(url, forsok = 3) {
+async function fetchJson(url, forsok = 6) {
   for (let i = 1; ; i++) {
     let res;
     try {
@@ -67,7 +70,9 @@ async function fetchJson(url, forsok = 3) {
     if (i >= forsok || (res.status < 500 && res.status !== 429)) {
       throw new Error(`${res.status} ${res.statusText} for ${url}`);
     }
-    await new Promise((r) => setTimeout(r, 1000 * i));
+    // Udir strup på 429 (for mange førespurnader): vent lenger for kvart forsøk
+    const ventetid = res.status === 429 ? 5000 * i : 1000 * i;
+    await new Promise((r) => setTimeout(r, ventetid));
   }
 }
 
@@ -219,6 +224,7 @@ async function hentDetaljar(type, elementer) {
       return normalizeElement(type, item, detail);
     } catch (err) {
       console.warn(`  Klarte ikkje hente detalj for ${item.kode}: ${err.message}`);
+      detaljFeil.push(item.kode);
       return normalizeElement(type, item, null);
     }
   });
@@ -360,7 +366,7 @@ function diffSnapshots(gammalt, nytt, tidspunkt) {
         tittel: gammal.tittel,
         type: gammal.type,
         hendelse: "fjerna",
-        detalj: "Koden finst ikkje lenger i det filtrerte NDLA-uttrekket",
+        detalj: "Ikkje lenger med i NDLA-uttrekket (fagfilteret)",
         nyKode: null,
       });
     }
@@ -463,6 +469,7 @@ async function main() {
       return { listItem: item, detail };
     } catch (err) {
       console.warn(`  Klarte ikkje hente detalj for ${item.kode}: ${err.message}`);
+      detaljFeil.push(item.kode);
       return { listItem: item, detail: null };
     }
   });
@@ -576,6 +583,12 @@ async function main() {
     },
     elementer,
   };
+
+  if (detaljFeil.length) {
+    throw new Error(
+      `${detaljFeil.length} detaljoppslag feila (t.d. ${detaljFeil.slice(0, 5).join(", ")}). Skriv ikkje snapshot, ellers mistar kodar kompetansemålsett-kopling.`
+    );
+  }
 
   const nyeHendingar = diffSnapshots(gammaltSnapshot, nyttSnapshot, tidspunkt);
   const gammalEndringslogg = await lastGammalEndringslogg();
