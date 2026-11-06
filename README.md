@@ -1,8 +1,8 @@
-# Kodeoversikt — kompetansemål, KM-kodar og læreplanar
+# Kodeoversikt: kompetansemål, KM-kodar og læreplanar
 
 Statisk nettside (GitHub Pages) som gjev redaktørar oversikt over status på
 kompetansemål (KM), kompetansemålsett (KV), kjerneelement (KE), læreplanar og
-fagkodar frå Udir sitt Grep-register, avgrensa til dei faga NDLA dekker —
+fagkodar frå Udir sitt Grep-register, avgrensa til dei faga NDLA dekker,
 og varslar når kodar vert utgåtte eller erstatta.
 
 **Live på:** <https://ghveem.github.io/ndla-kompetanse/>
@@ -19,14 +19,14 @@ og varslar når kodar vert utgåtte eller erstatta.
 - **Artikkel-sjekk**: finn ekte NDLA-artiklar merka med utgåtte/erstatta
   KM-, KV- eller KE-kodar, via NDLA sitt search-api
 - **Fagoversikt**: søk opp eit fag (fagkode eller namn) og få full oversikt
-  over læreplanen — kompetansemålsett (kortform, t.d. "Vg1 studieforberedende",
+  over læreplanen: kompetansemålsett (kortform, t.d. "Vg1 studieforberedende",
   filtrert for 1.-10. trinn), kompetansemålkodar/-mål, kjerneelement
   og tverrfaglege tema, klar til å kopierast til rekneark/dokument. Innhaldsliste
   øvst med klikkbare ankerlenker til kvart kompetansemålsett
 - **Direkte søkelenke** til ndla.no per kode, med rett parameter for kvar
   kodetype
 - **Slack-varsel** når nye erstatningar dukkar opp
-- **Eigne URL-ar per fane** (`#sok`, `#endringar`, `#artikkel`, `#om`) — kan
+- **Eigne URL-ar per fane** (`#sok`, `#fag`, `#endringar`, `#artikkel`, `#om`), som kan
   delast direkte
 
 ## Slik heng det saman
@@ -71,7 +71,7 @@ skriptet sporar.
    les frå `grep-snapshot.json`.
 3. **Juster kva fag som vert henta** ved å redigere `data/ndla-fagnavn.json`
    (kva NDLA-fag skriptet skal matche mot) og `data/ndla-laereplan-manuell.json`
-   (manuelle rettingar viss matchinga bommar) — sjå eige avsnitt om
+   (manuelle rettingar viss matchinga bommar, sjå eige avsnitt om
    NDLA-filteret under.
 
 ## Artikkel-sjekk
@@ -80,18 +80,18 @@ skriptet sporar.
 som søker mot NDLA sitt eige [search-api](https://api.ndla.no/search-api/api-docs).
 
 **Nøkkelfunn frå API-utforskinga (2026-08-18):**
-- Parameteren heiter `grep-codes` (kebab-case) i sjølve REST-kallet — IKKJE
+- Parameteren heiter `grep-codes` (kebab-case) i sjølve REST-kallet, IKKJE
   `grepCodes` (camelCase), sjølv om ndla.no sin eigen søke-URL bruker
   camelCase (`ndla.no/search?grepCodes=...`). Nettsida oversett truleg dette
   til kebab-case bak kulissane før ho kallar search-api.
 - Filtreringa fungerer korrekt (verifisert manuelt med fleire kodar), men
-  feltet `grepCodes` i sjølve svaret er alltid tomt — det er ikkje eit
+  feltet `grepCodes` i sjølve svaret er alltid tomt. Det er ikkje eit
   problem, sidan vi alt veit kva kode vi søkte på.
 - `context.url` i kvart treff er den rette relative artikkel-adressa, prefiks
   med `https://ndla.no` for full lenke.
 - Det finst også eit `/search-api/v1/search/grep/replacements`-endepunkt,
   men det returnerte berre identitetsmapping (ingen reell erstatning) for
-  fagkode-nivå-kodar i testinga vår — vi bruker difor vårt eige
+  fagkode-nivå-kodar i testinga vår, så vi bruker difor vårt eige
   `data/erstatninger.json` i staden.
 
 **Slik fungerer skriptet:**
@@ -108,7 +108,7 @@ kan vise KM/KV/KE-merke tydeleg (2026-08-24). Eldre data som brukte flate
 
 **Verifisert (2026-08-24): KV-kodar gir 0 treff, sjølv for gyldige/publiserte
 kodar.** NDLA-artiklar vert tydelegvis aldri merka med heile kompetansemålsett
-(for grovkorna til innhaldstagging) — berre med individuelle KM- og
+(for grovkorna til innhaldstagging), berre med individuelle KM- og
 KE-kodar. Sjølve søkemekanismen fungerer, det finst berre ingen data å finne
 for KV. Koden er likevel verande i skriptet i tilfelle praksisen endrar seg.
 
@@ -117,14 +117,14 @@ NDLA-filtrerte datasettet tek dette under eitt minutt (moderat samtidigheit,
 8 parallelle kall).
 
 "Artikkel-sjekk"-fana i appen viser tre separate seksjonar (KM, KV, KE), sidan
-KE-treff er mykje breiare/mindre presserande enn KM/KV-treff — sjå
+KE-treff er mykje breiare/mindre presserande enn KM/KV-treff. Sjå
 forklaringstekst per seksjon i appen.
 
 ## NDLA-filter (avgrensar datasettet til berre NDLA sine fag)
 
 Grep har over 24 000 kodar totalt (alle fag, alle trinn, alle yrkesfag i heile
 landet). Skriptet avgrensar datasettet til berre dei faga NDLA faktisk
-dekker, via `data/ndla-fagnavn.json` — ei liste med NDLA sine fagnamn henta
+dekker, via `data/ndla-fagnavn.json`: ei liste med NDLA sine fagnamn henta
 frå [ndla.no/subjects](https://ndla.no/subjects).
 
 **Slik fungerer filteret:**
@@ -136,19 +136,19 @@ frå [ndla.no/subjects](https://ndla.no/subjects).
 2. **Djupare matching via kompetansemålsett sitt `kortform`-felt.** Mange
    NDLA-fag (særleg yrkesfag-modular, t.d. "Energi- og styresystemer") er
    eitt kompetansemålsett inni ei DELT paraply-læreplan (t.d. "Læreplan i
-   Vg1 elektro og datateknologi"), ikkje ein eigen læreplan med eige namn —
+   Vg1 elektro og datateknologi"), ikkje ein eigen læreplan med eige namn,
    då hjelper ikkje tittel-matching mot sjølve læreplanen. Skriptet hentar
    difor full detalj for **heile** kompetansemålsett-datasettet (kortform er
    berre tilgjengeleg i detaljoppslaget, ikkje listeoppslaget) og matchar
    kortform mot NDLA-fagnamna. Finn kortform-matchinga ein treff, vert heile
-   paraply-læreplanen (og alle kompetansemålsett/-mål under han) teken med —
-   dette kan i nokre tilfelle dra med seg naboemne under same paraply som
+   paraply-læreplanen (og alle kompetansemålsett/-mål under han) teken med.
+   Dette kan i nokre tilfelle dra med seg naboemne under same paraply som
    ikkje er eit eige NDLA-fag, ein akseptert avveging for enkelheit.
 3. Kompetansemålsett, kompetansemål og kjerneelement vert filtrert via feltet
    `tilhoerer_laereplan`, som alt finst i Grep sitt listeoppslag.
 4. Berre det filtrerte settet vert henta i full detalj for fagkodar/
-   læreplanar/kompetansemål/kjerneelement (status/gyldighet/erstatning) —
-   kompetansemålsett er alt henta i steg 2.
+   læreplanar/kompetansemål/kjerneelement (status/gyldighet/erstatning).
+   Kompetansemålsett er alt henta i steg 2.
 
 **Kjende avgrensingar (2026-08-19):**
 - Substring-matching bommar når Grep sin offisielle tittel set ord mellom
@@ -156,12 +156,12 @@ frå [ndla.no/subjects](https://ndla.no/subjects).
   språklege minoritetar med** kort botid"). Retta manuelt etter kvart via
   `ndla-laereplan-manuell.json` når dei vert oppdaga.
 - Kinesisk/Spansk og andre mindre framandspråk deler generiske
-  "Læreplan i fremmedspråk"-kodar i Grep (ingen eigen kode per språk) —
+  "Læreplan i fremmedspråk"-kodar i Grep (ingen eigen kode per språk),
   lagt til manuelt.
 
 ### Tverrfaglege tema (TT1/TT2/TT3)
 
-"Tverrfaglige temaer" er **ikkje** eit fag/ein læreplan å matche — det er tre
+"Tverrfaglige temaer" er **ikkje** eit fag/ein læreplan å matche. Det er tre
 faste, tverrgåande tema (TT1 Folkehelse og livsmestring, TT2 Demokrati og
 medborgarskap, TT3 Bærekraftig utvikling) som Udir tagger enkeltkompetansemål
 med, via feltet `tilknyttede-tverrfaglige-temaer` i detaljoppslaget. Sidan
@@ -181,7 +181,7 @@ eit irrelevant fag lek gjennom), bruk `data/ndla-laereplan-manuell.json`:
 ```
 
 **Oppdater fagnamn-lista** ved å besøke ndla.no/subjects og oppdatere
-`data/ndla-fagnavn.json` viss NDLA legg til eller fjernar fag — dette skjer
+`data/ndla-fagnavn.json` viss NDLA legg til eller fjernar fag. Dette skjer
 sjeldan, så det treng ikkje automatiserast.
 
 ## Oppslagsverk: gammal kode → ny kode
@@ -194,7 +194,7 @@ forsvinn heilt frå Grep sine lister, og følgjer heile kjeda viss ein kode er
 erstatta fleire gonger etter kvarandre.
 
 **Kompetansemål-nivå (2026-08-19):** Grep sitt REST-API manglar "erstatter"/
-"erstattes-av" heilt for kompetansemål — men kvart kompetansemål har eit
+"erstattes-av" heilt for kompetansemål, men kvart kompetansemål har eit
 `gjenbruk-av`-felt i detaljoppslaget som peikar BAKOVER til koden det vart
 bygd på (t.d. KM14212 sitt `gjenbruk-av` peikar til KM12074). Ved å snu denne
 relasjonen (`berikKompetansemaalMedErstatning` i `fetch-grep-data.mjs`) får
@@ -206,9 +206,15 @@ stadfesta at same data ligg i det vanlege REST-detaljoppslaget.
 
 Sidan koplinga ligg på den *nye* koden, vil eit feila detaljoppslag for den
 nye koden få den gamle til å mista `erstattesAv`. Difor prøver `fetchJson`
-på nytt ved nettverksfeil og 5xx/429, og ei erstatning som forsvinn blir
+opptil 6 gonger ved nettverksfeil og 5xx/429, og ei erstatning som forsvinn blir
 ikkje logga som hending (berre åtvaring i loggen). Bakgrunn: falsk
 «KM1073 → Erstatta av» 2026-10-14.
+
+Udir svarar med 429 når det kjem for mange førespurnader. Skriptet sender
+difor berre 2 om gongen (`GREP_CONCURRENCY`) og ventar lenger for kvart nytt
+forsøk ved 429. Feilar eitt detaljoppslag likevel, stoppar skriptet utan å
+skrive data. Elles mistar kompetansemål koplinga til kompetansemålsettet og
+hamnar under «Andre kompetansemål». Neste køyring prøver på nytt.
 
 ```json
 {
@@ -218,7 +224,7 @@ ikkje logga som hending (berre åtvaring i loggen). Bakgrunn: falsk
 }
 ```
 
-I appen ligg dette som eit eige felt øvst på "Søk & status"-fana — lim inn
+I appen ligg dette som eit eige felt øvst på "Søk & status"-fana: lim inn
 ein gammal kode og få svaret direkte, utan å måtte søke rundt.
 
 Fila er også tilgjengeleg direkte for andre system som `https://ghveem.github.io/ndla-kompetanse/data/erstatninger.json`,
@@ -234,19 +240,19 @@ t.d. "MAT01" eller "matematikk") og får full oversikt over læreplanen:
   og kompetansemål** gruppert under rett sett
 - **Tverrfaglege tema** som går igjen i faget (aggregert frå kompetansemåla)
 
-Datagrunnlaget er alt tilgjengeleg i `grep-snapshot.json` — koplinga mellom
+Datagrunnlaget er alt tilgjengeleg i `grep-snapshot.json`: koplinga mellom
 kompetansemål og kompetansemålsett kjem frå feltet
 `tilhoerer-kompetansemaalsett` i Grep sitt detaljoppslag (same mønster som
 `tilhoerer-laereplan`, men berre i detaljoppslaget, ikkje listeoppslaget).
 
 **"Kopier oversikt"-knappen** bygger ein tabulator-separert tekstblokk
 (TSV) av heile fagoversikta og legg han på utklippstavla via
-`navigator.clipboard.writeText` — limer inn reint som rader/kolonnar i
+`navigator.clipboard.writeText`, som limer inn reint som rader/kolonnar i
 Excel/Google Sheets, og lesbart i Word.
 
 **Kompetansemålsett vert vist med kortform** (t.d. "Vg1 studieforberedende"
 i staden for "Kompetansemål og vurdering vg1 studieforberedende
-utdanningsprogram") — feltet `kortform` finst i det same detaljoppslaget vi
+utdanningsprogram"). Feltet `kortform` finst i det same detaljoppslaget vi
 alt hentar (`normalizeElement` i `fetch-grep-data.mjs`), ingen ekstra kall.
 Kompetansemålsett for 1.-10. trinn (grunnskule) vert filtrert bort frå
 fagoversikta, sidan NDLA berre dekker Vg1-Vg3.
@@ -275,11 +281,11 @@ Fana heiter **"Kompetansemål"** i menyen (URL-ankeret er framleis `#fag`).
 ## Tilgjenge (WCAG)
 
 Fleire merke hadde for låg fargekontrast (under WCAG 2 AA sitt krav på
-4.5:1 for vanleg tekst) — `--kvalitet-700` og `--inspirerende-700` gir god
+4.5:1 for vanleg tekst). `--kvalitet-700` og `--inspirerende-700` gir god
 kontrast på kvit bakgrunn, men for dårleg på sine eigne lyse `-100`-bakgrunnar
 (3.82:1 og 4.16:1). Retta 2026-09-11 ved å innføre `--kvalitet-a11y`
 (`#156492`) og `--inspirerende-a11y` (`#B92D4C`), brukt spesifikt der teksten
-står på ein `-100`-bakgrunn (badge, ok-boks, varsel-boks, osv.) — begge gir
+står på ein `-100`-bakgrunn (badge, ok-boks, varsel-boks, osv.). Begge gir
 no 5.23:1.
 
 ## Slack-varsel
@@ -303,16 +309,16 @@ som normalt.
 
 - [x] Automatisk uttrekk av artikkel→KM-kode-merking frå api.ndla.no
       (`scripts/fetch-artikkel-merking.mjs`, via search-api sin `grep-codes`-
-      parameter — sjå avsnittet om Artikkel-sjekk for detaljar)
+      parameter, sjå avsnittet om Artikkel-sjekk for detaljar)
 - [x] Slack-varsel når nye erstatningar/utgåtte kodar dukkar opp
 - [x] Varig oppslagsverk gammal→ny kode (`data/erstatninger.json`)
 - [x] Historikkvisning per kode (klikk "Historikk" på eit kodekort i appen)
-- [x] Direkte søkelenke til ndla.no ("Søk på ndla.no ↗") — **retta
+- [x] Direkte søkelenke til ndla.no ("Søk på ndla.no ↗"): **retta
       2026-08-24**: bruker no `?grepCodes=<kode>` for kompetansemål/
       kjerneelement (den tidlegare `?query=<kode>`-varianten var feil
       parameter og ga ofte 0 eller misvisande treff, t.d. `?query=KE236`
       → 0 treff mot `?grepCodes=KE236` → 161 treff). `grepCodes` kjenner
-      berre att KM/KE — fagkode/læreplan/KV fell tilbake til fritekstsøk
+      berre att KM/KE, og fagkode/læreplan/KV fell tilbake til fritekstsøk
       på fagnamnet med `&type=subject` lagt til (avgrensar til fagsider,
       t.d. 28 presise treff for "matematikk" i staden for alt NDLA-innhald).
 - [x] Avgrens datasettet til berre NDLA sine fag (NDLA-filter via
@@ -322,7 +328,7 @@ som normalt.
 - [x] Ekskluder grunnskulekodar ("N. årstrinn") frå fagkode-matchinga
 - [x] Finpuss `data/ndla-laereplan-manuell.json`: lagt til fremmedspråk-kodar
       (Kinesisk/Spansk) og "Norsk kort botid" (2026-08-19)
-- [x] Tverrfaglege tema (TT1/TT2/TT3) — vist seg å vere eit tag-felt på
+- [x] Tverrfaglege tema (TT1/TT2/TT3) viste seg å vere eit tag-felt på
       kompetansemål, ikkje ein eigen læreplan; lagt til som `tverrfagligeTemaer`
       og synt som mårke i appen (2026-08-19)
 - [x] Erstatningssporing på kompetansemål-nivå via `gjenbruk-av`-feltet i
