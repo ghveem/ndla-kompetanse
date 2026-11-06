@@ -2,6 +2,12 @@
 
 Statisk nettside på GitHub Pages som viser status på kompetansemål (KM), kompetansemålsett (KV), kjerneelement (KE), læreplanar og fagkodar frå Udir sitt Grep-register, avgrensa til faga NDLA dekker. Live: https://ghveem.github.io/ndla-kompetanse/. Sjå README.md for funksjonar og API-funn.
 
+## Formål og avgrensingar
+
+- Mål: gi redaktørar oversikt over Grep-kodar i faga NDLA dekker, og varsle når kodar går ut eller blir erstatta, så artiklar kan merkast rett
+- Berre faga i `data/ndla-fagnavn.json` er med
+- Verktøyet les berre frå Udir og search-api. Det endrar ikkje artiklar eller merking i NDLA, det gjer redaktørane i ED
+
 ## Køyring
 
 - Krev Node 18+ (innebygd `fetch`), ingen `npm install`
@@ -22,7 +28,8 @@ Statisk nettside på GitHub Pages som viser status på kompetansemål (KM), komp
 - Search-api brukar `grep-codes` (kebab-case), ikkje `grepCodes`. Feltet `grepCodes` i svaret er alltid tomt
 - KV-kodar gir 0 treff i artikkel-sjekken, fordi artiklar berre blir merka med KM og KE
 - Grep-URL-ar: `https://data.udir.no/kl06/v201906/{type-plural}` og `.../{kode}`. Versjonen kan overstyrast med miljøvariabelen `GREP_VERSJON`
-- Eit feila detaljoppslag for ein ny kode får den gamle koden til å miste `erstattesAv`. Difor prøver `fetchJson` på nytt ved nettverksfeil og 5xx/429, og ei erstatning som forsvinn blir berre logga som åtvaring
+- Eit feila detaljoppslag for ein ny kode får den gamle koden til å miste `erstattesAv`, og kompetansemål mistar koplinga til kompetansemålsettet. Difor prøver `fetchJson` opptil 6 gonger ved nettverksfeil og 5xx/429 (lengre venting ved 429), og feilar eitt detaljoppslag likevel, avbryt skriptet utan å skrive data. Ei erstatning som forsvinn blir berre logga som åtvaring
+- Udir strupar ved for mange førespurnader. `GREP_CONCURRENCY` er 2 som standard, ikkje auk han utan grunn
 - Dei automatiske data-commitane gjer at historikken er full av støy. Bruk `git log --invert-grep --grep=automatisk`
 - Pull før du pushar, sidan workflowen committar til `main`
 
