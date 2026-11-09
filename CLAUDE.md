@@ -14,7 +14,7 @@ Statisk nettside på GitHub Pages som viser status på kompetansemål (KM), komp
 - `node scripts/fetch-grep-data.mjs` hentar Grep-data og skriv `data/grep-snapshot.json`, `changelog.json`, `erstatninger.json` og `siste-kjoring-endringar.json`
 - `node scripts/fetch-artikkel-merking.mjs` skriv `data/artikkel-merking.json`. Må køyrast etter det fyrste, sidan det les `grep-snapshot.json`
 - `node scripts/send-slack-varsel.mjs` les `data/siste-kjoring-endringar.json` og postar til `SLACK_WEBHOOK_URL` (berre som GitHub-secret). Utan variabelen hoppar det stille over
-- `.github/workflows/update-grep-data.yml` køyrer måndagar kl. 04:15 UTC, ved kvar push til `main` og manuelt, committar data som «Oppdater Grep-data [automatisk]» og deployar
+- `.github/workflows/update-grep-data.yml` køyrer måndagar kl. 04:15 UTC, ved kvar push til `main` og manuelt, committar data som «Oppdater Grep-data [automatisk]» og deployar (Node 20 i workflowen)
 
 ## Struktur
 
@@ -29,7 +29,8 @@ Statisk nettside på GitHub Pages som viser status på kompetansemål (KM), komp
 - KV-kodar gir 0 treff i artikkel-sjekken, fordi artiklar berre blir merka med KM og KE
 - Grep-URL-ar: `https://data.udir.no/kl06/v201906/{type-plural}` og `.../{kode}`. Versjonen kan overstyrast med miljøvariabelen `GREP_VERSJON`
 - Eit feila detaljoppslag for ein ny kode får den gamle koden til å miste `erstattesAv`, og kompetansemål mistar koplinga til kompetansemålsettet. Difor prøver `fetchJson` opptil 6 gonger ved nettverksfeil og 5xx/429 (lengre venting ved 429), og feilar eitt detaljoppslag likevel, avbryt skriptet utan å skrive data. Ei erstatning som forsvinn blir berre logga som åtvaring
-- Udir strupar ved for mange førespurnader. `GREP_CONCURRENCY` er 2 som standard, ikkje auk han utan grunn
+- Udir strupar ved for mange førespurnader. `GREP_CONCURRENCY` er 2 som standard, ikkje auk han utan grunn. Artikkel-skriptet mot search-api brukar `ARTIKKEL_CONCURRENCY` (standard 8)
+- `location.hash` er reservert til fane-routing i `index.html`. Bruk `scrollIntoView` og ikkje ankerlenker inne i appen
 - Dei automatiske data-commitane gjer at historikken er full av støy. Bruk `git log --invert-grep --grep=automatisk`
 - Pull før du pushar, sidan workflowen committar til `main`
 
